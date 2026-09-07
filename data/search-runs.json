@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-09-07",
+    "platform": "X",
+    "queries": [
+      "GPT-6 Astra (Latest and Top)",
+      "from:dkundel Astra",
+      "\"Astra\" (\"spreadsheet\" OR \"game\" OR \"data\") min_faves:100"
+    ],
+    "coverage": "Manually sampled visible search results, not exhaustive; five accepted posts opened individually.",
+    "next_steps": [
+      "Review pending videos and look for original prompts",
+      "Broaden to engineering, research, games and office workflows",
+      "Check source IDs before opening known posts"
+    ]
+  }
+]

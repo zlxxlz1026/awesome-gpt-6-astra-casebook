@@ -1,0 +1,42 @@
+[
+  {
+    "id": "apps",
+    "en": "Apps & websites",
+    "zh": "应用与网站"
+  },
+  {
+    "id": "design",
+    "en": "Design & creative work",
+    "zh": "设计与创意"
+  },
+  {
+    "id": "3d",
+    "en": "3D & spatial creation",
+    "zh": "三维与空间创作"
+  },
+  {
+    "id": "automation",
+    "en": "Computer use & automation",
+    "zh": "电脑操作与自动化"
+  },
+  {
+    "id": "data",
+    "en": "Data & visual analysis",
+    "zh": "数据与视觉分析"
+  },
+  {
+    "id": "research",
+    "en": "Research & learning",
+    "zh": "研究与学习"
+  },
+  {
+    "id": "engineering",
+    "en": "Software engineering",
+    "zh": "软件工程"
+  },
+  {
+    "id": "games",
+    "en": "Games & simulations",
+    "zh": "游戏与仿真"
+  }
+]

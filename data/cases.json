@@ -1,0 +1,160 @@
+[
+  {
+    "id": "sydney-3d",
+    "title": {
+      "en": "Interactive Sydney from maps and photos",
+      "zh": "用地图与照片构建可交互的悉尼三维场景"
+    },
+    "summary": {
+      "en": "The author reports building an interactive Sydney scene with zoom, orbit and lighting controls from maps and real photos.",
+      "zh": "作者展示了以地图和实景照片为输入、支持缩放、环绕和光影切换的悉尼三维场景。"
+    },
+    "workflow": {
+      "en": "Combine geographic references and photos with Blender and Three.js; the author reports one conversation.",
+      "zh": "组合地图与实景照片，使用 Blender 和 Three.js；作者称在一次会话中完成。"
+    },
+    "limitations": {
+      "en": "Scope and geographic accuracy were not independently checked; full prompt, source files and cost are not provided in this post.",
+      "zh": "未独立核验覆盖范围和地理精度；该帖未提供完整提示词、工程文件或成本。"
+    },
+    "category": "3d",
+    "tags": [
+      "Blender",
+      "Three.js"
+    ],
+    "source_ids": [
+      "2096460180401889613"
+    ],
+    "primary_source_id": "2096460180401889613",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": null,
+    "reproduction": "not-tested",
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "figma-design",
+    "title": {
+      "en": "Figma design from brand identity to pages",
+      "zh": "用 Figma 完成品牌与页面设计"
+    },
+    "summary": {
+      "en": "The author describes using Astra with Figma for brand identity and page design, accompanied by a video.",
+      "zh": "作者描述用 Astra 配合 Figma 完成品牌与页面设计，并附视频。"
+    },
+    "workflow": {
+      "en": "Use Figma as the working design environment; exact connection method and prompting are not disclosed in the post.",
+      "zh": "在 Figma 中进行设计；该帖未披露具体连接方式和提示词。"
+    },
+    "limitations": {
+      "en": "Read through X’s English translation of the Japanese original; the BI interpretation and implementation details need further confirmation.",
+      "zh": "阅读的是 X 对日文原帖的英语翻译；BI 的具体含义及实现细节仍需进一步确认。"
+    },
+    "category": "design",
+    "tags": [
+      "Figma"
+    ],
+    "source_ids": [
+      "2096467418575147367"
+    ],
+    "primary_source_id": "2096467418575147367",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": null,
+    "reproduction": "not-tested",
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "mouse-drawing",
+    "title": {
+      "en": "Drawing through mouse operations",
+      "zh": "通过鼠标操作绘画"
+    },
+    "summary": {
+      "en": "The author demonstrates a drawing and states that Astra produced it through computer-use mouse operations.",
+      "zh": "作者展示绘画结果，并说明 Astra 通过电脑操作中的鼠标动作完成。"
+    },
+    "workflow": {
+      "en": "Ask the agent to draw through the application UI; the post does not name the drawing application.",
+      "zh": "让智能体通过软件界面操作绘画；该帖未明确绘画软件名称。"
+    },
+    "limitations": {
+      "en": "Read through X’s English translation of the Japanese original; exact prompt, input assets and application are not disclosed.",
+      "zh": "阅读的是 X 对日文原帖的英语翻译；具体提示词、输入素材及软件未披露。"
+    },
+    "category": "automation",
+    "tags": [],
+    "source_ids": [
+      "2096124169406775325"
+    ],
+    "primary_source_id": "2096124169406775325",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": null,
+    "reproduction": "not-tested",
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "brick-models",
+    "title": {
+      "en": "Buildable brick models and Blender renders",
+      "zh": "可搭建的积木模型与 Blender 渲染"
+    },
+    "summary": {
+      "en": "The author reports designing real brick models in Bricklink Studio and rendering a 4K video in Blender; the post links to parts lists.",
+      "zh": "作者称用 Bricklink Studio 设计真实积木模型，再用 Blender 渲染 4K 视频；原帖附零件清单链接。"
+    },
+    "workflow": {
+      "en": "Design with discrete brick parts first, then render the models in Blender.",
+      "zh": "先用实际积木零件建模，再将模型交给 Blender 渲染。"
+    },
+    "limitations": {
+      "en": "Linked parts lists and physical buildability have not been independently checked; the exact prompt is not supplied.",
+      "zh": "未独立核验链接中的零件清单及实际可搭建性；未提供准确提示词。"
+    },
+    "category": "3d",
+    "tags": [
+      "Bricklink Studio",
+      "Blender"
+    ],
+    "source_ids": [
+      "2096297005924729240"
+    ],
+    "primary_source_id": "2096297005924729240",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": null,
+    "reproduction": "not-tested",
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "basketball-vision",
+    "title": {
+      "en": "Basketball team recognition in visual labeling",
+      "zh": "视觉标注中的篮球队伍识别"
+    },
+    "summary": {
+      "en": "The author reports distinguishing Celtics and Knicks players in home and away settings, with a video and a linked detection discussion.",
+      "zh": "作者用视频展示区分凯尔特人和尼克斯球员，并称主客场均适用；帖中引用了检测分析讨论。"
+    },
+    "workflow": {
+      "en": "Use visual context to identify team membership; the quoted discussion also discusses bounding boxes.",
+      "zh": "结合画面信息识别队伍归属；引用讨论还涉及目标检测框。"
+    },
+    "limitations": {
+      "en": "This is an author demonstration, not a benchmark; no dataset, measured accuracy or complete prompt is provided in this post.",
+      "zh": "这是作者演示而非基准测试；该帖未提供数据集、准确率或完整提示词。"
+    },
+    "category": "data",
+    "tags": [],
+    "source_ids": [
+      "2096669615363383449"
+    ],
+    "primary_source_id": "2096669615363383449",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": null,
+    "reproduction": "not-tested",
+    "added_at": "2026-09-07"
+  }
+]

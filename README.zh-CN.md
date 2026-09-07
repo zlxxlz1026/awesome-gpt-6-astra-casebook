@@ -1,0 +1,107 @@
+# Awesome GPT-6 Astra
+
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+精选 X 上有具体成果的 GPT-6 Astra 使用案例，整理方法、工具与局限，帮助你获得可实践的灵感。
+
+**5 个案例 · 10 条来源记录 · 仅收录 X 来源**
+
+原帖阅读与效果复现分别记录；请查看各案例的状态及局限。未公开的提示词不作补写。
+
+## 分类
+
+| 分类 | 案例数 |
+| --- | ---: |
+| 应用与网站 | 0 |
+| [设计与创意](#design) | 1 |
+| [三维与空间创作](#3d) | 2 |
+| [电脑操作与自动化](#automation) | 1 |
+| [数据与视觉分析](#data) | 1 |
+| 研究与学习 | 0 |
+| 软件工程 | 0 |
+| 游戏与仿真 | 0 |
+
+空分类代表待补充方向。
+
+<a id="design"></a>
+
+## 设计与创意
+
+### 用 Figma 完成品牌与页面设计
+
+作者描述用 Astra 配合 Figma 完成品牌与页面设计，并附视频。
+
+- 原帖: [@issui_ikeda](https://x.com/issui_ikeda/status/2096467418575147367) · 2026-09-06
+- 方法: 在 Figma 中进行设计；该帖未披露具体连接方式和提示词。
+- 工具: Figma
+- 局限: 阅读的是 X 对日文原帖的英语翻译；BI 的具体含义及实现细节仍需进一步确认。
+- 模型归属: author-stated · 复现: not-tested
+- 提示词: 未公开
+
+<a id="3d"></a>
+
+## 三维与空间创作
+
+### 用地图与照片构建可交互的悉尼三维场景
+
+作者展示了以地图和实景照片为输入、支持缩放、环绕和光影切换的悉尼三维场景。
+
+- 原帖: [@rionaifantasy](https://x.com/rionaifantasy/status/2096460180401889613) · 2026-09-06
+- 方法: 组合地图与实景照片，使用 Blender 和 Three.js；作者称在一次会话中完成。
+- 工具: Blender, Three.js
+- 局限: 未独立核验覆盖范围和地理精度；该帖未提供完整提示词、工程文件或成本。
+- 模型归属: author-stated · 复现: not-tested
+- 提示词: 未公开
+
+### 可搭建的积木模型与 Blender 渲染
+
+作者称用 Bricklink Studio 设计真实积木模型，再用 Blender 渲染 4K 视频；原帖附零件清单链接。
+
+- 原帖: [@dkundel](https://x.com/dkundel/status/2096297005924729240) · 2026-09-06
+- 方法: 先用实际积木零件建模，再将模型交给 Blender 渲染。
+- 工具: Bricklink Studio, Blender
+- 局限: 未独立核验链接中的零件清单及实际可搭建性；未提供准确提示词。
+- 模型归属: author-stated · 复现: not-tested
+- 提示词: 未公开
+
+<a id="automation"></a>
+
+## 电脑操作与自动化
+
+### 通过鼠标操作绘画
+
+作者展示绘画结果，并说明 Astra 通过电脑操作中的鼠标动作完成。
+
+- 原帖: [@keitowebai](https://x.com/keitowebai/status/2096124169406775325) · 2026-09-05
+- 方法: 让智能体通过软件界面操作绘画；该帖未明确绘画软件名称。
+- 工具: 未披露
+- 局限: 阅读的是 X 对日文原帖的英语翻译；具体提示词、输入素材及软件未披露。
+- 模型归属: author-stated · 复现: not-tested
+- 提示词: 未公开
+
+<a id="data"></a>
+
+## 数据与视觉分析
+
+### 视觉标注中的篮球队伍识别
+
+作者用视频展示区分凯尔特人和尼克斯球员，并称主客场均适用；帖中引用了检测分析讨论。
+
+- 原帖: [@skalskip92](https://x.com/skalskip92/status/2096669615363383449) · 2026-09-07
+- 方法: 结合画面信息识别队伍归属；引用讨论还涉及目标检测框。
+- 工具: 未披露
+- 局限: 这是作者演示而非基准测试；该帖未提供数据集、准确率或完整提示词。
+- 模型归属: author-stated · 复现: not-tested
+- 提示词: 未公开
+
+## 参与和维护
+
+[贡献指南 / Contributing](CONTRIBUTING.md) · [去重台账 / Source ledger](docs/source-ledger.md) · [维护流程 / Maintenance](docs/MAINTENANCE.md)
+
+数据保存在 [cases.json](data/cases.json) 与 [sources.json](data/sources.json)，双语目录和台账由脚本生成；未来网页可直接使用同一数据。
+
+## 致谢与许可
+
+参考 [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) 的分类、多语言与结构化整理思路。本项目独立编写，未复制案例库；与 OpenAI 无隶属关系。
+
+项目原创代码和文字采用 [MIT](LICENSE)。链接中的原帖、提示词及媒体版权属于原作者，不因收录而重新授权。
