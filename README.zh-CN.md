@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Awesome GPT-6 Astra
+# 📚 Awesome GPT-6 Astra — 实战案例与提示词
 
 **GPT-6 Astra 实战案例精选 · 看作品，读提示词，动手创造。**
 
@@ -10,7 +10,7 @@
 
 </div>
 
-收集 GPT-6 Astra 的创意与实用作品，将成果展示与作者公开的提示词放在一起，方便浏览、学习和尝试。
+GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI 设计、三维创作、视频叙事、电脑操作与自动化、工程原型和游戏开发。每个案例整理作品展示、作者公开提示词、工具与技术、创作方法及原始来源，方便查找应用示例与学习思路。
 
 📖 [浏览全部案例](docs/gallery.zh-CN.md) · 🧾 [收录索引](docs/collection-index.md) · ✨ [最新收录](docs/gallery.zh-CN.md#latest) · ➕ [推荐案例](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)
 
@@ -84,6 +84,83 @@
 | [浏览器原生汽车足球竞技场](docs/gallery.zh-CN.md#rocket-league-threejs) | 🎮 游戏与仿真 | [@LLMJunky](https://x.com/LLMJunky/status/2096028790925488452) |
 | [Sonic 风格 Godot 垂直切片](docs/gallery.zh-CN.md#sonic-godot-vertical-slice) | 🎮 游戏与仿真 | [@AiBattle_](https://x.com/AiBattle_/status/2096056285896536086) |
 | [Voidrunner 反重力战斗竞速](docs/gallery.zh-CN.md#voidrunner-combat-racer) | 🎮 游戏与仿真 | [@superalesha](https://x.com/superalesha/status/2095967568825582044) |
+
+<a id="all-cases"></a>
+
+## 按分类查找 GPT-6 Astra 案例
+
+点击案例查看创作方法、注意事项和公开提示词。工具名称来自收录作品，不代表模型必须搭配这些工具使用。
+
+### 🧩 应用与网站
+
+- [可交互的孔雀艺术网页](docs/gallery.zh-CN.md#interactive-peacock) — Three.js
+- [更快的 iPad 机器人控制台](docs/gallery.zh-CN.md#ipad-robot-control-station) — iPadOS, Robot control, Latency
+
+### ✨ 设计与创意
+
+- [星空液态玻璃欢迎页](docs/gallery.zh-CN.md#astral-liquid-glass) — Appllama MCP, App design skills, Liquid glass
+- [由记忆拼成的个人画像](docs/gallery.zh-CN.md#memory-portrait) — Image generation, Memory, Portrait
+- [Astra 想象语言诞生前的念头](docs/gallery.zh-CN.md#astra-mind-midjourney) — Midjourney, Art direction, Prompt design
+- [星体主题液态玻璃欢迎页](docs/gallery.zh-CN.md#astro-liquid-glass-welcome) — Appllama MCP, Liquid glass, Mobile UI
+
+### 🏛️ 三维与空间创作
+
+- [会自己玩耍的三维亲子空间](docs/gallery.zh-CN.md#playroom-threejs) — Three.js, Vite
+- [在 Blender 中制作 F1 赛车模型](docs/gallery.zh-CN.md#formula-one-blender) — Blender
+- [Grok Bot 交互式 3D 键盘](docs/gallery.zh-CN.md#grok-bot-keyboard) — Interactive 3D, PBR, 4K
+- [交互式 V8 发动机可视化](docs/gallery.zh-CN.md#v8-engine-visualizer) — Interactive 3D, Technical visualization
+- [一座足以迷路的实时森林](docs/gallery.zh-CN.md#verdant-realtime-forest) — Three.js, Custom shaders, Procedural vegetation
+- [Blender 电影级巨龙](docs/gallery.zh-CN.md#cinematic-blender-dragon) — Blender, Python, Character modeling
+- [可深入探索的科幻飞船](docs/gallery.zh-CN.md#explorable-sci-fi-spaceship) — Interactive 3D, Environment design, One-shot
+
+### 🎬 视频与叙事
+
+- [五分钟 T 细胞科普视频](docs/gallery.zh-CN.md#t-cell-explainer) — Remotion, Imagegen, HeyGen
+- [从 Zillow 房源到电影感 3D 漫游](docs/gallery.zh-CN.md#zillow-blender-walkthrough) — Blender, Rome, Cinematography
+- [小女巫失控的第一次飞行](docs/gallery.zh-CN.md#runaway-witch-flight) — Prompt design, Animation, Cinematic pacing
+- [Luminous Breeze 幻想追逐](docs/gallery.zh-CN.md#luminous-breeze-chase) — Seedance 2.5, Renoise CLI, Character consistency
+- [从参考素材到四条成片 Reel](docs/gallery.zh-CN.md#higgsfield-reel-production) — Higgsfield MCP, Social video, Reference-driven editing
+
+### 🖱️ 电脑操作与自动化
+
+- [由浏览器操作完成的京都漫游](docs/gallery.zh-CN.md#kyoto-walking-tour) — Browser control, Travel, Computer use
+
+### 🛠️ 工程与原型
+
+- [可落地制作的 Microduck 机器人原型](docs/gallery.zh-CN.md#microduck-robot-prototype) — Robotics, 3D printing, Bill of materials
+
+### 🎮 游戏与仿真
+
+- [Breakwater 机甲战斗游戏](docs/gallery.zh-CN.md#breakwater-mecha-game) — Three.js, Crayon, 3D combat
+- [海岛螃蟹水晶冒险](docs/gallery.zh-CN.md#beach-crab-adventure) — Three.js, Low poly, Browser game
+- [Windhaven 海滨幻想冒险](docs/gallery.zh-CN.md#windhaven-unity-adventure) — Unity, Tripo P2, Third-person adventure
+- [Komorebi：林隙河流](docs/gallery.zh-CN.md#komorebi-river-run) — Three.js, Kayaking, Procedural audio
+- [Voidrunner 反重力战斗竞速](docs/gallery.zh-CN.md#voidrunner-combat-racer) — Three.js, Web shaders, Blender
+- [Sonic 风格 Godot 垂直切片](docs/gallery.zh-CN.md#sonic-godot-vertical-slice) — Godot, 3D platformer, Procedural assets
+- [浏览器原生汽车足球竞技场](docs/gallery.zh-CN.md#rocket-league-threejs) — Three.js, Rapier.js, Vehicle physics
+- [《对马岛之魂》风格可玩世界](docs/gallery.zh-CN.md#ghost-of-tsushima-game) — Higgsfield CLI, Third-person adventure, Generated assets
+- [Little Acre 袖珍世界建造器](docs/gallery.zh-CN.md#little-acre-world-builder) — Three.js, Single-file HTML, World building
+- [单文件峡谷驾驶游戏](docs/gallery.zh-CN.md#single-file-canyon-racer) — Single-file HTML, 3D driving, Game physics
+
+## 如何使用这份 GPT-6 Astra 提示词合集
+
+1. 选择与你的目标相关的分类，打开具体案例。
+2. 阅读创作方法和注意事项，再访问作品演示与提示词原帖。部分案例仅展示摘录，完整提示词需查看作者原帖。
+3. 根据自己的素材、工具和需求调整提示词。实际效果可能不同，本合集不声称所有案例均经过独立复现。
+
+## 常见问题
+
+### 在哪里查看 GPT-6 Astra 提示词示例？
+
+打开[完整案例图册](docs/gallery.zh-CN.md)。每个正式收录案例都附有公开提示词和作者作品原帖链接，同时整理工具与简要创作流程。
+
+### 这是官方项目或性能评测吗？
+
+不是。Awesome GPT-6 Astra 是独立社区整理项目。模型归属依据记录的来源证据，例如作者自述或可见模型标签；演示展示的是具体作品，不是受控性能评测。
+
+### 可以复用提示词和预览图吗？
+
+引用提示词、作品和预览图的权利归原作者所有，复用前请查看原始来源与相应条款；仓库 MIT 许可适用于项目原创代码和文字。
 
 ## 🤝 参与共建
 

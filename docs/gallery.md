@@ -1,6 +1,18 @@
-# 📖 Astra Casebook — Full Gallery
+# 📖 GPT-6 Astra Use Cases & Prompt Examples — Full Gallery
 
 [English](gallery.md) · [简体中文](gallery.zh-CN.md) · [Home](../README.md)
+
+Browse community examples with result previews, tools, workflows, limitations and public prompt sources. Entries marked as excerpts link to the creator’s complete prompt. This independent collection records source claims and does not guarantee reproduction.
+
+## Browse by category
+
+- [🧩 Apps & websites](#apps) · 2
+- [✨ Design & creative work](#design) · 4
+- [🏛️ 3D & spatial creation](#3d) · 7
+- [🎬 Video & storytelling](#video) · 5
+- [🖱️ Computer use & automation](#automation) · 1
+- [🛠️ Engineering & prototyping](#engineering) · 1
+- [🎮 Games & simulations](#games) · 10
 
 <a id="latest"></a>
 
@@ -16,6 +28,8 @@
 <a id="apps"></a>
 
 ## 🧩 Apps & websites
+
+Interactive websites, creative interfaces and useful apps.
 
 <a id="interactive-peacock"></a>
 
@@ -76,6 +90,8 @@ make this look and perform better; focus on UI/UX/latency
 <a id="design"></a>
 
 ## ✨ Design & creative work
+
+Polished visual concepts, interfaces and creative experiments.
 
 <a id="astral-liquid-glass"></a>
 
@@ -192,6 +208,8 @@ The result depends on Appllama MCP and external app-design skills; the author re
 <a id="3d"></a>
 
 ## 🏛️ 3D & spatial creation
+
+Spatial scenes, character worlds and editable 3D models.
 
 <a id="playroom-threejs"></a>
 
@@ -393,6 +411,8 @@ Build a gorgeous sci-fi spaceship with explorable internal structures.
 
 ## 🎬 Video & storytelling
 
+Educational films, explainers and visual storytelling.
+
 <a id="t-cell-explainer"></a>
 
 ### A five-minute T-cell explainer
@@ -537,6 +557,8 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 
 ## 🖱️ Computer use & automation
 
+Browser control, computer-use workflows and autonomous production tasks.
+
 <a id="kyoto-walking-tour"></a>
 
 ### A browser-driven walk through Kyoto
@@ -569,6 +591,8 @@ Create a walking tour through Kyoto.
 
 ## 🛠️ Engineering & prototyping
 
+Engineering workflows, physical prototypes and production-ready systems.
+
 <a id="microduck-robot-prototype"></a>
 
 ### A buildable Microduck robot prototype
@@ -600,6 +624,8 @@ prototype me a full Microduck
 <a id="games"></a>
 
 ## 🎮 Games & simulations
+
+Playable worlds, game prototypes and interactive simulations.
 
 <a id="breakwater-mecha-game"></a>
 

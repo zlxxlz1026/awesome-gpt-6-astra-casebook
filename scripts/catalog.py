@@ -23,7 +23,7 @@ def normalize_url(url):
     return pid, f'https://x.com/{author}/status/{pid}' if author else f'https://x.com/i/web/status/{pid}'
 
 def read(name):
-    return json.loads((ROOT / 'data' / name).read_text())
+    return json.loads((ROOT / 'data' / name).read_text(encoding='utf-8'))
 
 def validate():
     cases, sources, categories = read('cases.json'), read('sources.json'), read('categories.json')
@@ -93,11 +93,11 @@ def render():
         zh = lang == 'zh'
         gallery = 'docs/gallery.zh-CN.md' if zh else 'docs/gallery.md'
         label = lambda en, cn: cn if zh else en
-        lines = ['<div align="center">', '', '# 📚 Awesome GPT-6 Astra', '',
+        lines = ['<div align="center">', '', '# 📚 '+label('Awesome GPT-6 Astra — Use Cases & Prompts', 'Awesome GPT-6 Astra — 实战案例与提示词'), '',
           '**'+label('Curated GPT-6 Astra use cases. See the result. Explore the prompt. Build your own.', 'GPT-6 Astra 实战案例精选 · 看作品，读提示词，动手创造。')+'**', '',
           '[English](README.md) · [简体中文](README.zh-CN.md)', '',
           f'**{len(cases)} {label("cases", "个案例")} · {len(active)} {label("categories", "个分类")}**', '', '</div>', '',
-          label('A growing collection of creative and practical work made with GPT-6 Astra, pairing each result with its creator’s public prompt.', '收集 GPT-6 Astra 的创意与实用作品，将成果展示与作者公开的提示词放在一起，方便浏览、学习和尝试。'), '',
+          label('Explore GPT-6 Astra use cases, prompt examples and community demos for app and website development, UI design, 3D creation, video storytelling, computer use, engineering and games. Each case connects the result to its creator’s public prompt, tools, workflow and original source.', 'GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI 设计、三维创作、视频叙事、电脑操作与自动化、工程原型和游戏开发。每个案例整理作品展示、作者公开提示词、工具与技术、创作方法及原始来源，方便查找应用示例与学习思路。'), '',
           f'📖 [{label("Browse all cases", "浏览全部案例")}]({gallery}) · 🧾 [{label("Collection index", "收录索引")}](docs/collection-index.md) · ✨ [{label("Latest additions", "最新收录")}]({gallery}#latest) · ➕ [{label("Submit a case", "推荐案例")}](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)', '',
           '## 🖼️ '+label('Case Album', '案例图册'), '', '<table>']
         for offset in range(0,len(active),3):
@@ -118,18 +118,40 @@ def render():
         for c in list(reversed(cases))[:6]:
             cat=next(x for x in active if x['id']==c['category']);s=sm[c['primary_source_id']]
             lines.append(f'| [{c["title"][lang]}]({gallery}#{c["id"]}) | {cat["emoji"]} {cat[lang]} | [@{s["author"]}]({s["url"]}) |')
-        lines += ['', '## 🤝 '+label('Contribute', '参与共建'), '',
+        lines += ['', '<a id="all-cases"></a>', '', '## '+label('All GPT-6 Astra examples by category', '按分类查找 GPT-6 Astra 案例'), '',
+          label('Choose an example to read its workflow, limitations and public prompt. Tool names describe the collected work; they are not a list of required integrations.', '点击案例查看创作方法、注意事项和公开提示词。工具名称来自收录作品，不代表模型必须搭配这些工具使用。'), '']
+        for cat in active:
+            lines += ['### '+cat['emoji']+' '+cat[lang], '']
+            for c in cases:
+                if c['category'] == cat['id']:
+                    lines.append(f'- [{c["title"][lang]}]({gallery}#{c["id"]}) — '+', '.join(c['tags']))
+            lines.append('')
+        lines += ['## '+label('Using this GPT-6 Astra prompt collection', '如何使用这份 GPT-6 Astra 提示词合集'), '',
+          label('1. Pick a category and open a case that matches what you want to build.\n2. Read the workflow and limitations, then follow the original demo and prompt links. Some entries show an excerpt; the complete prompt remains in the creator’s post.\n3. Adapt the prompt to your own assets, tools and constraints. Results can vary; this collection does not claim every example has been independently reproduced.', '1. 选择与你的目标相关的分类，打开具体案例。\n2. 阅读创作方法和注意事项，再访问作品演示与提示词原帖。部分案例仅展示摘录，完整提示词需查看作者原帖。\n3. 根据自己的素材、工具和需求调整提示词。实际效果可能不同，本合集不声称所有案例均经过独立复现。'), '',
+          '## '+label('Frequently asked questions', '常见问题'), '',
+          '### '+label('Where can I find GPT-6 Astra prompt examples?', '在哪里查看 GPT-6 Astra 提示词示例？'), '',
+          label(f'Open the [full case gallery]({gallery}). Every curated entry links to a public prompt and its creator’s original result, with tools and a short workflow summary.', f'打开[完整案例图册]({gallery})。每个正式收录案例都附有公开提示词和作者作品原帖链接，同时整理工具与简要创作流程。'), '',
+          '### '+label('Is this an official project or a benchmark?', '这是官方项目或性能评测吗？'), '',
+          label('No. Awesome GPT-6 Astra is an independent community collection. Model attribution follows the recorded source evidence, such as the creator’s statement or a visible model label. Demos illustrate individual projects, not controlled benchmark results.', '不是。Awesome GPT-6 Astra 是独立社区整理项目。模型归属依据记录的来源证据，例如作者自述或可见模型标签；演示展示的是具体作品，不是受控性能评测。'), '',
+          '### '+label('Can I reuse the prompts and preview images?', '可以复用提示词和预览图吗？'), '',
+          label('Referenced prompts, works and previews belong to their creators. Check the original source and its terms before reuse; the repository’s MIT license covers original project code and writing.', '引用提示词、作品和预览图的权利归原作者所有，复用前请查看原始来源与相应条款；仓库 MIT 许可适用于项目原创代码和文字。'), '',
+          '## 🤝 '+label('Contribute', '参与共建'), '',
           label('Found something worth trying? Share the result and its public prompt through an issue or pull request. See the [contribution guide](CONTRIBUTING.md).', '发现值得尝试的作品？欢迎通过 Issue 或 PR 分享成果与公开提示词，详见[贡献指南](CONTRIBUTING.md)。'), '',
           '## License', '',
           label('Original project code and writing: [MIT](LICENSE). Referenced works, prompts and previews belong to their respective creators. This is an independent community project.', '项目原创代码与文字采用 [MIT](LICENSE) 许可。引用作品、提示词与预览图的权利归各自作者所有。本项目为独立社区整理。'), '']
         files[filename]='\n'.join(lines)
-        lines=['# '+label('📖 Astra Casebook — Full Gallery','📖 Astra Casebook · 完整案例图册'), '',
-          '[English](gallery.md) · [简体中文](gallery.zh-CN.md) · ['+label('Home','返回首页')+'](../'+filename+')', '', '<a id="latest"></a>', '',
-          '## ✨ '+label('Latest Additions','最新收录'), '']
+        lines=['# '+label('📖 GPT-6 Astra Use Cases & Prompt Examples — Full Gallery','📖 GPT-6 Astra 实战案例与提示词 · 完整图册'), '',
+          '[English](gallery.md) · [简体中文](gallery.zh-CN.md) · ['+label('Home','返回首页')+'](../'+filename+')', '',
+          label('Browse community examples with result previews, tools, workflows, limitations and public prompt sources. Entries marked as excerpts link to the creator’s complete prompt. This independent collection records source claims and does not guarantee reproduction.', '浏览社区实战案例，查看作品预览、工具、创作方法、注意事项与公开提示词来源。标为摘录的条目提供作者完整提示词链接。本独立合集记录来源信息，不保证复现效果。'), '',
+          '## '+label('Browse by category', '分类导航'), '']
+        for cat in active:
+            count=sum(c['category']==cat['id'] for c in cases)
+            lines.append(f'- [{cat["emoji"]} {cat[lang]}](#{cat["id"]}) · {count}')
+        lines += ['', '<a id="latest"></a>', '', '## ✨ '+label('Latest Additions','最新收录'), '']
         for c in list(reversed(cases))[:6]:
             lines.append(f'- [{c["title"][lang]}](#{c["id"]})')
         for cat in active:
-            lines += ['',f'<a id="{cat["id"]}"></a>', '', f'## {cat["emoji"]} {cat[lang]}']
+            lines += ['',f'<a id="{cat["id"]}"></a>', '', f'## {cat["emoji"]} {cat[lang]}', '', cat['description'][lang]]
             for c in [c for c in cases if c['category']==cat['id']]:
                 source=sm[c['primary_source_id']];prompt=sm[c['prompt']['source_id']]
                 lines += ['',f'<a id="{c["id"]}"></a>', '',f'### {c["title"][lang]}','',
@@ -188,7 +210,8 @@ def main():
         for name,content in render().items():
             path=ROOT/name
             if args.check:
-                if not path.exists() or path.read_bytes() != content.encode(): stale.append(name)
+                # Git may check out text as CRLF on Windows; compare content, not line endings.
+                if not path.exists() or path.read_text(encoding='utf-8') != content: stale.append(name)
             else: path.write_bytes(content.encode())
         if stale: raise SystemExit('Regenerate files: '+', '.join(stale))
         print('Generated files are current' if args.check else 'Catalog and ledger generated')

@@ -1,6 +1,18 @@
-# 📖 Astra Casebook · 完整案例图册
+# 📖 GPT-6 Astra 实战案例与提示词 · 完整图册
 
 [English](gallery.md) · [简体中文](gallery.zh-CN.md) · [返回首页](../README.zh-CN.md)
+
+浏览社区实战案例，查看作品预览、工具、创作方法、注意事项与公开提示词来源。标为摘录的条目提供作者完整提示词链接。本独立合集记录来源信息，不保证复现效果。
+
+## 分类导航
+
+- [🧩 应用与网站](#apps) · 2
+- [✨ 设计与创意](#design) · 4
+- [🏛️ 三维与空间创作](#3d) · 7
+- [🎬 视频与叙事](#video) · 5
+- [🖱️ 电脑操作与自动化](#automation) · 1
+- [🛠️ 工程与原型](#engineering) · 1
+- [🎮 游戏与仿真](#games) · 10
 
 <a id="latest"></a>
 
@@ -16,6 +28,8 @@
 <a id="apps"></a>
 
 ## 🧩 应用与网站
+
+交互网页、创意界面与实用应用。
 
 <a id="interactive-peacock"></a>
 
@@ -76,6 +90,8 @@ make this look and perform better; focus on UI/UX/latency
 <a id="design"></a>
 
 ## ✨ 设计与创意
+
+精致的视觉概念、界面设计与创意实验。
 
 <a id="astral-liquid-glass"></a>
 
@@ -192,6 +208,8 @@ Astra 制作了精致的移动端欢迎体验，把层叠星体图像、可触�
 <a id="3d"></a>
 
 ## 🏛️ 三维与空间创作
+
+空间场景、角色世界与可编辑三维模型。
 
 <a id="playroom-threejs"></a>
 
@@ -393,6 +411,8 @@ Build a gorgeous sci-fi spaceship with explorable internal structures.
 
 ## 🎬 视频与叙事
 
+科普短片、知识讲解与视觉叙事。
+
 <a id="t-cell-explainer"></a>
 
 ### 五分钟 T 细胞科普视频
@@ -537,6 +557,8 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 
 ## 🖱️ 电脑操作与自动化
 
+浏览器控制、电脑操作流程与自主生产任务。
+
 <a id="kyoto-walking-tour"></a>
 
 ### 由浏览器操作完成的京都漫游
@@ -569,6 +591,8 @@ Create a walking tour through Kyoto.
 
 ## 🛠️ 工程与原型
 
+工程工作流、实体原型与可投入生产的系统。
+
 <a id="microduck-robot-prototype"></a>
 
 ### 可落地制作的 Microduck 机器人原型
@@ -600,6 +624,8 @@ prototype me a full Microduck
 <a id="games"></a>
 
 ## 🎮 游戏与仿真
+
+可游玩的世界、游戏原型与交互式仿真。
 
 <a id="breakwater-mecha-game"></a>
 

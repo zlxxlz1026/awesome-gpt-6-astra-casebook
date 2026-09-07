@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Awesome GPT-6 Astra
+# 📚 Awesome GPT-6 Astra — Use Cases & Prompts
 
 **Curated GPT-6 Astra use cases. See the result. Explore the prompt. Build your own.**
 
@@ -10,7 +10,7 @@
 
 </div>
 
-A growing collection of creative and practical work made with GPT-6 Astra, pairing each result with its creator’s public prompt.
+Explore GPT-6 Astra use cases, prompt examples and community demos for app and website development, UI design, 3D creation, video storytelling, computer use, engineering and games. Each case connects the result to its creator’s public prompt, tools, workflow and original source.
 
 📖 [Browse all cases](docs/gallery.md) · 🧾 [Collection index](docs/collection-index.md) · ✨ [Latest additions](docs/gallery.md#latest) · ➕ [Submit a case](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)
 
@@ -84,6 +84,83 @@ A growing collection of creative and practical work made with GPT-6 Astra, pairi
 | [A browser-native car-football arena](docs/gallery.md#rocket-league-threejs) | 🎮 Games & simulations | [@LLMJunky](https://x.com/LLMJunky/status/2096028790925488452) |
 | [A Sonic-style Godot vertical slice](docs/gallery.md#sonic-godot-vertical-slice) | 🎮 Games & simulations | [@AiBattle_](https://x.com/AiBattle_/status/2096056285896536086) |
 | [Voidrunner anti-gravity combat racer](docs/gallery.md#voidrunner-combat-racer) | 🎮 Games & simulations | [@superalesha](https://x.com/superalesha/status/2095967568825582044) |
+
+<a id="all-cases"></a>
+
+## All GPT-6 Astra examples by category
+
+Choose an example to read its workflow, limitations and public prompt. Tool names describe the collected work; they are not a list of required integrations.
+
+### 🧩 Apps & websites
+
+- [Interactive peacock website](docs/gallery.md#interactive-peacock) — Three.js
+- [A faster iPad robot control station](docs/gallery.md#ipad-robot-control-station) — iPadOS, Robot control, Latency
+
+### ✨ Design & creative work
+
+- [Astral liquid-glass welcome screen](docs/gallery.md#astral-liquid-glass) — Appllama MCP, App design skills, Liquid glass
+- [A portrait assembled from memory](docs/gallery.md#memory-portrait) — Image generation, Memory, Portrait
+- [Astra imagines a thought before language](docs/gallery.md#astra-mind-midjourney) — Midjourney, Art direction, Prompt design
+- [Astro-themed liquid-glass welcome screen](docs/gallery.md#astro-liquid-glass-welcome) — Appllama MCP, Liquid glass, Mobile UI
+
+### 🏛️ 3D & spatial creation
+
+- [A living 3D playroom](docs/gallery.md#playroom-threejs) — Three.js, Vite
+- [Formula One modeling in Blender](docs/gallery.md#formula-one-blender) — Blender
+- [Grok Bot 3D keyboard](docs/gallery.md#grok-bot-keyboard) — Interactive 3D, PBR, 4K
+- [Interactive V8 engine visualizer](docs/gallery.md#v8-engine-visualizer) — Interactive 3D, Technical visualization
+- [A forest dense enough to get lost in](docs/gallery.md#verdant-realtime-forest) — Three.js, Custom shaders, Procedural vegetation
+- [A cinematic dragon built in Blender](docs/gallery.md#cinematic-blender-dragon) — Blender, Python, Character modeling
+- [An explorable science-fiction spaceship](docs/gallery.md#explorable-sci-fi-spaceship) — Interactive 3D, Environment design, One-shot
+
+### 🎬 Video & storytelling
+
+- [A five-minute T-cell explainer](docs/gallery.md#t-cell-explainer) — Remotion, Imagegen, HeyGen
+- [Zillow listing to cinematic 3D walkthrough](docs/gallery.md#zillow-blender-walkthrough) — Blender, Rome, Cinematography
+- [A young witch's runaway first flight](docs/gallery.md#runaway-witch-flight) — Prompt design, Animation, Cinematic pacing
+- [Luminous Breeze fantasy chase](docs/gallery.md#luminous-breeze-chase) — Seedance 2.5, Renoise CLI, Character consistency
+- [Four finished reels from reference footage](docs/gallery.md#higgsfield-reel-production) — Higgsfield MCP, Social video, Reference-driven editing
+
+### 🖱️ Computer use & automation
+
+- [A browser-driven walk through Kyoto](docs/gallery.md#kyoto-walking-tour) — Browser control, Travel, Computer use
+
+### 🛠️ Engineering & prototyping
+
+- [A buildable Microduck robot prototype](docs/gallery.md#microduck-robot-prototype) — Robotics, 3D printing, Bill of materials
+
+### 🎮 Games & simulations
+
+- [Breakwater mecha battle game](docs/gallery.md#breakwater-mecha-game) — Three.js, Crayon, 3D combat
+- [Beach crab shard adventure](docs/gallery.md#beach-crab-adventure) — Three.js, Low poly, Browser game
+- [Windhaven coastal fantasy adventure](docs/gallery.md#windhaven-unity-adventure) — Unity, Tripo P2, Third-person adventure
+- [Komorebi: River Run](docs/gallery.md#komorebi-river-run) — Three.js, Kayaking, Procedural audio
+- [Voidrunner anti-gravity combat racer](docs/gallery.md#voidrunner-combat-racer) — Three.js, Web shaders, Blender
+- [A Sonic-style Godot vertical slice](docs/gallery.md#sonic-godot-vertical-slice) — Godot, 3D platformer, Procedural assets
+- [A browser-native car-football arena](docs/gallery.md#rocket-league-threejs) — Three.js, Rapier.js, Vehicle physics
+- [A Ghost of Tsushima-style playable world](docs/gallery.md#ghost-of-tsushima-game) — Higgsfield CLI, Third-person adventure, Generated assets
+- [Little Acre pocket-world builder](docs/gallery.md#little-acre-world-builder) — Three.js, Single-file HTML, World building
+- [A single-file canyon driving game](docs/gallery.md#single-file-canyon-racer) — Single-file HTML, 3D driving, Game physics
+
+## Using this GPT-6 Astra prompt collection
+
+1. Pick a category and open a case that matches what you want to build.
+2. Read the workflow and limitations, then follow the original demo and prompt links. Some entries show an excerpt; the complete prompt remains in the creator’s post.
+3. Adapt the prompt to your own assets, tools and constraints. Results can vary; this collection does not claim every example has been independently reproduced.
+
+## Frequently asked questions
+
+### Where can I find GPT-6 Astra prompt examples?
+
+Open the [full case gallery](docs/gallery.md). Every curated entry links to a public prompt and its creator’s original result, with tools and a short workflow summary.
+
+### Is this an official project or a benchmark?
+
+No. Awesome GPT-6 Astra is an independent community collection. Model attribution follows the recorded source evidence, such as the creator’s statement or a visible model label. Demos illustrate individual projects, not controlled benchmark results.
+
+### Can I reuse the prompts and preview images?
+
+Referenced prompts, works and previews belong to their creators. Check the original source and its terms before reuse; the repository’s MIT license covers original project code and writing.
 
 ## 🤝 Contribute
 

@@ -38,4 +38,6 @@ Seek original prompts and expand software engineering, games, research and offic
 
 ## Future website / 后续网页
 
+For the current GitHub repository, see [discoverability settings and checks](DISCOVERABILITY.md). README search wording and navigation live in `scripts/catalog.py` and are regenerated from the catalog. / 当前仓库的搜索优化配置与核验见[搜索优化维护说明](DISCOVERABILITY.md)；首页文案与导航在生成脚本中维护。
+
 Consume the existing JSON, filter by category, tools and language, show verification and prompt availability, and always link back to the X source. Keep videos as outbound links until embedding/reuse is deliberately implemented. / 网页直接读取现有 JSON，按分类、工具和语言筛选，展示核验与提示词状态并保留原帖入口。
