@@ -40,7 +40,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 <td width="33%" align="center" valign="top">
 <h3>✨ 设计与创意</h3>
 <p>4 个案例</p>
-<a href="docs/gallery.zh-CN.md#design"><img src="https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg" alt="带液态玻璃交互的星空主题移动端欢迎页" width="360"></a>
+<a href="docs/gallery.zh-CN.md#design"><img src="https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg" alt="带液态玻璃交互的星空主题移动端欢迎页" height="180"></a>
 <p>精致的视觉概念、界面设计与创意实验。</p>
 <p><a href="docs/gallery.zh-CN.md#design"><b>查看案例 →</b></a></p>
 </td>

@@ -40,7 +40,7 @@ Three reading paths selected for clear learning goals. These are source-based re
 <td width="33%" align="center" valign="top">
 <h3>✨ Design &amp; creative work</h3>
 <p>4 cases</p>
-<a href="docs/gallery.md#design"><img src="https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg" alt="Astral mobile welcome screen with liquid glass interaction" width="360"></a>
+<a href="docs/gallery.md#design"><img src="https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg" alt="Astral mobile welcome screen with liquid glass interaction" height="180"></a>
 <p>Polished visual concepts, interfaces and creative experiments.</p>
 <p><a href="docs/gallery.md#design"><b>View Cases →</b></a></p>
 </td>

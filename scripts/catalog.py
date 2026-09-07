@@ -122,10 +122,13 @@ def render():
                 selected=[c for c in cases if c['category']==cat['id']]
                 cover=selected[0]
                 link=f'{gallery}#{cat["id"]}'
+                # The design cover is a portrait mobile screen; constrain its height
+                # so scaling it to the landscape covers' width does not stretch the row.
+                image_size = 'height="180"' if cat['id'] == 'design' else 'width="360"'
                 lines += ['<td width="33%" align="center" valign="top">',
                   f'<h3>{cat["emoji"]} {esc(cat[lang])}</h3>',
                   f'<p>{len(selected)} {label("case" if len(selected) == 1 else "cases", "个案例")}</p>',
-                  f'<a href="{link}"><img src="{esc(image_path(cover))}" alt="{esc(cover["preview"]["alt"][lang])}" width="360"></a>',
+                  f'<a href="{link}"><img src="{esc(image_path(cover))}" alt="{esc(cover["preview"]["alt"][lang])}" {image_size}></a>',
                   f'<p>{esc(cat["description"][lang])}</p>',
                   f'<p><a href="{link}"><b>{label("View Cases →", "查看案例 →")}</b></a></p>', '</td>']
             lines.append('</tr>')
