@@ -92,7 +92,7 @@ def render():
                   f'- {"方法" if zh else "Method"}: {c["workflow"][lang]}',
                   f'- {"工具" if zh else "Tools"}: {", ".join(c["tags"]) or ("未披露" if zh else "Not disclosed")}',
                   f'- {"局限" if zh else "Limitations"}: {c["limitations"][lang]}',
-                  f'- {"模型归属" if zh else "Model evidence"}: {c["model_evidence"]} · {"复现" if zh else "Reproduction"}: {c["reproduction"]}',
+                  f'- {"模型归属" if zh else "Model evidence"}: {({'author-stated': '作者声明', 'visible-model-label': '可见模型标识'}[c['model_evidence']] if zh else c['model_evidence'])} · {"复现" if zh else "Reproduction"}: {({'not-tested': '未测试', 'partial': '部分复现', 'reproduced': '已复现'}[c['reproduction']] if zh else c['reproduction'])}',
                   f'- {"提示词" if zh else "Prompt"}: ' + ((f'[Open / 查看]({sm[c["prompt"]["source_id"]]["url"]})') if c['prompt'] else ('未公开' if zh else 'Not disclosed'))]
         lines += ['', '## 参与和维护' if zh else '## Contributing & maintenance', '',
           '[贡献指南 / Contributing](CONTRIBUTING.md) · [去重台账 / Source ledger](docs/source-ledger.md) · [维护流程 / Maintenance](docs/MAINTENANCE.md)', '',
