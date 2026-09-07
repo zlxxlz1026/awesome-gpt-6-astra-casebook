@@ -14,6 +14,18 @@ Explore GPT-6 Astra use cases, prompt examples and community demos for app and w
 
 📖 [Browse all cases](docs/gallery.md) · 🧾 [Collection index](docs/collection-index.md) · ✨ [Latest additions](docs/gallery.md#latest) · ➕ [Submit a case](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)
 
+## Start here
+
+Three reading paths selected for clear learning goals. These are source-based recommendations, not difficulty ratings or independently reproduced results.
+
+| Your goal | Start with | Why this case |
+| --- | --- | --- |
+| Build an interactive webpage | [Interactive peacock website](docs/gallery.md#interactive-peacock) | Study how a visual brief connects appearance, input and motion. The catalog contains a prompt excerpt; read the complete source before trying it. |
+| Design a small game loop | [Komorebi: River Run](docs/gallery.md#komorebi-river-run) | The complete short prompt specifies left/right paddling and obstacle avoidance: a useful starting point for discussing controls and failure conditions. |
+| Specify a deliverable | [A single-file canyon driving game](docs/gallery.md#single-file-canyon-racer) | The complete prompt requires one HTML file. The reported packaging fix makes this a useful example of why opening and testing the delivered file matters. |
+
+📘 [Interactive web & 3D guide](docs/guides/web-3d.md) · 🎮 [Game prompt guide](docs/guides/game-prompts.md)
+
 ## 🖼️ Case Album
 
 <table>

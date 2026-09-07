@@ -36,6 +36,10 @@ The collector is a human/agent review process; `catalog.py` operates offline and
 
 Seek original prompts and expand software engineering, games, research and office automation. Mix English, Chinese and Japanese searches, then verify every candidate in the creator’s original thread. / 继续寻找公开原始提示词，扩展软件工程、游戏、研究和办公案例；混合使用中、英、日文检索，并回到创作者原帖逐一核验。
 
+## Learning guides and evidence / 学习指南与证据
+
+Maintain beginner paths in `data/learning-paths.json`, editorial guides in `docs/guides/`, and real test reports under `docs/reproduction/` using its record requirements. Guides analyze existing sources; do not label them as independent reproductions. / 新手路径、专题编辑内容与真实测试报告分别维护；专题分析不能标为独立复现。
+
 ## Future website / 后续网页
 
 For the current GitHub repository, see [discoverability settings and checks](DISCOVERABILITY.md). README search wording and navigation live in `scripts/catalog.py` and are regenerated from the catalog. / 当前仓库的搜索优化配置与核验见[搜索优化维护说明](DISCOVERABILITY.md)；首页文案与导航在生成脚本中维护。

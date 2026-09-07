@@ -14,6 +14,18 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 
 📖 [浏览全部案例](docs/gallery.zh-CN.md) · 🧾 [收录索引](docs/collection-index.md) · ✨ [最新收录](docs/gallery.zh-CN.md#latest) · ➕ [推荐案例](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)
 
+## 新手从这里开始
+
+按学习目标精选的三个阅读入口。选择依据为已收录资料，不代表难度评级或独立复现结果。
+
+| 你的目标 | 推荐入口 | 选择理由 |
+| --- | --- | --- |
+| 做一个交互网页 | [可交互的孔雀艺术网页](docs/gallery.zh-CN.md#interactive-peacock) | 学习如何把视觉风格、用户操作和动画行为写在同一份需求里。目录展示提示词摘录，动手前需查看完整原帖。 |
+| 设计一个小型游戏循环 | [Komorebi：林隙河流](docs/gallery.zh-CN.md#komorebi-river-run) | 完整短提示词明确了左右划桨与躲避障碍，适合从操作和失败条件开始理解游戏需求。 |
+| 学会约束交付物 | [单文件峡谷驾驶游戏](docs/gallery.zh-CN.md#single-file-canyon-racer) | 完整提示词要求单个 HTML 文件；作者记录过打包修复，适合学习为什么要实际打开并检查交付物。 |
+
+📘 [交互网页与三维创作指南](docs/guides/web-3d.zh-CN.md) · 🎮 [游戏提示词指南](docs/guides/game-prompts.zh-CN.md)
+
 ## 🖼️ 案例图册
 
 <table>

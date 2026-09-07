@@ -20,6 +20,10 @@ Public prompt (required) / 公开提示词（必填）:
 
 Limitations / 局限:
 
+Playable demo or source code (optional) / 可直接访问的演示或源码（选填）:
+
+Startup requirements and asset license (if known) / 启动要求与素材许可（如已知）:
+
 Existing case or related posts / 已有案例或相关推文:
 
 English summary / 英文摘要:

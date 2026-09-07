@@ -81,6 +81,14 @@ def validate():
 
 def render():
     cases, sources, categories = validate()
+    paths = read('learning-paths.json')
+    case_map = {c['id']: c for c in cases}
+    for entry in paths:
+        assert entry['case_id'] in case_map, 'Unknown learning-path case'
+        for lang in ('en', 'zh'):
+            assert entry['goal'][lang].strip() and entry['reason'][lang].strip()
+            suffix = '.zh-CN' if lang == 'zh' else ''
+            assert (ROOT / f'docs/guides/{entry["guide"]}{suffix}.md').is_file(), 'Missing learning guide'
     sm = {s['post_id']: s for s in sources}
     active = [cat for cat in categories if any(c['category'] == cat['id'] for c in cases)]
     files = {}
@@ -99,6 +107,14 @@ def render():
           f'**{len(cases)} {label("cases", "个案例")} · {len(active)} {label("categories", "个分类")}**', '', '</div>', '',
           label('Explore GPT-6 Astra use cases, prompt examples and community demos for app and website development, UI design, 3D creation, video storytelling, computer use, engineering and games. Each case connects the result to its creator’s public prompt, tools, workflow and original source.', 'GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI 设计、三维创作、视频叙事、电脑操作与自动化、工程原型和游戏开发。每个案例整理作品展示、作者公开提示词、工具与技术、创作方法及原始来源，方便查找应用示例与学习思路。'), '',
           f'📖 [{label("Browse all cases", "浏览全部案例")}]({gallery}) · 🧾 [{label("Collection index", "收录索引")}](docs/collection-index.md) · ✨ [{label("Latest additions", "最新收录")}]({gallery}#latest) · ➕ [{label("Submit a case", "推荐案例")}](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)', '',
+          '## '+label('Start here', '新手从这里开始'), '',
+          label('Three reading paths selected for clear learning goals. These are source-based recommendations, not difficulty ratings or independently reproduced results.', '按学习目标精选的三个阅读入口。选择依据为已收录资料，不代表难度评级或独立复现结果。'), '',
+          '| '+label('Your goal | Start with | Why this case', '你的目标 | 推荐入口 | 选择理由')+' |', '| --- | --- | --- |']
+        for entry in paths:
+            c = case_map[entry['case_id']]
+            lines.append(f'| {entry["goal"][lang]} | [{c["title"][lang]}]({gallery}#{c["id"]}) | {entry["reason"][lang]} |')
+        suffix = '.zh-CN' if zh else ''
+        lines += ['', f'📘 [{label("Interactive web & 3D guide", "交互网页与三维创作指南")}](docs/guides/web-3d{suffix}.md) · 🎮 [{label("Game prompt guide", "游戏提示词指南")}](docs/guides/game-prompts{suffix}.md)', '',
           '## 🖼️ '+label('Case Album', '案例图册'), '', '<table>']
         for offset in range(0,len(active),3):
             lines.append('<tr>')

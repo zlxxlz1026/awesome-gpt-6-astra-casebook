@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": "interactive-peacock",
+    "goal": {"en": "Build an interactive webpage", "zh": "做一个交互网页"},
+    "reason": {"en": "Study how a visual brief connects appearance, input and motion. The catalog contains a prompt excerpt; read the complete source before trying it.", "zh": "学习如何把视觉风格、用户操作和动画行为写在同一份需求里。目录展示提示词摘录，动手前需查看完整原帖。"},
+    "guide": "web-3d"
+  },
+  {
+    "case_id": "komorebi-river-run",
+    "goal": {"en": "Design a small game loop", "zh": "设计一个小型游戏循环"},
+    "reason": {"en": "The complete short prompt specifies left/right paddling and obstacle avoidance: a useful starting point for discussing controls and failure conditions.", "zh": "完整短提示词明确了左右划桨与躲避障碍，适合从操作和失败条件开始理解游戏需求。"},
+    "guide": "game-prompts"
+  },
+  {
+    "case_id": "single-file-canyon-racer",
+    "goal": {"en": "Specify a deliverable", "zh": "学会约束交付物"},
+    "reason": {"en": "The complete prompt requires one HTML file. The reported packaging fix makes this a useful example of why opening and testing the delivered file matters.", "zh": "完整提示词要求单个 HTML 文件；作者记录过打包修复，适合学习为什么要实际打开并检查交付物。"},
+    "guide": "game-prompts"
+  }
+]

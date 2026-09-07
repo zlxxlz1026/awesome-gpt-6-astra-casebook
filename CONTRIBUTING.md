@@ -20,3 +20,5 @@ python3 scripts/catalog.py build --check
 Prompts are required for every curated case. Preserve the author’s wording, identify whether the catalog shows the full text or an opening excerpt, and always link to the post containing it. Never reconstruct or paraphrase a missing prompt as if it were the original. / 每个正式案例都必须有公开提示词。保留作者原文，标明目录展示的是全文还是开头摘录，并始终链接到提示词所在原帖；不得把推测或改写包装成作者原文。
 
 Media: Link to the original post by default. Do not rehost media without permission. Inspect the actual result before describing its visual quality. / 默认链接原帖，不擅自转载媒体；描述视觉质量前必须查看实际成果。
+
+If available, include a direct playable demo or source-code URL, startup requirements and the applicable license. These are optional for collection, but make independent testing possible. For actual test reports, follow the [reproduction record requirements](docs/reproduction/README.md). / 如有，请补充可直接访问的演示或源码链接、启动要求与许可；这些不是收录必填项，但有助于独立验证。实际测试报告遵循[复现记录规范](docs/reproduction/README.md)。
