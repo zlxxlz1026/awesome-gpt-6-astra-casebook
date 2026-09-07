@@ -81,10 +81,20 @@ def validate():
         if not preview.startswith('https://'):
             assert preview.startswith('assets/previews/') and '..' not in Path(preview).parts
             assert (ROOT / preview).is_file(), 'Missing preview file'
+    notes = read('case-notes.json')
+    unique(notes, 'case_id')
+    for note in notes:
+        assert note['case_id'] in cm, 'Unknown case in editorial notes'
+        assert note['source_ids'] and set(note['source_ids']).issubset(cm[note['case_id']]['source_ids']), 'Editorial sources must belong to the case'
+        for section, keys in [('prerequisites', ('software', 'assets', 'services', 'access')),
+                              ('analysis', ('goal', 'constraints', 'delivery', 'acceptance', 'lesson'))]:
+            for key in keys:
+                assert all(note.get(section, {}).get(key, {}).get(lang, '').strip() for lang in ('en', 'zh')), f'Missing bilingual editorial field: {note["case_id"]}/{section}/{key}'
     return cases, sources, categories
 
 def render():
     cases, sources, categories = validate()
+    notes = {note['case_id']: note for note in read('case-notes.json')}
     paths = read('learning-paths.json')
     case_map = {c['id']: c for c in cases}
     for entry in paths:
@@ -127,6 +137,19 @@ def render():
             else:
                 result += ['> '+c['prompt']['text'],'',label('Opening excerpt; the author’s complete prompt is linked below.','以上为开头摘录，完整提示词见下方作者原帖。'),'']
             result += [f'↗ [{label("Read the original prompt", "查看作者完整提示词")}]({prompt["url"]}) · [{label("Watch the demo", "观看演示")}]({source["url"]})','']
+            if c['id'] in notes:
+                note = notes[c['id']]
+                result += ['#### '+label('Before you try it', '使用前提'), '',
+                  label('Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.', '依据本目录已收录资料整理；信息未说明，不代表不需要相关依赖或素材。'), '',
+                  '| '+label('Item | Recorded information', '项目 | 已知信息与缺口')+' |', '| --- | --- |']
+                for key, en, cn in [('software', 'Software & environment', '软件与环境'), ('assets', 'Input assets', '输入素材'), ('services', 'Services & accounts', '服务与账号'), ('access', 'Code & demo access', '源码与演示入口')]:
+                    value = note['prerequisites'][key][lang].replace('|', '\\|').replace('\n', '<br>')
+                    result.append(f'| {label(en, cn)} | {value} |')
+                result += ['', '#### '+label('Prompt breakdown — editorial analysis', '提示词拆解 · 项目分析'), '',
+                  label('The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.', '作者提示词原文见上方。以下拆解和验收建议是项目分析，不是作者原文，也不是独立实测结果。'), '']
+                for key, en, cn in [('goal', 'Goal', '目标'), ('constraints', 'Constraints', '约束'), ('delivery', 'Deliverable', '交付'), ('acceptance', 'Suggested checks', '验收建议'), ('lesson', 'Takeaway', '可借鉴之处')]:
+                    result += [f'**{label(en, cn)}**：{note["analysis"][key][lang]}', '']
+                result += [label('Recorded sources: ', '所依据的已收录来源：') + ' · '.join(f'[@{sm[sid]["author"]} · {sid}]({sm[sid]["url"]})' for sid in note['source_ids']), '']
             return result
         lines = ['<div align="center">', '', '# 📚 '+label('Awesome GPT-6 Astra — Use Cases & Prompts', 'Awesome GPT-6 Astra — 实战案例与提示词'), '',
           '**'+label('Curated GPT-6 Astra use cases. See the result. Explore the prompt. Build your own.', 'GPT-6 Astra 实战案例精选 · 看作品，读提示词，动手创造。')+'**', '',
@@ -142,7 +165,12 @@ def render():
             lines.append(f'| {entry["goal"][lang]} | [{c["title"][lang]}]({case_link(c)}) | {prompt_label(c)} | {entry["reason"][lang]} |')
         suffix = '.zh-CN' if zh else ''
         lines += ['', f'📘 [{label("Interactive web & 3D guide", "交互网页与三维创作指南")}](docs/guides/web-3d{suffix}.md) · 🎮 [{label("Game prompt guide", "游戏提示词指南")}](docs/guides/game-prompts{suffix}.md)', '',
-          '## 🖼️ '+label('Case Album', '案例图册'), '', '<table>']
+          '### '+label('Case breakdowns', '案例深读'), '',
+          label('Read the available prerequisites and our analysis of goals, constraints, delivery and acceptance checks:', '查看使用前提，以及目标、约束、交付与验收要求的逐项分析：'), '']
+        for cid in notes:
+            c = case_map[cid]
+            lines.append(f'- [{c["title"][lang]}]({case_link(c)})')
+        lines += ['', '## 🖼️ '+label('Case Album', '案例图册'), '', '<table>']
         for offset in range(0,len(active),3):
             lines.append('<tr>')
             for cat in active[offset:offset+3]:

@@ -148,6 +148,33 @@ build me a 3D river kayaking game with anime-ish aesthetics, where i paddle left
 
 ↗ [Read the original prompt](https://x.com/ItsmeAjayKV/status/2096244208533455049) · [Watch the demo](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The catalog describes a browser game and tags Three.js. The complete short prompt does not name a library; browser, runtime and dependency versions are not recorded. |
+| Input assets | The record describes code-generated music and sound. It does not provide a complete asset inventory or licenses. |
+| Services & accounts | The collected material does not specify external accounts, services or whether startup requires network access. |
+| Code & demo access | The full prompt and creator post are available in the catalog. No direct playable URL or code repository is recorded. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.
+
+**Constraints**：The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.
+
+**Deliverable**：The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.
+
+**Suggested checks**：Suggested checks, not executed: verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.
+
+**Takeaway**：Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.
+
+Recorded sources: [@ItsmeAjayKV · 2096244208533455049](https://x.com/ItsmeAjayKV/status/2096244208533455049)
+
 [Back to case list](#cases)
 
 
@@ -339,6 +366,33 @@ build a playable 3D driving game in a single HTML file.
 ```
 
 ↗ [Read the original prompt](https://x.com/IamRicardoML/status/2096069303523033434) · [Watch the demo](https://x.com/IamRicardoML/status/2096069303523033434)
+
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The prompt requires a single HTML file. It does not name a rendering library, browser version or local-server requirement. |
+| Input assets | The collected material does not include an asset manifest. A single HTML file does not by itself establish that all assets are embedded. |
+| Services & accounts | External dependencies and network requirements are not documented. Offline operation must be requested and checked separately. |
+| Code & demo access | The full prompt and result post are linked. The recorded limitation explicitly notes no playable link in the public post; no downloadable HTML is recorded. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.
+
+**Constraints**：Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.
+
+**Deliverable**：One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.
+
+**Suggested checks**：Suggested checks, not executed: open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.
+
+**Takeaway**：Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
+
+Recorded sources: [@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)
 
 [Back to case list](#cases)
 

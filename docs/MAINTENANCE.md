@@ -38,6 +38,8 @@ Seek original prompts and expand software engineering, games, research and offic
 
 ## Learning guides and evidence / 学习指南与证据
 
+`data/case-notes.json` stores optional bilingual prerequisite notes and editorial prompt breakdowns for selected cases. Each note must cite source IDs already attached to that case. Missing details must remain explicitly unknown; distinguish recorded facts from suggestions. The generator appends notes after the unchanged creator prompt in category pages and the full gallery, and links featured notes from the READMEs. / 该文件维护精选案例的双语使用前提与提示词拆解，引用来源必须属于对应案例；缺失信息明确标出，并区分已有事实与项目建议。生成器在作者原文之后追加分析，同时在首页提供深读入口。
+
 Category covers are explicitly selected in `data/categories.json` using `cover.case_id` and `cover.height` (currently 160 px for every active category). The cover must belong to the category; changing case order does not change the cover. Height-only sizing preserves the image's aspect ratio. / 分类封面由数据中的案例 ID 和高度明确指定，目前统一 160 像素；案例必须属于该分类，调整案例顺序不会替换封面，仅指定高度以保留图片比例。
 
 `docs/categories/*.md` are generated bilingual category pages. Edit the JSON and generator, then run `build`; never hand-edit these outputs. README links lead to category pages. The complete galleries and their stable case/category anchors remain available for existing links. Prompt labels come from `prompt.display`, distinguishing full text from excerpts without changing the original text. / 中英文分类页由脚本自动生成，首页直达分类页；完整图册及原有案例、分类锚点继续保留。提示词完整度直接读取已有数据，不改动作者原文。

@@ -26,6 +26,15 @@ Three reading paths selected for clear learning goals. These are source-based re
 
 📘 [Interactive web & 3D guide](docs/guides/web-3d.md) · 🎮 [Game prompt guide](docs/guides/game-prompts.md)
 
+### Case breakdowns
+
+Read the available prerequisites and our analysis of goals, constraints, delivery and acceptance checks:
+
+- [Formula One modeling in Blender](docs/categories/3d.md#formula-one-blender)
+- [Astral liquid-glass welcome screen](docs/categories/design.md#astral-liquid-glass)
+- [Komorebi: River Run](docs/categories/games.md#komorebi-river-run)
+- [A single-file canyon driving game](docs/categories/games.md#single-file-canyon-racer)
+
 ## 🖼️ Case Album
 
 <table>

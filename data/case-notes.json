@@ -1,0 +1,187 @@
+[
+  {
+    "case_id": "formula-one-blender",
+    "source_ids": [
+      "2096125193580113957"
+    ],
+    "prerequisites": {
+      "software": {
+        "en": "The recorded prompt names Blender and computer use. Blender version and the control setup are not recorded.",
+        "zh": "已收录提示词指定 Blender 与电脑操作。现有资料未说明 Blender 版本和电脑操作工具的配置方式。"
+      },
+      "assets": {
+        "en": "Reference images, supplied models and asset licenses are not specified in the collected material.",
+        "zh": "现有资料未说明是否提供参考图、现成模型及素材许可。"
+      },
+      "services": {
+        "en": "The record does not specify an external service or account requirement. This does not establish that the workflow needs none.",
+        "zh": "现有资料未说明外部服务或账号要求，不能据此认定无需额外服务。"
+      },
+      "access": {
+        "en": "The catalog links to a process recording and the full prompt. It does not record a downloadable .blend file or source repository.",
+        "zh": "目录提供制作过程原帖与完整提示词，未记录可下载的 .blend 工程或源码仓库。"
+      }
+    },
+    "analysis": {
+      "goal": {
+        "en": "The subject is a Formula One car model. Naming a concrete object gives the task a visible target, but does not define mechanical accuracy.",
+        "zh": "目标是 F1 赛车模型。具体对象让任务有明确的视觉目标，但没有定义机械精度。"
+      },
+      "constraints": {
+        "en": "Blender specifies the workspace; computer use specifies an interaction method. These are environment instructions, not evidence that a fresh machine is ready to run them.",
+        "zh": "Blender 限定工作软件，computer use 限定操作方式。这是环境要求，不代表任意新环境都已具备运行条件。"
+      },
+      "delivery": {
+        "en": "The prompt asks for a model without defining a saved project, export format or object structure. Our suggestion: request a saved .blend project with named objects and a preview.",
+        "zh": "原文要求制作模型，但没有约定工程保存、导出格式或对象结构。建议补充：保存 .blend 工程、命名主要对象并提供预览。"
+      },
+      "acceptance": {
+        "en": "Suggested checks, not executed: reopen the saved project, inspect object organization, rotate the view, and confirm external assets resolve. Compare proportions only against supplied references.",
+        "zh": "建议验收，尚未执行：重新打开工程，检查对象组织、旋转视角及外部素材是否齐全；比例检查应依据实际提供的参考图。"
+      },
+      "lesson": {
+        "en": "Separate the subject, tool and saved deliverable. The recorded 23-minute session is the author's report, not a time estimate for your run.",
+        "zh": "把建模对象、使用工具和最终交付文件分别写清楚。资料中的约 23 分钟属于作者自述，不能用作你的任务耗时预估。"
+      }
+    }
+  },
+  {
+    "case_id": "astral-liquid-glass",
+    "source_ids": [
+      "2095863849635422679",
+      "2095865097830936773"
+    ],
+    "prerequisites": {
+      "software": {
+        "en": "The recorded prompt names Appllama MCP and app-design skills already present in the author's environment. Versions and setup instructions are not recorded.",
+        "zh": "已收录提示词使用作者环境中已有的 Appllama MCP 与 App design skills，现有资料未提供版本和配置步骤。"
+      },
+      "assets": {
+        "en": "The prompt references Wabi for liquid-glass displacement. The collected material does not specify the exact reference file, supplied artwork or reuse terms.",
+        "zh": "提示词以 Wabi 为液态玻璃位移效果参考；现有资料未说明具体参考文件、输入美术素材及复用条款。"
+      },
+      "services": {
+        "en": "Appllama MCP is named, but account, authorization and billing requirements are not documented in this case.",
+        "zh": "原文提到 Appllama MCP，但本案例资料未说明账号、授权和计费要求。"
+      },
+      "access": {
+        "en": "The full prompt and original result post are linked. The catalog does not record a source repository or installable application.",
+        "zh": "目录提供完整提示词与成果原帖，未记录源码仓库或可安装应用。"
+      }
+    },
+    "analysis": {
+      "goal": {
+        "en": "A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.",
+        "zh": "welcome screen 把范围收束到一个欢迎界面；星空主题提供美术方向，并非完整应用需求。"
+      },
+      "constraints": {
+        "en": "Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.",
+        "zh": "工具名称约束工作流程，Wabi 参考约束交互方向；这条短提示词没有规定具体实现方式。"
+      },
+      "delivery": {
+        "en": "The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.",
+        "zh": "原文未规定可编辑工程、目标平台和页面跳转。建议补充目标平台，并要求可编辑页面与可操作的主按钮。"
+      },
+      "acceptance": {
+        "en": "Suggested checks, not executed: inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.",
+        "zh": "建议验收，尚未执行：检查背景上的文字可读性，点击主按钮，调整窗口，并在目标设备测试动态效果；静态图片不能证明位移交互有效。"
+      },
+      "lesson": {
+        "en": "A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.",
+        "zh": "视觉参考有助于表达风格，还应配套明确的行为与交付要求。不要默认另一套环境拥有作者使用的工具。"
+      }
+    }
+  },
+  {
+    "case_id": "komorebi-river-run",
+    "source_ids": [
+      "2096244208533455049"
+    ],
+    "prerequisites": {
+      "software": {
+        "en": "The catalog describes a browser game and tags Three.js. The complete short prompt does not name a library; browser, runtime and dependency versions are not recorded.",
+        "zh": "目录描述为浏览器游戏并标注 Three.js；完整短提示词本身没有指定库，现有资料未记录浏览器、运行环境与依赖版本。"
+      },
+      "assets": {
+        "en": "The record describes code-generated music and sound. It does not provide a complete asset inventory or licenses.",
+        "zh": "资料描述了代码生成的音乐与音效，但未提供完整素材清单与许可信息。"
+      },
+      "services": {
+        "en": "The collected material does not specify external accounts, services or whether startup requires network access.",
+        "zh": "现有资料未说明外部账号、服务或启动时是否需要联网。"
+      },
+      "access": {
+        "en": "The full prompt and creator post are available in the catalog. No direct playable URL or code repository is recorded.",
+        "zh": "目录收录完整提示词与作者原帖，未记录直接可玩的地址或代码仓库。"
+      }
+    },
+    "analysis": {
+      "goal": {
+        "en": "The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.",
+        "zh": "原文同时给出场景（河流皮划艇）、输入（左右划桨）和目标（躲避障碍），形成一个较清晰的核心循环。"
+      },
+      "constraints": {
+        "en": "The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.",
+        "zh": "三维与动漫风格限定呈现方向，但没有规定水体模拟、难度、计分和设备支持。"
+      },
+      "delivery": {
+        "en": "The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.",
+        "zh": "原文要求一个游戏，没有约定打包与启动方式。建议补充可运行源码、启动说明，以及依赖和联网需求清单。"
+      },
+      "acceptance": {
+        "en": "Suggested checks, not executed: verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.",
+        "zh": "建议验收，尚未执行：检查左右控制、障碍碰撞、明确的结束状态和重新开始；分别检查静音及有声游玩，并将水体行为与美术偏好分开记录。"
+      },
+      "lesson": {
+        "en": "Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.",
+        "zh": "写出玩家反复执行的动作，比只给游戏类型更具体。作者仍指出水体湍流不足，因此短提示词对应的成果不能视为所有子系统都已完善。"
+      }
+    }
+  },
+  {
+    "case_id": "single-file-canyon-racer",
+    "source_ids": [
+      "2096069303523033434"
+    ],
+    "prerequisites": {
+      "software": {
+        "en": "The prompt requires a single HTML file. It does not name a rendering library, browser version or local-server requirement.",
+        "zh": "原文要求单个 HTML 文件，未指定渲染库、浏览器版本或是否需要本地服务器。"
+      },
+      "assets": {
+        "en": "The collected material does not include an asset manifest. A single HTML file does not by itself establish that all assets are embedded.",
+        "zh": "现有资料没有素材清单；单个 HTML 文件并不能证明所有资源都已内嵌。"
+      },
+      "services": {
+        "en": "External dependencies and network requirements are not documented. Offline operation must be requested and checked separately.",
+        "zh": "现有资料未说明外部依赖和联网要求；离线运行需要单独约定并验证。"
+      },
+      "access": {
+        "en": "The full prompt and result post are linked. The recorded limitation explicitly notes no playable link in the public post; no downloadable HTML is recorded.",
+        "zh": "目录提供完整提示词与成果原帖。已有局限记录明确指出公开帖子没有试玩链接，目录也未记录可下载的 HTML。"
+      }
+    },
+    "analysis": {
+      "goal": {
+        "en": "Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.",
+        "zh": "可玩、三维、驾驶明确交互性质和类型。成果中的峡谷、小地图与圈速计时并不是这条短提示词明确要求的功能。"
+      },
+      "constraints": {
+        "en": "Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.",
+        "zh": "single HTML file 约束的是文件交付形式，没有约定是否从网络加载库或素材。"
+      },
+      "delivery": {
+        "en": "One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.",
+        "zh": "原文明确交付一个 HTML 文件。建议另外要求打开方式和全部依赖，并明确选择允许联网或完全离线。"
+      },
+      "acceptance": {
+        "en": "Suggested checks, not executed: open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.",
+        "zh": "建议验收，尚未执行：用新副本按说明启动，测试驾驶与重开，检查缺失资源；如果宣称离线可用，再验证断网启动。"
+      },
+      "lesson": {
+        "en": "Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.",
+        "zh": "打包属于任务本身。作者记录过打包问题和后续修复，展示案例时应保留这次迭代，而不是暗示首轮即完整交付。"
+      }
+    }
+  }
+]

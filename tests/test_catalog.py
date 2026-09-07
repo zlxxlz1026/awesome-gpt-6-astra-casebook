@@ -21,6 +21,28 @@ class CatalogTests(unittest.TestCase):
     def test_seed_catalog_valid(self):
         catalog.validate()
 
+    def test_editorial_sources_cannot_reference_another_case(self):
+        original = catalog.read
+        def read(name):
+            rows = original(name)
+            if name == 'case-notes.json':
+                rows[0]['source_ids'] = ['2096069303523033434']
+            return rows
+        with patch.object(catalog, 'read', read):
+            with self.assertRaises(AssertionError):
+                catalog.validate()
+
+    def test_editorial_notes_preserve_and_follow_original_prompt(self):
+        files = catalog.render()
+        cases = {c['id']: c for c in catalog.read('cases.json')}
+        for note in catalog.read('case-notes.json'):
+            c = cases[note['case_id']]
+            for suffix, heading in [('', '#### Prompt breakdown — editorial analysis'), ('.zh-CN', '#### 提示词拆解 · 项目分析')]:
+                for path in [f'docs/categories/{c["category"]}{suffix}.md', f'docs/gallery{suffix}.md']:
+                    section = files[path].split(f'<a id="{c["id"]}"></a>', 1)[1].split('<a id=', 1)[0]
+                    self.assertIn(c['prompt']['text'], section)
+                    self.assertGreater(section.index(heading), section.index(c['prompt']['text']))
+
     def test_category_pages_partition_cases_and_preserve_gallery_anchors(self):
         files = catalog.render()
         cases = catalog.read('cases.json')

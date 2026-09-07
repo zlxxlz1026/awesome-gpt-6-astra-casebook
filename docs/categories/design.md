@@ -46,6 +46,33 @@ The result uses Appllama MCP and app-design skills already available in the auth
 
 ↗ [Read the original prompt](https://x.com/jaimintf/status/2095865097830936773) · [Watch the demo](https://x.com/jaimintf/status/2095863849635422679)
 
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The recorded prompt names Appllama MCP and app-design skills already present in the author's environment. Versions and setup instructions are not recorded. |
+| Input assets | The prompt references Wabi for liquid-glass displacement. The collected material does not specify the exact reference file, supplied artwork or reuse terms. |
+| Services & accounts | Appllama MCP is named, but account, authorization and billing requirements are not documented in this case. |
+| Code & demo access | The full prompt and original result post are linked. The catalog does not record a source repository or installable application. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.
+
+**Constraints**：Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.
+
+**Deliverable**：The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.
+
+**Suggested checks**：Suggested checks, not executed: inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.
+
+**Takeaway**：A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.
+
+Recorded sources: [@jaimintf · 2095863849635422679](https://x.com/jaimintf/status/2095863849635422679) · [@jaimintf · 2095865097830936773](https://x.com/jaimintf/status/2095865097830936773)
+
 [Back to case list](#cases)
 
 

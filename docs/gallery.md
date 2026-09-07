@@ -126,6 +126,33 @@ The result uses Appllama MCP and app-design skills already available in the auth
 
 ↗ [Read the original prompt](https://x.com/jaimintf/status/2095865097830936773) · [Watch the demo](https://x.com/jaimintf/status/2095863849635422679)
 
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The recorded prompt names Appllama MCP and app-design skills already present in the author's environment. Versions and setup instructions are not recorded. |
+| Input assets | The prompt references Wabi for liquid-glass displacement. The collected material does not specify the exact reference file, supplied artwork or reuse terms. |
+| Services & accounts | Appllama MCP is named, but account, authorization and billing requirements are not documented in this case. |
+| Code & demo access | The full prompt and original result post are linked. The catalog does not record a source repository or installable application. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.
+
+**Constraints**：Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.
+
+**Deliverable**：The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.
+
+**Suggested checks**：Suggested checks, not executed: inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.
+
+**Takeaway**：A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.
+
+Recorded sources: [@jaimintf · 2095863849635422679](https://x.com/jaimintf/status/2095863849635422679) · [@jaimintf · 2095865097830936773](https://x.com/jaimintf/status/2095865097830936773)
+
 
 <a id="memory-portrait"></a>
 
@@ -281,6 +308,33 @@ Create a 3d Formula one Model in blender with computer use.
 ```
 
 ↗ [Read the original prompt](https://x.com/Conor_D_Dart/status/2096125193580113957) · [Watch the demo](https://x.com/Conor_D_Dart/status/2096125193580113957)
+
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The recorded prompt names Blender and computer use. Blender version and the control setup are not recorded. |
+| Input assets | Reference images, supplied models and asset licenses are not specified in the collected material. |
+| Services & accounts | The record does not specify an external service or account requirement. This does not establish that the workflow needs none. |
+| Code & demo access | The catalog links to a process recording and the full prompt. It does not record a downloadable .blend file or source repository. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：The subject is a Formula One car model. Naming a concrete object gives the task a visible target, but does not define mechanical accuracy.
+
+**Constraints**：Blender specifies the workspace; computer use specifies an interaction method. These are environment instructions, not evidence that a fresh machine is ready to run them.
+
+**Deliverable**：The prompt asks for a model without defining a saved project, export format or object structure. Our suggestion: request a saved .blend project with named objects and a preview.
+
+**Suggested checks**：Suggested checks, not executed: reopen the saved project, inspect object organization, rotate the view, and confirm external assets resolve. Compare proportions only against supplied references.
+
+**Takeaway**：Separate the subject, tool and saved deliverable. The recorded 23-minute session is the author's report, not a time estimate for your run.
+
+Recorded sources: [@Conor_D_Dart · 2096125193580113957](https://x.com/Conor_D_Dart/status/2096125193580113957)
 
 
 <a id="grok-bot-keyboard"></a>
@@ -786,6 +840,33 @@ build me a 3D river kayaking game with anime-ish aesthetics, where i paddle left
 
 ↗ [Read the original prompt](https://x.com/ItsmeAjayKV/status/2096244208533455049) · [Watch the demo](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The catalog describes a browser game and tags Three.js. The complete short prompt does not name a library; browser, runtime and dependency versions are not recorded. |
+| Input assets | The record describes code-generated music and sound. It does not provide a complete asset inventory or licenses. |
+| Services & accounts | The collected material does not specify external accounts, services or whether startup requires network access. |
+| Code & demo access | The full prompt and creator post are available in the catalog. No direct playable URL or code repository is recorded. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.
+
+**Constraints**：The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.
+
+**Deliverable**：The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.
+
+**Suggested checks**：Suggested checks, not executed: verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.
+
+**Takeaway**：Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.
+
+Recorded sources: [@ItsmeAjayKV · 2096244208533455049](https://x.com/ItsmeAjayKV/status/2096244208533455049)
+
 
 <a id="voidrunner-combat-racer"></a>
 
@@ -965,3 +1046,30 @@ build a playable 3D driving game in a single HTML file.
 ```
 
 ↗ [Read the original prompt](https://x.com/IamRicardoML/status/2096069303523033434) · [Watch the demo](https://x.com/IamRicardoML/status/2096069303523033434)
+
+#### Before you try it
+
+Based on the material already recorded in this catalog. Missing information is not evidence that a dependency or asset is unnecessary.
+
+| Item | Recorded information |
+| --- | --- |
+| Software & environment | The prompt requires a single HTML file. It does not name a rendering library, browser version or local-server requirement. |
+| Input assets | The collected material does not include an asset manifest. A single HTML file does not by itself establish that all assets are embedded. |
+| Services & accounts | External dependencies and network requirements are not documented. Offline operation must be requested and checked separately. |
+| Code & demo access | The full prompt and result post are linked. The recorded limitation explicitly notes no playable link in the public post; no downloadable HTML is recorded. |
+
+#### Prompt breakdown — editorial analysis
+
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+
+**Goal**：Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.
+
+**Constraints**：Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.
+
+**Deliverable**：One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.
+
+**Suggested checks**：Suggested checks, not executed: open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.
+
+**Takeaway**：Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
+
+Recorded sources: [@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)

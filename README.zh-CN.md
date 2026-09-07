@@ -26,6 +26,15 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 
 📘 [交互网页与三维创作指南](docs/guides/web-3d.zh-CN.md) · 🎮 [游戏提示词指南](docs/guides/game-prompts.zh-CN.md)
 
+### 案例深读
+
+查看使用前提，以及目标、约束、交付与验收要求的逐项分析：
+
+- [在 Blender 中制作 F1 赛车模型](docs/categories/3d.zh-CN.md#formula-one-blender)
+- [星空液态玻璃欢迎页](docs/categories/design.zh-CN.md#astral-liquid-glass)
+- [Komorebi：林隙河流](docs/categories/games.zh-CN.md#komorebi-river-run)
+- [单文件峡谷驾驶游戏](docs/categories/games.zh-CN.md#single-file-canyon-racer)
+
 ## 🖼️ 案例图册
 
 <table>
