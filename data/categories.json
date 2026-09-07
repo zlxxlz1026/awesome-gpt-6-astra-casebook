@@ -1,6 +1,7 @@
 [
   {
     "id": "apps",
+    "cover": {"case_id": "interactive-peacock", "height": 160},
     "en": "Apps & websites",
     "zh": "应用与网站",
     "emoji": "🧩",
@@ -11,6 +12,7 @@
   },
   {
     "id": "design",
+    "cover": {"case_id": "astral-liquid-glass", "height": 160},
     "en": "Design & creative work",
     "zh": "设计与创意",
     "emoji": "✨",
@@ -21,6 +23,7 @@
   },
   {
     "id": "3d",
+    "cover": {"case_id": "playroom-threejs", "height": 160},
     "en": "3D & spatial creation",
     "zh": "三维与空间创作",
     "emoji": "🏛️",
@@ -31,6 +34,7 @@
   },
   {
     "id": "video",
+    "cover": {"case_id": "t-cell-explainer", "height": 160},
     "en": "Video & storytelling",
     "zh": "视频与叙事",
     "emoji": "🎬",
@@ -41,6 +45,7 @@
   },
   {
     "id": "automation",
+    "cover": {"case_id": "kyoto-walking-tour", "height": 160},
     "en": "Computer use & automation",
     "zh": "电脑操作与自动化",
     "emoji": "🖱️",
@@ -61,6 +66,7 @@
   },
   {
     "id": "engineering",
+    "cover": {"case_id": "microduck-robot-prototype", "height": 160},
     "en": "Engineering & prototyping",
     "zh": "工程与原型",
     "emoji": "🛠️",
@@ -71,6 +77,7 @@
   },
   {
     "id": "games",
+    "cover": {"case_id": "breakwater-mecha-game", "height": 160},
     "en": "Games & simulations",
     "zh": "游戏与仿真",
     "emoji": "🎮",

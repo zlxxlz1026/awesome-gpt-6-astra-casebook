@@ -23,7 +23,7 @@ class DiscoverabilityTests(unittest.TestCase):
                 target = (page.parent / unquote(url.path)).resolve() if url.path else page
                 with self.subTest(page=page.relative_to(ROOT), link=url.geturl()):
                     self.assertTrue(target.is_file(), f'Missing link target: {target}')
-                    if url.fragment and target.name.startswith('gallery'):
+                    if url.fragment and (target.name.startswith('gallery') or target.parent.name == 'categories'):
                         self.assertIn(f'<a id="{url.fragment}"></a>', target.read_text(encoding='utf-8'))
 
     def test_metadata_merge_preserves_existing_topics_and_is_idempotent(self):

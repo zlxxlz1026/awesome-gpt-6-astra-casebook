@@ -38,6 +38,10 @@ Seek original prompts and expand software engineering, games, research and offic
 
 ## Learning guides and evidence / 学习指南与证据
 
+Category covers are explicitly selected in `data/categories.json` using `cover.case_id` and `cover.height` (currently 160 px for every active category). The cover must belong to the category; changing case order does not change the cover. Height-only sizing preserves the image's aspect ratio. / 分类封面由数据中的案例 ID 和高度明确指定，目前统一 160 像素；案例必须属于该分类，调整案例顺序不会替换封面，仅指定高度以保留图片比例。
+
+`docs/categories/*.md` are generated bilingual category pages. Edit the JSON and generator, then run `build`; never hand-edit these outputs. README links lead to category pages. The complete galleries and their stable case/category anchors remain available for existing links. Prompt labels come from `prompt.display`, distinguishing full text from excerpts without changing the original text. / 中英文分类页由脚本自动生成，首页直达分类页；完整图册及原有案例、分类锚点继续保留。提示词完整度直接读取已有数据，不改动作者原文。
+
 Maintain beginner paths in `data/learning-paths.json`, editorial guides in `docs/guides/`, and real test reports under `docs/reproduction/` using its record requirements. Guides analyze existing sources; do not label them as independent reproductions. / 新手路径、专题编辑内容与真实测试报告分别维护；专题分析不能标为独立复现。
 
 ## Future website / 后续网页

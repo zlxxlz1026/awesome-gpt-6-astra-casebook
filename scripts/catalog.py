@@ -39,6 +39,10 @@ def validate():
         if category['id'] in active_categories:
             assert category.get('emoji'), f'Missing category emoji: {category["id"]}'
             assert all(category.get('description', {}).get(lang, '').strip() for lang in ('en', 'zh')), f'Missing category description: {category["id"]}'
+            cover = category.get('cover', {})
+            assert cover.get('case_id') in cm, f'Missing category cover: {category["id"]}'
+            assert cm[cover['case_id']]['category'] == category['id'], 'Cover must belong to its category'
+            assert type(cover.get('height')) is int and 80 <= cover['height'] <= 180, 'Cover height must be 80–180 pixels'
     for s in sources:
         assert normalize_url(s['url'])[0] == s['post_id'], 'Post ID mismatch'
         assert s['status'] in ('pending', 'accepted', 'rejected', 'duplicate', 'unavailable')
@@ -96,11 +100,34 @@ def render():
         return html.escape(str(value), quote=True)
     def image_path(c, nested=False):
         url=c['preview']['url']
-        return '../'+url if nested and not url.startswith('https://') else url
+        return '../'*int(nested)+url if nested and not url.startswith('https://') else url
     for lang, filename in [('en', 'README.md'), ('zh', 'README.zh-CN.md')]:
         zh = lang == 'zh'
         gallery = 'docs/gallery.zh-CN.md' if zh else 'docs/gallery.md'
         label = lambda en, cn: cn if zh else en
+        suffix = '.zh-CN' if zh else ''
+        def category_path(category_id):
+            return f'docs/categories/{category_id}{suffix}.md'
+        def case_link(c):
+            return f'{category_path(c["category"])}#{c["id"]}'
+        def prompt_label(c):
+            return label('Full prompt', '完整提示词') if c['prompt']['display'] == 'full' else label('Prompt excerpt', '提示词摘录')
+        def case_lines(c, depth):
+            source=sm[c['primary_source_id']];prompt=sm[c['prompt']['source_id']]
+            result = ['',f'<a id="{c["id"]}"></a>', '',f'### {c["title"][lang]}','',
+              f'**{prompt_label(c)}** · [{label("Original prompt", "提示词原帖")}]({prompt["url"]})', '',
+              f'[![{c["preview"]["alt"][lang]}]({image_path(c,depth)})]({source["url"]})','',c['summary'][lang],'',
+              f'**{label("Creator", "作者")}**: [@{source["author"]}]({source["url"]}) · {source["published_date"]}<br>',
+              f'**{label("Tools & techniques", "工具与技术")}**: {", ".join(c["tags"])}','',
+              '**'+label('How it works','创作方法')+'**','',c['workflow'][lang],'',
+              '**'+label('What to know','值得注意')+'**','',c['limitations'][lang],'',
+              '**'+label('Prompt','提示词')+'**','']
+            if c['prompt']['display']=='full':
+                result += ['```text',c['prompt']['text'],'```','']
+            else:
+                result += ['> '+c['prompt']['text'],'',label('Opening excerpt; the author’s complete prompt is linked below.','以上为开头摘录，完整提示词见下方作者原帖。'),'']
+            result += [f'↗ [{label("Read the original prompt", "查看作者完整提示词")}]({prompt["url"]}) · [{label("Watch the demo", "观看演示")}]({source["url"]})','']
+            return result
         lines = ['<div align="center">', '', '# 📚 '+label('Awesome GPT-6 Astra — Use Cases & Prompts', 'Awesome GPT-6 Astra — 实战案例与提示词'), '',
           '**'+label('Curated GPT-6 Astra use cases. See the result. Explore the prompt. Build your own.', 'GPT-6 Astra 实战案例精选 · 看作品，读提示词，动手创造。')+'**', '',
           '[English](README.md) · [简体中文](README.zh-CN.md)', '',
@@ -109,10 +136,10 @@ def render():
           f'📖 [{label("Browse all cases", "浏览全部案例")}]({gallery}) · 🧾 [{label("Collection index", "收录索引")}](docs/collection-index.md) · ✨ [{label("Latest additions", "最新收录")}]({gallery}#latest) · ➕ [{label("Submit a case", "推荐案例")}](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)', '',
           '## '+label('Start here', '新手从这里开始'), '',
           label('Three reading paths selected for clear learning goals. These are source-based recommendations, not difficulty ratings or independently reproduced results.', '按学习目标精选的三个阅读入口。选择依据为已收录资料，不代表难度评级或独立复现结果。'), '',
-          '| '+label('Your goal | Start with | Why this case', '你的目标 | 推荐入口 | 选择理由')+' |', '| --- | --- | --- |']
+          '| '+label('Your goal | Start with | Prompt | Why this case', '你的目标 | 推荐入口 | 提示词 | 选择理由')+' |', '| --- | --- | --- | --- |']
         for entry in paths:
             c = case_map[entry['case_id']]
-            lines.append(f'| {entry["goal"][lang]} | [{c["title"][lang]}]({gallery}#{c["id"]}) | {entry["reason"][lang]} |')
+            lines.append(f'| {entry["goal"][lang]} | [{c["title"][lang]}]({case_link(c)}) | {prompt_label(c)} | {entry["reason"][lang]} |')
         suffix = '.zh-CN' if zh else ''
         lines += ['', f'📘 [{label("Interactive web & 3D guide", "交互网页与三维创作指南")}](docs/guides/web-3d{suffix}.md) · 🎮 [{label("Game prompt guide", "游戏提示词指南")}](docs/guides/game-prompts{suffix}.md)', '',
           '## 🖼️ '+label('Case Album', '案例图册'), '', '<table>']
@@ -120,11 +147,10 @@ def render():
             lines.append('<tr>')
             for cat in active[offset:offset+3]:
                 selected=[c for c in cases if c['category']==cat['id']]
-                cover=selected[0]
-                link=f'{gallery}#{cat["id"]}'
-                # The design cover is a portrait mobile screen; constrain its height
-                # so scaling it to the landscape covers' width does not stretch the row.
-                image_size = 'height="180"' if cat['id'] == 'design' else 'width="360"'
+                cover=case_map[cat['cover']['case_id']]
+                link=category_path(cat['id'])
+                # Height-only sizing preserves the original aspect ratio on GitHub.
+                image_size = f'height="{cat["cover"]["height"]}"'
                 lines += ['<td width="33%" align="center" valign="top">',
                   f'<h3>{cat["emoji"]} {esc(cat[lang])}</h3>',
                   f'<p>{len(selected)} {label("case" if len(selected) == 1 else "cases", "个案例")}</p>',
@@ -133,17 +159,17 @@ def render():
                   f'<p><a href="{link}"><b>{label("View Cases →", "查看案例 →")}</b></a></p>', '</td>']
             lines.append('</tr>')
         lines += ['</table>', '', '## ✨ '+label('Latest Additions', '最新收录'), '',
-          '| '+label('Case | Category | Creator', '案例 | 分类 | 作者')+' |', '| --- | --- | --- |']
+          '| '+label('Case | Category | Prompt | Creator', '案例 | 分类 | 提示词 | 作者')+' |', '| --- | --- | --- | --- |']
         for c in list(reversed(cases))[:6]:
             cat=next(x for x in active if x['id']==c['category']);s=sm[c['primary_source_id']]
-            lines.append(f'| [{c["title"][lang]}]({gallery}#{c["id"]}) | {cat["emoji"]} {cat[lang]} | [@{s["author"]}]({s["url"]}) |')
+            lines.append(f'| [{c["title"][lang]}]({case_link(c)}) | {cat["emoji"]} {cat[lang]} | {prompt_label(c)} | [@{s["author"]}]({s["url"]}) |')
         lines += ['', '<a id="all-cases"></a>', '', '## '+label('All GPT-6 Astra examples by category', '按分类查找 GPT-6 Astra 案例'), '',
           label('Choose an example to read its workflow, limitations and public prompt. Tool names describe the collected work; they are not a list of required integrations.', '点击案例查看创作方法、注意事项和公开提示词。工具名称来自收录作品，不代表模型必须搭配这些工具使用。'), '']
         for cat in active:
-            lines += ['### '+cat['emoji']+' '+cat[lang], '']
+            lines += ['### '+cat['emoji']+' '+cat[lang], '', f'[{label("Open category", "打开分类页面")}]({category_path(cat["id"])})', '']
             for c in cases:
                 if c['category'] == cat['id']:
-                    lines.append(f'- [{c["title"][lang]}]({gallery}#{c["id"]}) — '+', '.join(c['tags']))
+                    lines.append(f'- [{c["title"][lang]}]({case_link(c)}) — **{prompt_label(c)}** · '+', '.join(c['tags']))
             lines.append('')
         lines += ['## '+label('Using this GPT-6 Astra prompt collection', '如何使用这份 GPT-6 Astra 提示词合集'), '',
           label('1. Pick a category and open a case that matches what you want to build.\n2. Read the workflow and limitations, then follow the original demo and prompt links. Some entries show an excerpt; the complete prompt remains in the creator’s post.\n3. Adapt the prompt to your own assets, tools and constraints. Results can vary; this collection does not claim every example has been independently reproduced.', '1. 选择与你的目标相关的分类，打开具体案例。\n2. 阅读创作方法和注意事项，再访问作品演示与提示词原帖。部分案例仅展示摘录，完整提示词需查看作者原帖。\n3. 根据自己的素材、工具和需求调整提示词。实际效果可能不同，本合集不声称所有案例均经过独立复现。'), '',
@@ -165,27 +191,33 @@ def render():
           '## '+label('Browse by category', '分类导航'), '']
         for cat in active:
             count=sum(c['category']==cat['id'] for c in cases)
-            lines.append(f'- [{cat["emoji"]} {cat[lang]}](#{cat["id"]}) · {count}')
+            lines.append(f'- [{cat["emoji"]} {cat[lang]}](#{cat["id"]}) · {count} · [{label("Category page", "分类页面")}](categories/{cat["id"]}{suffix}.md)')
         lines += ['', '<a id="latest"></a>', '', '## ✨ '+label('Latest Additions','最新收录'), '']
         for c in list(reversed(cases))[:6]:
-            lines.append(f'- [{c["title"][lang]}](#{c["id"]})')
+            lines.append(f'- [{c["title"][lang]}](#{c["id"]}) · **{prompt_label(c)}**')
         for cat in active:
             lines += ['',f'<a id="{cat["id"]}"></a>', '', f'## {cat["emoji"]} {cat[lang]}', '', cat['description'][lang]]
             for c in [c for c in cases if c['category']==cat['id']]:
-                source=sm[c['primary_source_id']];prompt=sm[c['prompt']['source_id']]
-                lines += ['',f'<a id="{c["id"]}"></a>', '',f'### {c["title"][lang]}','',
-                  f'[![{c["preview"]["alt"][lang]}]({image_path(c,True)})]({source["url"]})','',c['summary'][lang],'',
-                  f'**{label("Creator", "作者")}**: [@{source["author"]}]({source["url"]}) · {source["published_date"]}<br>',
-                  f'**{label("Tools & techniques", "工具与技术")}**: {", ".join(c["tags"])}','',
-                  '**'+label('How it works','创作方法')+'**','',c['workflow'][lang],'',
-                  '**'+label('What to know','值得注意')+'**','',c['limitations'][lang],'',
-                  '**'+label('Prompt','提示词')+'**','']
-                if c['prompt']['display']=='full':
-                    lines += ['```text',c['prompt']['text'],'```','']
-                else:
-                    lines += ['> '+c['prompt']['text'],'',label('Opening excerpt; the author’s complete prompt is linked below.','以上为开头摘录，完整提示词见下方作者原帖。'),'']
-                lines += [f'↗ [{label("Read the original prompt", "查看作者完整提示词")}]({prompt["url"]}) · [{label("Watch the demo", "观看演示")}]({source["url"]})','']
+                lines += case_lines(c, 1)
         files[gallery]='\n'.join(lines)
+        for cat in active:
+            selected = [c for c in cases if c['category'] == cat['id']]
+            page = [f'# {cat["emoji"]} GPT-6 Astra — {cat[lang]}', '',
+              f'[English]({cat["id"]}.md) · [简体中文]({cat["id"]}.zh-CN.md) · [{label("Home", "返回首页")}](../../{filename}) · [{label("Full gallery", "完整图册")}](../{Path(gallery).name})', '',
+              cat['description'][lang], '',
+              f'**{len(selected)} {label("cases", "个案例")}**', '',
+              label('Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.', '提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。'), '',
+              '<a id="cases"></a>', '', '## '+label('Choose a case', '选择案例'), '']
+            for c in selected:
+                page.append(f'- [{c["title"][lang]}](#{c["id"]}) · **{prompt_label(c)}**')
+            for c in selected:
+                page += case_lines(c, 2)
+                page += [f'[{label("Back to case list", "返回案例目录")}](#cases)', '']
+            page += ['## '+label('Other categories', '其他分类'), '']
+            for other in active:
+                if other['id'] != cat['id']:
+                    page.append(f'- [{other["emoji"]} {other[lang]}]({other["id"]}{suffix}.md)')
+            files[category_path(cat['id'])] = '\n'.join(page)+'\n'
     lines=['# Collection index / 已收录索引', '',
       'Generated from `data/cases.json` and `data/sources.json`. Check this page or run `python3 scripts/catalog.py check-url URL` before reviewing a candidate. / 本页由案例与来源数据自动生成；开始审核候选案例前，请先检查本页或运行查重命令。', '',
       '| Case ID | Case / 案例 | Category / 分类 | Result / 成果 | Prompt / 提示词 | All source IDs / 全部来源 ID |',
@@ -231,7 +263,9 @@ def main():
             if args.check:
                 # Git may check out text as CRLF on Windows; compare content, not line endings.
                 if not path.exists() or path.read_text(encoding='utf-8') != content: stale.append(name)
-            else: path.write_bytes(content.encode())
+            else:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(content.encode())
         if stale: raise SystemExit('Regenerate files: '+', '.join(stale))
         print('Generated files are current' if args.check else 'Catalog and ledger generated')
     else:

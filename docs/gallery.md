@@ -6,24 +6,24 @@ Browse community examples with result previews, tools, workflows, limitations an
 
 ## Browse by category
 
-- [🧩 Apps & websites](#apps) · 2
-- [✨ Design & creative work](#design) · 4
-- [🏛️ 3D & spatial creation](#3d) · 7
-- [🎬 Video & storytelling](#video) · 5
-- [🖱️ Computer use & automation](#automation) · 1
-- [🛠️ Engineering & prototyping](#engineering) · 1
-- [🎮 Games & simulations](#games) · 10
+- [🧩 Apps & websites](#apps) · 2 · [Category page](categories/apps.md)
+- [✨ Design & creative work](#design) · 4 · [Category page](categories/design.md)
+- [🏛️ 3D & spatial creation](#3d) · 7 · [Category page](categories/3d.md)
+- [🎬 Video & storytelling](#video) · 5 · [Category page](categories/video.md)
+- [🖱️ Computer use & automation](#automation) · 1 · [Category page](categories/automation.md)
+- [🛠️ Engineering & prototyping](#engineering) · 1 · [Category page](categories/engineering.md)
+- [🎮 Games & simulations](#games) · 10 · [Category page](categories/games.md)
 
 <a id="latest"></a>
 
 ## ✨ Latest Additions
 
-- [A single-file canyon driving game](#single-file-canyon-racer)
-- [Little Acre pocket-world builder](#little-acre-world-builder)
-- [A Ghost of Tsushima-style playable world](#ghost-of-tsushima-game)
-- [A browser-native car-football arena](#rocket-league-threejs)
-- [A Sonic-style Godot vertical slice](#sonic-godot-vertical-slice)
-- [Voidrunner anti-gravity combat racer](#voidrunner-combat-racer)
+- [A single-file canyon driving game](#single-file-canyon-racer) · **Full prompt**
+- [Little Acre pocket-world builder](#little-acre-world-builder) · **Full prompt**
+- [A Ghost of Tsushima-style playable world](#ghost-of-tsushima-game) · **Full prompt**
+- [A browser-native car-football arena](#rocket-league-threejs) · **Prompt excerpt**
+- [A Sonic-style Godot vertical slice](#sonic-godot-vertical-slice) · **Prompt excerpt**
+- [Voidrunner anti-gravity combat racer](#voidrunner-combat-racer) · **Full prompt**
 
 <a id="apps"></a>
 
@@ -34,6 +34,8 @@ Interactive websites, creative interfaces and useful apps.
 <a id="interactive-peacock"></a>
 
 ### Interactive peacock website
+
+**Prompt excerpt** · [Original prompt](https://x.com/lepadphone/status/2096147248551694472)
 
 [![Interactive peacock website](https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg)](https://x.com/lepadphone/status/2096147245775331419)
 
@@ -62,6 +64,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 <a id="ipad-robot-control-station"></a>
 
 ### A faster iPad robot control station
+
+**Full prompt** · [Original prompt](https://x.com/Alpha10six/status/2096352482746147085)
 
 [![iPad interface controlling a physical robot](https://pbs.twimg.com/amplify_video_thumb/2096352349044236290/img/MoUSeuOJQgUV-0XK?format=webp&name=medium)](https://x.com/Alpha10six/status/2096352482746147085)
 
@@ -97,6 +101,8 @@ Polished visual concepts, interfaces and creative experiments.
 
 ### Astral liquid-glass welcome screen
 
+**Full prompt** · [Original prompt](https://x.com/jaimintf/status/2095865097830936773)
+
 [![Astral mobile welcome screen with liquid glass interaction](https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg)](https://x.com/jaimintf/status/2095863849635422679)
 
 A mobile welcome screen combines an astral backdrop, playful sticker-like elements and a tactile liquid-glass panel.
@@ -124,6 +130,8 @@ The result uses Appllama MCP and app-design skills already available in the auth
 <a id="memory-portrait"></a>
 
 ### A portrait assembled from memory
+
+**Full prompt** · [Original prompt](https://x.com/karatademada/status/2096119414315778504)
 
 [![Warm personal portrait composed from remembered life details](https://pbs.twimg.com/media/HRbpfwgawAAeG_y?format=webp&name=medium)](https://x.com/karatademada/status/2096119414315778504)
 
@@ -153,6 +161,8 @@ Use everything you know about me and make an image of me.
 
 ### Astra imagines a thought before language
 
+**Full prompt** · [Original prompt](https://x.com/Ror_Fly/status/2096629184512610370)
+
 [![Luminous transparent organism suspended in a dark chamber](https://pbs.twimg.com/media/HRi5BY0a4AEiW_M?format=webp&name=medium)](https://x.com/Ror_Fly/status/2096629184512610370)
 
 Astra chooses the concept, mood boards and Midjourney parameters for an intricate image of a luminous thought assembling itself in darkness.
@@ -180,6 +190,8 @@ A thought before it becomes a sentence. One small transparent organism suspended
 <a id="astro-liquid-glass-welcome"></a>
 
 ### Astro-themed liquid-glass welcome screen
+
+**Full prompt** · [Original prompt](https://x.com/jaimintf/status/2095902644925768099)
 
 [![Astro-themed mobile welcome screen with liquid-glass displacement](https://pbs.twimg.com/amplify_video_thumb/2095896503051255809/img/7lm64m4N9CWItzGb?format=webp&name=medium)](https://x.com/jaimintf/status/2095896717225087132)
 
@@ -215,6 +227,8 @@ Spatial scenes, character worlds and editable 3D models.
 
 ### A living 3D playroom
 
+**Prompt excerpt** · [Original prompt](https://x.com/zhengli/status/2096188653626446159)
+
 [![A living 3D playroom](https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg)](https://x.com/zhengli/status/2096048421543272893)
 
 A warm playroom with toys, climbing structures and a child character, built as an interactive Three.js scene.
@@ -242,6 +256,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 <a id="formula-one-blender"></a>
 
 ### Formula One modeling in Blender
+
+**Full prompt** · [Original prompt](https://x.com/Conor_D_Dart/status/2096125193580113957)
 
 [![Formula One modeling in Blender](https://pbs.twimg.com/amplify_video_thumb/2096124892378963969/img/JwrAyu_X-NYrqzhg.jpg)](https://x.com/Conor_D_Dart/status/2096125193580113957)
 
@@ -271,6 +287,8 @@ Create a 3d Formula one Model in blender with computer use.
 
 ### Grok Bot 3D keyboard
 
+**Full prompt** · [Original prompt](https://x.com/omarsar0/status/2096330184525856915)
+
 [![Premium Grok Bot interactive 3D keyboard](https://pbs.twimg.com/amplify_video_thumb/2096319964198400000/img/qWLWMDVWiDrU2rfC.jpg)](https://x.com/omarsar0/status/2096321091148947887)
 
 A reference image becomes a polished 4K product visualization with manufactured detail, PBR materials, studio lighting and interactive controls.
@@ -298,6 +316,8 @@ Upgrade the existing isolated prototypes/grokbot interactive 3D keyboard to a 4K
 <a id="v8-engine-visualizer"></a>
 
 ### Interactive V8 engine visualizer
+
+**Full prompt** · [Original prompt](https://x.com/DilumSanjaya/status/2096280244663775423)
 
 [![Interactive cutaway visualization of a V8 engine](https://pbs.twimg.com/amplify_video_thumb/2096278610743304192/img/jZDskFFb29_SDdCk.jpg)](https://x.com/DilumSanjaya/status/2096280244663775423)
 
@@ -327,6 +347,8 @@ Create a highly detailed, interactive visualization of a V8 engine.
 
 ### A forest dense enough to get lost in
 
+**Prompt excerpt** · [Original prompt](https://x.com/LexnLin/status/2096339853025964380)
+
 [![Dense sunlit Three.js forest with trees, grass and ferns](https://pbs.twimg.com/amplify_video_thumb/2096262956774490112/img/9UcY8pI6LuZ8v2c_?format=webp&name=medium)](https://x.com/LexnLin/status/2096263046918197609)
 
 A browser-rendered Three.js forest packs 3,808 trees, 2.5 million grass clumps and nearly 40,000 ferns into a richly lit explorable landscape.
@@ -355,6 +377,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 
 ### A cinematic dragon built in Blender
 
+**Prompt excerpt** · [Original prompt](https://x.com/doomdave/status/2096336699647504570)
+
 [![Cinematic Blender render of a detailed winged dragon](https://pbs.twimg.com/amplify_video_thumb/2096330178276601856/img/JU9wNEWrSNfh5CAK?format=webp&name=medium)](https://x.com/doomdave/status/2096335588727349434)
 
 A reference sheet becomes an editable, lit and animated dragon scene with a ten-second cinematic orbit after an eight-hour headless Blender workflow.
@@ -382,6 +406,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 <a id="explorable-sci-fi-spaceship"></a>
 
 ### An explorable science-fiction spaceship
+
+**Full prompt** · [Original prompt](https://x.com/GaricaRosen6779/status/2093958836751327322)
 
 [![Large science-fiction spaceship with explorable interiors](https://pbs.twimg.com/amplify_video_thumb/2093957472180703233/img/6VjjEM4b2AU_Ao0D?format=webp&name=medium)](https://x.com/GaricaRosen6779/status/2093958836751327322)
 
@@ -417,6 +443,8 @@ Educational films, explainers and visual storytelling.
 
 ### A five-minute T-cell explainer
 
+**Full prompt** · [Original prompt](https://x.com/DeryaTR_/status/2095659170661904804)
+
 [![A five-minute T-cell explainer](https://pbs.twimg.com/amplify_video_thumb/2095658785511452672/img/RLAFsFr9VU_3S6jt.jpg)](https://x.com/DeryaTR_/status/2095659170661904804)
 
 An educational video workflow combines a short topic prompt with Remotion, generated visuals and narration.
@@ -444,6 +472,8 @@ Create a 5 minute educational video about T cells
 <a id="zillow-blender-walkthrough"></a>
 
 ### Zillow listing to cinematic 3D walkthrough
+
+**Full prompt** · [Original prompt](https://x.com/realYunfanYe/status/2095664943421067611)
 
 [![Cinematic Blender walkthrough reconstructed from a Zillow listing](https://pbs.twimg.com/amplify_video_thumb/2095611898968547328/img/EKCYWcJTBrAMT4e6.jpg)](https://x.com/realYunfanYe/status/2095612137582526615)
 
@@ -473,6 +503,8 @@ Use blender headless to recreate 3D model of this house: https://zillow.com/home
 
 ### A young witch's runaway first flight
 
+**Prompt excerpt** · [Original prompt](https://x.com/Mayz1169/status/2095873204351070296)
+
 [![Animated young witch racing through a fairy-tale flight](https://pbs.twimg.com/amplify_video_thumb/2095871721387810816/img/nLn2rF4iKB5kK7b3?format=webp&name=medium)](https://x.com/Mayz1169/status/2095873015007592679)
 
 Astra turns a loose animation idea into a tightly paced 15-second fairy-tale chase filled with continuous action and environmental detail.
@@ -501,6 +533,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 
 ### Luminous Breeze fantasy chase
 
+**Prompt excerpt** · [Original prompt](https://x.com/Mayz1169/status/2096471302949548242)
+
 [![Flower fairy racing through a bright garden](https://pbs.twimg.com/amplify_video_thumb/2096468226448465920/img/VRKwWbJAaisPeug_?format=webp&name=medium)](https://x.com/Mayz1169/status/2096470693089292710)
 
 Astra expands a small idea into a production character sheet and a fast 15-second garden chase, then Seedance 2.5 animates the result through Renoise CLI.
@@ -528,6 +562,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 <a id="higgsfield-reel-production"></a>
 
 ### Four finished reels from reference footage
+
+**Full prompt** · [Original prompt](https://x.com/adilinthewild/status/2096566099903201737)
 
 [![Finished social reel produced through Astra and Higgsfield MCP](https://pbs.twimg.com/amplify_video_thumb/2096564422504509440/img/lb7suqfg52H5yGHq?format=webp&name=medium)](https://x.com/adilinthewild/status/2096566097365602565)
 
@@ -563,6 +599,8 @@ Browser control, computer-use workflows and autonomous production tasks.
 
 ### A browser-driven walk through Kyoto
 
+**Full prompt** · [Original prompt](https://x.com/MatthewBerman/status/2095595901784052075)
+
 [![Browser-controlled visual walking tour through Kyoto](https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&name=medium)](https://x.com/MatthewBerman/status/2095595901784052075)
 
 From a four-word request, Astra uses browser control to assemble and present a visual walking tour through Kyoto.
@@ -596,6 +634,8 @@ Engineering workflows, physical prototypes and production-ready systems.
 <a id="microduck-robot-prototype"></a>
 
 ### A buildable Microduck robot prototype
+
+**Full prompt** · [Original prompt](https://x.com/DeRonin_/status/2096567918859354155)
 
 [![Robot prototyper showing printable Microduck components](https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&name=medium)](https://x.com/DeRonin_/status/2096567918859354155)
 
@@ -631,6 +671,8 @@ Playable worlds, game prototypes and interactive simulations.
 
 ### Breakwater mecha battle game
 
+**Prompt excerpt** · [Original prompt](https://x.com/aniketjart/status/2096019868713984080)
+
 [![Breakwater mecha selection and waterfront battle interface](https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg)](https://x.com/aniketjart/status/2096019868713984080)
 
 A Pacific Rim-inspired Three.js game turns an existing mecha project into a playable waterfront battle with character selection, combat HUD and distinct machine stats.
@@ -658,6 +700,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 <a id="beach-crab-adventure"></a>
 
 ### Beach crab shard adventure
+
+**Prompt excerpt** · [Original prompt](https://x.com/zeuuss_01/status/2096337882931712076)
 
 [![Low-poly island adventure with a playable crab and shard HUD](https://pbs.twimg.com/amplify_video_thumb/2096337699737350144/img/Jaq84uNs4vyVtR40.jpg)](https://x.com/zeuuss_01/status/2096337879173591171)
 
@@ -687,6 +731,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 
 ### Windhaven coastal fantasy adventure
 
+**Full prompt** · [Original prompt](https://x.com/tripoai/status/2096629507096481992)
+
 [![Playable explorer in the sunlit coastal city of Windhaven](https://pbs.twimg.com/amplify_video_thumb/2096626220935061504/img/AMhMafn4jRoV_58V.jpg)](https://x.com/tripoai/status/2096629506047955327)
 
 A Unity third-person adventure presents a cohesive sunlit island city with navigable streets, monumental landmarks, magical beacons, a map and a playable explorer.
@@ -714,6 +760,8 @@ Design a game with me. The game should be built in Unity. Use default asset firs
 <a id="komorebi-river-run"></a>
 
 ### Komorebi: River Run
+
+**Full prompt** · [Original prompt](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
 [![Kayak racing downstream through a stylized forest river](https://pbs.twimg.com/amplify_video_thumb/2096235513309229056/img/fbBMPWlWaIaIaVWp?format=webp&name=medium)](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
@@ -743,6 +791,8 @@ build me a 3D river kayaking game with anime-ish aesthetics, where i paddle left
 
 ### Voidrunner anti-gravity combat racer
 
+**Full prompt** · [Original prompt](https://x.com/superalesha/status/2095967568825582044)
+
 [![Neon anti-gravity craft racing above an alien world](https://pbs.twimg.com/amplify_video_thumb/2095966450385289216/img/u4EnBwNxU0h3lQgI?format=webp&name=medium)](https://x.com/superalesha/status/2095967568825582044)
 
 A one-prompt Three.js racer delivers drifting, boosts, pickups, three craft classes and neon shader spectacle in a strange elevated world.
@@ -770,6 +820,8 @@ Make me the most insane and blast of a high-speed anti-gravity combat racer you 
 <a id="sonic-godot-vertical-slice"></a>
 
 ### A Sonic-style Godot vertical slice
+
+**Prompt excerpt** · [Original prompt](https://x.com/AiBattle_/status/2096056285896536086)
 
 [![Sonic-style character speeding through a tropical Godot level](https://pbs.twimg.com/amplify_video_thumb/2096055803866193925/img/RxWSGd_n3Wes7Qm0?format=webp&name=medium)](https://x.com/AiBattle_/status/2096056285896536086)
 
@@ -799,6 +851,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 
 ### A browser-native car-football arena
 
+**Prompt excerpt** · [Original prompt](https://x.com/LLMJunky/status/2096043707015274818)
+
 [![Car-football match inside a glowing browser-rendered arena](https://pbs.twimg.com/amplify_video_thumb/2096028515099660288/img/SQ7xgsqG8hoVZ5P1?format=webp&name=medium)](https://x.com/LLMJunky/status/2096028790925488452)
 
 One long prompt yields a polished local Three.js car-football game with physics, arena presentation, responsive driving and a complete match loop.
@@ -826,6 +880,8 @@ Opening excerpt; the author’s complete prompt is linked below.
 <a id="ghost-of-tsushima-game"></a>
 
 ### A Ghost of Tsushima-style playable world
+
+**Full prompt** · [Original prompt](https://x.com/karankendre/status/2096577524855963729)
 
 [![Playable samurai crossing a realistic windswept landscape](https://pbs.twimg.com/amplify_video_thumb/2096576662456741889/img/96iHLjZmijpBhZnL?format=webp&name=medium)](https://x.com/karankendre/status/2096577524855963729)
 
@@ -855,6 +911,8 @@ Build a complete ghost of tsushima exact playable game remember to build assets 
 
 ### Little Acre pocket-world builder
 
+**Full prompt** · [Original prompt](https://x.com/ManasJoshi76254/status/2096061253307490583)
+
 [![Tiny interactive planet with cottages, gardens and a tractor](https://pbs.twimg.com/amplify_video_thumb/2096061022583103488/img/CGEve4Jcy-_V0UXv?format=webp&name=medium)](https://x.com/ManasJoshi76254/status/2096061253307490583)
 
 A single HTML file becomes a tiny interactive planet where players drive, place cottages and gardens, plant trees, change the time of day and export their world.
@@ -882,6 +940,8 @@ build a small interactive 3D world from scratch.
 <a id="single-file-canyon-racer"></a>
 
 ### A single-file canyon driving game
+
+**Full prompt** · [Original prompt](https://x.com/IamRicardoML/status/2096069303523033434)
 
 [![Playable 3D car racing through a cinematic canyon track](https://pbs.twimg.com/amplify_video_thumb/2096065216064761857/img/X_QJRt5ErXYDsjqN?format=webp&name=medium)](https://x.com/IamRicardoML/status/2096069303523033434)
 

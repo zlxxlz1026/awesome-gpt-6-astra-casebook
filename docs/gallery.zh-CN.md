@@ -6,24 +6,24 @@
 
 ## 分类导航
 
-- [🧩 应用与网站](#apps) · 2
-- [✨ 设计与创意](#design) · 4
-- [🏛️ 三维与空间创作](#3d) · 7
-- [🎬 视频与叙事](#video) · 5
-- [🖱️ 电脑操作与自动化](#automation) · 1
-- [🛠️ 工程与原型](#engineering) · 1
-- [🎮 游戏与仿真](#games) · 10
+- [🧩 应用与网站](#apps) · 2 · [分类页面](categories/apps.zh-CN.md)
+- [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
+- [🏛️ 三维与空间创作](#3d) · 7 · [分类页面](categories/3d.zh-CN.md)
+- [🎬 视频与叙事](#video) · 5 · [分类页面](categories/video.zh-CN.md)
+- [🖱️ 电脑操作与自动化](#automation) · 1 · [分类页面](categories/automation.zh-CN.md)
+- [🛠️ 工程与原型](#engineering) · 1 · [分类页面](categories/engineering.zh-CN.md)
+- [🎮 游戏与仿真](#games) · 10 · [分类页面](categories/games.zh-CN.md)
 
 <a id="latest"></a>
 
 ## ✨ 最新收录
 
-- [单文件峡谷驾驶游戏](#single-file-canyon-racer)
-- [Little Acre 袖珍世界建造器](#little-acre-world-builder)
-- [《对马岛之魂》风格可玩世界](#ghost-of-tsushima-game)
-- [浏览器原生汽车足球竞技场](#rocket-league-threejs)
-- [Sonic 风格 Godot 垂直切片](#sonic-godot-vertical-slice)
-- [Voidrunner 反重力战斗竞速](#voidrunner-combat-racer)
+- [单文件峡谷驾驶游戏](#single-file-canyon-racer) · **完整提示词**
+- [Little Acre 袖珍世界建造器](#little-acre-world-builder) · **完整提示词**
+- [《对马岛之魂》风格可玩世界](#ghost-of-tsushima-game) · **完整提示词**
+- [浏览器原生汽车足球竞技场](#rocket-league-threejs) · **提示词摘录**
+- [Sonic 风格 Godot 垂直切片](#sonic-godot-vertical-slice) · **提示词摘录**
+- [Voidrunner 反重力战斗竞速](#voidrunner-combat-racer) · **完整提示词**
 
 <a id="apps"></a>
 
@@ -34,6 +34,8 @@
 <a id="interactive-peacock"></a>
 
 ### 可交互的孔雀艺术网页
+
+**提示词摘录** · [提示词原帖](https://x.com/lepadphone/status/2096147248551694472)
 
 [![可交互的孔雀艺术网页](https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg)](https://x.com/lepadphone/status/2096147245775331419)
 
@@ -62,6 +64,8 @@
 <a id="ipad-robot-control-station"></a>
 
 ### 更快的 iPad 机器人控制台
+
+**完整提示词** · [提示词原帖](https://x.com/Alpha10six/status/2096352482746147085)
 
 [![控制实体机器人的 iPad 操作界面](https://pbs.twimg.com/amplify_video_thumb/2096352349044236290/img/MoUSeuOJQgUV-0XK?format=webp&name=medium)](https://x.com/Alpha10six/status/2096352482746147085)
 
@@ -97,6 +101,8 @@ make this look and perform better; focus on UI/UX/latency
 
 ### 星空液态玻璃欢迎页
 
+**完整提示词** · [提示词原帖](https://x.com/jaimintf/status/2095865097830936773)
+
 [![带液态玻璃交互的星空主题移动端欢迎页](https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg)](https://x.com/jaimintf/status/2095863849635422679)
 
 移动端欢迎页将星空背景、贴纸式趣味元素和可触碰的液态玻璃面板融合在一起。
@@ -124,6 +130,8 @@ make this look and perform better; focus on UI/UX/latency
 <a id="memory-portrait"></a>
 
 ### 由记忆拼成的个人画像
+
+**完整提示词** · [提示词原帖](https://x.com/karatademada/status/2096119414315778504)
 
 [![由生活记忆细节组成的温暖个人画像](https://pbs.twimg.com/media/HRbpfwgawAAeG_y?format=webp&name=medium)](https://x.com/karatademada/status/2096119414315778504)
 
@@ -153,6 +161,8 @@ Use everything you know about me and make an image of me.
 
 ### Astra 想象语言诞生前的念头
 
+**完整提示词** · [提示词原帖](https://x.com/Ror_Fly/status/2096629184512610370)
+
 [![悬浮在幽暗空间中的发光透明生命体](https://pbs.twimg.com/media/HRi5BY0a4AEiW_M?format=webp&name=medium)](https://x.com/Ror_Fly/status/2096629184512610370)
 
 Astra 自主选择概念、情绪板和 Midjourney 参数，生成一幅在黑暗中逐渐成形的发光思绪图像。
@@ -180,6 +190,8 @@ A thought before it becomes a sentence. One small transparent organism suspended
 <a id="astro-liquid-glass-welcome"></a>
 
 ### 星体主题液态玻璃欢迎页
+
+**完整提示词** · [提示词原帖](https://x.com/jaimintf/status/2095902644925768099)
 
 [![带液态玻璃位移效果的星体主题移动欢迎页](https://pbs.twimg.com/amplify_video_thumb/2095896503051255809/img/7lm64m4N9CWItzGb?format=webp&name=medium)](https://x.com/jaimintf/status/2095896717225087132)
 
@@ -215,6 +227,8 @@ Astra 制作了精致的移动端欢迎体验，把层叠星体图像、可触�
 
 ### 会自己玩耍的三维亲子空间
 
+**提示词摘录** · [提示词原帖](https://x.com/zhengli/status/2096188653626446159)
+
 [![会自己玩耍的三维亲子空间](https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg)](https://x.com/zhengli/status/2096048421543272893)
 
 用 Three.js 构建温暖的亲子空间，包含玩具、攀爬设施和会在玩具之间活动的儿童角色。
@@ -242,6 +256,8 @@ Astra 制作了精致的移动端欢迎体验，把层叠星体图像、可触�
 <a id="formula-one-blender"></a>
 
 ### 在 Blender 中制作 F1 赛车模型
+
+**完整提示词** · [提示词原帖](https://x.com/Conor_D_Dart/status/2096125193580113957)
 
 [![在 Blender 中制作 F1 赛车模型](https://pbs.twimg.com/amplify_video_thumb/2096124892378963969/img/JwrAyu_X-NYrqzhg.jpg)](https://x.com/Conor_D_Dart/status/2096125193580113957)
 
@@ -271,6 +287,8 @@ Create a 3d Formula one Model in blender with computer use.
 
 ### Grok Bot 交互式 3D 键盘
 
+**完整提示词** · [提示词原帖](https://x.com/omarsar0/status/2096330184525856915)
+
 [![Grok Bot 高质感交互式 3D 键盘](https://pbs.twimg.com/amplify_video_thumb/2096319964198400000/img/qWLWMDVWiDrU2rfC.jpg)](https://x.com/omarsar0/status/2096321091148947887)
 
 把一张参考图变成精细的 4K 产品可视化，包含工业级几何细节、PBR 材质、棚拍灯光与完整交互。
@@ -298,6 +316,8 @@ Upgrade the existing isolated prototypes/grokbot interactive 3D keyboard to a 4K
 <a id="v8-engine-visualizer"></a>
 
 ### 交互式 V8 发动机可视化
+
+**完整提示词** · [提示词原帖](https://x.com/DilumSanjaya/status/2096280244663775423)
 
 [![交互式 V8 发动机剖面可视化](https://pbs.twimg.com/amplify_video_thumb/2096278610743304192/img/jZDskFFb29_SDdCk.jpg)](https://x.com/DilumSanjaya/status/2096280244663775423)
 
@@ -327,6 +347,8 @@ Create a highly detailed, interactive visualization of a V8 engine.
 
 ### 一座足以迷路的实时森林
 
+**提示词摘录** · [提示词原帖](https://x.com/LexnLin/status/2096339853025964380)
+
 [![遍布树木、草丛与蕨类的阳光 Three.js 森林](https://pbs.twimg.com/amplify_video_thumb/2096262956774490112/img/9UcY8pI6LuZ8v2c_?format=webp&name=medium)](https://x.com/LexnLin/status/2096263046918197609)
 
 这片由浏览器实时渲染的 Three.js 森林容纳了 3,808 棵树、250 万簇草和近 4 万株蕨类，并保持了丰富的光影与可探索性。
@@ -355,6 +377,8 @@ Create a highly detailed, interactive visualization of a V8 engine.
 
 ### Blender 电影级巨龙
 
+**提示词摘录** · [提示词原帖](https://x.com/doomdave/status/2096336699647504570)
+
 [![带精细翅膀与鳞片的 Blender 巨龙电影渲染](https://pbs.twimg.com/amplify_video_thumb/2096330178276601856/img/JU9wNEWrSNfh5CAK?format=webp&name=medium)](https://x.com/doomdave/status/2096335588727349434)
 
 经过约八小时的 Blender 无界面工作流，参考设定图被重建为可编辑、带光照和十秒环绕动画的巨龙场景。
@@ -382,6 +406,8 @@ Create a highly detailed, interactive visualization of a V8 engine.
 <a id="explorable-sci-fi-spaceship"></a>
 
 ### 可深入探索的科幻飞船
+
+**完整提示词** · [提示词原帖](https://x.com/GaricaRosen6779/status/2093958836751327322)
 
 [![拥有可探索内部结构的大型科幻飞船](https://pbs.twimg.com/amplify_video_thumb/2093957472180703233/img/6VjjEM4b2AU_Ao0D?format=webp&name=medium)](https://x.com/GaricaRosen6779/status/2093958836751327322)
 
@@ -417,6 +443,8 @@ Build a gorgeous sci-fi spaceship with explorable internal structures.
 
 ### 五分钟 T 细胞科普视频
 
+**完整提示词** · [提示词原帖](https://x.com/DeryaTR_/status/2095659170661904804)
+
 [![五分钟 T 细胞科普视频](https://pbs.twimg.com/amplify_video_thumb/2095658785511452672/img/RLAFsFr9VU_3S6jt.jpg)](https://x.com/DeryaTR_/status/2095659170661904804)
 
 通过一句主题提示词，结合 Remotion、生成式视觉素材与旁白制作科普视频。
@@ -444,6 +472,8 @@ Create a 5 minute educational video about T cells
 <a id="zillow-blender-walkthrough"></a>
 
 ### 从 Zillow 房源到电影感 3D 漫游
+
+**完整提示词** · [提示词原帖](https://x.com/realYunfanYe/status/2095664943421067611)
 
 [![根据 Zillow 房源重建的电影感 Blender 漫游](https://pbs.twimg.com/amplify_video_thumb/2095611898968547328/img/EKCYWcJTBrAMT4e6.jpg)](https://x.com/realYunfanYe/status/2095612137582526615)
 
@@ -473,6 +503,8 @@ Use blender headless to recreate 3D model of this house: https://zillow.com/home
 
 ### 小女巫失控的第一次飞行
 
+**提示词摘录** · [提示词原帖](https://x.com/Mayz1169/status/2095873204351070296)
+
 [![在童话场景中高速飞行的动画小女巫](https://pbs.twimg.com/amplify_video_thumb/2095871721387810816/img/nLn2rF4iKB5kK7b3?format=webp&name=medium)](https://x.com/Mayz1169/status/2095873015007592679)
 
 Astra 把简短动画构想扩写成节奏紧凑的 15 秒童话追逐，动作连续且环境细节丰富。
@@ -501,6 +533,8 @@ Astra 负责生成提示词；原帖没有注明最终渲染视频所用的下�
 
 ### Luminous Breeze 幻想追逐
 
+**提示词摘录** · [提示词原帖](https://x.com/Mayz1169/status/2096471302949548242)
+
 [![在明亮花园中疾驰的花仙子](https://pbs.twimg.com/amplify_video_thumb/2096468226448465920/img/VRKwWbJAaisPeug_?format=webp&name=medium)](https://x.com/Mayz1169/status/2096470693089292710)
 
 Astra 把简短构想扩写为制作级角色设定和 15 秒花园追逐，再通过 Renoise CLI 交由 Seedance 2.5 完成动画。
@@ -528,6 +562,8 @@ Astra 生成两条制作提示词；动画由 Seedance 2.5 渲染，并通过 Re
 <a id="higgsfield-reel-production"></a>
 
 ### 从参考素材到四条成片 Reel
+
+**完整提示词** · [提示词原帖](https://x.com/adilinthewild/status/2096566099903201737)
 
 [![由 Astra 与 Higgsfield MCP 制作的社交视频成片](https://pbs.twimg.com/amplify_video_thumb/2096564422504509440/img/lb7suqfg52H5yGHq?format=webp&name=medium)](https://x.com/adilinthewild/status/2096566097365602565)
 
@@ -563,6 +599,8 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 
 ### 由浏览器操作完成的京都漫游
 
+**完整提示词** · [提示词原帖](https://x.com/MatthewBerman/status/2095595901784052075)
+
 [![通过浏览器操作生成的京都视觉漫游](https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&name=medium)](https://x.com/MatthewBerman/status/2095595901784052075)
 
 Astra 从一句极短需求出发，通过浏览器操作搜集并呈现一趟京都视觉漫游。
@@ -596,6 +634,8 @@ Create a walking tour through Kyoto.
 <a id="microduck-robot-prototype"></a>
 
 ### 可落地制作的 Microduck 机器人原型
+
+**完整提示词** · [提示词原帖](https://x.com/DeRonin_/status/2096567918859354155)
 
 [![展示可打印 Microduck 零件的机器人原型工具](https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&name=medium)](https://x.com/DeRonin_/status/2096567918859354155)
 
@@ -631,6 +671,8 @@ prototype me a full Microduck
 
 ### Breakwater 机甲战斗游戏
 
+**提示词摘录** · [提示词原帖](https://x.com/aniketjart/status/2096019868713984080)
+
 [![Breakwater 机甲选择与水岸战斗界面](https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg)](https://x.com/aniketjart/status/2096019868713984080)
 
 把已有机甲项目扩展成《环太平洋》风格的 Three.js 水岸战斗游戏，包含角色选择、战斗 HUD 和不同机甲属性。
@@ -658,6 +700,8 @@ prototype me a full Microduck
 <a id="beach-crab-adventure"></a>
 
 ### 海岛螃蟹水晶冒险
+
+**提示词摘录** · [提示词原帖](https://x.com/zeuuss_01/status/2096337882931712076)
 
 [![带可操控螃蟹和水晶 HUD 的低多边形海岛冒险](https://pbs.twimg.com/amplify_video_thumb/2096337699737350144/img/Jaq84uNs4vyVtR40.jpg)](https://x.com/zeuuss_01/status/2096337879173591171)
 
@@ -687,6 +731,8 @@ prototype me a full Microduck
 
 ### Windhaven 海滨幻想冒险
 
+**完整提示词** · [提示词原帖](https://x.com/tripoai/status/2096629507096481992)
+
 [![阳光海滨城市 Windhaven 中的可操作探险者](https://pbs.twimg.com/amplify_video_thumb/2096626220935061504/img/AMhMafn4jRoV_58V.jpg)](https://x.com/tripoai/status/2096629506047955327)
 
 这款 Unity 第三人称冒险构建了完整的阳光海岛城市，拥有可探索街道、宏伟地标、魔法信标、地图和可操作角色。
@@ -714,6 +760,8 @@ Design a game with me. The game should be built in Unity. Use default asset firs
 <a id="komorebi-river-run"></a>
 
 ### Komorebi：林隙河流
+
+**完整提示词** · [提示词原帖](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
 [![皮划艇穿过风格化森林河流顺流竞速](https://pbs.twimg.com/amplify_video_thumb/2096235513309229056/img/fbBMPWlWaIaIaVWp?format=webp&name=medium)](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
@@ -743,6 +791,8 @@ build me a 3D river kayaking game with anime-ish aesthetics, where i paddle left
 
 ### Voidrunner 反重力战斗竞速
 
+**完整提示词** · [提示词原帖](https://x.com/superalesha/status/2095967568825582044)
+
 [![霓虹反重力飞行器在异世界上空竞速](https://pbs.twimg.com/amplify_video_thumb/2095966450385289216/img/u4EnBwNxU0h3lQgI?format=webp&name=medium)](https://x.com/superalesha/status/2095967568825582044)
 
 一个提示词完成的 Three.js 竞速游戏，包含漂移、加速、拾取物、三类飞行器和悬空异世界中的霓虹着色器视觉。
@@ -770,6 +820,8 @@ Make me the most insane and blast of a high-speed anti-gravity combat racer you 
 <a id="sonic-godot-vertical-slice"></a>
 
 ### Sonic 风格 Godot 垂直切片
+
+**提示词摘录** · [提示词原帖](https://x.com/AiBattle_/status/2096056285896536086)
 
 [![Sonic 风格角色高速穿越热带 Godot 关卡](https://pbs.twimg.com/amplify_video_thumb/2096055803866193925/img/RxWSGd_n3Wes7Qm0?format=webp&name=medium)](https://x.com/AiBattle_/status/2096056285896536086)
 
@@ -799,6 +851,8 @@ Astra 在 Godot 中构建明亮海岸高速平台游戏，涵盖鲜明角色动�
 
 ### 浏览器原生汽车足球竞技场
 
+**提示词摘录** · [提示词原帖](https://x.com/LLMJunky/status/2096043707015274818)
+
 [![在发光浏览器竞技场中进行的汽车足球比赛](https://pbs.twimg.com/amplify_video_thumb/2096028515099660288/img/SQ7xgsqG8hoVZ5P1?format=webp&name=medium)](https://x.com/LLMJunky/status/2096028790925488452)
 
 一条长提示词生成精致的本地 Three.js 汽车足球游戏，包含物理系统、竞技场呈现、灵敏驾驶和完整比赛循环。
@@ -826,6 +880,8 @@ Astra 在 Godot 中构建明亮海岸高速平台游戏，涵盖鲜明角色动�
 <a id="ghost-of-tsushima-game"></a>
 
 ### 《对马岛之魂》风格可玩世界
+
+**完整提示词** · [提示词原帖](https://x.com/karankendre/status/2096577524855963729)
 
 [![武士角色穿行于写实风吹原野](https://pbs.twimg.com/amplify_video_thumb/2096576662456741889/img/96iHLjZmijpBhZnL?format=webp&name=medium)](https://x.com/karankendre/status/2096577524855963729)
 
@@ -855,6 +911,8 @@ Build a complete ghost of tsushima exact playable game remember to build assets 
 
 ### Little Acre 袖珍世界建造器
 
+**完整提示词** · [提示词原帖](https://x.com/ManasJoshi76254/status/2096061253307490583)
+
 [![带房屋、花园和拖拉机的可互动袖珍星球](https://pbs.twimg.com/amplify_video_thumb/2096061022583103488/img/CGEve4Jcy-_V0UXv?format=webp&name=medium)](https://x.com/ManasJoshi76254/status/2096061253307490583)
 
 一个 HTML 文件变成可互动的小行星：玩家能驾驶、放置房屋与花园、种树、切换昼夜并导出自己的世界。
@@ -882,6 +940,8 @@ build a small interactive 3D world from scratch.
 <a id="single-file-canyon-racer"></a>
 
 ### 单文件峡谷驾驶游戏
+
+**完整提示词** · [提示词原帖](https://x.com/IamRicardoML/status/2096069303523033434)
 
 [![汽车在电影感峡谷赛道中进行 3D 竞速](https://pbs.twimg.com/amplify_video_thumb/2096065216064761857/img/X_QJRt5ErXYDsjqN?format=webp&name=medium)](https://x.com/IamRicardoML/status/2096069303523033434)
 

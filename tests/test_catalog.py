@@ -21,6 +21,43 @@ class CatalogTests(unittest.TestCase):
     def test_seed_catalog_valid(self):
         catalog.validate()
 
+    def test_category_pages_partition_cases_and_preserve_gallery_anchors(self):
+        files = catalog.render()
+        cases = catalog.read('cases.json')
+        active = {c['category'] for c in cases}
+        for suffix, lang in [('', 'en'), ('.zh-CN', 'zh')]:
+            pages = {category: files[f'docs/categories/{category}{suffix}.md'] for category in active}
+            for c in cases:
+                anchor = f'<a id="{c["id"]}"></a>'
+                self.assertIn(anchor, files[f'docs/gallery{suffix}.md'])
+                self.assertIn(anchor, pages[c['category']])
+                self.assertEqual(sum(anchor in page for page in pages.values()), 1)
+                status = ('Full prompt' if lang == 'en' else '完整提示词') if c['prompt']['display'] == 'full' else ('Prompt excerpt' if lang == 'en' else '提示词摘录')
+                detail = pages[c['category']].split(anchor, 1)[1].split('<a id=', 1)[0]
+                self.assertIn(f'**{status}**', detail)
+
+    def test_cover_selection_survives_case_reordering(self):
+        import re
+        original = catalog.read
+        before = catalog.render()['README.md']
+        def read(name):
+            rows = original(name)
+            return list(reversed(rows)) if name == 'cases.json' else rows
+        with patch.object(catalog, 'read', read):
+            after = catalog.render()['README.md']
+        self.assertEqual(re.findall(r'<img [^>]+>', before), re.findall(r'<img [^>]+>', after))
+
+    def test_reject_cover_from_another_category(self):
+        original = catalog.read
+        def read(name):
+            rows = original(name)
+            if name == 'categories.json':
+                rows[0]['cover']['case_id'] = 'astral-liquid-glass'
+            return rows
+        with patch.object(catalog, 'read', read):
+            with self.assertRaises(AssertionError):
+                catalog.validate()
+
     def test_catalog_keeps_the_initial_thirty_case_milestone(self):
         self.assertGreaterEqual(len(catalog.read('cases.json')), 30)
 
