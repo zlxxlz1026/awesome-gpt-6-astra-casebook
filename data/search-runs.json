@@ -15,5 +15,38 @@
       "Look for standout engineering, research, data and office workflows with complete public prompts",
       "Revisit strong visual candidates only when their creators publish the prompt"
     ]
+  },
+  {
+    "date": "2026-09-07",
+    "platform": "X",
+    "queries": [
+      "\"GPT-6 Astra\" game",
+      "\"GPT-6 Astra\" Unity prompt",
+      "\"GPT-6 Astra\" Three.js game",
+      "\"Astra\" game \"prompt\"",
+      "GPT-6 Astra 游戏 提示词"
+    ],
+    "coverage": "Reviewed game-related results and creator threads in the Codex in-app browser, opened their prompt posts, inspected the published gameplay media and retained three polished cases with attributable public prompts.",
+    "next_steps": [
+      "Look for mechanically deeper games with public prompts, especially strategy, simulation and multiplayer prototypes",
+      "Revisit visually strong game posts only after their creators publish the exact prompt"
+    ]
+  },
+  {
+    "date": "2026-09-07",
+    "platform": "X",
+    "queries": [
+      "site:x.com \"GPT-6 Astra\" prompt",
+      "site:x.com \"GPT-6 Astra\" \"build me\"",
+      "site:x.com \"I asked\" \"GPT-6 Astra\"",
+      "GPT-6 Astra public prompt game animation Blender Three.js Godot",
+      "GPT-6 Astra prompt reply creator thread"
+    ],
+    "coverage": "Expanded the catalog from 11 to 30 cases after opening the original creator posts and prompt replies in the Codex in-app browser. Added nineteen prompt-backed results across games, 3D, video, design, apps, automation and engineering. Media, model attribution and workflow caveats were checked individually; misleading reposts that reused unrelated footage and posts without a public prompt were excluded.",
+    "next_steps": [
+      "Prioritize original mechanics, strategy games and simulations with complete public prompts",
+      "Keep checking high-engagement visual posts for later prompt disclosures",
+      "Use the generated collection index before reviewing a candidate to avoid duplicates"
+    ]
   }
 ]

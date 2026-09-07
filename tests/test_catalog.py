@@ -21,6 +21,9 @@ class CatalogTests(unittest.TestCase):
     def test_seed_catalog_valid(self):
         catalog.validate()
 
+    def test_catalog_keeps_the_initial_thirty_case_milestone(self):
+        self.assertGreaterEqual(len(catalog.read('cases.json')), 30)
+
     def test_every_case_has_a_public_prompt_and_no_reproduction_status(self):
         for case in catalog.read('cases.json'):
             self.assertEqual(case['prompt']['availability'], 'public')
@@ -30,6 +33,14 @@ class CatalogTests(unittest.TestCase):
         for source in catalog.read('sources.json'):
             self.assertEqual(source['status'], 'accepted')
             self.assertIsNotNone(source['case_id'])
+
+    def test_collection_index_lists_every_case_and_source(self):
+        files=catalog.render()
+        index=files['docs/collection-index.md']
+        for case in catalog.read('cases.json'):
+            self.assertIn(f'`{case["id"]}`', index)
+            for source_id in case['source_ids']:
+                self.assertIn(f'[{source_id}]', index)
 
     def test_reject_duplicate_source(self):
         original=catalog.read

@@ -6,13 +6,13 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**8 个案例 · 4 个分类**
+**30 个案例 · 7 个分类**
 
 </div>
 
 收集 GPT-6 Astra 的创意与实用作品，将成果展示与作者公开的提示词放在一起，方便浏览、学习和尝试。
 
-📖 [浏览全部案例](docs/gallery.zh-CN.md) · ✨ [最新收录](docs/gallery.zh-CN.md#latest) · ➕ [推荐案例](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)
+📖 [浏览全部案例](docs/gallery.zh-CN.md) · 🧾 [收录索引](docs/collection-index.md) · ✨ [最新收录](docs/gallery.zh-CN.md#latest) · ➕ [推荐案例](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)
 
 ## 🖼️ 案例图册
 
@@ -20,21 +20,21 @@
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 应用与网站</h3>
-<p>1 个案例</p>
+<p>2 个案例</p>
 <a href="docs/gallery.zh-CN.md#apps"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="可交互的孔雀艺术网页" width="360"></a>
 <p>交互网页、创意界面与实用应用。</p>
 <p><a href="docs/gallery.zh-CN.md#apps"><b>查看案例 →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>✨ 设计与创意</h3>
-<p>1 个案例</p>
+<p>4 个案例</p>
 <a href="docs/gallery.zh-CN.md#design"><img src="https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg" alt="带液态玻璃交互的星空主题移动端欢迎页" width="360"></a>
 <p>精致的视觉概念、界面设计与创意实验。</p>
 <p><a href="docs/gallery.zh-CN.md#design"><b>查看案例 →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🏛️ 三维与空间创作</h3>
-<p>4 个案例</p>
+<p>7 个案例</p>
 <a href="docs/gallery.zh-CN.md#3d"><img src="https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg" alt="会自己玩耍的三维亲子空间" width="360"></a>
 <p>空间场景、角色世界与可编辑三维模型。</p>
 <p><a href="docs/gallery.zh-CN.md#3d"><b>查看案例 →</b></a></p>
@@ -43,10 +43,33 @@
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎬 视频与叙事</h3>
-<p>2 个案例</p>
+<p>5 个案例</p>
 <a href="docs/gallery.zh-CN.md#video"><img src="https://pbs.twimg.com/amplify_video_thumb/2095658785511452672/img/RLAFsFr9VU_3S6jt.jpg" alt="五分钟 T 细胞科普视频" width="360"></a>
 <p>科普短片、知识讲解与视觉叙事。</p>
 <p><a href="docs/gallery.zh-CN.md#video"><b>查看案例 →</b></a></p>
+</td>
+<td width="33%" align="center" valign="top">
+<h3>🖱️ 电脑操作与自动化</h3>
+<p>1 个案例</p>
+<a href="docs/gallery.zh-CN.md#automation"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="通过浏览器操作生成的京都视觉漫游" width="360"></a>
+<p>浏览器控制、电脑操作流程与自主生产任务。</p>
+<p><a href="docs/gallery.zh-CN.md#automation"><b>查看案例 →</b></a></p>
+</td>
+<td width="33%" align="center" valign="top">
+<h3>🛠️ 工程与原型</h3>
+<p>1 个案例</p>
+<a href="docs/gallery.zh-CN.md#engineering"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="展示可打印 Microduck 零件的机器人原型工具" width="360"></a>
+<p>工程工作流、实体原型与可投入生产的系统。</p>
+<p><a href="docs/gallery.zh-CN.md#engineering"><b>查看案例 →</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+<h3>🎮 游戏与仿真</h3>
+<p>10 个案例</p>
+<a href="docs/gallery.zh-CN.md#games"><img src="https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg" alt="Breakwater 机甲选择与水岸战斗界面" width="360"></a>
+<p>可游玩的世界、游戏原型与交互式仿真。</p>
+<p><a href="docs/gallery.zh-CN.md#games"><b>查看案例 →</b></a></p>
 </td>
 </tr>
 </table>
@@ -55,12 +78,12 @@
 
 | 案例 | 分类 | 作者 |
 | --- | --- | --- |
-| [从 Zillow 房源到电影感 3D 漫游](docs/gallery.zh-CN.md#zillow-blender-walkthrough) | 🎬 视频与叙事 | [@realYunfanYe](https://x.com/realYunfanYe/status/2095612137582526615) |
-| [星空液态玻璃欢迎页](docs/gallery.zh-CN.md#astral-liquid-glass) | ✨ 设计与创意 | [@jaimintf](https://x.com/jaimintf/status/2095863849635422679) |
-| [交互式 V8 发动机可视化](docs/gallery.zh-CN.md#v8-engine-visualizer) | 🏛️ 三维与空间创作 | [@DilumSanjaya](https://x.com/DilumSanjaya/status/2096280244663775423) |
-| [Grok Bot 交互式 3D 键盘](docs/gallery.zh-CN.md#grok-bot-keyboard) | 🏛️ 三维与空间创作 | [@omarsar0](https://x.com/omarsar0/status/2096321091148947887) |
-| [五分钟 T 细胞科普视频](docs/gallery.zh-CN.md#t-cell-explainer) | 🎬 视频与叙事 | [@DeryaTR_](https://x.com/DeryaTR_/status/2095659170661904804) |
-| [在 Blender 中制作 F1 赛车模型](docs/gallery.zh-CN.md#formula-one-blender) | 🏛️ 三维与空间创作 | [@Conor_D_Dart](https://x.com/Conor_D_Dart/status/2096125193580113957) |
+| [单文件峡谷驾驶游戏](docs/gallery.zh-CN.md#single-file-canyon-racer) | 🎮 游戏与仿真 | [@IamRicardoML](https://x.com/IamRicardoML/status/2096069303523033434) |
+| [Little Acre 袖珍世界建造器](docs/gallery.zh-CN.md#little-acre-world-builder) | 🎮 游戏与仿真 | [@ManasJoshi76254](https://x.com/ManasJoshi76254/status/2096061253307490583) |
+| [《对马岛之魂》风格可玩世界](docs/gallery.zh-CN.md#ghost-of-tsushima-game) | 🎮 游戏与仿真 | [@karankendre](https://x.com/karankendre/status/2096577524855963729) |
+| [浏览器原生汽车足球竞技场](docs/gallery.zh-CN.md#rocket-league-threejs) | 🎮 游戏与仿真 | [@LLMJunky](https://x.com/LLMJunky/status/2096028790925488452) |
+| [Sonic 风格 Godot 垂直切片](docs/gallery.zh-CN.md#sonic-godot-vertical-slice) | 🎮 游戏与仿真 | [@AiBattle_](https://x.com/AiBattle_/status/2096056285896536086) |
+| [Voidrunner 反重力战斗竞速](docs/gallery.zh-CN.md#voidrunner-combat-racer) | 🎮 游戏与仿真 | [@superalesha](https://x.com/superalesha/status/2095967568825582044) |
 
 ## 🤝 参与共建
 

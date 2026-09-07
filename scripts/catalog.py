@@ -98,7 +98,7 @@ def render():
           '[English](README.md) · [简体中文](README.zh-CN.md)', '',
           f'**{len(cases)} {label("cases", "个案例")} · {len(active)} {label("categories", "个分类")}**', '', '</div>', '',
           label('A growing collection of creative and practical work made with GPT-6 Astra, pairing each result with its creator’s public prompt.', '收集 GPT-6 Astra 的创意与实用作品，将成果展示与作者公开的提示词放在一起，方便浏览、学习和尝试。'), '',
-          f'📖 [{label("Browse all cases", "浏览全部案例")}]({gallery}) · ✨ [{label("Latest additions", "最新收录")}]({gallery}#latest) · ➕ [{label("Submit a case", "推荐案例")}](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)', '',
+          f'📖 [{label("Browse all cases", "浏览全部案例")}]({gallery}) · 🧾 [{label("Collection index", "收录索引")}](docs/collection-index.md) · ✨ [{label("Latest additions", "最新收录")}]({gallery}#latest) · ➕ [{label("Submit a case", "推荐案例")}](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)', '',
           '## 🖼️ '+label('Case Album', '案例图册'), '', '<table>']
         for offset in range(0,len(active),3):
             lines.append('<tr>')
@@ -145,6 +145,23 @@ def render():
                     lines += ['> '+c['prompt']['text'],'',label('Opening excerpt; the author’s complete prompt is linked below.','以上为开头摘录，完整提示词见下方作者原帖。'),'']
                 lines += [f'↗ [{label("Read the original prompt", "查看作者完整提示词")}]({prompt["url"]}) · [{label("Watch the demo", "观看演示")}]({source["url"]})','']
         files[gallery]='\n'.join(lines)
+    lines=['# Collection index / 已收录索引', '',
+      'Generated from `data/cases.json` and `data/sources.json`. Check this page or run `python3 scripts/catalog.py check-url URL` before reviewing a candidate. / 本页由案例与来源数据自动生成；开始审核候选案例前，请先检查本页或运行查重命令。', '',
+      '| Case ID | Case / 案例 | Category / 分类 | Result / 成果 | Prompt / 提示词 | All source IDs / 全部来源 ID |',
+      '| --- | --- | --- | --- | --- | --- |']
+    catmap={c['id']:c for c in categories}
+    def cell(value):
+        return str(value).replace('|','\\|').replace('\n',' ')
+    for c in cases:
+        category=catmap[c['category']]
+        result=sm[c['primary_source_id']]
+        prompt=sm[c['prompt']['source_id']]
+        source_links='<br>'.join(f'[{sid}]({sm[sid]["url"]})' for sid in c['source_ids'])
+        lines.append(
+          f'| `{c["id"]}` | {cell(c["title"]["en"])}<br>{cell(c["title"]["zh"])} | '
+          f'{category.get("emoji", "")} {cell(category["en"])}<br>{cell(category["zh"])} | '
+          f'[@{result["author"]}]({result["url"]}) | [@{prompt["author"]}]({prompt["url"]}) | {source_links} |')
+    files['docs/collection-index.md']='\n'.join(lines)+'\n'
     lines=['# Source ledger / 来源台账', '', 'Generated from `data/sources.json`. Every listed post supports a curated case. / 每条来源都对应一个正式收录案例。', '', '| Post / 原帖 | Status / 状态 | Case / 案例 | Checked / 检查日期 | Reason / 原因 |', '| --- | --- | --- | --- | --- |']
     for s in sources:
         reason=s['reason'].replace('|','\\|').replace('\n',' ')

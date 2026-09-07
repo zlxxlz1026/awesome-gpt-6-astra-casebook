@@ -42,7 +42,12 @@
   {
     "id": "automation",
     "en": "Computer use & automation",
-    "zh": "电脑操作与自动化"
+    "zh": "电脑操作与自动化",
+    "emoji": "🖱️",
+    "description": {
+      "en": "Browser control, computer-use workflows and autonomous production tasks.",
+      "zh": "浏览器控制、电脑操作流程与自主生产任务。"
+    }
   },
   {
     "id": "data",
@@ -56,12 +61,22 @@
   },
   {
     "id": "engineering",
-    "en": "Software engineering",
-    "zh": "软件工程"
+    "en": "Engineering & prototyping",
+    "zh": "工程与原型",
+    "emoji": "🛠️",
+    "description": {
+      "en": "Engineering workflows, physical prototypes and production-ready systems.",
+      "zh": "工程工作流、实体原型与可投入生产的系统。"
+    }
   },
   {
     "id": "games",
     "en": "Games & simulations",
-    "zh": "游戏与仿真"
+    "zh": "游戏与仿真",
+    "emoji": "🎮",
+    "description": {
+      "en": "Playable worlds, game prototypes and interactive simulations.",
+      "zh": "可游玩的世界、游戏原型与交互式仿真。"
+    }
   }
 ]
