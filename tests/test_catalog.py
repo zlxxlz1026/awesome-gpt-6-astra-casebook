@@ -21,6 +21,16 @@ class CatalogTests(unittest.TestCase):
     def test_seed_catalog_valid(self):
         catalog.validate()
 
+    def test_every_case_has_a_public_prompt_and_no_reproduction_status(self):
+        for case in catalog.read('cases.json'):
+            self.assertEqual(case['prompt']['availability'], 'public')
+            self.assertNotIn('reproduction', case)
+
+    def test_release_sources_all_support_curated_cases(self):
+        for source in catalog.read('sources.json'):
+            self.assertEqual(source['status'], 'accepted')
+            self.assertIsNotNone(source['case_id'])
+
     def test_reject_duplicate_source(self):
         original=catalog.read
         def read(name):
@@ -44,7 +54,7 @@ class CatalogTests(unittest.TestCase):
             path=root/'data/sources.json'
             content=json.dumps(catalog.read('sources.json'))
             path.write_text(content)
-            with patch.object(catalog,'ROOT',root), patch('sys.argv',['catalog.py','add-source','https://twitter.com/changed/status/2096460180401889613?s=20','--reason','duplicate']):
+            with patch.object(catalog,'ROOT',root), patch('sys.argv',['catalog.py','add-source','https://twitter.com/changed/status/2096147245775331419?s=20','--reason','duplicate']):
                 with patch('builtins.print'): catalog.main()
             self.assertEqual(path.read_text(), content)
 

@@ -2,14 +2,14 @@
 
 ## Local workflow / 本地工作流
 
-This repository is prepared for `zlxxlz1026/awesome-gpt-6-astra`. Remote creation and synchronization are handled by the owner. No scheduled collector is enabled. / 本项目按 `zlxxlz1026/awesome-gpt-6-astra` 准备，由仓库所有者创建远程仓库并同步。尚未启用定时采集。
+This repository is maintained at `zlxxlz1026/awesome-gpt-6-astra-casebook`. No scheduled collector is enabled. / 本项目维护于 `zlxxlz1026/awesome-gpt-6-astra-casebook`，当前未启用定时采集。
 
 The collector is a human/agent review process; `catalog.py` operates offline and does not crawl X. / 采集由人工或智能体在 X 上完成；脚本离线维护数据，不会自动抓取 X。
 
 ## Data contract / 数据约定
 
-- `data/cases.json`: one logical work per stable slug; bilingual `title`, `summary`, `workflow`, `limitations`; category; tool tags; source IDs; model evidence; prompt availability; reproduction state. / 每个逻辑作品一条记录，稳定 ID 不随标题翻译改变。
-- `data/sources.json`: one post per decimal string `post_id`; never store X IDs as JavaScript numbers. Includes all accepted, pending, rejected, duplicate and unavailable records. / 数字 ID 必须以字符串保存，避免精度损失；所有审核状态都保留。
+- `data/cases.json`: one logical work per stable slug; bilingual `title`, `summary`, `workflow`, `limitations`; category; tool tags; source IDs; model evidence; and a verified public prompt. / 每个逻辑作品一条记录，稳定 ID 不随标题翻译改变，并包含已核验的公开提示词。
+- `data/sources.json`: one supporting post per decimal string `post_id`; never store IDs as JavaScript numbers. Release versions contain sources attached to curated cases. / 每条支撑来源一条记录，数字 ID 必须以字符串保存，避免精度损失；发布版本只保留正式案例对应的来源。
 - `data/categories.json`: stable category IDs and bilingual labels. / 稳定分类标识及双语名称。
 - `data/search-runs.json`: search date, exact queries, actual coverage and next steps. / 保存每轮检索词与真实覆盖范围，不能声称已抓全。
 - READMEs, `docs/source-ledger.md` and `data/source-ledger.csv` are generated outputs. CSV is a view, not a second editable database. / 双语目录和台账自动生成，CSV 不单独编辑。
@@ -26,24 +26,15 @@ The collector is a human/agent review process; `catalog.py` operates offline and
 
 - Original X source is accessible and model attribution explicit. / 原帖可访问且模型明确。
 - A specific result and transferable method are present. / 有具体成果和可借鉴方法。
-- Missing prompts, assets, costs and reproduction gaps are stated. / 明确缺失信息。
+- The author’s exact prompt is public, attributable and linked from the case. / 作者提示词原文公开、可归属，并由案例直接链接。
+- Dependencies, supplied assets, costs and visible shortcomings are stated when relevant. / 相关依赖、输入素材、成本和可见缺点均如实说明。
 - Original and translated text are distinguished; author claims are not presented as benchmark results. / 区分原文、翻译和作者自述。
-- Inspect video before making claims about its visual quality. Current seed cases are text-verified and not playback-audited. / 判断视觉质量前必须观看视频；当前种子案例只完成文字核验。
+- Inspect the media before making claims about visual quality. / 判断视觉质量前必须查看实际媒体内容。
 
 ## Next collection pass / 下一轮
 
-Review pending videos, seek original prompts, and expand software engineering, games, research and office automation. Mix English and Chinese searches; Japanese originals are welcome. Use X search and author threads, not off-platform case databases. / 复查待核验视频，补充原始提示词，扩展软件工程、游戏、研究和办公案例；仅从 X 收录。
+Seek original prompts and expand software engineering, games, research and office automation. Mix English, Chinese and Japanese searches, then verify every candidate in the creator’s original thread. / 继续寻找公开原始提示词，扩展软件工程、游戏、研究和办公案例；混合使用中、英、日文检索，并回到创作者原帖逐一核验。
 
 ## Future website / 后续网页
 
 Consume the existing JSON, filter by category, tools and language, show verification and prompt availability, and always link back to the X source. Keep videos as outbound links until embedding/reuse is deliberately implemented. / 网页直接读取现有 JSON，按分类、工具和语言筛选，展示核验与提示词状态并保留原帖入口。
-
-## First GitHub sync / 首次同步
-
-Create an empty public repository named `awesome-gpt-6-astra` under `zlxxlz1026`, then sync this local directory. If using GitHub CLI after restoring login:
-
-```sh
-gh repo create zlxxlz1026/awesome-gpt-6-astra --public --source=. --remote=origin --push
-```
-
-Run this only after the initial local commit exists. / 此命令要求本地已有首次提交。

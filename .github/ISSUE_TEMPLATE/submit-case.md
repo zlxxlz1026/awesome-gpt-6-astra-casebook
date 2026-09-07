@@ -1,12 +1,12 @@
 ---
 name: Submit a case / 提交案例
-about: Suggest an original X use case / 推荐 X 原创使用案例
+about: Suggest a remarkable GPT-6 Astra use case / 推荐出色的 GPT-6 Astra 使用案例
 title: '[Case] '
 labels: ''
 assignees: ''
 ---
 
-Original X post / X 原帖:
+Original post / 创作者原帖:
 
 Creator / 作者:
 
@@ -16,7 +16,7 @@ How do we know it used GPT-6 Astra? / 模型归属证据:
 
 Tools and method / 工具与方法:
 
-Prompt or reproducible assets, if public / 已公开的提示词或复现材料:
+Public prompt (required) / 公开提示词（必填）:
 
 Limitations / 局限:
 

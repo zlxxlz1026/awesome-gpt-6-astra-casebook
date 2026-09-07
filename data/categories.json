@@ -2,17 +2,42 @@
   {
     "id": "apps",
     "en": "Apps & websites",
-    "zh": "应用与网站"
+    "zh": "应用与网站",
+    "emoji": "🧩",
+    "description": {
+      "en": "Interactive websites, creative interfaces and useful apps.",
+      "zh": "交互网页、创意界面与实用应用。"
+    }
   },
   {
     "id": "design",
     "en": "Design & creative work",
-    "zh": "设计与创意"
+    "zh": "设计与创意",
+    "emoji": "✨",
+    "description": {
+      "en": "Polished visual concepts, interfaces and creative experiments.",
+      "zh": "精致的视觉概念、界面设计与创意实验。"
+    }
   },
   {
     "id": "3d",
     "en": "3D & spatial creation",
-    "zh": "三维与空间创作"
+    "zh": "三维与空间创作",
+    "emoji": "🏛️",
+    "description": {
+      "en": "Spatial scenes, character worlds and editable 3D models.",
+      "zh": "空间场景、角色世界与可编辑三维模型。"
+    }
+  },
+  {
+    "id": "video",
+    "en": "Video & storytelling",
+    "zh": "视频与叙事",
+    "emoji": "🎬",
+    "description": {
+      "en": "Educational films, explainers and visual storytelling.",
+      "zh": "科普短片、知识讲解与视觉叙事。"
+    }
   },
   {
     "id": "automation",

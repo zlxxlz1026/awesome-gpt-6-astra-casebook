@@ -4,14 +4,16 @@
     "platform": "X",
     "queries": [
       "GPT-6 Astra (Latest and Top)",
-      "from:dkundel Astra",
-      "\"Astra\" (\"spreadsheet\" OR \"game\" OR \"data\") min_faves:100"
+      "\"Astra\" \"prompt\" min_faves:50",
+      "site:x.com \"GPT-6 Astra\" \"prompt\"",
+      "site:x.com \"GPT-6 Astra\" (dashboard OR visualization OR research OR spreadsheet OR presentation) prompt",
+      "site:x.com \"GPT-6 Astra\" \"one prompt\" -minchoi",
+      "site:x.com/*/status \"GPT-6 Astra\" \"Prompt:\" -\"Blender\""
     ],
-    "coverage": "Manually sampled visible search results, not exhaustive; five accepted posts opened individually.",
+    "coverage": "Reviewed a broad sample of visible results in the Codex in-app browser, opened creator posts and prompt replies, and visually inspected the selected media. Eight prompt-backed cases were accepted; posts without a public prompt and low-quality demonstrations were excluded.",
     "next_steps": [
-      "Review pending videos and look for original prompts",
-      "Broaden to engineering, research, games and office workflows",
-      "Check source IDs before opening known posts"
+      "Look for standout engineering, research, data and office workflows with complete public prompts",
+      "Revisit strong visual candidates only when their creators publish the prompt"
     ]
   }
 ]

@@ -1,160 +1,386 @@
 [
   {
-    "id": "sydney-3d",
+    "id": "interactive-peacock",
     "title": {
-      "en": "Interactive Sydney from maps and photos",
-      "zh": "用地图与照片构建可交互的悉尼三维场景"
+      "en": "Interactive peacock website",
+      "zh": "可交互的孔雀艺术网页"
     },
     "summary": {
-      "en": "The author reports building an interactive Sydney scene with zoom, orbit and lighting controls from maps and real photos.",
-      "zh": "作者展示了以地图和实景照片为输入、支持缩放、环绕和光影切换的悉尼三维场景。"
+      "en": "A painterly Three.js peacock responds to the mouse, scrolling and keyboard on a bilingual art page.",
+      "zh": "在中英双语艺术网页中，用 Three.js 创建随鼠标、滚动与键盘操作响应的绘画风格孔雀。"
     },
     "workflow": {
-      "en": "Combine geographic references and photos with Blender and Three.js; the author reports one conversation.",
-      "zh": "组合地图与实景照片，使用 Blender 和 Three.js；作者称在一次会话中完成。"
+      "en": "Specify the visual palette, movement rules, feather interactions, sound and touch controls in one detailed brief.",
+      "zh": "把配色、运动规则、羽毛交互、音效与触屏操作写成一份完整需求。"
     },
     "limitations": {
-      "en": "Scope and geographic accuracy were not independently checked; full prompt, source files and cost are not provided in this post.",
-      "zh": "未独立核验覆盖范围和地理精度；该帖未提供完整提示词、工程文件或成本。"
+      "en": "Scope follows the author’s published post.",
+      "zh": "案例范围以作者公开内容为准。"
     },
-    "category": "3d",
+    "category": "apps",
     "tags": [
-      "Blender",
       "Three.js"
     ],
     "source_ids": [
-      "2096460180401889613"
+      "2096147245775331419",
+      "2096147248551694472"
     ],
-    "primary_source_id": "2096460180401889613",
+    "primary_source_id": "2096147245775331419",
     "model": "gpt-6-astra",
     "model_evidence": "author-stated",
-    "prompt": null,
-    "reproduction": "not-tested",
+    "prompt": {
+      "text": "Create an elegant, responsive webpage featuring an interactive 3D peacock",
+      "source_id": "2096147248551694472",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg",
+      "source_id": "2096147245775331419",
+      "alt": {
+        "en": "Interactive peacock website",
+        "zh": "可交互的孔雀艺术网页"
+      }
+    },
     "added_at": "2026-09-07"
   },
   {
-    "id": "figma-design",
+    "id": "playroom-threejs",
     "title": {
-      "en": "Figma design from brand identity to pages",
-      "zh": "用 Figma 完成品牌与页面设计"
+      "en": "A living 3D playroom",
+      "zh": "会自己玩耍的三维亲子空间"
     },
     "summary": {
-      "en": "The author describes using Astra with Figma for brand identity and page design, accompanied by a video.",
-      "zh": "作者描述用 Astra 配合 Figma 完成品牌与页面设计，并附视频。"
+      "en": "A warm playroom with toys, climbing structures and a child character, built as an interactive Three.js scene.",
+      "zh": "用 Three.js 构建温暖的亲子空间，包含玩具、攀爬设施和会在玩具之间活动的儿童角色。"
     },
     "workflow": {
-      "en": "Use Figma as the working design environment; exact connection method and prompting are not disclosed in the post.",
-      "zh": "在 Figma 中进行设计；该帖未披露具体连接方式和提示词。"
+      "en": "Define the room, toy and action models separately, choose a stylized aesthetic, and request zoom, orbit and a local Vite workflow.",
+      "zh": "分别定义空间、玩具与动作模型，采用风格化美术，加入缩放、旋转和 Vite 本地开发流程。"
     },
     "limitations": {
-      "en": "Read through X’s English translation of the Japanese original; the BI interpretation and implementation details need further confirmation.",
-      "zh": "阅读的是 X 对日文原帖的英语翻译；BI 的具体含义及实现细节仍需进一步确认。"
-    },
-    "category": "design",
-    "tags": [
-      "Figma"
-    ],
-    "source_ids": [
-      "2096467418575147367"
-    ],
-    "primary_source_id": "2096467418575147367",
-    "model": "gpt-6-astra",
-    "model_evidence": "author-stated",
-    "prompt": null,
-    "reproduction": "not-tested",
-    "added_at": "2026-09-07"
-  },
-  {
-    "id": "mouse-drawing",
-    "title": {
-      "en": "Drawing through mouse operations",
-      "zh": "通过鼠标操作绘画"
-    },
-    "summary": {
-      "en": "The author demonstrates a drawing and states that Astra produced it through computer-use mouse operations.",
-      "zh": "作者展示绘画结果，并说明 Astra 通过电脑操作中的鼠标动作完成。"
-    },
-    "workflow": {
-      "en": "Ask the agent to draw through the application UI; the post does not name the drawing application.",
-      "zh": "让智能体通过软件界面操作绘画；该帖未明确绘画软件名称。"
-    },
-    "limitations": {
-      "en": "Read through X’s English translation of the Japanese original; exact prompt, input assets and application are not disclosed.",
-      "zh": "阅读的是 X 对日文原帖的英语翻译；具体提示词、输入素材及软件未披露。"
-    },
-    "category": "automation",
-    "tags": [],
-    "source_ids": [
-      "2096124169406775325"
-    ],
-    "primary_source_id": "2096124169406775325",
-    "model": "gpt-6-astra",
-    "model_evidence": "author-stated",
-    "prompt": null,
-    "reproduction": "not-tested",
-    "added_at": "2026-09-07"
-  },
-  {
-    "id": "brick-models",
-    "title": {
-      "en": "Buildable brick models and Blender renders",
-      "zh": "可搭建的积木模型与 Blender 渲染"
-    },
-    "summary": {
-      "en": "The author reports designing real brick models in Bricklink Studio and rendering a 4K video in Blender; the post links to parts lists.",
-      "zh": "作者称用 Bricklink Studio 设计真实积木模型，再用 Blender 渲染 4K 视频；原帖附零件清单链接。"
-    },
-    "workflow": {
-      "en": "Design with discrete brick parts first, then render the models in Blender.",
-      "zh": "先用实际积木零件建模，再将模型交给 Blender 渲染。"
-    },
-    "limitations": {
-      "en": "Linked parts lists and physical buildability have not been independently checked; the exact prompt is not supplied.",
-      "zh": "未独立核验链接中的零件清单及实际可搭建性；未提供准确提示词。"
+      "en": "Scope follows the author’s published post.",
+      "zh": "案例范围以作者公开内容为准。"
     },
     "category": "3d",
     "tags": [
-      "Bricklink Studio",
-      "Blender"
+      "Three.js",
+      "Vite"
     ],
     "source_ids": [
-      "2096297005924729240"
+      "2096048421543272893",
+      "2096188653626446159"
     ],
-    "primary_source_id": "2096297005924729240",
+    "primary_source_id": "2096048421543272893",
     "model": "gpt-6-astra",
     "model_evidence": "author-stated",
-    "prompt": null,
-    "reproduction": "not-tested",
+    "prompt": {
+      "text": "新项目，网页3D，threejs。",
+      "source_id": "2096188653626446159",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "zh",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg",
+      "source_id": "2096048421543272893",
+      "alt": {
+        "en": "A living 3D playroom",
+        "zh": "会自己玩耍的三维亲子空间"
+      }
+    },
     "added_at": "2026-09-07"
   },
   {
-    "id": "basketball-vision",
+    "id": "formula-one-blender",
     "title": {
-      "en": "Basketball team recognition in visual labeling",
-      "zh": "视觉标注中的篮球队伍识别"
+      "en": "Formula One modeling in Blender",
+      "zh": "在 Blender 中制作 F1 赛车模型"
     },
     "summary": {
-      "en": "The author reports distinguishing Celtics and Knicks players in home and away settings, with a video and a linked detection discussion.",
-      "zh": "作者用视频展示区分凯尔特人和尼克斯球员，并称主客场均适用；帖中引用了检测分析讨论。"
+      "en": "A short modeling request turns into a Blender computer-use session; the author shares a recording of the process.",
+      "zh": "作者用一句建模需求启动 Blender 电脑操作任务，并分享了制作过程录像。"
     },
     "workflow": {
-      "en": "Use visual context to identify team membership; the quoted discussion also discusses bounding boxes.",
-      "zh": "结合画面信息识别队伍归属；引用讨论还涉及目标检测框。"
+      "en": "Ask explicitly for Blender computer use and a specific model subject. The author used Extra High effort and reported a 23-minute session.",
+      "zh": "明确指定 Blender 电脑操作和建模对象；作者使用 Extra High，并报告耗时约 23 分钟。"
     },
     "limitations": {
-      "en": "This is an author demonstration, not a benchmark; no dataset, measured accuracy or complete prompt is provided in this post.",
-      "zh": "这是作者演示而非基准测试；该帖未提供数据集、准确率或完整提示词。"
+      "en": "Scope follows the author’s published post.",
+      "zh": "案例范围以作者公开内容为准。"
     },
-    "category": "data",
-    "tags": [],
-    "source_ids": [
-      "2096669615363383449"
+    "category": "3d",
+    "tags": [
+      "Blender"
     ],
-    "primary_source_id": "2096669615363383449",
+    "source_ids": [
+      "2096125193580113957"
+    ],
+    "primary_source_id": "2096125193580113957",
     "model": "gpt-6-astra",
     "model_evidence": "author-stated",
-    "prompt": null,
-    "reproduction": "not-tested",
+    "prompt": {
+      "text": "Create a 3d Formula one Model in blender with computer use.",
+      "source_id": "2096125193580113957",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096124892378963969/img/JwrAyu_X-NYrqzhg.jpg",
+      "source_id": "2096125193580113957",
+      "alt": {
+        "en": "Formula One modeling in Blender",
+        "zh": "在 Blender 中制作 F1 赛车模型"
+      }
+    },
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "t-cell-explainer",
+    "title": {
+      "en": "A five-minute T-cell explainer",
+      "zh": "五分钟 T 细胞科普视频"
+    },
+    "summary": {
+      "en": "An educational video workflow combines a short topic prompt with Remotion, generated visuals and narration.",
+      "zh": "通过一句主题提示词，结合 Remotion、生成式视觉素材与旁白制作科普视频。"
+    },
+    "workflow": {
+      "en": "The author supplied the topic, requested Remotion, and describes Astra assembling the visuals, narration and edit.",
+      "zh": "作者给出主题并指定 Remotion，随后由 Astra 组织视觉素材、旁白和剪辑。"
+    },
+    "limitations": {
+      "en": "Scope follows the author’s published post.",
+      "zh": "案例范围以作者公开内容为准。"
+    },
+    "category": "video",
+    "tags": [
+      "Remotion",
+      "Imagegen",
+      "HeyGen"
+    ],
+    "source_ids": [
+      "2095659170661904804"
+    ],
+    "primary_source_id": "2095659170661904804",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Create a 5 minute educational video about T cells",
+      "source_id": "2095659170661904804",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2095658785511452672/img/RLAFsFr9VU_3S6jt.jpg",
+      "source_id": "2095659170661904804",
+      "alt": {
+        "en": "A five-minute T-cell explainer",
+        "zh": "五分钟 T 细胞科普视频"
+      }
+    },
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "grok-bot-keyboard",
+    "title": {
+      "en": "Grok Bot 3D keyboard",
+      "zh": "Grok Bot 交互式 3D 键盘"
+    },
+    "summary": {
+      "en": "A reference image becomes a polished 4K product visualization with manufactured detail, PBR materials, studio lighting and interactive controls.",
+      "zh": "把一张参考图变成精细的 4K 产品可视化，包含工业级几何细节、PBR 材质、棚拍灯光与完整交互。"
+    },
+    "workflow": {
+      "en": "Start with a short identity prompt and a reference image, then ask Astra to upgrade the prototype while preserving keys, dials, camera controls, finishes, lighting and exploded view.",
+      "zh": "先用一句角色化需求和参考图搭出原型，再让 Astra 在保留按键、旋钮、镜头、材质、灯光和爆炸视图交互的前提下整体升级。"
+    },
+    "limitations": {
+      "en": "The polished result builds on an existing prototype and the visual reference shown in the author’s thread.",
+      "zh": "精修结果建立在已有原型和作者帖子中的视觉参考图之上。"
+    },
+    "category": "3d",
+    "tags": [
+      "Interactive 3D",
+      "PBR",
+      "4K"
+    ],
+    "source_ids": [
+      "2096321091148947887",
+      "2096288397811679718",
+      "2096330184525856915"
+    ],
+    "primary_source_id": "2096321091148947887",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Upgrade the existing isolated prototypes/grokbot interactive 3D keyboard to a 4K, markedly more realistic, premium product visualization with detailed manufactured geometry, convincing PBR materials, and refined studio lighting; preserve and validate key, dial, orbit, zoom, finish, lighting, and exploded-view interactions; pass the project's tests and production build.",
+      "source_id": "2096330184525856915",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096319964198400000/img/qWLWMDVWiDrU2rfC.jpg",
+      "source_id": "2096321091148947887",
+      "alt": {
+        "en": "Premium Grok Bot interactive 3D keyboard",
+        "zh": "Grok Bot 高质感交互式 3D 键盘"
+      }
+    },
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "v8-engine-visualizer",
+    "title": {
+      "en": "Interactive V8 engine visualizer",
+      "zh": "交互式 V8 发动机可视化"
+    },
+    "summary": {
+      "en": "A detailed cutaway V8 engine pairs moving mechanical parts with gauges, charts and controls in an explorable technical visualization.",
+      "zh": "以剖面 V8 发动机为核心，把运动机械结构、仪表、图表和控制面板组合成可探索的技术可视化。"
+    },
+    "workflow": {
+      "en": "Give Astra a concise subject and quality target, leaving it room to design both the mechanical scene and the explanatory interface.",
+      "zh": "用一句话明确主题与质量目标，让 Astra 同时设计机械场景和讲解界面。"
+    },
+    "limitations": {
+      "en": "The public prompt is intentionally broad; the author does not specify the rendering stack or an engineering-accuracy target.",
+      "zh": "公开提示词刻意保持宽泛，作者未说明渲染技术栈，也未把工程精度作为验证目标。"
+    },
+    "category": "3d",
+    "tags": [
+      "Interactive 3D",
+      "Technical visualization"
+    ],
+    "source_ids": [
+      "2096280244663775423"
+    ],
+    "primary_source_id": "2096280244663775423",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Create a highly detailed, interactive visualization of a V8 engine.",
+      "source_id": "2096280244663775423",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096278610743304192/img/jZDskFFb29_SDdCk.jpg",
+      "source_id": "2096280244663775423",
+      "alt": {
+        "en": "Interactive cutaway visualization of a V8 engine",
+        "zh": "交互式 V8 发动机剖面可视化"
+      }
+    },
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "astral-liquid-glass",
+    "title": {
+      "en": "Astral liquid-glass welcome screen",
+      "zh": "星空液态玻璃欢迎页"
+    },
+    "summary": {
+      "en": "A mobile welcome screen combines an astral backdrop, playful sticker-like elements and a tactile liquid-glass panel.",
+      "zh": "移动端欢迎页将星空背景、贴纸式趣味元素和可触碰的液态玻璃面板融合在一起。"
+    },
+    "workflow": {
+      "en": "Set a clear screen goal, name the available design tools and cite a specific interaction reference for the glass effect.",
+      "zh": "明确页面目标与可用设计工具，并为玻璃效果给出具体的交互参考。"
+    },
+    "limitations": {
+      "en": "The result uses Appllama MCP and app-design skills already available in the author’s environment.",
+      "zh": "该成果使用了作者环境中已有的 Appllama MCP 与应用设计技能。"
+    },
+    "category": "design",
+    "tags": [
+      "Appllama MCP",
+      "App design skills",
+      "Liquid glass"
+    ],
+    "source_ids": [
+      "2095863849635422679",
+      "2095865097830936773"
+    ],
+    "primary_source_id": "2095863849635422679",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "/goal Using Appllama MCP + App design skills build a welcome screen that has an astral theme, liquid glass displacement inspired by Wabi.",
+      "source_id": "2095865097830936773",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg",
+      "source_id": "2095863849635422679",
+      "alt": {
+        "en": "Astral mobile welcome screen with liquid glass interaction",
+        "zh": "带液态玻璃交互的星空主题移动端欢迎页"
+      }
+    },
+    "added_at": "2026-09-07"
+  },
+  {
+    "id": "zillow-blender-walkthrough",
+    "title": {
+      "en": "Zillow listing to cinematic 3D walkthrough",
+      "zh": "从 Zillow 房源到电影感 3D 漫游"
+    },
+    "summary": {
+      "en": "Listing photos are reconstructed as a Blender scene and turned into a fluid, roughly one-minute promotional walkthrough.",
+      "zh": "根据房源照片重建 Blender 场景，并生成约一分钟、镜头连续流畅的宣传漫游视频。"
+    },
+    "workflow": {
+      "en": "Provide a listing URL, request headless Blender reconstruction, define a one-take cinematic camera style, and require visual checks and iteration to production quality.",
+      "zh": "提供房源链接，要求用无头 Blender 重建，再明确一镜到底的电影化运镜，并要求视觉检查和迭代打磨。"
+    },
+    "limitations": {
+      "en": "The author notes some geometry errors in the one-shot result and used existing Rome workflows to fetch listing images and add audio.",
+      "zh": "作者说明一次生成的结果仍有几何细节错误，并使用了已有的 Rome 工作流抓取房源图片和添加音频。"
+    },
+    "category": "video",
+    "tags": [
+      "Blender",
+      "Rome",
+      "Cinematography"
+    ],
+    "source_ids": [
+      "2095612137582526615",
+      "2095664943421067611"
+    ],
+    "primary_source_id": "2095612137582526615",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Use blender headless to recreate 3D model of this house: https://zillow.com/homedetails/349-Walsh-Rd-Atherton-CA-94027/15598337_zpid/ and then create a beautiful stunning walkthrough promotion video for the listing. You are an expert cinematographer and animator working in Blender. When creating videos from 3D models, prioritize cinematic quality and visual richness over speed. Be meticulous and thorough. Infer the spatial relationship if needed. The video's camera movement should be bold and fluid, with a cinematic, blockbuster feel. I'd like one-take feel, continuous, unbroken movement. Do visual checks to make sure the 3D model and video look professional quality. Iterate until it is production ready. Target a video length 60 seconds-ish.",
+      "source_id": "2095664943421067611",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-07"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2095611898968547328/img/EKCYWcJTBrAMT4e6.jpg",
+      "source_id": "2095612137582526615",
+      "alt": {
+        "en": "Cinematic Blender walkthrough reconstructed from a Zillow listing",
+        "zh": "根据 Zillow 房源重建的电影感 Blender 漫游"
+      }
+    },
     "added_at": "2026-09-07"
   }
 ]
