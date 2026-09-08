@@ -22,11 +22,11 @@ Avoid unrelated trending topics, unverified model aliases or claims of official 
 
 ## Content maintenance / 内容维护
 
-Beginner selections are maintained in `data/learning-paths.json`; bilingual editorial guides live in `docs/guides/`. Keep original editorial templates distinct from creator prompts. / 新手精选由 `data/learning-paths.json` 维护，双语专题指南位于 `docs/guides/`；原创需求模板与作者原始提示词明确区分。
+Beginner selections are maintained in `data/learning-paths.json`; bilingual editorial guides live in `docs/guides/`. Keep editorial checklists distinct from creator prompts. / 新手精选由 `data/learning-paths.json` 维护，双语专题指南位于 `docs/guides/`；项目编辑清单与作者原始提示词明确区分。
 
 - Edit `data/cases.json` and `scripts/catalog.py`, then regenerate the READMEs and galleries. Do not hand-edit generated pages. / 修改数据与生成脚本后重新生成页面，避免下次更新覆盖优化。
 - Keep descriptive bilingual titles, concrete summaries, tool names and original source links. The README lists every case with a direct category-page anchor and a full/excerpt prompt label; the complete gallery remains available. / 使用清晰的双语标题、具体摘要、工具名与原始来源；首页案例直达分类页，并标明提示词全文或摘录，完整图册仍可访问。
-- Preserve stable case IDs so shared links continue to work. Distinguish full prompts from excerpts and source claims from independently reproduced results. / 保持案例 ID 稳定，并区分完整提示词、摘录、作者自述与独立复现结果。
+- Preserve stable case IDs so shared links continue to work. Distinguish full prompts from excerpts, and keep source claims clearly attributed. / 保持案例 ID 稳定，区分完整提示词与摘录，并为作者自述保留明确来源归属。
 - Share relevant case links in your own project updates where useful. Do not spam communities or buy stars/backlinks. / 在自己的项目更新中按需分享相关案例链接，不刷星、不群发垃圾外链。
 
 ```sh

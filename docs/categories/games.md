@@ -161,17 +161,17 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.
+**Goal**: The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.
 
-**Constraints**：The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.
+**Constraints**: The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.
 
-**Deliverable**：The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.
+**Deliverable**: The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.
 
-**Suggested checks**：Suggested checks, not executed: verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.
+**Suggested checks**: Verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.
 
-**Takeaway**：Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.
+**Takeaway**: Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.
 
 Recorded sources: [@ItsmeAjayKV · 2096244208533455049](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
@@ -380,17 +380,17 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.
+**Goal**: Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.
 
-**Constraints**：Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.
+**Constraints**: Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.
 
-**Deliverable**：One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.
+**Deliverable**: One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.
 
-**Suggested checks**：Suggested checks, not executed: open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.
+**Suggested checks**: Open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.
 
-**Takeaway**：Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
+**Takeaway**: Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
 
 Recorded sources: [@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)
 

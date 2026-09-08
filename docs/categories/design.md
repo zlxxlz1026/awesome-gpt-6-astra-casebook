@@ -59,17 +59,17 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.
+**Goal**: A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.
 
-**Constraints**：Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.
+**Constraints**: Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.
 
-**Deliverable**：The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.
+**Deliverable**: The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.
 
-**Suggested checks**：Suggested checks, not executed: inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.
+**Suggested checks**: Inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.
 
-**Takeaway**：A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.
+**Takeaway**: A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.
 
 Recorded sources: [@jaimintf · 2095863849635422679](https://x.com/jaimintf/status/2095863849635422679) · [@jaimintf · 2095865097830936773](https://x.com/jaimintf/status/2095865097830936773)
 

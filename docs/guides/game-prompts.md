@@ -2,7 +2,7 @@
 
 [简体中文](game-prompts.zh-CN.md) · [Home](../../README.md) · [Game examples](../gallery.md#games)
 
-This guide analyzes the creators' material already recorded in the catalog. Its analysis, templates and acceptance suggestions are original project writing and have not been tested. Creator demos are not independent reproductions by this project.
+This guide analyzes the creators' material already recorded in the catalog. Editorial recommendations are clearly separated from the creators' public prompts.
 
 ## Three cases, three prompt priorities
 
@@ -18,23 +18,19 @@ Starting from Komorebi's left/right input structure, limit a first version to on
 
 For more complex physics, study the [car-football case](../gallery.md#rocket-league-threejs), whose recorded brief covers the vehicle, ball, arena, camera and match loop. An initial attempt could focus on one vehicle and one ball. This is our editorial suggestion, not the creator's original plan or a proven shortcut.
 
-## Original prompt template: a single-file obstacle game
+## Requirement checklist for a small browser game
 
-This is an untested template, not a collected creator's prompt. Choose a network policy before using it.
+Use the public case prompts above as references, then decide these requirements for your own project:
 
-```text
-Create an original browser obstacle-avoidance game. The first screen should be playable.
-Core loop: move left/right to avoid obstacles, show a result on collision, allow restart.
-Build one route first. Display controls, current score and pause state clearly.
-Deliver one HTML file and explain how to open it.
-Network policy: [allow CDNs and list dependencies / require offline operation with all necessary content included].
-Use original procedural assets, not characters from existing commercial games.
-Keep speed, obstacle density and collision bounds in clearly adjustable parameters.
-Check start, left/right input, collision, pause, resume and restart.
-Report checks actually performed, failures and limitations. Do not invent test results.
-```
+- Core loop: the repeated player action, obstacle or opponent, success condition and failure condition.
+- Controls: supported keyboard, pointer, touch or controller input.
+- Scope: one complete route or level before additional content.
+- Delivery: source files, startup method, dependency list and network policy.
+- Originality: original assets and mechanics rather than protected characters or copied levels.
+- Tunable values: speed, difficulty, collision bounds and scoring in clearly named parameters.
+- Acceptance: start, input, collision, pause, resume, result and restart behavior.
 
-## Acceptance checks: leave outcomes blank until executed
+## Acceptance checklist
 
 | Check | Passing condition | Evidence to record |
 | --- | --- | --- |
@@ -51,6 +47,6 @@ A recording establishes only the visible sequence. It does not replace input, re
 
 Record the initial prompt, follow-ups, actual elapsed time, model label and settings, environment and failures. Record costs only when backed by billing or usage evidence; a creator's allowance percentage is not your fixed cost. Use the [reproduction record requirements](../reproduction/README.md) to distinguish playing an existing artifact from generating and reproducing it.
 
-Sources: [Komorebi](https://x.com/ItsmeAjayKV/status/2096244208533455049), [canyon racer](https://x.com/IamRicardoML/status/2096069303523033434), [Little Acre](https://x.com/ManasJoshi76254/status/2096061253307490583). Facts above come from existing catalog records; the original posts were not reverified in this pass.
+Sources: [Komorebi](https://x.com/ItsmeAjayKV/status/2096244208533455049), [canyon racer](https://x.com/IamRicardoML/status/2096069303523033434), [Little Acre](https://x.com/ManasJoshi76254/status/2096061253307490583). Facts above remain linked to the corresponding catalog records and creator sources.
 
 Continue with the [interactive web and Three.js brief guide](web-3d.md).

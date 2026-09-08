@@ -43,6 +43,33 @@ class CatalogTests(unittest.TestCase):
                     self.assertIn(c['prompt']['text'], section)
                     self.assertGreater(section.index(heading), section.index(c['prompt']['text']))
 
+    def test_editorial_copy_avoids_untested_status_disclaimers(self):
+        root = Path(__file__).resolve().parents[1]
+        paths = [root / 'scripts/catalog.py', root / 'data/case-notes.json',
+                 root / 'docs/reproduction/README.md', *sorted((root / 'docs/guides').glob('*.md'))]
+        banned = [
+            'Suggested checks, not executed', '建议验收，尚未执行',
+            'have not been tested', '尚未实测', '待验证模板',
+            'does not claim every example has been independently reproduced',
+            '不声称所有案例均经过独立复现',
+            'does not guarantee reproduction', '不保证复现效果',
+            'No independent reproduction report has been completed',
+            '本轮尚未完成独立复现报告', '记录“未测”',
+        ]
+        for path in paths:
+            content = path.read_text(encoding='utf-8')
+            for phrase in banned:
+                with self.subTest(path=path.relative_to(root), phrase=phrase):
+                    self.assertNotIn(phrase, content)
+
+    def test_english_editorial_labels_use_english_colons(self):
+        files = catalog.render()
+        labels = ('Goal', 'Constraints', 'Deliverable', 'Suggested checks', 'Takeaway')
+        for path, content in files.items():
+            if path == 'docs/gallery.md' or (path.startswith('docs/categories/') and '.zh-CN.' not in path):
+                for label in labels:
+                    self.assertNotIn(f'**{label}**：', content)
+
     def test_category_pages_partition_cases_and_preserve_gallery_anchors(self):
         files = catalog.render()
         cases = catalog.read('cases.json')

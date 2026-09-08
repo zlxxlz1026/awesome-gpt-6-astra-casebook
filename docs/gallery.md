@@ -2,7 +2,7 @@
 
 [English](gallery.md) · [简体中文](gallery.zh-CN.md) · [Home](../README.md)
 
-Browse community examples with result previews, tools, workflows, limitations and public prompt sources. Entries marked as excerpts link to the creator’s complete prompt. This independent collection records source claims and does not guarantee reproduction.
+Browse community examples with result previews, tools, workflows, limitations and public prompt sources. Entries marked as excerpts link to the creator’s complete prompt; factual claims remain attributed to their sources.
 
 ## Browse by category
 
@@ -139,17 +139,17 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.
+**Goal**: A welcome screen bounds the task to one interface. The astral theme supplies art direction rather than a complete application specification.
 
-**Constraints**：Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.
+**Constraints**: Named tools constrain the workflow, while the Wabi reference constrains the desired interaction. The exact implementation is not specified by the short prompt.
 
-**Deliverable**：The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.
+**Deliverable**: The prompt does not specify an editable project, platform or navigation behavior. Our suggestion: name the target platform and request an editable screen with a working primary action.
 
-**Suggested checks**：Suggested checks, not executed: inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.
+**Suggested checks**: Inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.
 
-**Takeaway**：A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.
+**Takeaway**: A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.
 
 Recorded sources: [@jaimintf · 2095863849635422679](https://x.com/jaimintf/status/2095863849635422679) · [@jaimintf · 2095865097830936773](https://x.com/jaimintf/status/2095865097830936773)
 
@@ -322,17 +322,17 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：The subject is a Formula One car model. Naming a concrete object gives the task a visible target, but does not define mechanical accuracy.
+**Goal**: The subject is a Formula One car model. Naming a concrete object gives the task a visible target, but does not define mechanical accuracy.
 
-**Constraints**：Blender specifies the workspace; computer use specifies an interaction method. These are environment instructions, not evidence that a fresh machine is ready to run them.
+**Constraints**: Blender specifies the workspace; computer use specifies an interaction method. These are environment instructions, not evidence that a fresh machine is ready to run them.
 
-**Deliverable**：The prompt asks for a model without defining a saved project, export format or object structure. Our suggestion: request a saved .blend project with named objects and a preview.
+**Deliverable**: The prompt asks for a model without defining a saved project, export format or object structure. Our suggestion: request a saved .blend project with named objects and a preview.
 
-**Suggested checks**：Suggested checks, not executed: reopen the saved project, inspect object organization, rotate the view, and confirm external assets resolve. Compare proportions only against supplied references.
+**Suggested checks**: Reopen the saved project, inspect object organization, rotate the view, and confirm external assets resolve. Compare proportions only against supplied references.
 
-**Takeaway**：Separate the subject, tool and saved deliverable. The recorded 23-minute session is the author's report, not a time estimate for your run.
+**Takeaway**: Separate the subject, tool and saved deliverable. The recorded 23-minute session is the author's report, not a time estimate for your run.
 
 Recorded sources: [@Conor_D_Dart · 2096125193580113957](https://x.com/Conor_D_Dart/status/2096125193580113957)
 
@@ -853,17 +853,17 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.
+**Goal**: The prompt combines a setting (river kayaking), player input (left/right paddling) and purpose (avoiding obstacles), which describes a small core loop.
 
-**Constraints**：The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.
+**Constraints**: The 3D and anime-like requirements guide presentation. They do not specify water simulation, difficulty, scoring or device support.
 
-**Deliverable**：The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.
+**Deliverable**: The prompt asks for a game without defining packaging or startup. Our suggestion: request runnable source, startup instructions, and an explicit dependency/network list.
 
-**Suggested checks**：Suggested checks, not executed: verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.
+**Suggested checks**: Verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.
 
-**Takeaway**：Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.
+**Takeaway**: Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.
 
 Recorded sources: [@ItsmeAjayKV · 2096244208533455049](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
@@ -1060,16 +1060,16 @@ Based on the material already recorded in this catalog. Missing information is n
 
 #### Prompt breakdown — editorial analysis
 
-The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.
+The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.
 
-**Goal**：Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.
+**Goal**: Playable, 3D and driving establish interaction and genre. The canyon, minimap and lap timing described in the result are not explicit requirements in the short prompt.
 
-**Constraints**：Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.
+**Constraints**: Single HTML file constrains packaging. It does not settle whether the file loads libraries or assets from a network.
 
-**Deliverable**：One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.
+**Deliverable**: One HTML file is explicit. Our suggestion: also request the opening method and list all dependencies, choosing deliberately between network-assisted and fully offline delivery.
 
-**Suggested checks**：Suggested checks, not executed: open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.
+**Suggested checks**: Open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.
 
-**Takeaway**：Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
+**Takeaway**: Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
 
 Recorded sources: [@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)

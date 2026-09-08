@@ -146,9 +146,10 @@ def render():
                     value = note['prerequisites'][key][lang].replace('|', '\\|').replace('\n', '<br>')
                     result.append(f'| {label(en, cn)} | {value} |')
                 result += ['', '#### '+label('Prompt breakdown — editorial analysis', '提示词拆解 · 项目分析'), '',
-                  label('The creator’s prompt is above. The analysis and suggested checks below are project commentary, not the creator’s wording or an independently tested result.', '作者提示词原文见上方。以下拆解和验收建议是项目分析，不是作者原文，也不是独立实测结果。'), '']
+                  label('The creator’s prompt is above. The analysis and suggested checks below are project commentary, clearly separated from the creator’s wording.', '作者提示词原文见上方。以下拆解和验收建议是项目编辑内容，与作者原文明确区分。'), '']
                 for key, en, cn in [('goal', 'Goal', '目标'), ('constraints', 'Constraints', '约束'), ('delivery', 'Deliverable', '交付'), ('acceptance', 'Suggested checks', '验收建议'), ('lesson', 'Takeaway', '可借鉴之处')]:
-                    result += [f'**{label(en, cn)}**：{note["analysis"][key][lang]}', '']
+                    separator = '：' if zh else ': '
+                    result += [f'**{label(en, cn)}**{separator}{note["analysis"][key][lang]}', '']
                 result += [label('Recorded sources: ', '所依据的已收录来源：') + ' · '.join(f'[@{sm[sid]["author"]} · {sid}]({sm[sid]["url"]})' for sid in note['source_ids']), '']
             return result
         lines = ['<div align="center">', '', '# 📚 '+label('Awesome GPT-6 Astra — Use Cases & Prompts', 'Awesome GPT-6 Astra — 实战案例与提示词'), '',
@@ -158,7 +159,7 @@ def render():
           label('Explore GPT-6 Astra use cases, prompt examples and community demos for app and website development, UI design, 3D creation, video storytelling, computer use, engineering and games. Each case connects the result to its creator’s public prompt, tools, workflow and original source.', 'GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI 设计、三维创作、视频叙事、电脑操作与自动化、工程原型和游戏开发。每个案例整理作品展示、作者公开提示词、工具与技术、创作方法及原始来源，方便查找应用示例与学习思路。'), '',
           f'📖 [{label("Browse all cases", "浏览全部案例")}]({gallery}) · 🧾 [{label("Collection index", "收录索引")}](docs/collection-index.md) · ✨ [{label("Latest additions", "最新收录")}]({gallery}#latest) · ➕ [{label("Submit a case", "推荐案例")}](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook/issues/new?template=submit-case.md)', '',
           '## '+label('Start here', '新手从这里开始'), '',
-          label('Three reading paths selected for clear learning goals. These are source-based recommendations, not difficulty ratings or independently reproduced results.', '按学习目标精选的三个阅读入口。选择依据为已收录资料，不代表难度评级或独立复现结果。'), '',
+          label('Three reading paths selected for clear learning goals. These recommendations are based on the material recorded in the catalog, not difficulty ratings.', '按学习目标精选的三个阅读入口，选择依据为目录已收录资料，不代表难度评级。'), '',
           '| '+label('Your goal | Start with | Prompt | Why this case', '你的目标 | 推荐入口 | 提示词 | 选择理由')+' |', '| --- | --- | --- | --- |']
         for entry in paths:
             c = case_map[entry['case_id']]
@@ -200,7 +201,7 @@ def render():
                     lines.append(f'- [{c["title"][lang]}]({case_link(c)}) — **{prompt_label(c)}** · '+', '.join(c['tags']))
             lines.append('')
         lines += ['## '+label('Using this GPT-6 Astra prompt collection', '如何使用这份 GPT-6 Astra 提示词合集'), '',
-          label('1. Pick a category and open a case that matches what you want to build.\n2. Read the workflow and limitations, then follow the original demo and prompt links. Some entries show an excerpt; the complete prompt remains in the creator’s post.\n3. Adapt the prompt to your own assets, tools and constraints. Results can vary; this collection does not claim every example has been independently reproduced.', '1. 选择与你的目标相关的分类，打开具体案例。\n2. 阅读创作方法和注意事项，再访问作品演示与提示词原帖。部分案例仅展示摘录，完整提示词需查看作者原帖。\n3. 根据自己的素材、工具和需求调整提示词。实际效果可能不同，本合集不声称所有案例均经过独立复现。'), '',
+          label('1. Pick a category and open a case that matches what you want to build.\n2. Read the workflow and limitations, then follow the original demo and prompt links. Some entries show an excerpt; the complete prompt remains in the creator’s post.\n3. Adapt the prompt to your own assets, tools and constraints, then define the checks that matter in your environment.', '1. 选择与你的目标相关的分类，打开具体案例。\n2. 阅读创作方法和注意事项，再访问作品演示与提示词原帖。部分案例仅展示摘录，完整提示词需查看作者原帖。\n3. 根据自己的素材、工具和需求调整提示词，并明确适合自身环境的验收条件。'), '',
           '## '+label('Frequently asked questions', '常见问题'), '',
           '### '+label('Where can I find GPT-6 Astra prompt examples?', '在哪里查看 GPT-6 Astra 提示词示例？'), '',
           label(f'Open the [full case gallery]({gallery}). Every curated entry links to a public prompt and its creator’s original result, with tools and a short workflow summary.', f'打开[完整案例图册]({gallery})。每个正式收录案例都附有公开提示词和作者作品原帖链接，同时整理工具与简要创作流程。'), '',
@@ -215,7 +216,7 @@ def render():
         files[filename]='\n'.join(lines)
         lines=['# '+label('📖 GPT-6 Astra Use Cases & Prompt Examples — Full Gallery','📖 GPT-6 Astra 实战案例与提示词 · 完整图册'), '',
           '[English](gallery.md) · [简体中文](gallery.zh-CN.md) · ['+label('Home','返回首页')+'](../'+filename+')', '',
-          label('Browse community examples with result previews, tools, workflows, limitations and public prompt sources. Entries marked as excerpts link to the creator’s complete prompt. This independent collection records source claims and does not guarantee reproduction.', '浏览社区实战案例，查看作品预览、工具、创作方法、注意事项与公开提示词来源。标为摘录的条目提供作者完整提示词链接。本独立合集记录来源信息，不保证复现效果。'), '',
+          label('Browse community examples with result previews, tools, workflows, limitations and public prompt sources. Entries marked as excerpts link to the creator’s complete prompt; factual claims remain attributed to their sources.', '浏览社区实战案例，查看作品预览、工具、创作方法、注意事项与公开提示词来源。标为摘录的条目提供作者完整提示词链接，事实性描述均保留来源归属。'), '',
           '## '+label('Browse by category', '分类导航'), '']
         for cat in active:
             count=sum(c['category']==cat['id'] for c in cases)

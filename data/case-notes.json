@@ -36,8 +36,8 @@
         "zh": "原文要求制作模型，但没有约定工程保存、导出格式或对象结构。建议补充：保存 .blend 工程、命名主要对象并提供预览。"
       },
       "acceptance": {
-        "en": "Suggested checks, not executed: reopen the saved project, inspect object organization, rotate the view, and confirm external assets resolve. Compare proportions only against supplied references.",
-        "zh": "建议验收，尚未执行：重新打开工程，检查对象组织、旋转视角及外部素材是否齐全；比例检查应依据实际提供的参考图。"
+        "en": "Reopen the saved project, inspect object organization, rotate the view, and confirm external assets resolve. Compare proportions only against supplied references.",
+        "zh": "重新打开工程，检查对象组织、旋转视角及外部素材是否齐全；比例检查应依据实际提供的参考图。"
       },
       "lesson": {
         "en": "Separate the subject, tool and saved deliverable. The recorded 23-minute session is the author's report, not a time estimate for your run.",
@@ -83,8 +83,8 @@
         "zh": "原文未规定可编辑工程、目标平台和页面跳转。建议补充目标平台，并要求可编辑页面与可操作的主按钮。"
       },
       "acceptance": {
-        "en": "Suggested checks, not executed: inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.",
-        "zh": "建议验收，尚未执行：检查背景上的文字可读性，点击主按钮，调整窗口，并在目标设备测试动态效果；静态图片不能证明位移交互有效。"
+        "en": "Inspect text readability over the background, press the primary action, resize the viewport and test motion on the target device. A still image cannot verify displacement behavior.",
+        "zh": "检查背景上的文字可读性，点击主按钮，调整窗口，并在目标设备测试动态效果；静态图片不能证明位移交互有效。"
       },
       "lesson": {
         "en": "A visual reference helps communicate style, but should be paired with explicit behavior and delivery requirements. Do not assume another environment has the author's tools.",
@@ -129,8 +129,8 @@
         "zh": "原文要求一个游戏，没有约定打包与启动方式。建议补充可运行源码、启动说明，以及依赖和联网需求清单。"
       },
       "acceptance": {
-        "en": "Suggested checks, not executed: verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.",
-        "zh": "建议验收，尚未执行：检查左右控制、障碍碰撞、明确的结束状态和重新开始；分别检查静音及有声游玩，并将水体行为与美术偏好分开记录。"
+        "en": "Verify left/right steering, obstacle collision, a clear end state and restart. Check muted play as well as audio; record water behavior separately from visual preference.",
+        "zh": "检查左右控制、障碍碰撞、明确的结束状态和重新开始；分别检查静音及有声游玩，并将水体行为与美术偏好分开记录。"
       },
       "lesson": {
         "en": "Naming the repeated player action gives more direction than a genre alone. The author still reports insufficient water turbulence, so a concise prompt does not establish that every subsystem is complete.",
@@ -175,8 +175,8 @@
         "zh": "原文明确交付一个 HTML 文件。建议另外要求打开方式和全部依赖，并明确选择允许联网或完全离线。"
       },
       "acceptance": {
-        "en": "Suggested checks, not executed: open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.",
-        "zh": "建议验收，尚未执行：用新副本按说明启动，测试驾驶与重开，检查缺失资源；如果宣称离线可用，再验证断网启动。"
+        "en": "Open a fresh copy using the documented method, drive and restart, inspect missing resources, and test disconnected startup only if offline operation is claimed.",
+        "zh": "用新副本按说明启动，测试驾驶与重开，检查缺失资源；如果宣称离线可用，再验证断网启动。"
       },
       "lesson": {
         "en": "Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.",

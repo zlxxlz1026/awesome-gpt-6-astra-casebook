@@ -44,7 +44,7 @@ Category covers are explicitly selected in `data/categories.json` using `cover.c
 
 `docs/categories/*.md` are generated bilingual category pages. Edit the JSON and generator, then run `build`; never hand-edit these outputs. README links lead to category pages. The complete galleries and their stable case/category anchors remain available for existing links. Prompt labels come from `prompt.display`, distinguishing full text from excerpts without changing the original text. / 中英文分类页由脚本自动生成，首页直达分类页；完整图册及原有案例、分类锚点继续保留。提示词完整度直接读取已有数据，不改动作者原文。
 
-Maintain beginner paths in `data/learning-paths.json`, editorial guides in `docs/guides/`, and real test reports under `docs/reproduction/` using its record requirements. Guides analyze existing sources; do not label them as independent reproductions. / 新手路径、专题编辑内容与真实测试报告分别维护；专题分析不能标为独立复现。
+Maintain beginner paths in `data/learning-paths.json`, editorial guides in `docs/guides/`, and evidence-backed run reports under `docs/reproduction/` using its record requirements. Keep source facts, editorial recommendations and run evidence visibly separate. / 新手路径、专题编辑内容与有证据的运行报告分别维护，并明确区分来源事实、项目建议与运行证据。
 
 ## Future website / 后续网页
 

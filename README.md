@@ -16,7 +16,7 @@ Explore GPT-6 Astra use cases, prompt examples and community demos for app and w
 
 ## Start here
 
-Three reading paths selected for clear learning goals. These are source-based recommendations, not difficulty ratings or independently reproduced results.
+Three reading paths selected for clear learning goals. These recommendations are based on the material recorded in the catalog, not difficulty ratings.
 
 | Your goal | Start with | Prompt | Why this case |
 | --- | --- | --- | --- |
@@ -181,7 +181,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 
 1. Pick a category and open a case that matches what you want to build.
 2. Read the workflow and limitations, then follow the original demo and prompt links. Some entries show an excerpt; the complete prompt remains in the creator’s post.
-3. Adapt the prompt to your own assets, tools and constraints. Results can vary; this collection does not claim every example has been independently reproduced.
+3. Adapt the prompt to your own assets, tools and constraints, then define the checks that matter in your environment.
 
 ## Frequently asked questions
 
