@@ -4,7 +4,7 @@
 
 Interactive websites, creative interfaces and useful apps.
 
-**2 cases**
+**3 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -14,6 +14,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 
 - [Interactive peacock website](#interactive-peacock) · **Prompt excerpt**
 - [A faster iPad robot control station](#ipad-robot-control-station) · **Full prompt**
+- [Open-source Three.js agency hero](#threejs-agency-hero) · **Full prompt**
 
 <a id="interactive-peacock"></a>
 
@@ -75,6 +76,38 @@ make this look and perform better; focus on UI/UX/latency
 ```
 
 ↗ [Read the original prompt](https://x.com/Alpha10six/status/2096352482746147085) · [Watch the demo](https://x.com/Alpha10six/status/2096352482746147085)
+
+[Back to case list](#cases)
+
+
+<a id="threejs-agency-hero"></a>
+
+### Open-source Three.js agency hero
+
+**Full prompt** · [Original prompt](https://x.com/itsnicholash/status/2064809351211078019)
+
+[![Editorial agency hero with animated procedural Three.js forms](https://pbs.twimg.com/amplify_video_thumb/2097061951067095042/img/5TtDGPl5VPqaHO5y.jpg)](https://x.com/itsnicholash/status/2097062926381101217)
+
+Astra searches open-source Three.js experiments and turns the findings into a polished agency hero with animated procedural forms and a cohesive editorial layout.
+
+**Creator**: [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) · 2026-09-08<br>
+**Tools & techniques**: Three.js, WebGL, Creative coding
+
+**How it works**
+
+Reuse the author's earlier benchmark prompt unchanged: research exceptional open-source Three.js work, shaders and interactions, then design and publish the strongest possible agency hero.
+
+**What to know**
+
+The author flags that the result borrows recognizable cues from OffBrand's visual identity; the post is a model comparison rather than a client-ready brand handoff.
+
+**Prompt**
+
+```text
+fable, scour the web and GitHub, find the craziest Three.js open source projects, shaders, interactive stuff et cetera. come up with the craziest, most impressive, beautiful, modern Three.js hero section for an agency website using these and design it and get it live
+```
+
+↗ [Read the original prompt](https://x.com/itsnicholash/status/2064809351211078019) · [Watch the demo](https://x.com/itsnicholash/status/2097062926381101217)
 
 [Back to case list](#cases)
 

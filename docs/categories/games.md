@@ -4,7 +4,7 @@
 
 Playable worlds, game prototypes and interactive simulations.
 
-**10 cases**
+**12 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -22,6 +22,8 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A Ghost of Tsushima-style playable world](#ghost-of-tsushima-game) · **Full prompt**
 - [Little Acre pocket-world builder](#little-acre-world-builder) · **Full prompt**
 - [A single-file canyon driving game](#single-file-canyon-racer) · **Full prompt**
+- [Dream Loop isometric fantasy demo](#dream-loop-isometric-demo) · **Full prompt**
+- [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -393,6 +395,78 @@ The creator’s prompt is above. The analysis and suggested checks below are pro
 **Takeaway**: Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
 
 Recorded sources: [@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)
+
+[Back to case list](#cases)
+
+
+<a id="dream-loop-isometric-demo"></a>
+
+### Dream Loop isometric fantasy demo
+
+**Full prompt** · [Original prompt](https://x.com/anshuc/status/2097001450941587889)
+
+[![Isometric fantasy scene with a controllable character and reflective wet floor](https://pbs.twimg.com/amplify_video_thumb/2097001376606011392/img/f-lqFhoMgDtRlb_L.jpg)](https://x.com/anshuc/status/2097001438736166960)
+
+A reusable Dream Loop skill turns one brief into a polished, browser-native isometric fantasy world with a controllable character, wet reflective floors and ambient motion.
+
+**Creator**: [@anshuc](https://x.com/anshuc/status/2097001438736166960) · 2026-09-08<br>
+**Tools & techniques**: Three.js, Dream Loop, Isometric 3D
+
+**How it works**
+
+Run the published /dream-loop prompt at High effort. The author capped the task at one hour, prohibited downloaded assets and reported using two percent of a weekly 20x-plan quota.
+
+**What to know**
+
+The author presents this as a graphics demo rather than a full game; movement is intentionally limited and no gameplay loop was requested.
+
+**Prompt**
+
+```text
+/dream-loop Build me a graphics demo: isometric camera, voxel-ish art style with realistic shading and reflective wet floors, a character in an interesting scene. Fantasy setting (think Elden Ring, Diablo). Three.js in browser, >60fps. Don't download assets. Time limit of 1 hour. Controls: click to move the character, camera lazy-follows; drag to rotate camera; scroll to zoom in/out. No gameplay for now. World should feel alive: motion, animations, subtle environmental behaviors. Area around player should look expansive, but only allow movement in a limited space. No need to confirm the art with me or ask questions, just go!
+```
+
+↗ [Read the original prompt](https://x.com/anshuc/status/2097001450941587889) · [Watch the demo](https://x.com/anshuc/status/2097001438736166960)
+
+[Back to case list](#cases)
+
+
+<a id="workbench-robo-cat"></a>
+
+### A workbench robo-cat with a diegetic battery HUD
+
+**Prompt excerpt** · [Original prompt](https://x.com/zeuuss_01/status/2097004362530787837)
+
+[![Four-legged robo-cat standing beside its charger on a warm workbench](https://pbs.twimg.com/amplify_video_thumb/2097002747883376640/img/-6RFXjIep4U4fHAL.jpg)](https://x.com/zeuuss_01/status/2097004192627933279)
+
+A small four-legged robot walks, carries bolts and returns to its charger on a warmly lit workbench, while five amber cells on its body communicate the entire battery state.
+
+**Creator**: [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) · 2026-09-08<br>
+**Tools & techniques**: Three.js, Diegetic UI, Inverse kinematics
+
+**How it works**
+
+Save the public ten-section specification as SPEC.md, then ask Astra to build it in Three.js. The brief prioritizes silhouette and locomotion before battery states, three object-driven jobs and bench dressing, with explicit proof renders before completion.
+
+**What to know**
+
+The intentionally narrow build budget excludes a physics engine, sound, persistence, menus, additional rooms and a second robot; the published result is a short video rather than source code or a live build.
+
+**Prompt**
+
+> THE FULL SPEC.
+SAVE IT AS A FILE IN THE PROJECT FOLDER, NOT AS A CHAT MESSAGE.
+THEN: /goal build this in three.js, read SPEC.md and follow it exactly, especially sections 9 and 10.
+
+{ START }
+
+1 WHAT THIS IS
+
+a small four-legged robot lives on a workbench. you charge it, play with it, and give it three jobs. it never leaves the bench and neither do you. that is the whole game.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/zeuuss_01/status/2097004362530787837) · [Watch the demo](https://x.com/zeuuss_01/status/2097004192627933279)
 
 [Back to case list](#cases)
 

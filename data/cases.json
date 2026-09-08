@@ -1454,5 +1454,253 @@
       }
     },
     "added_at": "2026-09-07"
+  },
+  {
+    "id": "dream-loop-isometric-demo",
+    "title": {
+      "en": "Dream Loop isometric fantasy demo",
+      "zh": "Dream Loop 等距幻想世界演示"
+    },
+    "summary": {
+      "en": "A reusable Dream Loop skill turns one brief into a polished, browser-native isometric fantasy world with a controllable character, wet reflective floors and ambient motion.",
+      "zh": "可复用的 Dream Loop 技能把一份需求变成精致的浏览器等距幻想世界，包含可操控角色、湿润反射地面和环境动态。"
+    },
+    "workflow": {
+      "en": "Run the published /dream-loop prompt at High effort. The author capped the task at one hour, prohibited downloaded assets and reported using two percent of a weekly 20x-plan quota.",
+      "zh": "以 High effort 运行作者公开的 /dream-loop 提示词；任务限定一小时、不下载外部素材，作者称消耗了 20x 套餐周额度的 2%。"
+    },
+    "limitations": {
+      "en": "The author presents this as a graphics demo rather than a full game; movement is intentionally limited and no gameplay loop was requested.",
+      "zh": "作者明确把它定位为视觉演示而非完整游戏；可移动区域受限，提示词也没有要求玩法循环。"
+    },
+    "category": "games",
+    "tags": [
+      "Three.js",
+      "Dream Loop",
+      "Isometric 3D"
+    ],
+    "source_ids": [
+      "2097001438736166960",
+      "2097001450941587889"
+    ],
+    "primary_source_id": "2097001438736166960",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "/dream-loop Build me a graphics demo: isometric camera, voxel-ish art style with realistic shading and reflective wet floors, a character in an interesting scene. Fantasy setting (think Elden Ring, Diablo). Three.js in browser, >60fps. Don't download assets. Time limit of 1 hour. Controls: click to move the character, camera lazy-follows; drag to rotate camera; scroll to zoom in/out. No gameplay for now. World should feel alive: motion, animations, subtle environmental behaviors. Area around player should look expansive, but only allow movement in a limited space. No need to confirm the art with me or ask questions, just go!",
+      "source_id": "2097001450941587889",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-08"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097001376606011392/img/f-lqFhoMgDtRlb_L.jpg",
+      "source_id": "2097001438736166960",
+      "alt": {
+        "en": "Isometric fantasy scene with a controllable character and reflective wet floor",
+        "zh": "带可操控角色和湿润反射地面的等距幻想场景"
+      }
+    },
+    "added_at": "2026-09-08"
+  },
+  {
+    "id": "microduck-segmentation-training",
+    "title": {
+      "en": "Hands-off segmentation model training",
+      "zh": "无人值守的分割模型训练流水线"
+    },
+    "summary": {
+      "en": "Astra gathers public Microduck media, builds a provenance-aware dataset, produces two competing mask sets and trains two RF-DETR-Seg-M models without human-supplied labels.",
+      "zh": "Astra 收集公开的 Microduck 素材，构建保留来源的数据集，生成两套对照掩码，并在没有人工标注的情况下训练两套 RF-DETR-Seg-M 模型。"
+    },
+    "workflow": {
+      "en": "Give Astra a signed-in Roboflow account, the public asset source, a model target and held-out evaluation requirements. The author reports both cloud training runs were ready in about 93 minutes.",
+      "zh": "向 Astra 提供已登录的 Roboflow 账号、公开素材来源、目标模型和留出评估要求；作者报告两次云端训练约 93 分钟完成。"
+    },
+    "limitations": {
+      "en": "The run used a Roboflow account with 50 credits. The comparison held out complete video groups and froze both datasets before evaluation.",
+      "zh": "本次运行使用了含 50 credits 的 Roboflow 账号；对照实验按完整视频组留出，并在评估前冻结两套数据集。"
+    },
+    "category": "engineering",
+    "tags": [
+      "Computer vision",
+      "Roboflow",
+      "RF-DETR",
+      "SAM3"
+    ],
+    "source_ids": [
+      "2097122818815299892",
+      "2097123587920634003",
+      "2097123589984272733",
+      "2097123592689594639"
+    ],
+    "primary_source_id": "2097122818815299892",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Get all images and videos of microducks from here pollen-robotics.com/microduck/. Generate masks and train RF-DETR-Seg-M using Roboflow.com. I will be flying in a few hours. I want to make sure the training run is set up and running even after I close this laptop in 6 hours. Leave a couple of interesting videos out for showing the final results. We can do two runs. One with SAM3 and one with masks you produce.",
+      "source_id": "2097123587920634003",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-08"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097122679845449728/img/g0gMKyOCYKoBvXSM.jpg",
+      "source_id": "2097122818815299892",
+      "alt": {
+        "en": "Side-by-side Microduck instance-segmentation model predictions",
+        "zh": "两套 Microduck 实例分割模型预测结果对比"
+      }
+    },
+    "added_at": "2026-09-08"
+  },
+  {
+    "id": "godot-mech-rigging",
+    "title": {
+      "en": "One-prompt mech rigging in Godot",
+      "zh": "一句提示词完成 Godot 机甲绑定"
+    },
+    "summary": {
+      "en": "Astra rigs a textured GLB mech and creates a convincing digitigrade walk cycle directly in a Godot preview.",
+      "zh": "Astra 为带贴图的 GLB 机甲完成骨骼绑定，并直接在 Godot 预览中制作反关节步行动画。"
+    },
+    "workflow": {
+      "en": "The author generated concept art in Midjourney, converted it to a textured GLB with Meshy 7, then gave the asset and one direct rigging instruction to Astra. The full workflow took about 30 minutes.",
+      "zh": "作者先用 Midjourney 生成概念图，再用 Meshy 7 转成带贴图的 GLB，最后把资产和一句绑定指令交给 Astra；整个流程约 30 分钟。"
+    },
+    "limitations": {
+      "en": "The author notes the first walk cycle still has outward-pointing feet and imperfect hip motion.",
+      "zh": "作者指出第一版步态仍有脚尖外撇和髋部动作不够自然的问题。"
+    },
+    "category": "3d",
+    "tags": [
+      "Godot",
+      "Meshy",
+      "GLB",
+      "Character rigging"
+    ],
+    "source_ids": [
+      "2097123382852829230"
+    ],
+    "primary_source_id": "2097123382852829230",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "can you rig and animate this glb, i want to see the digitigrade legs walking convincingly in a godot preview please",
+      "source_id": "2097123382852829230",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-08"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097123357233680384/img/vGyrEeEbj45yQlYQ.jpg",
+      "source_id": "2097123382852829230",
+      "alt": {
+        "en": "Rigged science-fiction mech walking in a Godot preview",
+        "zh": "完成骨骼绑定的科幻机甲在 Godot 预览中行走"
+      }
+    },
+    "added_at": "2026-09-08"
+  },
+  {
+    "id": "threejs-agency-hero",
+    "title": {
+      "en": "Open-source Three.js agency hero",
+      "zh": "开源灵感驱动的 Three.js 机构首页"
+    },
+    "summary": {
+      "en": "Astra searches open-source Three.js experiments and turns the findings into a polished agency hero with animated procedural forms and a cohesive editorial layout.",
+      "zh": "Astra 检索开源 Three.js 实验，并把结果组合成带程序化动态造型和统一编辑式布局的精致机构首页。"
+    },
+    "workflow": {
+      "en": "Reuse the author's earlier benchmark prompt unchanged: research exceptional open-source Three.js work, shaders and interactions, then design and publish the strongest possible agency hero.",
+      "zh": "原样复用作者此前的基准提示词：研究优秀的开源 Three.js 项目、着色器和交互，再设计并上线尽可能出色的机构首屏。"
+    },
+    "limitations": {
+      "en": "The author flags that the result borrows recognizable cues from OffBrand's visual identity; the post is a model comparison rather than a client-ready brand handoff.",
+      "zh": "作者指出结果借用了 OffBrand 的可辨识视觉线索；该帖子用于模型对比，并非可直接交付客户的品牌方案。"
+    },
+    "category": "apps",
+    "tags": [
+      "Three.js",
+      "WebGL",
+      "Creative coding"
+    ],
+    "source_ids": [
+      "2097062926381101217",
+      "2064809351211078019"
+    ],
+    "primary_source_id": "2097062926381101217",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "fable, scour the web and GitHub, find the craziest Three.js open source projects, shaders, interactive stuff et cetera. come up with the craziest, most impressive, beautiful, modern Three.js hero section for an agency website using these and design it and get it live",
+      "source_id": "2064809351211078019",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-08"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097061951067095042/img/5TtDGPl5VPqaHO5y.jpg",
+      "source_id": "2097062926381101217",
+      "alt": {
+        "en": "Editorial agency hero with animated procedural Three.js forms",
+        "zh": "带程序化 Three.js 动态造型的编辑式机构首页"
+      }
+    },
+    "added_at": "2026-09-08"
+  },
+  {
+    "id": "workbench-robo-cat",
+    "title": {
+      "en": "A workbench robo-cat with a diegetic battery HUD",
+      "zh": "把电量显示做进机身的工作台机器猫"
+    },
+    "summary": {
+      "en": "A small four-legged robot walks, carries bolts and returns to its charger on a warmly lit workbench, while five amber cells on its body communicate the entire battery state.",
+      "zh": "一只四足小机器人在暖光工作台上行走、搬运螺栓并主动回到充电座，机身侧面的五格琥珀色灯就是完整电量界面。"
+    },
+    "workflow": {
+      "en": "Save the public ten-section specification as SPEC.md, then ask Astra to build it in Three.js. The brief prioritizes silhouette and locomotion before battery states, three object-driven jobs and bench dressing, with explicit proof renders before completion.",
+      "zh": "把作者公开的十节规格保存为 SPEC.md，再让 Astra 用 Three.js 实现。规格明确要求先做好轮廓与步态，再完成电量状态、三种物件驱动任务和工作台陈设，并在交付前用指定画面证明关键状态。"
+    },
+    "limitations": {
+      "en": "The intentionally narrow build budget excludes a physics engine, sound, persistence, menus, additional rooms and a second robot; the published result is a short video rather than source code or a live build.",
+      "zh": "该规格刻意控制范围，不使用物理引擎、声音、存档、菜单、额外房间或第二只机器人；作者公开的是短视频，没有同时提供源码或在线试玩。"
+    },
+    "category": "games",
+    "tags": [
+      "Three.js",
+      "Diegetic UI",
+      "Inverse kinematics"
+    ],
+    "source_ids": [
+      "2097004192627933279",
+      "2097004362530787837"
+    ],
+    "primary_source_id": "2097004192627933279",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "THE FULL SPEC.\nSAVE IT AS A FILE IN THE PROJECT FOLDER, NOT AS A CHAT MESSAGE.\nTHEN: /goal build this in three.js, read SPEC.md and follow it exactly, especially sections 9 and 10.\n\n{ START }\n\n1 WHAT THIS IS\n\na small four-legged robot lives on a workbench. you charge it, play with it, and give it three jobs. it never leaves the bench and neither do you. that is the whole game.",
+      "source_id": "2097004362530787837",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "en",
+      "verified_at": "2026-09-08"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097002747883376640/img/-6RFXjIep4U4fHAL.jpg",
+      "source_id": "2097004192627933279",
+      "alt": {
+        "en": "Four-legged robo-cat standing beside its charger on a warm workbench",
+        "zh": "四足机器猫站在暖光工作台的充电座旁"
+      }
+    },
+    "added_at": "2026-09-08"
   }
 ]

@@ -4,7 +4,7 @@
 
 Engineering workflows, physical prototypes and production-ready systems.
 
-**1 cases**
+**2 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -13,6 +13,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 ## Choose a case
 
 - [A buildable Microduck robot prototype](#microduck-robot-prototype) · **Full prompt**
+- [Hands-off segmentation model training](#microduck-segmentation-training) · **Full prompt**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -42,6 +43,38 @@ prototype me a full Microduck
 ```
 
 ↗ [Read the original prompt](https://x.com/DeRonin_/status/2096567918859354155) · [Watch the demo](https://x.com/DeRonin_/status/2096567918859354155)
+
+[Back to case list](#cases)
+
+
+<a id="microduck-segmentation-training"></a>
+
+### Hands-off segmentation model training
+
+**Full prompt** · [Original prompt](https://x.com/LearnOpenCV/status/2097123587920634003)
+
+[![Side-by-side Microduck instance-segmentation model predictions](https://pbs.twimg.com/amplify_video_thumb/2097122679845449728/img/g0gMKyOCYKoBvXSM.jpg)](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+Astra gathers public Microduck media, builds a provenance-aware dataset, produces two competing mask sets and trains two RF-DETR-Seg-M models without human-supplied labels.
+
+**Creator**: [@LearnOpenCV](https://x.com/LearnOpenCV/status/2097122818815299892) · 2026-09-08<br>
+**Tools & techniques**: Computer vision, Roboflow, RF-DETR, SAM3
+
+**How it works**
+
+Give Astra a signed-in Roboflow account, the public asset source, a model target and held-out evaluation requirements. The author reports both cloud training runs were ready in about 93 minutes.
+
+**What to know**
+
+The run used a Roboflow account with 50 credits. The comparison held out complete video groups and froze both datasets before evaluation.
+
+**Prompt**
+
+```text
+Get all images and videos of microducks from here pollen-robotics.com/microduck/. Generate masks and train RF-DETR-Seg-M using Roboflow.com. I will be flying in a few hours. I want to make sure the training run is set up and running even after I close this laptop in 6 hours. Leave a couple of interesting videos out for showing the final results. We can do two runs. One with SAM3 and one with masks you produce.
+```
+
+↗ [Read the original prompt](https://x.com/LearnOpenCV/status/2097123587920634003) · [Watch the demo](https://x.com/LearnOpenCV/status/2097122818815299892)
 
 [Back to case list](#cases)
 

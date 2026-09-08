@@ -6,24 +6,24 @@ Browse community examples with result previews, tools, workflows, limitations an
 
 ## Browse by category
 
-- [🧩 Apps & websites](#apps) · 2 · [Category page](categories/apps.md)
+- [🧩 Apps & websites](#apps) · 3 · [Category page](categories/apps.md)
 - [✨ Design & creative work](#design) · 4 · [Category page](categories/design.md)
-- [🏛️ 3D & spatial creation](#3d) · 7 · [Category page](categories/3d.md)
+- [🏛️ 3D & spatial creation](#3d) · 8 · [Category page](categories/3d.md)
 - [🎬 Video & storytelling](#video) · 5 · [Category page](categories/video.md)
 - [🖱️ Computer use & automation](#automation) · 1 · [Category page](categories/automation.md)
-- [🛠️ Engineering & prototyping](#engineering) · 1 · [Category page](categories/engineering.md)
-- [🎮 Games & simulations](#games) · 10 · [Category page](categories/games.md)
+- [🛠️ Engineering & prototyping](#engineering) · 2 · [Category page](categories/engineering.md)
+- [🎮 Games & simulations](#games) · 12 · [Category page](categories/games.md)
 
 <a id="latest"></a>
 
 ## ✨ Latest Additions
 
+- [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
+- [Open-source Three.js agency hero](#threejs-agency-hero) · **Full prompt**
+- [One-prompt mech rigging in Godot](#godot-mech-rigging) · **Full prompt**
+- [Hands-off segmentation model training](#microduck-segmentation-training) · **Full prompt**
+- [Dream Loop isometric fantasy demo](#dream-loop-isometric-demo) · **Full prompt**
 - [A single-file canyon driving game](#single-file-canyon-racer) · **Full prompt**
-- [Little Acre pocket-world builder](#little-acre-world-builder) · **Full prompt**
-- [A Ghost of Tsushima-style playable world](#ghost-of-tsushima-game) · **Full prompt**
-- [A browser-native car-football arena](#rocket-league-threejs) · **Prompt excerpt**
-- [A Sonic-style Godot vertical slice](#sonic-godot-vertical-slice) · **Prompt excerpt**
-- [Voidrunner anti-gravity combat racer](#voidrunner-combat-racer) · **Full prompt**
 
 <a id="apps"></a>
 
@@ -89,6 +89,36 @@ make this look and perform better; focus on UI/UX/latency
 ```
 
 ↗ [Read the original prompt](https://x.com/Alpha10six/status/2096352482746147085) · [Watch the demo](https://x.com/Alpha10six/status/2096352482746147085)
+
+
+<a id="threejs-agency-hero"></a>
+
+### Open-source Three.js agency hero
+
+**Full prompt** · [Original prompt](https://x.com/itsnicholash/status/2064809351211078019)
+
+[![Editorial agency hero with animated procedural Three.js forms](https://pbs.twimg.com/amplify_video_thumb/2097061951067095042/img/5TtDGPl5VPqaHO5y.jpg)](https://x.com/itsnicholash/status/2097062926381101217)
+
+Astra searches open-source Three.js experiments and turns the findings into a polished agency hero with animated procedural forms and a cohesive editorial layout.
+
+**Creator**: [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) · 2026-09-08<br>
+**Tools & techniques**: Three.js, WebGL, Creative coding
+
+**How it works**
+
+Reuse the author's earlier benchmark prompt unchanged: research exceptional open-source Three.js work, shaders and interactions, then design and publish the strongest possible agency hero.
+
+**What to know**
+
+The author flags that the result borrows recognizable cues from OffBrand's visual identity; the post is a model comparison rather than a client-ready brand handoff.
+
+**Prompt**
+
+```text
+fable, scour the web and GitHub, find the craziest Three.js open source projects, shaders, interactive stuff et cetera. come up with the craziest, most impressive, beautiful, modern Three.js hero section for an agency website using these and design it and get it live
+```
+
+↗ [Read the original prompt](https://x.com/itsnicholash/status/2064809351211078019) · [Watch the demo](https://x.com/itsnicholash/status/2097062926381101217)
 
 
 <a id="design"></a>
@@ -487,6 +517,36 @@ Build a gorgeous sci-fi spaceship with explorable internal structures.
 ↗ [Read the original prompt](https://x.com/GaricaRosen6779/status/2093958836751327322) · [Watch the demo](https://x.com/GaricaRosen6779/status/2093958836751327322)
 
 
+<a id="godot-mech-rigging"></a>
+
+### One-prompt mech rigging in Godot
+
+**Full prompt** · [Original prompt](https://x.com/om_patel5/status/2097123382852829230)
+
+[![Rigged science-fiction mech walking in a Godot preview](https://pbs.twimg.com/amplify_video_thumb/2097123357233680384/img/vGyrEeEbj45yQlYQ.jpg)](https://x.com/om_patel5/status/2097123382852829230)
+
+Astra rigs a textured GLB mech and creates a convincing digitigrade walk cycle directly in a Godot preview.
+
+**Creator**: [@om_patel5](https://x.com/om_patel5/status/2097123382852829230) · 2026-09-08<br>
+**Tools & techniques**: Godot, Meshy, GLB, Character rigging
+
+**How it works**
+
+The author generated concept art in Midjourney, converted it to a textured GLB with Meshy 7, then gave the asset and one direct rigging instruction to Astra. The full workflow took about 30 minutes.
+
+**What to know**
+
+The author notes the first walk cycle still has outward-pointing feet and imperfect hip motion.
+
+**Prompt**
+
+```text
+can you rig and animate this glb, i want to see the digitigrade legs walking convincingly in a godot preview please
+```
+
+↗ [Read the original prompt](https://x.com/om_patel5/status/2097123382852829230) · [Watch the demo](https://x.com/om_patel5/status/2097123382852829230)
+
+
 <a id="video"></a>
 
 ## 🎬 Video & storytelling
@@ -713,6 +773,36 @@ prototype me a full Microduck
 ```
 
 ↗ [Read the original prompt](https://x.com/DeRonin_/status/2096567918859354155) · [Watch the demo](https://x.com/DeRonin_/status/2096567918859354155)
+
+
+<a id="microduck-segmentation-training"></a>
+
+### Hands-off segmentation model training
+
+**Full prompt** · [Original prompt](https://x.com/LearnOpenCV/status/2097123587920634003)
+
+[![Side-by-side Microduck instance-segmentation model predictions](https://pbs.twimg.com/amplify_video_thumb/2097122679845449728/img/g0gMKyOCYKoBvXSM.jpg)](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+Astra gathers public Microduck media, builds a provenance-aware dataset, produces two competing mask sets and trains two RF-DETR-Seg-M models without human-supplied labels.
+
+**Creator**: [@LearnOpenCV](https://x.com/LearnOpenCV/status/2097122818815299892) · 2026-09-08<br>
+**Tools & techniques**: Computer vision, Roboflow, RF-DETR, SAM3
+
+**How it works**
+
+Give Astra a signed-in Roboflow account, the public asset source, a model target and held-out evaluation requirements. The author reports both cloud training runs were ready in about 93 minutes.
+
+**What to know**
+
+The run used a Roboflow account with 50 credits. The comparison held out complete video groups and froze both datasets before evaluation.
+
+**Prompt**
+
+```text
+Get all images and videos of microducks from here pollen-robotics.com/microduck/. Generate masks and train RF-DETR-Seg-M using Roboflow.com. I will be flying in a few hours. I want to make sure the training run is set up and running even after I close this laptop in 6 hours. Leave a couple of interesting videos out for showing the final results. We can do two runs. One with SAM3 and one with masks you produce.
+```
+
+↗ [Read the original prompt](https://x.com/LearnOpenCV/status/2097123587920634003) · [Watch the demo](https://x.com/LearnOpenCV/status/2097122818815299892)
 
 
 <a id="games"></a>
@@ -1073,3 +1163,71 @@ The creator’s prompt is above. The analysis and suggested checks below are pro
 **Takeaway**: Packaging is part of the task, not a final cosmetic detail. The author reports a packaging bug and follow-up fix; retain that iteration when presenting the case.
 
 Recorded sources: [@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)
+
+
+<a id="dream-loop-isometric-demo"></a>
+
+### Dream Loop isometric fantasy demo
+
+**Full prompt** · [Original prompt](https://x.com/anshuc/status/2097001450941587889)
+
+[![Isometric fantasy scene with a controllable character and reflective wet floor](https://pbs.twimg.com/amplify_video_thumb/2097001376606011392/img/f-lqFhoMgDtRlb_L.jpg)](https://x.com/anshuc/status/2097001438736166960)
+
+A reusable Dream Loop skill turns one brief into a polished, browser-native isometric fantasy world with a controllable character, wet reflective floors and ambient motion.
+
+**Creator**: [@anshuc](https://x.com/anshuc/status/2097001438736166960) · 2026-09-08<br>
+**Tools & techniques**: Three.js, Dream Loop, Isometric 3D
+
+**How it works**
+
+Run the published /dream-loop prompt at High effort. The author capped the task at one hour, prohibited downloaded assets and reported using two percent of a weekly 20x-plan quota.
+
+**What to know**
+
+The author presents this as a graphics demo rather than a full game; movement is intentionally limited and no gameplay loop was requested.
+
+**Prompt**
+
+```text
+/dream-loop Build me a graphics demo: isometric camera, voxel-ish art style with realistic shading and reflective wet floors, a character in an interesting scene. Fantasy setting (think Elden Ring, Diablo). Three.js in browser, >60fps. Don't download assets. Time limit of 1 hour. Controls: click to move the character, camera lazy-follows; drag to rotate camera; scroll to zoom in/out. No gameplay for now. World should feel alive: motion, animations, subtle environmental behaviors. Area around player should look expansive, but only allow movement in a limited space. No need to confirm the art with me or ask questions, just go!
+```
+
+↗ [Read the original prompt](https://x.com/anshuc/status/2097001450941587889) · [Watch the demo](https://x.com/anshuc/status/2097001438736166960)
+
+
+<a id="workbench-robo-cat"></a>
+
+### A workbench robo-cat with a diegetic battery HUD
+
+**Prompt excerpt** · [Original prompt](https://x.com/zeuuss_01/status/2097004362530787837)
+
+[![Four-legged robo-cat standing beside its charger on a warm workbench](https://pbs.twimg.com/amplify_video_thumb/2097002747883376640/img/-6RFXjIep4U4fHAL.jpg)](https://x.com/zeuuss_01/status/2097004192627933279)
+
+A small four-legged robot walks, carries bolts and returns to its charger on a warmly lit workbench, while five amber cells on its body communicate the entire battery state.
+
+**Creator**: [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) · 2026-09-08<br>
+**Tools & techniques**: Three.js, Diegetic UI, Inverse kinematics
+
+**How it works**
+
+Save the public ten-section specification as SPEC.md, then ask Astra to build it in Three.js. The brief prioritizes silhouette and locomotion before battery states, three object-driven jobs and bench dressing, with explicit proof renders before completion.
+
+**What to know**
+
+The intentionally narrow build budget excludes a physics engine, sound, persistence, menus, additional rooms and a second robot; the published result is a short video rather than source code or a live build.
+
+**Prompt**
+
+> THE FULL SPEC.
+SAVE IT AS A FILE IN THE PROJECT FOLDER, NOT AS A CHAT MESSAGE.
+THEN: /goal build this in three.js, read SPEC.md and follow it exactly, especially sections 9 and 10.
+
+{ START }
+
+1 WHAT THIS IS
+
+a small four-legged robot lives on a workbench. you charge it, play with it, and give it three jobs. it never leaves the bench and neither do you. that is the whole game.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/zeuuss_01/status/2097004362530787837) · [Watch the demo](https://x.com/zeuuss_01/status/2097004192627933279)

@@ -6,24 +6,24 @@
 
 ## 分类导航
 
-- [🧩 应用与网站](#apps) · 2 · [分类页面](categories/apps.zh-CN.md)
+- [🧩 应用与网站](#apps) · 3 · [分类页面](categories/apps.zh-CN.md)
 - [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
-- [🏛️ 三维与空间创作](#3d) · 7 · [分类页面](categories/3d.zh-CN.md)
+- [🏛️ 三维与空间创作](#3d) · 8 · [分类页面](categories/3d.zh-CN.md)
 - [🎬 视频与叙事](#video) · 5 · [分类页面](categories/video.zh-CN.md)
 - [🖱️ 电脑操作与自动化](#automation) · 1 · [分类页面](categories/automation.zh-CN.md)
-- [🛠️ 工程与原型](#engineering) · 1 · [分类页面](categories/engineering.zh-CN.md)
-- [🎮 游戏与仿真](#games) · 10 · [分类页面](categories/games.zh-CN.md)
+- [🛠️ 工程与原型](#engineering) · 2 · [分类页面](categories/engineering.zh-CN.md)
+- [🎮 游戏与仿真](#games) · 12 · [分类页面](categories/games.zh-CN.md)
 
 <a id="latest"></a>
 
 ## ✨ 最新收录
 
+- [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
+- [开源灵感驱动的 Three.js 机构首页](#threejs-agency-hero) · **完整提示词**
+- [一句提示词完成 Godot 机甲绑定](#godot-mech-rigging) · **完整提示词**
+- [无人值守的分割模型训练流水线](#microduck-segmentation-training) · **完整提示词**
+- [Dream Loop 等距幻想世界演示](#dream-loop-isometric-demo) · **完整提示词**
 - [单文件峡谷驾驶游戏](#single-file-canyon-racer) · **完整提示词**
-- [Little Acre 袖珍世界建造器](#little-acre-world-builder) · **完整提示词**
-- [《对马岛之魂》风格可玩世界](#ghost-of-tsushima-game) · **完整提示词**
-- [浏览器原生汽车足球竞技场](#rocket-league-threejs) · **提示词摘录**
-- [Sonic 风格 Godot 垂直切片](#sonic-godot-vertical-slice) · **提示词摘录**
-- [Voidrunner 反重力战斗竞速](#voidrunner-combat-racer) · **完整提示词**
 
 <a id="apps"></a>
 
@@ -89,6 +89,36 @@ make this look and perform better; focus on UI/UX/latency
 ```
 
 ↗ [查看作者完整提示词](https://x.com/Alpha10six/status/2096352482746147085) · [观看演示](https://x.com/Alpha10six/status/2096352482746147085)
+
+
+<a id="threejs-agency-hero"></a>
+
+### 开源灵感驱动的 Three.js 机构首页
+
+**完整提示词** · [提示词原帖](https://x.com/itsnicholash/status/2064809351211078019)
+
+[![带程序化 Three.js 动态造型的编辑式机构首页](https://pbs.twimg.com/amplify_video_thumb/2097061951067095042/img/5TtDGPl5VPqaHO5y.jpg)](https://x.com/itsnicholash/status/2097062926381101217)
+
+Astra 检索开源 Three.js 实验，并把结果组合成带程序化动态造型和统一编辑式布局的精致机构首页。
+
+**作者**: [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) · 2026-09-08<br>
+**工具与技术**: Three.js, WebGL, Creative coding
+
+**创作方法**
+
+原样复用作者此前的基准提示词：研究优秀的开源 Three.js 项目、着色器和交互，再设计并上线尽可能出色的机构首屏。
+
+**值得注意**
+
+作者指出结果借用了 OffBrand 的可辨识视觉线索；该帖子用于模型对比，并非可直接交付客户的品牌方案。
+
+**提示词**
+
+```text
+fable, scour the web and GitHub, find the craziest Three.js open source projects, shaders, interactive stuff et cetera. come up with the craziest, most impressive, beautiful, modern Three.js hero section for an agency website using these and design it and get it live
+```
+
+↗ [查看作者完整提示词](https://x.com/itsnicholash/status/2064809351211078019) · [观看演示](https://x.com/itsnicholash/status/2097062926381101217)
 
 
 <a id="design"></a>
@@ -487,6 +517,36 @@ Build a gorgeous sci-fi spaceship with explorable internal structures.
 ↗ [查看作者完整提示词](https://x.com/GaricaRosen6779/status/2093958836751327322) · [观看演示](https://x.com/GaricaRosen6779/status/2093958836751327322)
 
 
+<a id="godot-mech-rigging"></a>
+
+### 一句提示词完成 Godot 机甲绑定
+
+**完整提示词** · [提示词原帖](https://x.com/om_patel5/status/2097123382852829230)
+
+[![完成骨骼绑定的科幻机甲在 Godot 预览中行走](https://pbs.twimg.com/amplify_video_thumb/2097123357233680384/img/vGyrEeEbj45yQlYQ.jpg)](https://x.com/om_patel5/status/2097123382852829230)
+
+Astra 为带贴图的 GLB 机甲完成骨骼绑定，并直接在 Godot 预览中制作反关节步行动画。
+
+**作者**: [@om_patel5](https://x.com/om_patel5/status/2097123382852829230) · 2026-09-08<br>
+**工具与技术**: Godot, Meshy, GLB, Character rigging
+
+**创作方法**
+
+作者先用 Midjourney 生成概念图，再用 Meshy 7 转成带贴图的 GLB，最后把资产和一句绑定指令交给 Astra；整个流程约 30 分钟。
+
+**值得注意**
+
+作者指出第一版步态仍有脚尖外撇和髋部动作不够自然的问题。
+
+**提示词**
+
+```text
+can you rig and animate this glb, i want to see the digitigrade legs walking convincingly in a godot preview please
+```
+
+↗ [查看作者完整提示词](https://x.com/om_patel5/status/2097123382852829230) · [观看演示](https://x.com/om_patel5/status/2097123382852829230)
+
+
 <a id="video"></a>
 
 ## 🎬 视频与叙事
@@ -713,6 +773,36 @@ prototype me a full Microduck
 ```
 
 ↗ [查看作者完整提示词](https://x.com/DeRonin_/status/2096567918859354155) · [观看演示](https://x.com/DeRonin_/status/2096567918859354155)
+
+
+<a id="microduck-segmentation-training"></a>
+
+### 无人值守的分割模型训练流水线
+
+**完整提示词** · [提示词原帖](https://x.com/LearnOpenCV/status/2097123587920634003)
+
+[![两套 Microduck 实例分割模型预测结果对比](https://pbs.twimg.com/amplify_video_thumb/2097122679845449728/img/g0gMKyOCYKoBvXSM.jpg)](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+Astra 收集公开的 Microduck 素材，构建保留来源的数据集，生成两套对照掩码，并在没有人工标注的情况下训练两套 RF-DETR-Seg-M 模型。
+
+**作者**: [@LearnOpenCV](https://x.com/LearnOpenCV/status/2097122818815299892) · 2026-09-08<br>
+**工具与技术**: Computer vision, Roboflow, RF-DETR, SAM3
+
+**创作方法**
+
+向 Astra 提供已登录的 Roboflow 账号、公开素材来源、目标模型和留出评估要求；作者报告两次云端训练约 93 分钟完成。
+
+**值得注意**
+
+本次运行使用了含 50 credits 的 Roboflow 账号；对照实验按完整视频组留出，并在评估前冻结两套数据集。
+
+**提示词**
+
+```text
+Get all images and videos of microducks from here pollen-robotics.com/microduck/. Generate masks and train RF-DETR-Seg-M using Roboflow.com. I will be flying in a few hours. I want to make sure the training run is set up and running even after I close this laptop in 6 hours. Leave a couple of interesting videos out for showing the final results. We can do two runs. One with SAM3 and one with masks you produce.
+```
+
+↗ [查看作者完整提示词](https://x.com/LearnOpenCV/status/2097123587920634003) · [观看演示](https://x.com/LearnOpenCV/status/2097122818815299892)
 
 
 <a id="games"></a>
@@ -1073,3 +1163,71 @@ build a playable 3D driving game in a single HTML file.
 **可借鉴之处**：打包属于任务本身。作者记录过打包问题和后续修复，展示案例时应保留这次迭代，而不是暗示首轮即完整交付。
 
 所依据的已收录来源：[@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)
+
+
+<a id="dream-loop-isometric-demo"></a>
+
+### Dream Loop 等距幻想世界演示
+
+**完整提示词** · [提示词原帖](https://x.com/anshuc/status/2097001450941587889)
+
+[![带可操控角色和湿润反射地面的等距幻想场景](https://pbs.twimg.com/amplify_video_thumb/2097001376606011392/img/f-lqFhoMgDtRlb_L.jpg)](https://x.com/anshuc/status/2097001438736166960)
+
+可复用的 Dream Loop 技能把一份需求变成精致的浏览器等距幻想世界，包含可操控角色、湿润反射地面和环境动态。
+
+**作者**: [@anshuc](https://x.com/anshuc/status/2097001438736166960) · 2026-09-08<br>
+**工具与技术**: Three.js, Dream Loop, Isometric 3D
+
+**创作方法**
+
+以 High effort 运行作者公开的 /dream-loop 提示词；任务限定一小时、不下载外部素材，作者称消耗了 20x 套餐周额度的 2%。
+
+**值得注意**
+
+作者明确把它定位为视觉演示而非完整游戏；可移动区域受限，提示词也没有要求玩法循环。
+
+**提示词**
+
+```text
+/dream-loop Build me a graphics demo: isometric camera, voxel-ish art style with realistic shading and reflective wet floors, a character in an interesting scene. Fantasy setting (think Elden Ring, Diablo). Three.js in browser, >60fps. Don't download assets. Time limit of 1 hour. Controls: click to move the character, camera lazy-follows; drag to rotate camera; scroll to zoom in/out. No gameplay for now. World should feel alive: motion, animations, subtle environmental behaviors. Area around player should look expansive, but only allow movement in a limited space. No need to confirm the art with me or ask questions, just go!
+```
+
+↗ [查看作者完整提示词](https://x.com/anshuc/status/2097001450941587889) · [观看演示](https://x.com/anshuc/status/2097001438736166960)
+
+
+<a id="workbench-robo-cat"></a>
+
+### 把电量显示做进机身的工作台机器猫
+
+**提示词摘录** · [提示词原帖](https://x.com/zeuuss_01/status/2097004362530787837)
+
+[![四足机器猫站在暖光工作台的充电座旁](https://pbs.twimg.com/amplify_video_thumb/2097002747883376640/img/-6RFXjIep4U4fHAL.jpg)](https://x.com/zeuuss_01/status/2097004192627933279)
+
+一只四足小机器人在暖光工作台上行走、搬运螺栓并主动回到充电座，机身侧面的五格琥珀色灯就是完整电量界面。
+
+**作者**: [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) · 2026-09-08<br>
+**工具与技术**: Three.js, Diegetic UI, Inverse kinematics
+
+**创作方法**
+
+把作者公开的十节规格保存为 SPEC.md，再让 Astra 用 Three.js 实现。规格明确要求先做好轮廓与步态，再完成电量状态、三种物件驱动任务和工作台陈设，并在交付前用指定画面证明关键状态。
+
+**值得注意**
+
+该规格刻意控制范围，不使用物理引擎、声音、存档、菜单、额外房间或第二只机器人；作者公开的是短视频，没有同时提供源码或在线试玩。
+
+**提示词**
+
+> THE FULL SPEC.
+SAVE IT AS A FILE IN THE PROJECT FOLDER, NOT AS A CHAT MESSAGE.
+THEN: /goal build this in three.js, read SPEC.md and follow it exactly, especially sections 9 and 10.
+
+{ START }
+
+1 WHAT THIS IS
+
+a small four-legged robot lives on a workbench. you charge it, play with it, and give it three jobs. it never leaves the bench and neither do you. that is the whole game.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/zeuuss_01/status/2097004362530787837) · [观看演示](https://x.com/zeuuss_01/status/2097004192627933279)

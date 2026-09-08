@@ -4,7 +4,7 @@
 
 交互网页、创意界面与实用应用。
 
-**2 个案例**
+**3 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -14,6 +14,7 @@
 
 - [可交互的孔雀艺术网页](#interactive-peacock) · **提示词摘录**
 - [更快的 iPad 机器人控制台](#ipad-robot-control-station) · **完整提示词**
+- [开源灵感驱动的 Three.js 机构首页](#threejs-agency-hero) · **完整提示词**
 
 <a id="interactive-peacock"></a>
 
@@ -75,6 +76,38 @@ make this look and perform better; focus on UI/UX/latency
 ```
 
 ↗ [查看作者完整提示词](https://x.com/Alpha10six/status/2096352482746147085) · [观看演示](https://x.com/Alpha10six/status/2096352482746147085)
+
+[返回案例目录](#cases)
+
+
+<a id="threejs-agency-hero"></a>
+
+### 开源灵感驱动的 Three.js 机构首页
+
+**完整提示词** · [提示词原帖](https://x.com/itsnicholash/status/2064809351211078019)
+
+[![带程序化 Three.js 动态造型的编辑式机构首页](https://pbs.twimg.com/amplify_video_thumb/2097061951067095042/img/5TtDGPl5VPqaHO5y.jpg)](https://x.com/itsnicholash/status/2097062926381101217)
+
+Astra 检索开源 Three.js 实验，并把结果组合成带程序化动态造型和统一编辑式布局的精致机构首页。
+
+**作者**: [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) · 2026-09-08<br>
+**工具与技术**: Three.js, WebGL, Creative coding
+
+**创作方法**
+
+原样复用作者此前的基准提示词：研究优秀的开源 Three.js 项目、着色器和交互，再设计并上线尽可能出色的机构首屏。
+
+**值得注意**
+
+作者指出结果借用了 OffBrand 的可辨识视觉线索；该帖子用于模型对比，并非可直接交付客户的品牌方案。
+
+**提示词**
+
+```text
+fable, scour the web and GitHub, find the craziest Three.js open source projects, shaders, interactive stuff et cetera. come up with the craziest, most impressive, beautiful, modern Three.js hero section for an agency website using these and design it and get it live
+```
+
+↗ [查看作者完整提示词](https://x.com/itsnicholash/status/2064809351211078019) · [观看演示](https://x.com/itsnicholash/status/2097062926381101217)
 
 [返回案例目录](#cases)
 

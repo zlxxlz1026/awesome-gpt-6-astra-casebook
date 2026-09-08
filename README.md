@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**30 cases · 7 categories**
+**35 cases · 7 categories**
 
 </div>
 
@@ -41,7 +41,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 Apps &amp; websites</h3>
-<p>2 cases</p>
+<p>3 cases</p>
 <a href="docs/categories/apps.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="Interactive peacock website" height="160"></a>
 <p>Interactive websites, creative interfaces and useful apps.</p>
 <p><a href="docs/categories/apps.md"><b>View Cases →</b></a></p>
@@ -55,7 +55,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🏛️ 3D &amp; spatial creation</h3>
-<p>7 cases</p>
+<p>8 cases</p>
 <a href="docs/categories/3d.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg" alt="A living 3D playroom" height="160"></a>
 <p>Spatial scenes, character worlds and editable 3D models.</p>
 <p><a href="docs/categories/3d.md"><b>View Cases →</b></a></p>
@@ -78,7 +78,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🛠️ Engineering &amp; prototyping</h3>
-<p>1 case</p>
+<p>2 cases</p>
 <a href="docs/categories/engineering.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="Robot prototyper showing printable Microduck components" height="160"></a>
 <p>Engineering workflows, physical prototypes and production-ready systems.</p>
 <p><a href="docs/categories/engineering.md"><b>View Cases →</b></a></p>
@@ -87,7 +87,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎮 Games &amp; simulations</h3>
-<p>10 cases</p>
+<p>12 cases</p>
 <a href="docs/categories/games.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg" alt="Breakwater mecha selection and waterfront battle interface" height="160"></a>
 <p>Playable worlds, game prototypes and interactive simulations.</p>
 <p><a href="docs/categories/games.md"><b>View Cases →</b></a></p>
@@ -99,12 +99,12 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 
 | Case | Category | Prompt | Creator |
 | --- | --- | --- | --- |
+| [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) | 🎮 Games & simulations | Prompt excerpt | [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) |
+| [Open-source Three.js agency hero](docs/categories/apps.md#threejs-agency-hero) | 🧩 Apps & websites | Full prompt | [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) |
+| [One-prompt mech rigging in Godot](docs/categories/3d.md#godot-mech-rigging) | 🏛️ 3D & spatial creation | Full prompt | [@om_patel5](https://x.com/om_patel5/status/2097123382852829230) |
+| [Hands-off segmentation model training](docs/categories/engineering.md#microduck-segmentation-training) | 🛠️ Engineering & prototyping | Full prompt | [@LearnOpenCV](https://x.com/LearnOpenCV/status/2097122818815299892) |
+| [Dream Loop isometric fantasy demo](docs/categories/games.md#dream-loop-isometric-demo) | 🎮 Games & simulations | Full prompt | [@anshuc](https://x.com/anshuc/status/2097001438736166960) |
 | [A single-file canyon driving game](docs/categories/games.md#single-file-canyon-racer) | 🎮 Games & simulations | Full prompt | [@IamRicardoML](https://x.com/IamRicardoML/status/2096069303523033434) |
-| [Little Acre pocket-world builder](docs/categories/games.md#little-acre-world-builder) | 🎮 Games & simulations | Full prompt | [@ManasJoshi76254](https://x.com/ManasJoshi76254/status/2096061253307490583) |
-| [A Ghost of Tsushima-style playable world](docs/categories/games.md#ghost-of-tsushima-game) | 🎮 Games & simulations | Full prompt | [@karankendre](https://x.com/karankendre/status/2096577524855963729) |
-| [A browser-native car-football arena](docs/categories/games.md#rocket-league-threejs) | 🎮 Games & simulations | Prompt excerpt | [@LLMJunky](https://x.com/LLMJunky/status/2096028790925488452) |
-| [A Sonic-style Godot vertical slice](docs/categories/games.md#sonic-godot-vertical-slice) | 🎮 Games & simulations | Prompt excerpt | [@AiBattle_](https://x.com/AiBattle_/status/2096056285896536086) |
-| [Voidrunner anti-gravity combat racer](docs/categories/games.md#voidrunner-combat-racer) | 🎮 Games & simulations | Full prompt | [@superalesha](https://x.com/superalesha/status/2095967568825582044) |
 
 <a id="all-cases"></a>
 
@@ -118,6 +118,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 
 - [Interactive peacock website](docs/categories/apps.md#interactive-peacock) — **Prompt excerpt** · Three.js
 - [A faster iPad robot control station](docs/categories/apps.md#ipad-robot-control-station) — **Full prompt** · iPadOS, Robot control, Latency
+- [Open-source Three.js agency hero](docs/categories/apps.md#threejs-agency-hero) — **Full prompt** · Three.js, WebGL, Creative coding
 
 ### ✨ Design & creative work
 
@@ -139,6 +140,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A forest dense enough to get lost in](docs/categories/3d.md#verdant-realtime-forest) — **Prompt excerpt** · Three.js, Custom shaders, Procedural vegetation
 - [A cinematic dragon built in Blender](docs/categories/3d.md#cinematic-blender-dragon) — **Prompt excerpt** · Blender, Python, Character modeling
 - [An explorable science-fiction spaceship](docs/categories/3d.md#explorable-sci-fi-spaceship) — **Full prompt** · Interactive 3D, Environment design, One-shot
+- [One-prompt mech rigging in Godot](docs/categories/3d.md#godot-mech-rigging) — **Full prompt** · Godot, Meshy, GLB, Character rigging
 
 ### 🎬 Video & storytelling
 
@@ -161,6 +163,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 [Open category](docs/categories/engineering.md)
 
 - [A buildable Microduck robot prototype](docs/categories/engineering.md#microduck-robot-prototype) — **Full prompt** · Robotics, 3D printing, Bill of materials
+- [Hands-off segmentation model training](docs/categories/engineering.md#microduck-segmentation-training) — **Full prompt** · Computer vision, Roboflow, RF-DETR, SAM3
 
 ### 🎮 Games & simulations
 
@@ -176,6 +179,8 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A Ghost of Tsushima-style playable world](docs/categories/games.md#ghost-of-tsushima-game) — **Full prompt** · Higgsfield CLI, Third-person adventure, Generated assets
 - [Little Acre pocket-world builder](docs/categories/games.md#little-acre-world-builder) — **Full prompt** · Three.js, Single-file HTML, World building
 - [A single-file canyon driving game](docs/categories/games.md#single-file-canyon-racer) — **Full prompt** · Single-file HTML, 3D driving, Game physics
+- [Dream Loop isometric fantasy demo](docs/categories/games.md#dream-loop-isometric-demo) — **Full prompt** · Three.js, Dream Loop, Isometric 3D
+- [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) — **Prompt excerpt** · Three.js, Diegetic UI, Inverse kinematics
 
 ## Using this GPT-6 Astra prompt collection
 

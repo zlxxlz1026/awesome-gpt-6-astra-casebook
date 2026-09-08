@@ -48,5 +48,32 @@
       "Keep checking high-engagement visual posts for later prompt disclosures",
       "Use the generated collection index before reviewing a candidate to avoid duplicates"
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "platform": "X",
+    "queries": [
+      "\"GPT-6 Astra\" filter:media since:2026-09-08 until:2026-09-09",
+      "\"GPT-6 Astra\" (built OR made OR created OR asked) filter:videos min_faves:10",
+      "Astra (prompt OR asked OR \"one shot\" OR \"one prompt\") filter:media min_faves:10",
+      "Astra (\"prompt below\" OR \"prompt used\" OR \"exact prompt\") filter:media",
+      "Astra \"Build me\" filter:media",
+      "from:LearnOpenCV Astra",
+      "from:omarsar0 Astra",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\") (game OR playable OR Godot OR Unity OR Unreal) filter:media since:2026-09-08 until:2026-09-09",
+      "(\"full prompt in comments\" OR \"prompt in comments\" OR \"full prompt below\" OR \"prompt below\") (\"GPT-6\" OR Astra) filter:media since:2026-09-08 until:2026-09-09",
+      "(Astra OR \"GPT-6\") (\"one prompt\" OR \"single prompt\" OR \"one-shot\" OR \"one shot\") filter:media min_faves:10 since:2026-09-08 until:2026-09-09",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\") (spreadsheet OR Excel OR research OR dashboard OR data OR automation) filter:media since:2026-09-08 until:2026-09-09",
+      "\"GPT-6 Astra\" \"I asked it to\" filter:media min_faves:10 since:2026-09-08 until:2026-09-09",
+      "Astra (prompt OR prompted) (\"play it\" OR \"try it\" OR \"live demo\" OR \"open source\") filter:media since:2026-09-08 until:2026-09-09",
+      "Astra 提示词 filter:media since:2026-09-08 until:2026-09-09",
+      "\"GPT-6 Astra\" (prompt OR \"build me\" OR \"make me\") -filter:replies filter:media since:2026-09-08 until:2026-09-09"
+    ],
+    "coverage": "Reviewed today's Top and Latest X results in the signed-in Codex browser, opened creator threads, expanded prompt posts and inspected the selected media. Five prompt-backed cases were accepted across games, computer vision, 3D production and web design. Reposts, undisclosed prompts, duplicated concepts, direct reuse of proprietary game assets and a promotional video whose author admitted the Astra claim was false were excluded.",
+    "next_steps": [
+      "Revisit today's high-engagement 3D brain and physical-therapy demos only if their creators publish the prompts",
+      "Keep looking for original office, research and data workflows with exact public instructions",
+      "Check later replies for prompt disclosures on strong visual posts"
+    ]
   }
 ]

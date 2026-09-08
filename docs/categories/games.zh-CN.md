@@ -4,7 +4,7 @@
 
 可游玩的世界、游戏原型与交互式仿真。
 
-**10 个案例**
+**12 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -22,6 +22,8 @@
 - [《对马岛之魂》风格可玩世界](#ghost-of-tsushima-game) · **完整提示词**
 - [Little Acre 袖珍世界建造器](#little-acre-world-builder) · **完整提示词**
 - [单文件峡谷驾驶游戏](#single-file-canyon-racer) · **完整提示词**
+- [Dream Loop 等距幻想世界演示](#dream-loop-isometric-demo) · **完整提示词**
+- [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -393,6 +395,78 @@ build a playable 3D driving game in a single HTML file.
 **可借鉴之处**：打包属于任务本身。作者记录过打包问题和后续修复，展示案例时应保留这次迭代，而不是暗示首轮即完整交付。
 
 所依据的已收录来源：[@IamRicardoML · 2096069303523033434](https://x.com/IamRicardoML/status/2096069303523033434)
+
+[返回案例目录](#cases)
+
+
+<a id="dream-loop-isometric-demo"></a>
+
+### Dream Loop 等距幻想世界演示
+
+**完整提示词** · [提示词原帖](https://x.com/anshuc/status/2097001450941587889)
+
+[![带可操控角色和湿润反射地面的等距幻想场景](https://pbs.twimg.com/amplify_video_thumb/2097001376606011392/img/f-lqFhoMgDtRlb_L.jpg)](https://x.com/anshuc/status/2097001438736166960)
+
+可复用的 Dream Loop 技能把一份需求变成精致的浏览器等距幻想世界，包含可操控角色、湿润反射地面和环境动态。
+
+**作者**: [@anshuc](https://x.com/anshuc/status/2097001438736166960) · 2026-09-08<br>
+**工具与技术**: Three.js, Dream Loop, Isometric 3D
+
+**创作方法**
+
+以 High effort 运行作者公开的 /dream-loop 提示词；任务限定一小时、不下载外部素材，作者称消耗了 20x 套餐周额度的 2%。
+
+**值得注意**
+
+作者明确把它定位为视觉演示而非完整游戏；可移动区域受限，提示词也没有要求玩法循环。
+
+**提示词**
+
+```text
+/dream-loop Build me a graphics demo: isometric camera, voxel-ish art style with realistic shading and reflective wet floors, a character in an interesting scene. Fantasy setting (think Elden Ring, Diablo). Three.js in browser, >60fps. Don't download assets. Time limit of 1 hour. Controls: click to move the character, camera lazy-follows; drag to rotate camera; scroll to zoom in/out. No gameplay for now. World should feel alive: motion, animations, subtle environmental behaviors. Area around player should look expansive, but only allow movement in a limited space. No need to confirm the art with me or ask questions, just go!
+```
+
+↗ [查看作者完整提示词](https://x.com/anshuc/status/2097001450941587889) · [观看演示](https://x.com/anshuc/status/2097001438736166960)
+
+[返回案例目录](#cases)
+
+
+<a id="workbench-robo-cat"></a>
+
+### 把电量显示做进机身的工作台机器猫
+
+**提示词摘录** · [提示词原帖](https://x.com/zeuuss_01/status/2097004362530787837)
+
+[![四足机器猫站在暖光工作台的充电座旁](https://pbs.twimg.com/amplify_video_thumb/2097002747883376640/img/-6RFXjIep4U4fHAL.jpg)](https://x.com/zeuuss_01/status/2097004192627933279)
+
+一只四足小机器人在暖光工作台上行走、搬运螺栓并主动回到充电座，机身侧面的五格琥珀色灯就是完整电量界面。
+
+**作者**: [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) · 2026-09-08<br>
+**工具与技术**: Three.js, Diegetic UI, Inverse kinematics
+
+**创作方法**
+
+把作者公开的十节规格保存为 SPEC.md，再让 Astra 用 Three.js 实现。规格明确要求先做好轮廓与步态，再完成电量状态、三种物件驱动任务和工作台陈设，并在交付前用指定画面证明关键状态。
+
+**值得注意**
+
+该规格刻意控制范围，不使用物理引擎、声音、存档、菜单、额外房间或第二只机器人；作者公开的是短视频，没有同时提供源码或在线试玩。
+
+**提示词**
+
+> THE FULL SPEC.
+SAVE IT AS A FILE IN THE PROJECT FOLDER, NOT AS A CHAT MESSAGE.
+THEN: /goal build this in three.js, read SPEC.md and follow it exactly, especially sections 9 and 10.
+
+{ START }
+
+1 WHAT THIS IS
+
+a small four-legged robot lives on a workbench. you charge it, play with it, and give it three jobs. it never leaves the bench and neither do you. that is the whole game.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/zeuuss_01/status/2097004362530787837) · [观看演示](https://x.com/zeuuss_01/status/2097004192627933279)
 
 [返回案例目录](#cases)
 
