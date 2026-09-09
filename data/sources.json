@@ -817,5 +817,83 @@
     "verification": "x-post-read",
     "media": "prompt-text",
     "reason": "Original author reply containing the complete public ten-section game specification."
+  },
+  {
+    "post_id": "2097502912847245522",
+    "url": "https://x.com/yulmu_coffee/status/2097502912847245522",
+    "author": "yulmu_coffee",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "isometric-knight-sprites",
+    "verification": "x-post-read",
+    "media": "source-image-inspected",
+    "reason": "Original model-comparison post with the exact shared prompt, Astra settings, runtime and sprite result."
+  },
+  {
+    "post_id": "2097480105694318999",
+    "url": "https://x.com/DeepDive_KR/status/2097480105694318999",
+    "author": "DeepDive_KR",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "multi-agent-operations-dashboard",
+    "verification": "x-post-read",
+    "media": "source-image-and-video-inspected",
+    "reason": "Original dashboard result, exact Korean prompt, runtime, effort level and production caveat verified."
+  },
+  {
+    "post_id": "2097356472199827519",
+    "url": "https://x.com/MadMax_Series/status/2097356472199827519",
+    "author": "MadMax_Series",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "dark-fantasy-executioner-cinematic",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original 30-second result with a complete public time-coded prompt and explicit Astra plus Seedance workflow."
+  },
+  {
+    "post_id": "2097407934598930472",
+    "url": "https://x.com/higgsfield_ai/status/2097407934598930472",
+    "author": "higgsfield_ai",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "winged-heart-airpods-case",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original physical-prototyping result and complete multi-tool prompt verified in the same post."
+  },
+  {
+    "post_id": "2097499735942893726",
+    "url": "https://x.com/Nyto_vd/status/2097499735942893726",
+    "author": "Nyto_vd",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "after-effects-kangaroo-motion",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original After Effects result with explicit Astra attribution and an inspected eight-second motion-graphics demo."
+  },
+  {
+    "post_id": "2097499892918997382",
+    "url": "https://x.com/Nyto_vd/status/2097499892918997382",
+    "author": "Nyto_vd",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "after-effects-kangaroo-motion",
+    "verification": "x-post-read",
+    "media": "prompt-image-inspected",
+    "reason": "Original author reply showing the complete Japanese prompt and explaining the script-first After Effects workflow."
   }
 ]

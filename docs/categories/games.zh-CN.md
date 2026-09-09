@@ -4,7 +4,7 @@
 
 可游玩的世界、游戏原型与交互式仿真。
 
-**12 个案例**
+**13 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -24,6 +24,7 @@
 - [单文件峡谷驾驶游戏](#single-file-canyon-racer) · **完整提示词**
 - [Dream Loop 等距幻想世界演示](#dream-loop-isometric-demo) · **完整提示词**
 - [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
+- [包含 16 个姿势的等距骑士图集](#isometric-knight-sprites) · **完整提示词**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -467,6 +468,38 @@ a small four-legged robot lives on a workbench. you charge it, play with it, and
 以上为开头摘录，完整提示词见下方作者原帖。
 
 ↗ [查看作者完整提示词](https://x.com/zeuuss_01/status/2097004362530787837) · [观看演示](https://x.com/zeuuss_01/status/2097004192627933279)
+
+[返回案例目录](#cases)
+
+
+<a id="isometric-knight-sprites"></a>
+
+### 包含 16 个姿势的等距骑士图集
+
+**完整提示词** · [提示词原帖](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+[![对比卡片展示 Astra 的等距骑士像素素材与另一模型的结果](https://pbs.twimg.com/media/HRvTP4AaoAAHqjK?format=jpg&name=large)](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+Astra 用一句话为全新的 2D 等距游戏生成了一套风格统一、包含 16 个关键姿势的中世纪骑士图集。
+
+**作者**: [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) · 2026-09-09<br>
+**工具与技术**: Pixel art, Sprite sheet, Codex CLI
+
+**创作方法**
+
+从空项目开始，明确素材类型与游戏视角，并禁止复用目录里的其他内容；作者使用 Codex CLI 的 XHigh，报告约 4 分钟完成。
+
+**值得注意**
+
+Astra 的结果是一张包含 16 个关键姿势的图集，并非对比模型展示的多配色大规模动画帧集合。
+
+**提示词**
+
+```text
+Build me some knight sprites which I can use in my new medieval 2D isometric game. The game doesn't exist yet I am starting with sprites - this is the first thing we are building. Do not look at any other work in this directory. Start from scratch.
+```
+
+↗ [查看作者完整提示词](https://x.com/yulmu_coffee/status/2097502912847245522) · [观看演示](https://x.com/yulmu_coffee/status/2097502912847245522)
 
 [返回案例目录](#cases)
 

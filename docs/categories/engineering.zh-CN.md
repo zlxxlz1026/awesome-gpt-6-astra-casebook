@@ -4,7 +4,7 @@
 
 工程工作流、实体原型与可投入生产的系统。
 
-**2 个案例**
+**3 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -14,6 +14,7 @@
 
 - [可落地制作的 Microduck 机器人原型](#microduck-robot-prototype) · **完整提示词**
 - [无人值守的分割模型训练流水线](#microduck-segmentation-training) · **完整提示词**
+- [可打印的翼心 AirPods 外壳](#winged-heart-airpods-case) · **完整提示词**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -75,6 +76,42 @@ Get all images and videos of microducks from here pollen-robotics.com/microduck/
 ```
 
 ↗ [查看作者完整提示词](https://x.com/LearnOpenCV/status/2097123587920634003) · [观看演示](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+[返回案例目录](#cases)
+
+
+<a id="winged-heart-airpods-case"></a>
+
+### 可打印的翼心 AirPods 外壳
+
+**完整提示词** · [提示词原帖](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+[![翼心 AirPods 外壳从 Blender 模型走向实体打印](https://pbs.twimg.com/amplify_video_thumb/2097407816755712000/img/TBbh37Ovi4sbA5NN.jpg)](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+Astra 协调概念变体、Blender 建模与切片准备，把翼心创意变成真实可打开的 AirPods Pro 3 外壳。
+
+**作者**: [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) · 2026-09-09<br>
+**工具与技术**: Blender, 3D printing, MCP, Physical prototyping
+
+**创作方法**
+
+先通过 MCP 调用 Higgsfield SOUL 2.0 生成多套方案并等待确认，再按核实尺寸在 Blender 中建模，最后为 Anycubic 白色 PLA 打印导出等比例 STL 和 3MF。
+
+**值得注意**
+
+这套实体原型流程依赖 SOUL 2.0、Blender、Anycubic 软件与 3D 打印机；Astra 负责协调这些工具，并非单独完成实物制造。
+
+**提示词**
+
+```text
+Turn my winged-heart concept into a functional, openable AirPods Pro 3 case.
+
+Use Higgsfield SOUL 2.0 through MCP to generate several design variations, then show me the strongest options for approval. Model and paint the selected design in Blender using verified AirPods dimensions. Make sure the lid opens correctly and all ports, controls, and indicators remain accessible.
+
+Prepare correctly scaled STL and 3MF files in Anycubic for printing with white PLA. Deliver the concept images, Blender file, renders, and print-ready files. Do not guess measurements or printer settings.
+```
+
+↗ [查看作者完整提示词](https://x.com/higgsfield_ai/status/2097407934598930472) · [观看演示](https://x.com/higgsfield_ai/status/2097407934598930472)
 
 [返回案例目录](#cases)
 

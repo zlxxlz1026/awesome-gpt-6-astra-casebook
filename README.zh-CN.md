@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**35 个案例 · 7 个分类**
+**40 个案例 · 7 个分类**
 
 </div>
 
@@ -64,21 +64,21 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎬 视频与叙事</h3>
-<p>5 个案例</p>
+<p>6 个案例</p>
 <a href="docs/categories/video.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095658785511452672/img/RLAFsFr9VU_3S6jt.jpg" alt="五分钟 T 细胞科普视频" height="160"></a>
 <p>科普短片、知识讲解与视觉叙事。</p>
 <p><a href="docs/categories/video.zh-CN.md"><b>查看案例 →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🖱️ 电脑操作与自动化</h3>
-<p>1 个案例</p>
+<p>3 个案例</p>
 <a href="docs/categories/automation.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="通过浏览器操作生成的京都视觉漫游" height="160"></a>
 <p>浏览器控制、电脑操作流程与自主生产任务。</p>
 <p><a href="docs/categories/automation.zh-CN.md"><b>查看案例 →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🛠️ 工程与原型</h3>
-<p>2 个案例</p>
+<p>3 个案例</p>
 <a href="docs/categories/engineering.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="展示可打印 Microduck 零件的机器人原型工具" height="160"></a>
 <p>工程工作流、实体原型与可投入生产的系统。</p>
 <p><a href="docs/categories/engineering.zh-CN.md"><b>查看案例 →</b></a></p>
@@ -87,7 +87,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎮 游戏与仿真</h3>
-<p>12 个案例</p>
+<p>13 个案例</p>
 <a href="docs/categories/games.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg" alt="Breakwater 机甲选择与水岸战斗界面" height="160"></a>
 <p>可游玩的世界、游戏原型与交互式仿真。</p>
 <p><a href="docs/categories/games.zh-CN.md"><b>查看案例 →</b></a></p>
@@ -99,12 +99,12 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 
 | 案例 | 分类 | 提示词 | 作者 |
 | --- | --- | --- | --- |
+| [脚本驱动的 After Effects 动效](docs/categories/automation.zh-CN.md#after-effects-kangaroo-motion) | 🖱️ 电脑操作与自动化 | 提示词摘录 | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
+| [可打印的翼心 AirPods 外壳](docs/categories/engineering.zh-CN.md#winged-heart-airpods-case) | 🛠️ 工程与原型 | 完整提示词 | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) |
+| [30 秒黑暗奇幻首领战短片](docs/categories/video.zh-CN.md#dark-fantasy-executioner-cinematic) | 🎬 视频与叙事 | 提示词摘录 | [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) |
+| [多 Agent 运营管理后台](docs/categories/automation.zh-CN.md#multi-agent-operations-dashboard) | 🖱️ 电脑操作与自动化 | 完整提示词 | [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) |
+| [包含 16 个姿势的等距骑士图集](docs/categories/games.zh-CN.md#isometric-knight-sprites) | 🎮 游戏与仿真 | 完整提示词 | [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) |
 | [把电量显示做进机身的工作台机器猫](docs/categories/games.zh-CN.md#workbench-robo-cat) | 🎮 游戏与仿真 | 提示词摘录 | [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) |
-| [开源灵感驱动的 Three.js 机构首页](docs/categories/apps.zh-CN.md#threejs-agency-hero) | 🧩 应用与网站 | 完整提示词 | [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) |
-| [一句提示词完成 Godot 机甲绑定](docs/categories/3d.zh-CN.md#godot-mech-rigging) | 🏛️ 三维与空间创作 | 完整提示词 | [@om_patel5](https://x.com/om_patel5/status/2097123382852829230) |
-| [无人值守的分割模型训练流水线](docs/categories/engineering.zh-CN.md#microduck-segmentation-training) | 🛠️ 工程与原型 | 完整提示词 | [@LearnOpenCV](https://x.com/LearnOpenCV/status/2097122818815299892) |
-| [Dream Loop 等距幻想世界演示](docs/categories/games.zh-CN.md#dream-loop-isometric-demo) | 🎮 游戏与仿真 | 完整提示词 | [@anshuc](https://x.com/anshuc/status/2097001438736166960) |
-| [单文件峡谷驾驶游戏](docs/categories/games.zh-CN.md#single-file-canyon-racer) | 🎮 游戏与仿真 | 完整提示词 | [@IamRicardoML](https://x.com/IamRicardoML/status/2096069303523033434) |
 
 <a id="all-cases"></a>
 
@@ -151,12 +151,15 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [小女巫失控的第一次飞行](docs/categories/video.zh-CN.md#runaway-witch-flight) — **提示词摘录** · Prompt design, Animation, Cinematic pacing
 - [Luminous Breeze 幻想追逐](docs/categories/video.zh-CN.md#luminous-breeze-chase) — **提示词摘录** · Seedance 2.5, Renoise CLI, Character consistency
 - [从参考素材到四条成片 Reel](docs/categories/video.zh-CN.md#higgsfield-reel-production) — **完整提示词** · Higgsfield MCP, Social video, Reference-driven editing
+- [30 秒黑暗奇幻首领战短片](docs/categories/video.zh-CN.md#dark-fantasy-executioner-cinematic) — **提示词摘录** · Seedance 2.5, Higgsfield, Text-to-video
 
 ### 🖱️ 电脑操作与自动化
 
 [打开分类页面](docs/categories/automation.zh-CN.md)
 
 - [由浏览器操作完成的京都漫游](docs/categories/automation.zh-CN.md#kyoto-walking-tour) — **完整提示词** · Browser control, Travel, Computer use
+- [多 Agent 运营管理后台](docs/categories/automation.zh-CN.md#multi-agent-operations-dashboard) — **完整提示词** · Multi-agent, Operations dashboard, Task orchestration
+- [脚本驱动的 After Effects 动效](docs/categories/automation.zh-CN.md#after-effects-kangaroo-motion) — **提示词摘录** · After Effects, Motion graphics, Scripted automation
 
 ### 🛠️ 工程与原型
 
@@ -164,6 +167,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 
 - [可落地制作的 Microduck 机器人原型](docs/categories/engineering.zh-CN.md#microduck-robot-prototype) — **完整提示词** · Robotics, 3D printing, Bill of materials
 - [无人值守的分割模型训练流水线](docs/categories/engineering.zh-CN.md#microduck-segmentation-training) — **完整提示词** · Computer vision, Roboflow, RF-DETR, SAM3
+- [可打印的翼心 AirPods 外壳](docs/categories/engineering.zh-CN.md#winged-heart-airpods-case) — **完整提示词** · Blender, 3D printing, MCP, Physical prototyping
 
 ### 🎮 游戏与仿真
 
@@ -181,6 +185,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [单文件峡谷驾驶游戏](docs/categories/games.zh-CN.md#single-file-canyon-racer) — **完整提示词** · Single-file HTML, 3D driving, Game physics
 - [Dream Loop 等距幻想世界演示](docs/categories/games.zh-CN.md#dream-loop-isometric-demo) — **完整提示词** · Three.js, Dream Loop, Isometric 3D
 - [把电量显示做进机身的工作台机器猫](docs/categories/games.zh-CN.md#workbench-robo-cat) — **提示词摘录** · Three.js, Diegetic UI, Inverse kinematics
+- [包含 16 个姿势的等距骑士图集](docs/categories/games.zh-CN.md#isometric-knight-sprites) — **完整提示词** · Pixel art, Sprite sheet, Codex CLI
 
 ## 如何使用这份 GPT-6 Astra 提示词合集
 

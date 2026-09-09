@@ -9,21 +9,21 @@ Browse community examples with result previews, tools, workflows, limitations an
 - [🧩 Apps & websites](#apps) · 3 · [Category page](categories/apps.md)
 - [✨ Design & creative work](#design) · 4 · [Category page](categories/design.md)
 - [🏛️ 3D & spatial creation](#3d) · 8 · [Category page](categories/3d.md)
-- [🎬 Video & storytelling](#video) · 5 · [Category page](categories/video.md)
-- [🖱️ Computer use & automation](#automation) · 1 · [Category page](categories/automation.md)
-- [🛠️ Engineering & prototyping](#engineering) · 2 · [Category page](categories/engineering.md)
-- [🎮 Games & simulations](#games) · 12 · [Category page](categories/games.md)
+- [🎬 Video & storytelling](#video) · 6 · [Category page](categories/video.md)
+- [🖱️ Computer use & automation](#automation) · 3 · [Category page](categories/automation.md)
+- [🛠️ Engineering & prototyping](#engineering) · 3 · [Category page](categories/engineering.md)
+- [🎮 Games & simulations](#games) · 13 · [Category page](categories/games.md)
 
 <a id="latest"></a>
 
 ## ✨ Latest Additions
 
+- [Script-driven After Effects motion graphics](#after-effects-kangaroo-motion) · **Prompt excerpt**
+- [A printable winged-heart AirPods case](#winged-heart-airpods-case) · **Full prompt**
+- [A 30-second dark-fantasy boss cinematic](#dark-fantasy-executioner-cinematic) · **Prompt excerpt**
+- [A multi-agent operations dashboard](#multi-agent-operations-dashboard) · **Full prompt**
+- [A 16-pose isometric knight sprite sheet](#isometric-knight-sprites) · **Full prompt**
 - [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
-- [Open-source Three.js agency hero](#threejs-agency-hero) · **Full prompt**
-- [One-prompt mech rigging in Godot](#godot-mech-rigging) · **Full prompt**
-- [Hands-off segmentation model training](#microduck-segmentation-training) · **Full prompt**
-- [Dream Loop isometric fantasy demo](#dream-loop-isometric-demo) · **Full prompt**
-- [A single-file canyon driving game](#single-file-canyon-racer) · **Full prompt**
 
 <a id="apps"></a>
 
@@ -703,6 +703,36 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 ↗ [Read the original prompt](https://x.com/adilinthewild/status/2096566099903201737) · [Watch the demo](https://x.com/adilinthewild/status/2096566097365602565)
 
 
+<a id="dark-fantasy-executioner-cinematic"></a>
+
+### A 30-second dark-fantasy boss cinematic
+
+**Prompt excerpt** · [Original prompt](https://x.com/MadMax_Series/status/2097356472199827519)
+
+[![Blonde fighter facing a horned executioner inside a fire-lit stone temple](https://pbs.twimg.com/amplify_video_thumb/2097355348352905216/img/WeUjXJTsMhfX5vz9.jpg)](https://x.com/MadMax_Series/status/2097356472199827519)
+
+A text-only, time-coded brief becomes a cinematic fight between a blonde blade dancer and a horned executioner in a persistent fire-temple environment.
+
+**Creator**: [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) · 2026-09-09<br>
+**Tools & techniques**: Seedance 2.5, Higgsfield, Text-to-video
+
+**How it works**
+
+Specify format, art direction, characters, weapons, environment, second-by-second action, speed changes, sound and hard continuity constraints before passing the prompt through Astra to Seedance 2.5 in Higgsfield.
+
+**What to know**
+
+This is a multi-model workflow: Astra structures the production prompt, while Seedance 2.5 in Higgsfield renders the final video.
+
+**Prompt**
+
+> 原生横屏16:9，24fps，精确30.00秒，填满完整画面，无永久黑边。高级预渲染AAA黑暗奇幻动作游戏cinematic，风格化写实CG，必须明显是高预算原创dark-fantasy action RPG过场，不是真人、纪录片摄影、普通gameplay、2D、赛璐璐或幻灯片。仅用于电影CG透视：低地面构图、宽环境构图、紧脸部反应、强前景柱体parallax、克制anamorphic bloom、受控impact handheld movement、近距离武器pass使用浅景深。
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/MadMax_Series/status/2097356472199827519) · [Watch the demo](https://x.com/MadMax_Series/status/2097356472199827519)
+
+
 <a id="automation"></a>
 
 ## 🖱️ Computer use & automation
@@ -737,6 +767,69 @@ Create a walking tour through Kyoto.
 ```
 
 ↗ [Read the original prompt](https://x.com/MatthewBerman/status/2095595901784052075) · [Watch the demo](https://x.com/MatthewBerman/status/2095595901784052075)
+
+
+<a id="multi-agent-operations-dashboard"></a>
+
+### A multi-agent operations dashboard
+
+**Full prompt** · [Original prompt](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+[![Dark multi-agent dashboard with seven active agents and operational controls](https://pbs.twimg.com/amplify_video_thumb/2097478821914243072/img/B02wcISnsZyKZtSa.jpg)](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+Astra builds a polished control center for seven agents, covering task assignment, live activity, run history, pause and retry controls, approvals and scheduled execution.
+
+**Creator**: [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) · 2026-09-09<br>
+**Tools & techniques**: Multi-agent, Operations dashboard, Task orchestration
+
+**How it works**
+
+Describe the desired agent lifecycle and dashboard controls in one compact brief. The author used Medium effort and reports that the first build took about 27 minutes.
+
+**What to know**
+
+The author says the dashboard still needs additional work before the agents can perform real production tasks, and that accumulated Codex project context may have influenced the result.
+
+**Prompt**
+
+```text
+필요한 모든 에이전트 생성하고, 각 역할에 맞는 하네스 구축하고, 각 에이전트별 작업 상황 및 기록을 볼 수 있고 제어하면서 새로운 업무까지 할당할 수 있고, 에이전트를 즉시 생성도 할 수 있는 관리 대시보드 구축해줘
+```
+
+↗ [Read the original prompt](https://x.com/DeepDive_KR/status/2097480105694318999) · [Watch the demo](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+
+<a id="after-effects-kangaroo-motion"></a>
+
+### Script-driven After Effects motion graphics
+
+**Prompt excerpt** · [Original prompt](https://x.com/Nyto_vd/status/2097499892918997382)
+
+[![Flat-design boxing kangaroo motion graphic made in After Effects](https://pbs.twimg.com/amplify_video_thumb/2097497983826956288/img/slA7YZTPz1cCzWWW.jpg)](https://x.com/Nyto_vd/status/2097499735942893726)
+
+Astra creates an eight-second flat-design motion graphic in After Effects, with a boxing kangaroo, an impact transition and an editable title card.
+
+**Creator**: [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) · 2026-09-09<br>
+**Tools & techniques**: After Effects, Motion graphics, Scripted automation
+
+**How it works**
+
+Define the canvas, frame rate, asset restriction and two scenes in detail. Astra writes the composition script first and executes it inside After Effects instead of driving every edit through the interface.
+
+**What to know**
+
+The published result is a compact eight-second demonstration and relies on the native After Effects features and plug-ins already installed in the author's environment.
+
+**Prompt**
+
+> ありがとう。次は、After Effectsを操作して、フラットデザインの、繊細かつクオリティの高いモーショングラフィックスを制作してほしい。
+動画仕様：1920 × 1080、30 fps
+制作条件：指示内容にあるオブジェクトは外部素材を使用しない。
+AfterEffectsの基本機能およびインストールされているプラグインを使用して制作する。
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/Nyto_vd/status/2097499892918997382) · [Watch the demo](https://x.com/Nyto_vd/status/2097499735942893726)
 
 
 <a id="engineering"></a>
@@ -803,6 +896,40 @@ Get all images and videos of microducks from here pollen-robotics.com/microduck/
 ```
 
 ↗ [Read the original prompt](https://x.com/LearnOpenCV/status/2097123587920634003) · [Watch the demo](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+
+<a id="winged-heart-airpods-case"></a>
+
+### A printable winged-heart AirPods case
+
+**Full prompt** · [Original prompt](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+[![Winged-heart AirPods case moving from Blender model to physical print](https://pbs.twimg.com/amplify_video_thumb/2097407816755712000/img/TBbh37Ovi4sbA5NN.jpg)](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+Astra coordinates concept variation, Blender modeling and slicer preparation to turn a winged-heart idea into a physical, openable AirPods Pro 3 case.
+
+**Creator**: [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) · 2026-09-09<br>
+**Tools & techniques**: Blender, 3D printing, MCP, Physical prototyping
+
+**How it works**
+
+Generate several concepts through Higgsfield SOUL 2.0 over MCP, pause for approval, model the selected design to verified dimensions in Blender, then export scaled STL and 3MF files for white-PLA printing in Anycubic.
+
+**What to know**
+
+This physical-prototyping workflow depends on SOUL 2.0, Blender, Anycubic software and a 3D printer; Astra coordinates those tools rather than producing the object alone.
+
+**Prompt**
+
+```text
+Turn my winged-heart concept into a functional, openable AirPods Pro 3 case.
+
+Use Higgsfield SOUL 2.0 through MCP to generate several design variations, then show me the strongest options for approval. Model and paint the selected design in Blender using verified AirPods dimensions. Make sure the lid opens correctly and all ports, controls, and indicators remain accessible.
+
+Prepare correctly scaled STL and 3MF files in Anycubic for printing with white PLA. Deliver the concept images, Blender file, renders, and print-ready files. Do not guess measurements or printer settings.
+```
+
+↗ [Read the original prompt](https://x.com/higgsfield_ai/status/2097407934598930472) · [Watch the demo](https://x.com/higgsfield_ai/status/2097407934598930472)
 
 
 <a id="games"></a>
@@ -1231,3 +1358,33 @@ a small four-legged robot lives on a workbench. you charge it, play with it, and
 Opening excerpt; the author’s complete prompt is linked below.
 
 ↗ [Read the original prompt](https://x.com/zeuuss_01/status/2097004362530787837) · [Watch the demo](https://x.com/zeuuss_01/status/2097004192627933279)
+
+
+<a id="isometric-knight-sprites"></a>
+
+### A 16-pose isometric knight sprite sheet
+
+**Full prompt** · [Original prompt](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+[![Comparison card showing Astra's isometric knight sprite beside another model's result](https://pbs.twimg.com/media/HRvTP4AaoAAHqjK?format=jpg&name=large)](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+Astra turns one sentence into a cohesive medieval knight sprite sheet with 16 key poses for a new 2D isometric game.
+
+**Creator**: [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) · 2026-09-09<br>
+**Tools & techniques**: Pixel art, Sprite sheet, Codex CLI
+
+**How it works**
+
+Start in an empty project, name the asset and game perspective, and explicitly prohibit reuse of other directory contents. The author ran Codex CLI at XHigh and reports a 4-minute result.
+
+**What to know**
+
+The Astra result is one sheet of 16 key poses rather than the much larger multi-palette animation set shown for the comparison model.
+
+**Prompt**
+
+```text
+Build me some knight sprites which I can use in my new medieval 2D isometric game. The game doesn't exist yet I am starting with sprites - this is the first thing we are building. Do not look at any other work in this directory. Start from scratch.
+```
+
+↗ [Read the original prompt](https://x.com/yulmu_coffee/status/2097502912847245522) · [Watch the demo](https://x.com/yulmu_coffee/status/2097502912847245522)

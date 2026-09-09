@@ -75,5 +75,18 @@
       "Keep looking for original office, research and data workflows with exact public instructions",
       "Check later replies for prompt disclosures on strong visual posts"
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "platform": "X",
+    "queries": [
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\") (プロンプト OR 指示) filter:media since:2026-09-09 until:2026-09-10"
+    ],
+    "coverage": "Reviewed today's visible X results in the signed-in Codex browser, opened original creator posts and prompt replies, and inspected the selected images and videos. Five prompt-backed cases were accepted across games, automation, video and physical prototyping. Reposts, posts without the exact public prompt, misleading footage and proprietary fan-art examples were excluded.",
+    "next_steps": [
+      "Revisit strong interactive 3D and game posts if their creators publish the exact prompt",
+      "Keep prioritizing original engineering, research, data and office workflows",
+      "Continue checking multilingual creator threads for prompt screenshots in replies"
+    ]
   }
 ]

@@ -4,7 +4,7 @@
 
 浏览器控制、电脑操作流程与自主生产任务。
 
-**1 个案例**
+**3 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -13,6 +13,8 @@
 ## 选择案例
 
 - [由浏览器操作完成的京都漫游](#kyoto-walking-tour) · **完整提示词**
+- [多 Agent 运营管理后台](#multi-agent-operations-dashboard) · **完整提示词**
+- [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -42,6 +44,73 @@ Create a walking tour through Kyoto.
 ```
 
 ↗ [查看作者完整提示词](https://x.com/MatthewBerman/status/2095595901784052075) · [观看演示](https://x.com/MatthewBerman/status/2095595901784052075)
+
+[返回案例目录](#cases)
+
+
+<a id="multi-agent-operations-dashboard"></a>
+
+### 多 Agent 运营管理后台
+
+**完整提示词** · [提示词原帖](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+[![展示 7 个活跃 Agent 与运行控制项的深色管理后台](https://pbs.twimg.com/amplify_video_thumb/2097478821914243072/img/B02wcISnsZyKZtSa.jpg)](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+Astra 构建了一个管理 7 个 Agent 的完整控制台，覆盖任务分配、实时动态、运行记录、暂停与重试、审批和定时执行。
+
+**作者**: [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) · 2026-09-09<br>
+**工具与技术**: Multi-agent, Operations dashboard, Task orchestration
+
+**创作方法**
+
+用一段简短需求说明 Agent 生命周期与后台控制能力；作者使用 Medium，报告第一版约 27 分钟完成。
+
+**值得注意**
+
+作者说明还需要继续开发，才能让这些 Agent 真正承担生产任务；其长期积累的 Codex 项目上下文也可能影响了成品质量。
+
+**提示词**
+
+```text
+필요한 모든 에이전트 생성하고, 각 역할에 맞는 하네스 구축하고, 각 에이전트별 작업 상황 및 기록을 볼 수 있고 제어하면서 새로운 업무까지 할당할 수 있고, 에이전트를 즉시 생성도 할 수 있는 관리 대시보드 구축해줘
+```
+
+↗ [查看作者完整提示词](https://x.com/DeepDive_KR/status/2097480105694318999) · [观看演示](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+[返回案例目录](#cases)
+
+
+<a id="after-effects-kangaroo-motion"></a>
+
+### 脚本驱动的 After Effects 动效
+
+**提示词摘录** · [提示词原帖](https://x.com/Nyto_vd/status/2097499892918997382)
+
+[![在 After Effects 中制作的扁平风格拳击袋鼠动效](https://pbs.twimg.com/amplify_video_thumb/2097497983826956288/img/slA7YZTPz1cCzWWW.jpg)](https://x.com/Nyto_vd/status/2097499735942893726)
+
+Astra 在 After Effects 中制作了一段 8 秒扁平动效，包含拳击袋鼠、冲击转场和可编辑标题。
+
+**作者**: [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) · 2026-09-09<br>
+**工具与技术**: After Effects, Motion graphics, Scripted automation
+
+**创作方法**
+
+详细规定画布、帧率、素材限制与两个场景；Astra 先编写整段合成脚本，再在 After Effects 中执行，而不是逐项操作界面。
+
+**值得注意**
+
+公开成品是一段紧凑的 8 秒演示，并依赖作者环境中已有的 After Effects 原生功能与插件。
+
+**提示词**
+
+> ありがとう。次は、After Effectsを操作して、フラットデザインの、繊細かつクオリティの高いモーショングラフィックスを制作してほしい。
+動画仕様：1920 × 1080、30 fps
+制作条件：指示内容にあるオブジェクトは外部素材を使用しない。
+AfterEffectsの基本機能およびインストールされているプラグインを使用して制作する。
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/Nyto_vd/status/2097499892918997382) · [观看演示](https://x.com/Nyto_vd/status/2097499735942893726)
 
 [返回案例目录](#cases)
 

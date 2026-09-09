@@ -1702,5 +1702,247 @@
       }
     },
     "added_at": "2026-09-08"
+  },
+  {
+    "id": "isometric-knight-sprites",
+    "title": {
+      "en": "A 16-pose isometric knight sprite sheet",
+      "zh": "包含 16 个姿势的等距骑士图集"
+    },
+    "summary": {
+      "en": "Astra turns one sentence into a cohesive medieval knight sprite sheet with 16 key poses for a new 2D isometric game.",
+      "zh": "Astra 用一句话为全新的 2D 等距游戏生成了一套风格统一、包含 16 个关键姿势的中世纪骑士图集。"
+    },
+    "workflow": {
+      "en": "Start in an empty project, name the asset and game perspective, and explicitly prohibit reuse of other directory contents. The author ran Codex CLI at XHigh and reports a 4-minute result.",
+      "zh": "从空项目开始，明确素材类型与游戏视角，并禁止复用目录里的其他内容；作者使用 Codex CLI 的 XHigh，报告约 4 分钟完成。"
+    },
+    "limitations": {
+      "en": "The Astra result is one sheet of 16 key poses rather than the much larger multi-palette animation set shown for the comparison model.",
+      "zh": "Astra 的结果是一张包含 16 个关键姿势的图集，并非对比模型展示的多配色大规模动画帧集合。"
+    },
+    "category": "games",
+    "tags": [
+      "Pixel art",
+      "Sprite sheet",
+      "Codex CLI"
+    ],
+    "source_ids": [
+      "2097502912847245522"
+    ],
+    "primary_source_id": "2097502912847245522",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Build me some knight sprites which I can use in my new medieval 2D isometric game. The game doesn't exist yet I am starting with sprites - this is the first thing we are building. Do not look at any other work in this directory. Start from scratch.",
+      "source_id": "2097502912847245522",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/media/HRvTP4AaoAAHqjK?format=jpg&name=large",
+      "source_id": "2097502912847245522",
+      "alt": {
+        "en": "Comparison card showing Astra's isometric knight sprite beside another model's result",
+        "zh": "对比卡片展示 Astra 的等距骑士像素素材与另一模型的结果"
+      }
+    },
+    "added_at": "2026-09-09"
+  },
+  {
+    "id": "multi-agent-operations-dashboard",
+    "title": {
+      "en": "A multi-agent operations dashboard",
+      "zh": "多 Agent 运营管理后台"
+    },
+    "summary": {
+      "en": "Astra builds a polished control center for seven agents, covering task assignment, live activity, run history, pause and retry controls, approvals and scheduled execution.",
+      "zh": "Astra 构建了一个管理 7 个 Agent 的完整控制台，覆盖任务分配、实时动态、运行记录、暂停与重试、审批和定时执行。"
+    },
+    "workflow": {
+      "en": "Describe the desired agent lifecycle and dashboard controls in one compact brief. The author used Medium effort and reports that the first build took about 27 minutes.",
+      "zh": "用一段简短需求说明 Agent 生命周期与后台控制能力；作者使用 Medium，报告第一版约 27 分钟完成。"
+    },
+    "limitations": {
+      "en": "The author says the dashboard still needs additional work before the agents can perform real production tasks, and that accumulated Codex project context may have influenced the result.",
+      "zh": "作者说明还需要继续开发，才能让这些 Agent 真正承担生产任务；其长期积累的 Codex 项目上下文也可能影响了成品质量。"
+    },
+    "category": "automation",
+    "tags": [
+      "Multi-agent",
+      "Operations dashboard",
+      "Task orchestration"
+    ],
+    "source_ids": [
+      "2097480105694318999"
+    ],
+    "primary_source_id": "2097480105694318999",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "필요한 모든 에이전트 생성하고, 각 역할에 맞는 하네스 구축하고, 각 에이전트별 작업 상황 및 기록을 볼 수 있고 제어하면서 새로운 업무까지 할당할 수 있고, 에이전트를 즉시 생성도 할 수 있는 관리 대시보드 구축해줘",
+      "source_id": "2097480105694318999",
+      "availability": "public",
+      "display": "full",
+      "language": "ko",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097478821914243072/img/B02wcISnsZyKZtSa.jpg",
+      "source_id": "2097480105694318999",
+      "alt": {
+        "en": "Dark multi-agent dashboard with seven active agents and operational controls",
+        "zh": "展示 7 个活跃 Agent 与运行控制项的深色管理后台"
+      }
+    },
+    "added_at": "2026-09-09"
+  },
+  {
+    "id": "dark-fantasy-executioner-cinematic",
+    "title": {
+      "en": "A 30-second dark-fantasy boss cinematic",
+      "zh": "30 秒黑暗奇幻首领战短片"
+    },
+    "summary": {
+      "en": "A text-only, time-coded brief becomes a cinematic fight between a blonde blade dancer and a horned executioner in a persistent fire-temple environment.",
+      "zh": "一份纯文本分镜提示词生成了金发剑士与角盔行刑者在火焰神殿中的电影化战斗，并维持场景破坏与角色连续性。"
+    },
+    "workflow": {
+      "en": "Specify format, art direction, characters, weapons, environment, second-by-second action, speed changes, sound and hard continuity constraints before passing the prompt through Astra to Seedance 2.5 in Higgsfield.",
+      "zh": "先完整规定格式、美术方向、角色、武器、环境、逐秒动作、变速、声音和连续性硬约束，再由 Astra 配合 Higgsfield 中的 Seedance 2.5 完成生成。"
+    },
+    "limitations": {
+      "en": "This is a multi-model workflow: Astra structures the production prompt, while Seedance 2.5 in Higgsfield renders the final video.",
+      "zh": "这是多模型工作流：Astra 负责组织制作提示词，最终视频由 Higgsfield 中的 Seedance 2.5 渲染。"
+    },
+    "category": "video",
+    "tags": [
+      "Seedance 2.5",
+      "Higgsfield",
+      "Text-to-video"
+    ],
+    "source_ids": [
+      "2097356472199827519"
+    ],
+    "primary_source_id": "2097356472199827519",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "原生横屏16:9，24fps，精确30.00秒，填满完整画面，无永久黑边。高级预渲染AAA黑暗奇幻动作游戏cinematic，风格化写实CG，必须明显是高预算原创dark-fantasy action RPG过场，不是真人、纪录片摄影、普通gameplay、2D、赛璐璐或幻灯片。仅用于电影CG透视：低地面构图、宽环境构图、紧脸部反应、强前景柱体parallax、克制anamorphic bloom、受控impact handheld movement、近距离武器pass使用浅景深。",
+      "source_id": "2097356472199827519",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "zh",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097355348352905216/img/WeUjXJTsMhfX5vz9.jpg",
+      "source_id": "2097356472199827519",
+      "alt": {
+        "en": "Blonde fighter facing a horned executioner inside a fire-lit stone temple",
+        "zh": "金发剑士在火光照亮的石殿中面对角盔行刑者"
+      }
+    },
+    "added_at": "2026-09-09"
+  },
+  {
+    "id": "winged-heart-airpods-case",
+    "title": {
+      "en": "A printable winged-heart AirPods case",
+      "zh": "可打印的翼心 AirPods 外壳"
+    },
+    "summary": {
+      "en": "Astra coordinates concept variation, Blender modeling and slicer preparation to turn a winged-heart idea into a physical, openable AirPods Pro 3 case.",
+      "zh": "Astra 协调概念变体、Blender 建模与切片准备，把翼心创意变成真实可打开的 AirPods Pro 3 外壳。"
+    },
+    "workflow": {
+      "en": "Generate several concepts through Higgsfield SOUL 2.0 over MCP, pause for approval, model the selected design to verified dimensions in Blender, then export scaled STL and 3MF files for white-PLA printing in Anycubic.",
+      "zh": "先通过 MCP 调用 Higgsfield SOUL 2.0 生成多套方案并等待确认，再按核实尺寸在 Blender 中建模，最后为 Anycubic 白色 PLA 打印导出等比例 STL 和 3MF。"
+    },
+    "limitations": {
+      "en": "This physical-prototyping workflow depends on SOUL 2.0, Blender, Anycubic software and a 3D printer; Astra coordinates those tools rather than producing the object alone.",
+      "zh": "这套实体原型流程依赖 SOUL 2.0、Blender、Anycubic 软件与 3D 打印机；Astra 负责协调这些工具，并非单独完成实物制造。"
+    },
+    "category": "engineering",
+    "tags": [
+      "Blender",
+      "3D printing",
+      "MCP",
+      "Physical prototyping"
+    ],
+    "source_ids": [
+      "2097407934598930472"
+    ],
+    "primary_source_id": "2097407934598930472",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Turn my winged-heart concept into a functional, openable AirPods Pro 3 case.\n\nUse Higgsfield SOUL 2.0 through MCP to generate several design variations, then show me the strongest options for approval. Model and paint the selected design in Blender using verified AirPods dimensions. Make sure the lid opens correctly and all ports, controls, and indicators remain accessible.\n\nPrepare correctly scaled STL and 3MF files in Anycubic for printing with white PLA. Deliver the concept images, Blender file, renders, and print-ready files. Do not guess measurements or printer settings.",
+      "source_id": "2097407934598930472",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097407816755712000/img/TBbh37Ovi4sbA5NN.jpg",
+      "source_id": "2097407934598930472",
+      "alt": {
+        "en": "Winged-heart AirPods case moving from Blender model to physical print",
+        "zh": "翼心 AirPods 外壳从 Blender 模型走向实体打印"
+      }
+    },
+    "added_at": "2026-09-09"
+  },
+  {
+    "id": "after-effects-kangaroo-motion",
+    "title": {
+      "en": "Script-driven After Effects motion graphics",
+      "zh": "脚本驱动的 After Effects 动效"
+    },
+    "summary": {
+      "en": "Astra creates an eight-second flat-design motion graphic in After Effects, with a boxing kangaroo, an impact transition and an editable title card.",
+      "zh": "Astra 在 After Effects 中制作了一段 8 秒扁平动效，包含拳击袋鼠、冲击转场和可编辑标题。"
+    },
+    "workflow": {
+      "en": "Define the canvas, frame rate, asset restriction and two scenes in detail. Astra writes the composition script first and executes it inside After Effects instead of driving every edit through the interface.",
+      "zh": "详细规定画布、帧率、素材限制与两个场景；Astra 先编写整段合成脚本，再在 After Effects 中执行，而不是逐项操作界面。"
+    },
+    "limitations": {
+      "en": "The published result is a compact eight-second demonstration and relies on the native After Effects features and plug-ins already installed in the author's environment.",
+      "zh": "公开成品是一段紧凑的 8 秒演示，并依赖作者环境中已有的 After Effects 原生功能与插件。"
+    },
+    "category": "automation",
+    "tags": [
+      "After Effects",
+      "Motion graphics",
+      "Scripted automation"
+    ],
+    "source_ids": [
+      "2097499735942893726",
+      "2097499892918997382"
+    ],
+    "primary_source_id": "2097499735942893726",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "ありがとう。次は、After Effectsを操作して、フラットデザインの、繊細かつクオリティの高いモーショングラフィックスを制作してほしい。\n動画仕様：1920 × 1080、30 fps\n制作条件：指示内容にあるオブジェクトは外部素材を使用しない。\nAfterEffectsの基本機能およびインストールされているプラグインを使用して制作する。",
+      "source_id": "2097499892918997382",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "ja",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097497983826956288/img/slA7YZTPz1cCzWWW.jpg",
+      "source_id": "2097499735942893726",
+      "alt": {
+        "en": "Flat-design boxing kangaroo motion graphic made in After Effects",
+        "zh": "在 After Effects 中制作的扁平风格拳击袋鼠动效"
+      }
+    },
+    "added_at": "2026-09-09"
   }
 ]

@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**35 cases · 7 categories**
+**40 cases · 7 categories**
 
 </div>
 
@@ -64,21 +64,21 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎬 Video &amp; storytelling</h3>
-<p>5 cases</p>
+<p>6 cases</p>
 <a href="docs/categories/video.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095658785511452672/img/RLAFsFr9VU_3S6jt.jpg" alt="A five-minute T-cell explainer" height="160"></a>
 <p>Educational films, explainers and visual storytelling.</p>
 <p><a href="docs/categories/video.md"><b>View Cases →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🖱️ Computer use &amp; automation</h3>
-<p>1 case</p>
+<p>3 cases</p>
 <a href="docs/categories/automation.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="Browser-controlled visual walking tour through Kyoto" height="160"></a>
 <p>Browser control, computer-use workflows and autonomous production tasks.</p>
 <p><a href="docs/categories/automation.md"><b>View Cases →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🛠️ Engineering &amp; prototyping</h3>
-<p>2 cases</p>
+<p>3 cases</p>
 <a href="docs/categories/engineering.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="Robot prototyper showing printable Microduck components" height="160"></a>
 <p>Engineering workflows, physical prototypes and production-ready systems.</p>
 <p><a href="docs/categories/engineering.md"><b>View Cases →</b></a></p>
@@ -87,7 +87,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎮 Games &amp; simulations</h3>
-<p>12 cases</p>
+<p>13 cases</p>
 <a href="docs/categories/games.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg" alt="Breakwater mecha selection and waterfront battle interface" height="160"></a>
 <p>Playable worlds, game prototypes and interactive simulations.</p>
 <p><a href="docs/categories/games.md"><b>View Cases →</b></a></p>
@@ -99,12 +99,12 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 
 | Case | Category | Prompt | Creator |
 | --- | --- | --- | --- |
+| [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) | 🖱️ Computer use & automation | Prompt excerpt | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
+| [A printable winged-heart AirPods case](docs/categories/engineering.md#winged-heart-airpods-case) | 🛠️ Engineering & prototyping | Full prompt | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) |
+| [A 30-second dark-fantasy boss cinematic](docs/categories/video.md#dark-fantasy-executioner-cinematic) | 🎬 Video & storytelling | Prompt excerpt | [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) |
+| [A multi-agent operations dashboard](docs/categories/automation.md#multi-agent-operations-dashboard) | 🖱️ Computer use & automation | Full prompt | [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) |
+| [A 16-pose isometric knight sprite sheet](docs/categories/games.md#isometric-knight-sprites) | 🎮 Games & simulations | Full prompt | [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) |
 | [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) | 🎮 Games & simulations | Prompt excerpt | [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) |
-| [Open-source Three.js agency hero](docs/categories/apps.md#threejs-agency-hero) | 🧩 Apps & websites | Full prompt | [@itsnicholash](https://x.com/itsnicholash/status/2097062926381101217) |
-| [One-prompt mech rigging in Godot](docs/categories/3d.md#godot-mech-rigging) | 🏛️ 3D & spatial creation | Full prompt | [@om_patel5](https://x.com/om_patel5/status/2097123382852829230) |
-| [Hands-off segmentation model training](docs/categories/engineering.md#microduck-segmentation-training) | 🛠️ Engineering & prototyping | Full prompt | [@LearnOpenCV](https://x.com/LearnOpenCV/status/2097122818815299892) |
-| [Dream Loop isometric fantasy demo](docs/categories/games.md#dream-loop-isometric-demo) | 🎮 Games & simulations | Full prompt | [@anshuc](https://x.com/anshuc/status/2097001438736166960) |
-| [A single-file canyon driving game](docs/categories/games.md#single-file-canyon-racer) | 🎮 Games & simulations | Full prompt | [@IamRicardoML](https://x.com/IamRicardoML/status/2096069303523033434) |
 
 <a id="all-cases"></a>
 
@@ -151,12 +151,15 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A young witch's runaway first flight](docs/categories/video.md#runaway-witch-flight) — **Prompt excerpt** · Prompt design, Animation, Cinematic pacing
 - [Luminous Breeze fantasy chase](docs/categories/video.md#luminous-breeze-chase) — **Prompt excerpt** · Seedance 2.5, Renoise CLI, Character consistency
 - [Four finished reels from reference footage](docs/categories/video.md#higgsfield-reel-production) — **Full prompt** · Higgsfield MCP, Social video, Reference-driven editing
+- [A 30-second dark-fantasy boss cinematic](docs/categories/video.md#dark-fantasy-executioner-cinematic) — **Prompt excerpt** · Seedance 2.5, Higgsfield, Text-to-video
 
 ### 🖱️ Computer use & automation
 
 [Open category](docs/categories/automation.md)
 
 - [A browser-driven walk through Kyoto](docs/categories/automation.md#kyoto-walking-tour) — **Full prompt** · Browser control, Travel, Computer use
+- [A multi-agent operations dashboard](docs/categories/automation.md#multi-agent-operations-dashboard) — **Full prompt** · Multi-agent, Operations dashboard, Task orchestration
+- [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) — **Prompt excerpt** · After Effects, Motion graphics, Scripted automation
 
 ### 🛠️ Engineering & prototyping
 
@@ -164,6 +167,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 
 - [A buildable Microduck robot prototype](docs/categories/engineering.md#microduck-robot-prototype) — **Full prompt** · Robotics, 3D printing, Bill of materials
 - [Hands-off segmentation model training](docs/categories/engineering.md#microduck-segmentation-training) — **Full prompt** · Computer vision, Roboflow, RF-DETR, SAM3
+- [A printable winged-heart AirPods case](docs/categories/engineering.md#winged-heart-airpods-case) — **Full prompt** · Blender, 3D printing, MCP, Physical prototyping
 
 ### 🎮 Games & simulations
 
@@ -181,6 +185,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A single-file canyon driving game](docs/categories/games.md#single-file-canyon-racer) — **Full prompt** · Single-file HTML, 3D driving, Game physics
 - [Dream Loop isometric fantasy demo](docs/categories/games.md#dream-loop-isometric-demo) — **Full prompt** · Three.js, Dream Loop, Isometric 3D
 - [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) — **Prompt excerpt** · Three.js, Diegetic UI, Inverse kinematics
+- [A 16-pose isometric knight sprite sheet](docs/categories/games.md#isometric-knight-sprites) — **Full prompt** · Pixel art, Sprite sheet, Codex CLI
 
 ## Using this GPT-6 Astra prompt collection
 

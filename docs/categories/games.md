@@ -4,7 +4,7 @@
 
 Playable worlds, game prototypes and interactive simulations.
 
-**12 cases**
+**13 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -24,6 +24,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A single-file canyon driving game](#single-file-canyon-racer) · **Full prompt**
 - [Dream Loop isometric fantasy demo](#dream-loop-isometric-demo) · **Full prompt**
 - [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
+- [A 16-pose isometric knight sprite sheet](#isometric-knight-sprites) · **Full prompt**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -467,6 +468,38 @@ a small four-legged robot lives on a workbench. you charge it, play with it, and
 Opening excerpt; the author’s complete prompt is linked below.
 
 ↗ [Read the original prompt](https://x.com/zeuuss_01/status/2097004362530787837) · [Watch the demo](https://x.com/zeuuss_01/status/2097004192627933279)
+
+[Back to case list](#cases)
+
+
+<a id="isometric-knight-sprites"></a>
+
+### A 16-pose isometric knight sprite sheet
+
+**Full prompt** · [Original prompt](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+[![Comparison card showing Astra's isometric knight sprite beside another model's result](https://pbs.twimg.com/media/HRvTP4AaoAAHqjK?format=jpg&name=large)](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+Astra turns one sentence into a cohesive medieval knight sprite sheet with 16 key poses for a new 2D isometric game.
+
+**Creator**: [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) · 2026-09-09<br>
+**Tools & techniques**: Pixel art, Sprite sheet, Codex CLI
+
+**How it works**
+
+Start in an empty project, name the asset and game perspective, and explicitly prohibit reuse of other directory contents. The author ran Codex CLI at XHigh and reports a 4-minute result.
+
+**What to know**
+
+The Astra result is one sheet of 16 key poses rather than the much larger multi-palette animation set shown for the comparison model.
+
+**Prompt**
+
+```text
+Build me some knight sprites which I can use in my new medieval 2D isometric game. The game doesn't exist yet I am starting with sprites - this is the first thing we are building. Do not look at any other work in this directory. Start from scratch.
+```
+
+↗ [Read the original prompt](https://x.com/yulmu_coffee/status/2097502912847245522) · [Watch the demo](https://x.com/yulmu_coffee/status/2097502912847245522)
 
 [Back to case list](#cases)
 

@@ -4,7 +4,7 @@
 
 Engineering workflows, physical prototypes and production-ready systems.
 
-**2 cases**
+**3 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -14,6 +14,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 
 - [A buildable Microduck robot prototype](#microduck-robot-prototype) · **Full prompt**
 - [Hands-off segmentation model training](#microduck-segmentation-training) · **Full prompt**
+- [A printable winged-heart AirPods case](#winged-heart-airpods-case) · **Full prompt**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -75,6 +76,42 @@ Get all images and videos of microducks from here pollen-robotics.com/microduck/
 ```
 
 ↗ [Read the original prompt](https://x.com/LearnOpenCV/status/2097123587920634003) · [Watch the demo](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+[Back to case list](#cases)
+
+
+<a id="winged-heart-airpods-case"></a>
+
+### A printable winged-heart AirPods case
+
+**Full prompt** · [Original prompt](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+[![Winged-heart AirPods case moving from Blender model to physical print](https://pbs.twimg.com/amplify_video_thumb/2097407816755712000/img/TBbh37Ovi4sbA5NN.jpg)](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+Astra coordinates concept variation, Blender modeling and slicer preparation to turn a winged-heart idea into a physical, openable AirPods Pro 3 case.
+
+**Creator**: [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) · 2026-09-09<br>
+**Tools & techniques**: Blender, 3D printing, MCP, Physical prototyping
+
+**How it works**
+
+Generate several concepts through Higgsfield SOUL 2.0 over MCP, pause for approval, model the selected design to verified dimensions in Blender, then export scaled STL and 3MF files for white-PLA printing in Anycubic.
+
+**What to know**
+
+This physical-prototyping workflow depends on SOUL 2.0, Blender, Anycubic software and a 3D printer; Astra coordinates those tools rather than producing the object alone.
+
+**Prompt**
+
+```text
+Turn my winged-heart concept into a functional, openable AirPods Pro 3 case.
+
+Use Higgsfield SOUL 2.0 through MCP to generate several design variations, then show me the strongest options for approval. Model and paint the selected design in Blender using verified AirPods dimensions. Make sure the lid opens correctly and all ports, controls, and indicators remain accessible.
+
+Prepare correctly scaled STL and 3MF files in Anycubic for printing with white PLA. Deliver the concept images, Blender file, renders, and print-ready files. Do not guess measurements or printer settings.
+```
+
+↗ [Read the original prompt](https://x.com/higgsfield_ai/status/2097407934598930472) · [Watch the demo](https://x.com/higgsfield_ai/status/2097407934598930472)
 
 [Back to case list](#cases)
 

@@ -9,21 +9,21 @@
 - [🧩 应用与网站](#apps) · 3 · [分类页面](categories/apps.zh-CN.md)
 - [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
 - [🏛️ 三维与空间创作](#3d) · 8 · [分类页面](categories/3d.zh-CN.md)
-- [🎬 视频与叙事](#video) · 5 · [分类页面](categories/video.zh-CN.md)
-- [🖱️ 电脑操作与自动化](#automation) · 1 · [分类页面](categories/automation.zh-CN.md)
-- [🛠️ 工程与原型](#engineering) · 2 · [分类页面](categories/engineering.zh-CN.md)
-- [🎮 游戏与仿真](#games) · 12 · [分类页面](categories/games.zh-CN.md)
+- [🎬 视频与叙事](#video) · 6 · [分类页面](categories/video.zh-CN.md)
+- [🖱️ 电脑操作与自动化](#automation) · 3 · [分类页面](categories/automation.zh-CN.md)
+- [🛠️ 工程与原型](#engineering) · 3 · [分类页面](categories/engineering.zh-CN.md)
+- [🎮 游戏与仿真](#games) · 13 · [分类页面](categories/games.zh-CN.md)
 
 <a id="latest"></a>
 
 ## ✨ 最新收录
 
+- [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
+- [可打印的翼心 AirPods 外壳](#winged-heart-airpods-case) · **完整提示词**
+- [30 秒黑暗奇幻首领战短片](#dark-fantasy-executioner-cinematic) · **提示词摘录**
+- [多 Agent 运营管理后台](#multi-agent-operations-dashboard) · **完整提示词**
+- [包含 16 个姿势的等距骑士图集](#isometric-knight-sprites) · **完整提示词**
 - [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
-- [开源灵感驱动的 Three.js 机构首页](#threejs-agency-hero) · **完整提示词**
-- [一句提示词完成 Godot 机甲绑定](#godot-mech-rigging) · **完整提示词**
-- [无人值守的分割模型训练流水线](#microduck-segmentation-training) · **完整提示词**
-- [Dream Loop 等距幻想世界演示](#dream-loop-isometric-demo) · **完整提示词**
-- [单文件峡谷驾驶游戏](#single-file-canyon-racer) · **完整提示词**
 
 <a id="apps"></a>
 
@@ -703,6 +703,36 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 ↗ [查看作者完整提示词](https://x.com/adilinthewild/status/2096566099903201737) · [观看演示](https://x.com/adilinthewild/status/2096566097365602565)
 
 
+<a id="dark-fantasy-executioner-cinematic"></a>
+
+### 30 秒黑暗奇幻首领战短片
+
+**提示词摘录** · [提示词原帖](https://x.com/MadMax_Series/status/2097356472199827519)
+
+[![金发剑士在火光照亮的石殿中面对角盔行刑者](https://pbs.twimg.com/amplify_video_thumb/2097355348352905216/img/WeUjXJTsMhfX5vz9.jpg)](https://x.com/MadMax_Series/status/2097356472199827519)
+
+一份纯文本分镜提示词生成了金发剑士与角盔行刑者在火焰神殿中的电影化战斗，并维持场景破坏与角色连续性。
+
+**作者**: [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) · 2026-09-09<br>
+**工具与技术**: Seedance 2.5, Higgsfield, Text-to-video
+
+**创作方法**
+
+先完整规定格式、美术方向、角色、武器、环境、逐秒动作、变速、声音和连续性硬约束，再由 Astra 配合 Higgsfield 中的 Seedance 2.5 完成生成。
+
+**值得注意**
+
+这是多模型工作流：Astra 负责组织制作提示词，最终视频由 Higgsfield 中的 Seedance 2.5 渲染。
+
+**提示词**
+
+> 原生横屏16:9，24fps，精确30.00秒，填满完整画面，无永久黑边。高级预渲染AAA黑暗奇幻动作游戏cinematic，风格化写实CG，必须明显是高预算原创dark-fantasy action RPG过场，不是真人、纪录片摄影、普通gameplay、2D、赛璐璐或幻灯片。仅用于电影CG透视：低地面构图、宽环境构图、紧脸部反应、强前景柱体parallax、克制anamorphic bloom、受控impact handheld movement、近距离武器pass使用浅景深。
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/MadMax_Series/status/2097356472199827519) · [观看演示](https://x.com/MadMax_Series/status/2097356472199827519)
+
+
 <a id="automation"></a>
 
 ## 🖱️ 电脑操作与自动化
@@ -737,6 +767,69 @@ Create a walking tour through Kyoto.
 ```
 
 ↗ [查看作者完整提示词](https://x.com/MatthewBerman/status/2095595901784052075) · [观看演示](https://x.com/MatthewBerman/status/2095595901784052075)
+
+
+<a id="multi-agent-operations-dashboard"></a>
+
+### 多 Agent 运营管理后台
+
+**完整提示词** · [提示词原帖](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+[![展示 7 个活跃 Agent 与运行控制项的深色管理后台](https://pbs.twimg.com/amplify_video_thumb/2097478821914243072/img/B02wcISnsZyKZtSa.jpg)](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+Astra 构建了一个管理 7 个 Agent 的完整控制台，覆盖任务分配、实时动态、运行记录、暂停与重试、审批和定时执行。
+
+**作者**: [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) · 2026-09-09<br>
+**工具与技术**: Multi-agent, Operations dashboard, Task orchestration
+
+**创作方法**
+
+用一段简短需求说明 Agent 生命周期与后台控制能力；作者使用 Medium，报告第一版约 27 分钟完成。
+
+**值得注意**
+
+作者说明还需要继续开发，才能让这些 Agent 真正承担生产任务；其长期积累的 Codex 项目上下文也可能影响了成品质量。
+
+**提示词**
+
+```text
+필요한 모든 에이전트 생성하고, 각 역할에 맞는 하네스 구축하고, 각 에이전트별 작업 상황 및 기록을 볼 수 있고 제어하면서 새로운 업무까지 할당할 수 있고, 에이전트를 즉시 생성도 할 수 있는 관리 대시보드 구축해줘
+```
+
+↗ [查看作者完整提示词](https://x.com/DeepDive_KR/status/2097480105694318999) · [观看演示](https://x.com/DeepDive_KR/status/2097480105694318999)
+
+
+<a id="after-effects-kangaroo-motion"></a>
+
+### 脚本驱动的 After Effects 动效
+
+**提示词摘录** · [提示词原帖](https://x.com/Nyto_vd/status/2097499892918997382)
+
+[![在 After Effects 中制作的扁平风格拳击袋鼠动效](https://pbs.twimg.com/amplify_video_thumb/2097497983826956288/img/slA7YZTPz1cCzWWW.jpg)](https://x.com/Nyto_vd/status/2097499735942893726)
+
+Astra 在 After Effects 中制作了一段 8 秒扁平动效，包含拳击袋鼠、冲击转场和可编辑标题。
+
+**作者**: [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) · 2026-09-09<br>
+**工具与技术**: After Effects, Motion graphics, Scripted automation
+
+**创作方法**
+
+详细规定画布、帧率、素材限制与两个场景；Astra 先编写整段合成脚本，再在 After Effects 中执行，而不是逐项操作界面。
+
+**值得注意**
+
+公开成品是一段紧凑的 8 秒演示，并依赖作者环境中已有的 After Effects 原生功能与插件。
+
+**提示词**
+
+> ありがとう。次は、After Effectsを操作して、フラットデザインの、繊細かつクオリティの高いモーショングラフィックスを制作してほしい。
+動画仕様：1920 × 1080、30 fps
+制作条件：指示内容にあるオブジェクトは外部素材を使用しない。
+AfterEffectsの基本機能およびインストールされているプラグインを使用して制作する。
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/Nyto_vd/status/2097499892918997382) · [观看演示](https://x.com/Nyto_vd/status/2097499735942893726)
 
 
 <a id="engineering"></a>
@@ -803,6 +896,40 @@ Get all images and videos of microducks from here pollen-robotics.com/microduck/
 ```
 
 ↗ [查看作者完整提示词](https://x.com/LearnOpenCV/status/2097123587920634003) · [观看演示](https://x.com/LearnOpenCV/status/2097122818815299892)
+
+
+<a id="winged-heart-airpods-case"></a>
+
+### 可打印的翼心 AirPods 外壳
+
+**完整提示词** · [提示词原帖](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+[![翼心 AirPods 外壳从 Blender 模型走向实体打印](https://pbs.twimg.com/amplify_video_thumb/2097407816755712000/img/TBbh37Ovi4sbA5NN.jpg)](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+Astra 协调概念变体、Blender 建模与切片准备，把翼心创意变成真实可打开的 AirPods Pro 3 外壳。
+
+**作者**: [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) · 2026-09-09<br>
+**工具与技术**: Blender, 3D printing, MCP, Physical prototyping
+
+**创作方法**
+
+先通过 MCP 调用 Higgsfield SOUL 2.0 生成多套方案并等待确认，再按核实尺寸在 Blender 中建模，最后为 Anycubic 白色 PLA 打印导出等比例 STL 和 3MF。
+
+**值得注意**
+
+这套实体原型流程依赖 SOUL 2.0、Blender、Anycubic 软件与 3D 打印机；Astra 负责协调这些工具，并非单独完成实物制造。
+
+**提示词**
+
+```text
+Turn my winged-heart concept into a functional, openable AirPods Pro 3 case.
+
+Use Higgsfield SOUL 2.0 through MCP to generate several design variations, then show me the strongest options for approval. Model and paint the selected design in Blender using verified AirPods dimensions. Make sure the lid opens correctly and all ports, controls, and indicators remain accessible.
+
+Prepare correctly scaled STL and 3MF files in Anycubic for printing with white PLA. Deliver the concept images, Blender file, renders, and print-ready files. Do not guess measurements or printer settings.
+```
+
+↗ [查看作者完整提示词](https://x.com/higgsfield_ai/status/2097407934598930472) · [观看演示](https://x.com/higgsfield_ai/status/2097407934598930472)
 
 
 <a id="games"></a>
@@ -1231,3 +1358,33 @@ a small four-legged robot lives on a workbench. you charge it, play with it, and
 以上为开头摘录，完整提示词见下方作者原帖。
 
 ↗ [查看作者完整提示词](https://x.com/zeuuss_01/status/2097004362530787837) · [观看演示](https://x.com/zeuuss_01/status/2097004192627933279)
+
+
+<a id="isometric-knight-sprites"></a>
+
+### 包含 16 个姿势的等距骑士图集
+
+**完整提示词** · [提示词原帖](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+[![对比卡片展示 Astra 的等距骑士像素素材与另一模型的结果](https://pbs.twimg.com/media/HRvTP4AaoAAHqjK?format=jpg&name=large)](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+Astra 用一句话为全新的 2D 等距游戏生成了一套风格统一、包含 16 个关键姿势的中世纪骑士图集。
+
+**作者**: [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) · 2026-09-09<br>
+**工具与技术**: Pixel art, Sprite sheet, Codex CLI
+
+**创作方法**
+
+从空项目开始，明确素材类型与游戏视角，并禁止复用目录里的其他内容；作者使用 Codex CLI 的 XHigh，报告约 4 分钟完成。
+
+**值得注意**
+
+Astra 的结果是一张包含 16 个关键姿势的图集，并非对比模型展示的多配色大规模动画帧集合。
+
+**提示词**
+
+```text
+Build me some knight sprites which I can use in my new medieval 2D isometric game. The game doesn't exist yet I am starting with sprites - this is the first thing we are building. Do not look at any other work in this directory. Start from scratch.
+```
+
+↗ [查看作者完整提示词](https://x.com/yulmu_coffee/status/2097502912847245522) · [观看演示](https://x.com/yulmu_coffee/status/2097502912847245522)

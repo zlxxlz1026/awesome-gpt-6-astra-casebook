@@ -4,7 +4,7 @@
 
 Educational films, explainers and visual storytelling.
 
-**5 cases**
+**6 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -17,6 +17,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A young witch's runaway first flight](#runaway-witch-flight) · **Prompt excerpt**
 - [Luminous Breeze fantasy chase](#luminous-breeze-chase) · **Prompt excerpt**
 - [Four finished reels from reference footage](#higgsfield-reel-production) · **Full prompt**
+- [A 30-second dark-fantasy boss cinematic](#dark-fantasy-executioner-cinematic) · **Prompt excerpt**
 
 <a id="t-cell-explainer"></a>
 
@@ -174,6 +175,38 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 ```
 
 ↗ [Read the original prompt](https://x.com/adilinthewild/status/2096566099903201737) · [Watch the demo](https://x.com/adilinthewild/status/2096566097365602565)
+
+[Back to case list](#cases)
+
+
+<a id="dark-fantasy-executioner-cinematic"></a>
+
+### A 30-second dark-fantasy boss cinematic
+
+**Prompt excerpt** · [Original prompt](https://x.com/MadMax_Series/status/2097356472199827519)
+
+[![Blonde fighter facing a horned executioner inside a fire-lit stone temple](https://pbs.twimg.com/amplify_video_thumb/2097355348352905216/img/WeUjXJTsMhfX5vz9.jpg)](https://x.com/MadMax_Series/status/2097356472199827519)
+
+A text-only, time-coded brief becomes a cinematic fight between a blonde blade dancer and a horned executioner in a persistent fire-temple environment.
+
+**Creator**: [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) · 2026-09-09<br>
+**Tools & techniques**: Seedance 2.5, Higgsfield, Text-to-video
+
+**How it works**
+
+Specify format, art direction, characters, weapons, environment, second-by-second action, speed changes, sound and hard continuity constraints before passing the prompt through Astra to Seedance 2.5 in Higgsfield.
+
+**What to know**
+
+This is a multi-model workflow: Astra structures the production prompt, while Seedance 2.5 in Higgsfield renders the final video.
+
+**Prompt**
+
+> 原生横屏16:9，24fps，精确30.00秒，填满完整画面，无永久黑边。高级预渲染AAA黑暗奇幻动作游戏cinematic，风格化写实CG，必须明显是高预算原创dark-fantasy action RPG过场，不是真人、纪录片摄影、普通gameplay、2D、赛璐璐或幻灯片。仅用于电影CG透视：低地面构图、宽环境构图、紧脸部反应、强前景柱体parallax、克制anamorphic bloom、受控impact handheld movement、近距离武器pass使用浅景深。
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/MadMax_Series/status/2097356472199827519) · [Watch the demo](https://x.com/MadMax_Series/status/2097356472199827519)
 
 [Back to case list](#cases)
 

@@ -4,7 +4,7 @@
 
 科普短片、知识讲解与视觉叙事。
 
-**5 个案例**
+**6 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -17,6 +17,7 @@
 - [小女巫失控的第一次飞行](#runaway-witch-flight) · **提示词摘录**
 - [Luminous Breeze 幻想追逐](#luminous-breeze-chase) · **提示词摘录**
 - [从参考素材到四条成片 Reel](#higgsfield-reel-production) · **完整提示词**
+- [30 秒黑暗奇幻首领战短片](#dark-fantasy-executioner-cinematic) · **提示词摘录**
 
 <a id="t-cell-explainer"></a>
 
@@ -174,6 +175,38 @@ Make 4 reels using the motion references and my input videos. Talk about how ins
 ```
 
 ↗ [查看作者完整提示词](https://x.com/adilinthewild/status/2096566099903201737) · [观看演示](https://x.com/adilinthewild/status/2096566097365602565)
+
+[返回案例目录](#cases)
+
+
+<a id="dark-fantasy-executioner-cinematic"></a>
+
+### 30 秒黑暗奇幻首领战短片
+
+**提示词摘录** · [提示词原帖](https://x.com/MadMax_Series/status/2097356472199827519)
+
+[![金发剑士在火光照亮的石殿中面对角盔行刑者](https://pbs.twimg.com/amplify_video_thumb/2097355348352905216/img/WeUjXJTsMhfX5vz9.jpg)](https://x.com/MadMax_Series/status/2097356472199827519)
+
+一份纯文本分镜提示词生成了金发剑士与角盔行刑者在火焰神殿中的电影化战斗，并维持场景破坏与角色连续性。
+
+**作者**: [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) · 2026-09-09<br>
+**工具与技术**: Seedance 2.5, Higgsfield, Text-to-video
+
+**创作方法**
+
+先完整规定格式、美术方向、角色、武器、环境、逐秒动作、变速、声音和连续性硬约束，再由 Astra 配合 Higgsfield 中的 Seedance 2.5 完成生成。
+
+**值得注意**
+
+这是多模型工作流：Astra 负责组织制作提示词，最终视频由 Higgsfield 中的 Seedance 2.5 渲染。
+
+**提示词**
+
+> 原生横屏16:9，24fps，精确30.00秒，填满完整画面，无永久黑边。高级预渲染AAA黑暗奇幻动作游戏cinematic，风格化写实CG，必须明显是高预算原创dark-fantasy action RPG过场，不是真人、纪录片摄影、普通gameplay、2D、赛璐璐或幻灯片。仅用于电影CG透视：低地面构图、宽环境构图、紧脸部反应、强前景柱体parallax、克制anamorphic bloom、受控impact handheld movement、近距离武器pass使用浅景深。
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/MadMax_Series/status/2097356472199827519) · [观看演示](https://x.com/MadMax_Series/status/2097356472199827519)
 
 [返回案例目录](#cases)
 
