@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**40 cases · 7 categories**
+**42 cases · 7 categories**
 
 </div>
 
@@ -41,7 +41,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 Apps &amp; websites</h3>
-<p>3 cases</p>
+<p>4 cases</p>
 <a href="docs/categories/apps.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="Interactive peacock website" height="160"></a>
 <p>Interactive websites, creative interfaces and useful apps.</p>
 <p><a href="docs/categories/apps.md"><b>View Cases →</b></a></p>
@@ -55,7 +55,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🏛️ 3D &amp; spatial creation</h3>
-<p>8 cases</p>
+<p>9 cases</p>
 <a href="docs/categories/3d.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg" alt="A living 3D playroom" height="160"></a>
 <p>Spatial scenes, character worlds and editable 3D models.</p>
 <p><a href="docs/categories/3d.md"><b>View Cases →</b></a></p>
@@ -99,12 +99,12 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 
 | Case | Category | Prompt | Creator |
 | --- | --- | --- | --- |
+| [Rebuilding motion footage as interactive Three.js](docs/categories/3d.md#video-to-threejs-reconstruction) | 🏛️ 3D & spatial creation | Full prompt | [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) |
+| [A 360° panorama animation workshop](docs/categories/apps.md#panorama-video-workshop) | 🧩 Apps & websites | Full prompt | [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) |
 | [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) | 🖱️ Computer use & automation | Prompt excerpt | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
 | [A printable winged-heart AirPods case](docs/categories/engineering.md#winged-heart-airpods-case) | 🛠️ Engineering & prototyping | Full prompt | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) |
 | [A 30-second dark-fantasy boss cinematic](docs/categories/video.md#dark-fantasy-executioner-cinematic) | 🎬 Video & storytelling | Prompt excerpt | [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) |
 | [A multi-agent operations dashboard](docs/categories/automation.md#multi-agent-operations-dashboard) | 🖱️ Computer use & automation | Full prompt | [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) |
-| [A 16-pose isometric knight sprite sheet](docs/categories/games.md#isometric-knight-sprites) | 🎮 Games & simulations | Full prompt | [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) |
-| [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) | 🎮 Games & simulations | Prompt excerpt | [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) |
 
 <a id="all-cases"></a>
 
@@ -119,6 +119,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [Interactive peacock website](docs/categories/apps.md#interactive-peacock) — **Prompt excerpt** · Three.js
 - [A faster iPad robot control station](docs/categories/apps.md#ipad-robot-control-station) — **Full prompt** · iPadOS, Robot control, Latency
 - [Open-source Three.js agency hero](docs/categories/apps.md#threejs-agency-hero) — **Full prompt** · Three.js, WebGL, Creative coding
+- [A 360° panorama animation workshop](docs/categories/apps.md#panorama-video-workshop) — **Full prompt** · 360° video, Background removal, MP4 metadata
 
 ### ✨ Design & creative work
 
@@ -141,6 +142,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A cinematic dragon built in Blender](docs/categories/3d.md#cinematic-blender-dragon) — **Prompt excerpt** · Blender, Python, Character modeling
 - [An explorable science-fiction spaceship](docs/categories/3d.md#explorable-sci-fi-spaceship) — **Full prompt** · Interactive 3D, Environment design, One-shot
 - [One-prompt mech rigging in Godot](docs/categories/3d.md#godot-mech-rigging) — **Full prompt** · Godot, Meshy, GLB, Character rigging
+- [Rebuilding motion footage as interactive Three.js](docs/categories/3d.md#video-to-threejs-reconstruction) — **Full prompt** · Three.js, Motion reconstruction, Interactive comparison
 
 ### 🎬 Video & storytelling
 

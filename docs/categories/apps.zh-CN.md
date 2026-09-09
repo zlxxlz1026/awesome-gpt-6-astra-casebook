@@ -4,7 +4,7 @@
 
 交互网页、创意界面与实用应用。
 
-**3 个案例**
+**4 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -15,6 +15,7 @@
 - [可交互的孔雀艺术网页](#interactive-peacock) · **提示词摘录**
 - [更快的 iPad 机器人控制台](#ipad-robot-control-station) · **完整提示词**
 - [开源灵感驱动的 Three.js 机构首页](#threejs-agency-hero) · **完整提示词**
+- [360° 全景动画工房](#panorama-video-workshop) · **完整提示词**
 
 <a id="interactive-peacock"></a>
 
@@ -108,6 +109,38 @@ fable, scour the web and GitHub, find the craziest Three.js open source projects
 ```
 
 ↗ [查看作者完整提示词](https://x.com/itsnicholash/status/2064809351211078019) · [观看演示](https://x.com/itsnicholash/status/2097062926381101217)
+
+[返回案例目录](#cases)
+
+
+<a id="panorama-video-workshop"></a>
+
+### 360° 全景动画工房
+
+**完整提示词** · [提示词原帖](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+[![全景动画工房正在把角色合成到 360 度场景中](https://pbs.twimg.com/amplify_video_thumb/2097518125361328128/img/CkFTCxvLT3rZM821.jpg)](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+一个交互式制作工具把全景背景与抠除背景的角色视频合成，并导出可用于 YouTube 的 360° MP4。
+
+**作者**: [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) · 2026-09-09<br>
+**工具与技术**: 360° video, Background removal, MP4 metadata
+
+**创作方法**
+
+上传 360° 全景图与角色视频，抠除视频背景，在实时预览中拖拽调整角色位置和大小，设置循环方式，最后导出带 YouTube 360° 元数据的 MP4。
+
+**值得注意**
+
+演示流程使用 ChatGPT Images 2.5 制作的全景图，以及 Dreamina 上 Seedance 2.5 渲染的角色视频；这些媒体素材是 Astra 所构建工具的输入。
+
+**提示词**
+
+```text
+360°パノラマ画像とキャラクター動画をアップロードし、動画の背景を除去。キャラクターの位置やサイズをドラッグで調整しながらリアルタイムでプレビューでき、アニメーションのループ設定にも対応。最後に、YouTube 360°用のメタデータを付与したMP4をワンクリックで書き出せる“パノラマ動画工房”を作って。
+```
+
+↗ [查看作者完整提示词](https://x.com/KanaWorks_AI/status/2097518459596972066) · [观看演示](https://x.com/KanaWorks_AI/status/2097518459596972066)
 
 [返回案例目录](#cases)
 

@@ -4,7 +4,7 @@
 
 Interactive websites, creative interfaces and useful apps.
 
-**3 cases**
+**4 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -15,6 +15,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [Interactive peacock website](#interactive-peacock) · **Prompt excerpt**
 - [A faster iPad robot control station](#ipad-robot-control-station) · **Full prompt**
 - [Open-source Three.js agency hero](#threejs-agency-hero) · **Full prompt**
+- [A 360° panorama animation workshop](#panorama-video-workshop) · **Full prompt**
 
 <a id="interactive-peacock"></a>
 
@@ -108,6 +109,38 @@ fable, scour the web and GitHub, find the craziest Three.js open source projects
 ```
 
 ↗ [Read the original prompt](https://x.com/itsnicholash/status/2064809351211078019) · [Watch the demo](https://x.com/itsnicholash/status/2097062926381101217)
+
+[Back to case list](#cases)
+
+
+<a id="panorama-video-workshop"></a>
+
+### A 360° panorama animation workshop
+
+**Full prompt** · [Original prompt](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+[![Panorama animation workshop showing a character composited inside a 360-degree scene](https://pbs.twimg.com/amplify_video_thumb/2097518125361328128/img/CkFTCxvLT3rZM821.jpg)](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+An interactive production tool combines a panoramic background with a keyed character video, then exports a YouTube-ready 360° MP4.
+
+**Creator**: [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) · 2026-09-09<br>
+**Tools & techniques**: 360° video, Background removal, MP4 metadata
+
+**How it works**
+
+Upload a 360° panorama and character clip, remove the clip background, position and scale the character in a live preview, choose looping behavior, then export an MP4 carrying YouTube 360° metadata.
+
+**What to know**
+
+The demonstrated workflow uses a panorama made with ChatGPT Images 2.5 and a character video rendered with Seedance 2.5 on Dreamina; those media assets are inputs to the Astra-built tool.
+
+**Prompt**
+
+```text
+360°パノラマ画像とキャラクター動画をアップロードし、動画の背景を除去。キャラクターの位置やサイズをドラッグで調整しながらリアルタイムでプレビューでき、アニメーションのループ設定にも対応。最後に、YouTube 360°用のメタデータを付与したMP4をワンクリックで書き出せる“パノラマ動画工房”を作って。
+```
+
+↗ [Read the original prompt](https://x.com/KanaWorks_AI/status/2097518459596972066) · [Watch the demo](https://x.com/KanaWorks_AI/status/2097518459596972066)
 
 [Back to case list](#cases)
 

@@ -1944,5 +1944,102 @@
       }
     },
     "added_at": "2026-09-09"
+  },
+  {
+    "id": "panorama-video-workshop",
+    "title": {
+      "en": "A 360° panorama animation workshop",
+      "zh": "360° 全景动画工房"
+    },
+    "summary": {
+      "en": "An interactive production tool combines a panoramic background with a keyed character video, then exports a YouTube-ready 360° MP4.",
+      "zh": "一个交互式制作工具把全景背景与抠除背景的角色视频合成，并导出可用于 YouTube 的 360° MP4。"
+    },
+    "workflow": {
+      "en": "Upload a 360° panorama and character clip, remove the clip background, position and scale the character in a live preview, choose looping behavior, then export an MP4 carrying YouTube 360° metadata.",
+      "zh": "上传 360° 全景图与角色视频，抠除视频背景，在实时预览中拖拽调整角色位置和大小，设置循环方式，最后导出带 YouTube 360° 元数据的 MP4。"
+    },
+    "limitations": {
+      "en": "The demonstrated workflow uses a panorama made with ChatGPT Images 2.5 and a character video rendered with Seedance 2.5 on Dreamina; those media assets are inputs to the Astra-built tool.",
+      "zh": "演示流程使用 ChatGPT Images 2.5 制作的全景图，以及 Dreamina 上 Seedance 2.5 渲染的角色视频；这些媒体素材是 Astra 所构建工具的输入。"
+    },
+    "category": "apps",
+    "tags": [
+      "360° video",
+      "Background removal",
+      "MP4 metadata"
+    ],
+    "source_ids": [
+      "2097518459596972066"
+    ],
+    "primary_source_id": "2097518459596972066",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "360°パノラマ画像とキャラクター動画をアップロードし、動画の背景を除去。キャラクターの位置やサイズをドラッグで調整しながらリアルタイムでプレビューでき、アニメーションのループ設定にも対応。最後に、YouTube 360°用のメタデータを付与したMP4をワンクリックで書き出せる“パノラマ動画工房”を作って。",
+      "source_id": "2097518459596972066",
+      "availability": "public",
+      "display": "full",
+      "language": "ja",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097518125361328128/img/CkFTCxvLT3rZM821.jpg",
+      "source_id": "2097518459596972066",
+      "alt": {
+        "en": "Panorama animation workshop showing a character composited inside a 360-degree scene",
+        "zh": "全景动画工房正在把角色合成到 360 度场景中"
+      }
+    },
+    "added_at": "2026-09-09"
+  },
+  {
+    "id": "video-to-threejs-reconstruction",
+    "title": {
+      "en": "Rebuilding motion footage as interactive Three.js",
+      "zh": "把动态视频重建为交互式 Three.js 场景"
+    },
+    "summary": {
+      "en": "A short motion-study video is recreated as an inspectable Three.js scene with synchronized playback, camera controls, speed adjustment and wireframe mode.",
+      "zh": "一段动态设计视频被重建为可检查的 Three.js 场景，支持同步播放、镜头控制、速度调整与线框模式。"
+    },
+    "workflow": {
+      "en": "Give Astra the reference MP4 and ask it to reproduce the objects, motion, lighting, materials and shadows in Three.js, while presenting the source video and reconstruction side by side on the same page.",
+      "zh": "向 Astra 提供参考 MP4，要求用 Three.js 复现物体、运动、灯光、材质与阴影，并在同一页面并排展示原视频和重建结果。"
+    },
+    "limitations": {
+      "en": "The result is an independently modeled visual approximation driven by the supplied MP4, not automatic video-to-mesh conversion. The reference footage remains a required input.",
+      "zh": "成果是依据所提供 MP4 独立建模的视觉近似重建，并非自动把视频转换为网格；参考视频仍是必需输入。"
+    },
+    "category": "3d",
+    "tags": [
+      "Three.js",
+      "Motion reconstruction",
+      "Interactive comparison"
+    ],
+    "source_ids": [
+      "2097588270171660321",
+      "2097588752885666113"
+    ],
+    "primary_source_id": "2097588270171660321",
+    "model": "gpt-6-astra",
+    "model_evidence": "visible-model-label",
+    "prompt": {
+      "text": "/goal build the same 3D objects and scene in Three.js and replicate the exact motion from the video, including lighting, material, shadows, etc.\nOn the same page, add a side-by-side comparison with the mp4.\n\nVideo: https://video-to-3d.vercel.app/M-Dial.mp4",
+      "source_id": "2097588752885666113",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-09"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097586271963246592/img/lOzxkR-CCeDui2LP.jpg",
+      "source_id": "2097588270171660321",
+      "alt": {
+        "en": "Reference motion footage and its interactive Three.js reconstruction shown side by side",
+        "zh": "参考动态视频与交互式 Three.js 重建结果并排展示"
+      }
+    },
+    "added_at": "2026-09-09"
   }
 ]

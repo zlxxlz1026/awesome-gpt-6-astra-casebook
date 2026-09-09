@@ -6,9 +6,9 @@
 
 ## 分类导航
 
-- [🧩 应用与网站](#apps) · 3 · [分类页面](categories/apps.zh-CN.md)
+- [🧩 应用与网站](#apps) · 4 · [分类页面](categories/apps.zh-CN.md)
 - [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
-- [🏛️ 三维与空间创作](#3d) · 8 · [分类页面](categories/3d.zh-CN.md)
+- [🏛️ 三维与空间创作](#3d) · 9 · [分类页面](categories/3d.zh-CN.md)
 - [🎬 视频与叙事](#video) · 6 · [分类页面](categories/video.zh-CN.md)
 - [🖱️ 电脑操作与自动化](#automation) · 3 · [分类页面](categories/automation.zh-CN.md)
 - [🛠️ 工程与原型](#engineering) · 3 · [分类页面](categories/engineering.zh-CN.md)
@@ -18,12 +18,12 @@
 
 ## ✨ 最新收录
 
+- [把动态视频重建为交互式 Three.js 场景](#video-to-threejs-reconstruction) · **完整提示词**
+- [360° 全景动画工房](#panorama-video-workshop) · **完整提示词**
 - [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
 - [可打印的翼心 AirPods 外壳](#winged-heart-airpods-case) · **完整提示词**
 - [30 秒黑暗奇幻首领战短片](#dark-fantasy-executioner-cinematic) · **提示词摘录**
 - [多 Agent 运营管理后台](#multi-agent-operations-dashboard) · **完整提示词**
-- [包含 16 个姿势的等距骑士图集](#isometric-knight-sprites) · **完整提示词**
-- [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
 
 <a id="apps"></a>
 
@@ -119,6 +119,36 @@ fable, scour the web and GitHub, find the craziest Three.js open source projects
 ```
 
 ↗ [查看作者完整提示词](https://x.com/itsnicholash/status/2064809351211078019) · [观看演示](https://x.com/itsnicholash/status/2097062926381101217)
+
+
+<a id="panorama-video-workshop"></a>
+
+### 360° 全景动画工房
+
+**完整提示词** · [提示词原帖](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+[![全景动画工房正在把角色合成到 360 度场景中](https://pbs.twimg.com/amplify_video_thumb/2097518125361328128/img/CkFTCxvLT3rZM821.jpg)](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+一个交互式制作工具把全景背景与抠除背景的角色视频合成，并导出可用于 YouTube 的 360° MP4。
+
+**作者**: [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) · 2026-09-09<br>
+**工具与技术**: 360° video, Background removal, MP4 metadata
+
+**创作方法**
+
+上传 360° 全景图与角色视频，抠除视频背景，在实时预览中拖拽调整角色位置和大小，设置循环方式，最后导出带 YouTube 360° 元数据的 MP4。
+
+**值得注意**
+
+演示流程使用 ChatGPT Images 2.5 制作的全景图，以及 Dreamina 上 Seedance 2.5 渲染的角色视频；这些媒体素材是 Astra 所构建工具的输入。
+
+**提示词**
+
+```text
+360°パノラマ画像とキャラクター動画をアップロードし、動画の背景を除去。キャラクターの位置やサイズをドラッグで調整しながらリアルタイムでプレビューでき、アニメーションのループ設定にも対応。最後に、YouTube 360°用のメタデータを付与したMP4をワンクリックで書き出せる“パノラマ動画工房”を作って。
+```
+
+↗ [查看作者完整提示词](https://x.com/KanaWorks_AI/status/2097518459596972066) · [观看演示](https://x.com/KanaWorks_AI/status/2097518459596972066)
 
 
 <a id="design"></a>
@@ -545,6 +575,39 @@ can you rig and animate this glb, i want to see the digitigrade legs walking con
 ```
 
 ↗ [查看作者完整提示词](https://x.com/om_patel5/status/2097123382852829230) · [观看演示](https://x.com/om_patel5/status/2097123382852829230)
+
+
+<a id="video-to-threejs-reconstruction"></a>
+
+### 把动态视频重建为交互式 Three.js 场景
+
+**完整提示词** · [提示词原帖](https://x.com/henry19840301/status/2097588752885666113)
+
+[![参考动态视频与交互式 Three.js 重建结果并排展示](https://pbs.twimg.com/amplify_video_thumb/2097586271963246592/img/lOzxkR-CCeDui2LP.jpg)](https://x.com/henry19840301/status/2097588270171660321)
+
+一段动态设计视频被重建为可检查的 Three.js 场景，支持同步播放、镜头控制、速度调整与线框模式。
+
+**作者**: [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) · 2026-09-09<br>
+**工具与技术**: Three.js, Motion reconstruction, Interactive comparison
+
+**创作方法**
+
+向 Astra 提供参考 MP4，要求用 Three.js 复现物体、运动、灯光、材质与阴影，并在同一页面并排展示原视频和重建结果。
+
+**值得注意**
+
+成果是依据所提供 MP4 独立建模的视觉近似重建，并非自动把视频转换为网格；参考视频仍是必需输入。
+
+**提示词**
+
+```text
+/goal build the same 3D objects and scene in Three.js and replicate the exact motion from the video, including lighting, material, shadows, etc.
+On the same page, add a side-by-side comparison with the mp4.
+
+Video: https://video-to-3d.vercel.app/M-Dial.mp4
+```
+
+↗ [查看作者完整提示词](https://x.com/henry19840301/status/2097588752885666113) · [观看演示](https://x.com/henry19840301/status/2097588270171660321)
 
 
 <a id="video"></a>

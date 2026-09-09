@@ -6,9 +6,9 @@ Browse community examples with result previews, tools, workflows, limitations an
 
 ## Browse by category
 
-- [🧩 Apps & websites](#apps) · 3 · [Category page](categories/apps.md)
+- [🧩 Apps & websites](#apps) · 4 · [Category page](categories/apps.md)
 - [✨ Design & creative work](#design) · 4 · [Category page](categories/design.md)
-- [🏛️ 3D & spatial creation](#3d) · 8 · [Category page](categories/3d.md)
+- [🏛️ 3D & spatial creation](#3d) · 9 · [Category page](categories/3d.md)
 - [🎬 Video & storytelling](#video) · 6 · [Category page](categories/video.md)
 - [🖱️ Computer use & automation](#automation) · 3 · [Category page](categories/automation.md)
 - [🛠️ Engineering & prototyping](#engineering) · 3 · [Category page](categories/engineering.md)
@@ -18,12 +18,12 @@ Browse community examples with result previews, tools, workflows, limitations an
 
 ## ✨ Latest Additions
 
+- [Rebuilding motion footage as interactive Three.js](#video-to-threejs-reconstruction) · **Full prompt**
+- [A 360° panorama animation workshop](#panorama-video-workshop) · **Full prompt**
 - [Script-driven After Effects motion graphics](#after-effects-kangaroo-motion) · **Prompt excerpt**
 - [A printable winged-heart AirPods case](#winged-heart-airpods-case) · **Full prompt**
 - [A 30-second dark-fantasy boss cinematic](#dark-fantasy-executioner-cinematic) · **Prompt excerpt**
 - [A multi-agent operations dashboard](#multi-agent-operations-dashboard) · **Full prompt**
-- [A 16-pose isometric knight sprite sheet](#isometric-knight-sprites) · **Full prompt**
-- [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
 
 <a id="apps"></a>
 
@@ -119,6 +119,36 @@ fable, scour the web and GitHub, find the craziest Three.js open source projects
 ```
 
 ↗ [Read the original prompt](https://x.com/itsnicholash/status/2064809351211078019) · [Watch the demo](https://x.com/itsnicholash/status/2097062926381101217)
+
+
+<a id="panorama-video-workshop"></a>
+
+### A 360° panorama animation workshop
+
+**Full prompt** · [Original prompt](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+[![Panorama animation workshop showing a character composited inside a 360-degree scene](https://pbs.twimg.com/amplify_video_thumb/2097518125361328128/img/CkFTCxvLT3rZM821.jpg)](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+An interactive production tool combines a panoramic background with a keyed character video, then exports a YouTube-ready 360° MP4.
+
+**Creator**: [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) · 2026-09-09<br>
+**Tools & techniques**: 360° video, Background removal, MP4 metadata
+
+**How it works**
+
+Upload a 360° panorama and character clip, remove the clip background, position and scale the character in a live preview, choose looping behavior, then export an MP4 carrying YouTube 360° metadata.
+
+**What to know**
+
+The demonstrated workflow uses a panorama made with ChatGPT Images 2.5 and a character video rendered with Seedance 2.5 on Dreamina; those media assets are inputs to the Astra-built tool.
+
+**Prompt**
+
+```text
+360°パノラマ画像とキャラクター動画をアップロードし、動画の背景を除去。キャラクターの位置やサイズをドラッグで調整しながらリアルタイムでプレビューでき、アニメーションのループ設定にも対応。最後に、YouTube 360°用のメタデータを付与したMP4をワンクリックで書き出せる“パノラマ動画工房”を作って。
+```
+
+↗ [Read the original prompt](https://x.com/KanaWorks_AI/status/2097518459596972066) · [Watch the demo](https://x.com/KanaWorks_AI/status/2097518459596972066)
 
 
 <a id="design"></a>
@@ -545,6 +575,39 @@ can you rig and animate this glb, i want to see the digitigrade legs walking con
 ```
 
 ↗ [Read the original prompt](https://x.com/om_patel5/status/2097123382852829230) · [Watch the demo](https://x.com/om_patel5/status/2097123382852829230)
+
+
+<a id="video-to-threejs-reconstruction"></a>
+
+### Rebuilding motion footage as interactive Three.js
+
+**Full prompt** · [Original prompt](https://x.com/henry19840301/status/2097588752885666113)
+
+[![Reference motion footage and its interactive Three.js reconstruction shown side by side](https://pbs.twimg.com/amplify_video_thumb/2097586271963246592/img/lOzxkR-CCeDui2LP.jpg)](https://x.com/henry19840301/status/2097588270171660321)
+
+A short motion-study video is recreated as an inspectable Three.js scene with synchronized playback, camera controls, speed adjustment and wireframe mode.
+
+**Creator**: [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) · 2026-09-09<br>
+**Tools & techniques**: Three.js, Motion reconstruction, Interactive comparison
+
+**How it works**
+
+Give Astra the reference MP4 and ask it to reproduce the objects, motion, lighting, materials and shadows in Three.js, while presenting the source video and reconstruction side by side on the same page.
+
+**What to know**
+
+The result is an independently modeled visual approximation driven by the supplied MP4, not automatic video-to-mesh conversion. The reference footage remains a required input.
+
+**Prompt**
+
+```text
+/goal build the same 3D objects and scene in Three.js and replicate the exact motion from the video, including lighting, material, shadows, etc.
+On the same page, add a side-by-side comparison with the mp4.
+
+Video: https://video-to-3d.vercel.app/M-Dial.mp4
+```
+
+↗ [Read the original prompt](https://x.com/henry19840301/status/2097588752885666113) · [Watch the demo](https://x.com/henry19840301/status/2097588270171660321)
 
 
 <a id="video"></a>

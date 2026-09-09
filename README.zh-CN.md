@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**40 个案例 · 7 个分类**
+**42 个案例 · 7 个分类**
 
 </div>
 
@@ -41,7 +41,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 应用与网站</h3>
-<p>3 个案例</p>
+<p>4 个案例</p>
 <a href="docs/categories/apps.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="可交互的孔雀艺术网页" height="160"></a>
 <p>交互网页、创意界面与实用应用。</p>
 <p><a href="docs/categories/apps.zh-CN.md"><b>查看案例 →</b></a></p>
@@ -55,7 +55,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🏛️ 三维与空间创作</h3>
-<p>8 个案例</p>
+<p>9 个案例</p>
 <a href="docs/categories/3d.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg" alt="会自己玩耍的三维亲子空间" height="160"></a>
 <p>空间场景、角色世界与可编辑三维模型。</p>
 <p><a href="docs/categories/3d.zh-CN.md"><b>查看案例 →</b></a></p>
@@ -99,12 +99,12 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 
 | 案例 | 分类 | 提示词 | 作者 |
 | --- | --- | --- | --- |
+| [把动态视频重建为交互式 Three.js 场景](docs/categories/3d.zh-CN.md#video-to-threejs-reconstruction) | 🏛️ 三维与空间创作 | 完整提示词 | [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) |
+| [360° 全景动画工房](docs/categories/apps.zh-CN.md#panorama-video-workshop) | 🧩 应用与网站 | 完整提示词 | [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) |
 | [脚本驱动的 After Effects 动效](docs/categories/automation.zh-CN.md#after-effects-kangaroo-motion) | 🖱️ 电脑操作与自动化 | 提示词摘录 | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
 | [可打印的翼心 AirPods 外壳](docs/categories/engineering.zh-CN.md#winged-heart-airpods-case) | 🛠️ 工程与原型 | 完整提示词 | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) |
 | [30 秒黑暗奇幻首领战短片](docs/categories/video.zh-CN.md#dark-fantasy-executioner-cinematic) | 🎬 视频与叙事 | 提示词摘录 | [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) |
 | [多 Agent 运营管理后台](docs/categories/automation.zh-CN.md#multi-agent-operations-dashboard) | 🖱️ 电脑操作与自动化 | 完整提示词 | [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) |
-| [包含 16 个姿势的等距骑士图集](docs/categories/games.zh-CN.md#isometric-knight-sprites) | 🎮 游戏与仿真 | 完整提示词 | [@yulmu_coffee](https://x.com/yulmu_coffee/status/2097502912847245522) |
-| [把电量显示做进机身的工作台机器猫](docs/categories/games.zh-CN.md#workbench-robo-cat) | 🎮 游戏与仿真 | 提示词摘录 | [@zeuuss_01](https://x.com/zeuuss_01/status/2097004192627933279) |
 
 <a id="all-cases"></a>
 
@@ -119,6 +119,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [可交互的孔雀艺术网页](docs/categories/apps.zh-CN.md#interactive-peacock) — **提示词摘录** · Three.js
 - [更快的 iPad 机器人控制台](docs/categories/apps.zh-CN.md#ipad-robot-control-station) — **完整提示词** · iPadOS, Robot control, Latency
 - [开源灵感驱动的 Three.js 机构首页](docs/categories/apps.zh-CN.md#threejs-agency-hero) — **完整提示词** · Three.js, WebGL, Creative coding
+- [360° 全景动画工房](docs/categories/apps.zh-CN.md#panorama-video-workshop) — **完整提示词** · 360° video, Background removal, MP4 metadata
 
 ### ✨ 设计与创意
 
@@ -141,6 +142,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [Blender 电影级巨龙](docs/categories/3d.zh-CN.md#cinematic-blender-dragon) — **提示词摘录** · Blender, Python, Character modeling
 - [可深入探索的科幻飞船](docs/categories/3d.zh-CN.md#explorable-sci-fi-spaceship) — **完整提示词** · Interactive 3D, Environment design, One-shot
 - [一句提示词完成 Godot 机甲绑定](docs/categories/3d.zh-CN.md#godot-mech-rigging) — **完整提示词** · Godot, Meshy, GLB, Character rigging
+- [把动态视频重建为交互式 Three.js 场景](docs/categories/3d.zh-CN.md#video-to-threejs-reconstruction) — **完整提示词** · Three.js, Motion reconstruction, Interactive comparison
 
 ### 🎬 视频与叙事
 

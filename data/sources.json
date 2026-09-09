@@ -895,5 +895,44 @@
     "verification": "x-post-read",
     "media": "prompt-image-inspected",
     "reason": "Original author reply showing the complete Japanese prompt and explaining the script-first After Effects workflow."
+  },
+  {
+    "post_id": "2097518459596972066",
+    "url": "https://x.com/KanaWorks_AI/status/2097518459596972066",
+    "author": "KanaWorks_AI",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "panorama-video-workshop",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original result with explicit Astra attribution, exact public Japanese prompt and an inspected end-to-end panorama export demonstration."
+  },
+  {
+    "post_id": "2097588270171660321",
+    "url": "https://x.com/henry19840301/status/2097588270171660321",
+    "author": "henry19840301",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "video-to-threejs-reconstruction",
+    "verification": "x-post-read",
+    "media": "source-video-and-live-demo-inspected",
+    "reason": "Original result and live interactive comparison verified; the page visibly identifies GPT-6 Astra Medium."
+  },
+  {
+    "post_id": "2097588752885666113",
+    "url": "https://x.com/henry19840301/status/2097588752885666113",
+    "author": "henry19840301",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-09",
+    "last_checked_at": "2026-09-09",
+    "status": "accepted",
+    "case_id": "video-to-threejs-reconstruction",
+    "verification": "x-post-read",
+    "media": "prompt-text",
+    "reason": "Original author reply containing the complete public prompt and its reference MP4 URL."
   }
 ]
