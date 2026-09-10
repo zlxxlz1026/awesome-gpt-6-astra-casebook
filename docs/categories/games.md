@@ -4,7 +4,7 @@
 
 Playable worlds, game prototypes and interactive simulations.
 
-**13 cases**
+**14 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -25,6 +25,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [Dream Loop isometric fantasy demo](#dream-loop-isometric-demo) · **Full prompt**
 - [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
 - [A 16-pose isometric knight sprite sheet](#isometric-knight-sprites) · **Full prompt**
+- [A one-prompt surreal climbing game](#surreal-french-climber) · **Full prompt**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -500,6 +501,38 @@ Build me some knight sprites which I can use in my new medieval 2D isometric gam
 ```
 
 ↗ [Read the original prompt](https://x.com/yulmu_coffee/status/2097502912847245522) · [Watch the demo](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+[Back to case list](#cases)
+
+
+<a id="surreal-french-climber"></a>
+
+### A one-prompt surreal climbing game
+
+**Full prompt** · [Original prompt](https://x.com/TrueSlazac/status/2097416577624805425)
+
+[![A woman climbing floating platforms among impossible structures above water](https://pbs.twimg.com/amplify_video_thumb/2097416515280859136/img/PlYD4dutuU4t72NQ.jpg)](https://x.com/TrueSlazac/status/2097416577624805425)
+
+A single surreal premise becomes a third-person climbing prototype where a woman crosses floating platforms and impossible architecture suspended over water.
+
+**Creator**: [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) · 2026-09-09<br>
+**Tools & techniques**: 3D platformer, Surreal world, One-shot
+
+**How it works**
+
+Describe only the protagonist, upward traversal and a world that rejects ordinary logic. Astra supplies the environment, character movement, platforming and cinematic presentation around that compact brief.
+
+**What to know**
+
+The one-line prompt leaves controls, mechanics and delivery format unspecified; the published result demonstrates a compact prototype rather than a complete long-form game.
+
+**Prompt**
+
+```text
+French woman has to climb through a word that defies logic, flying objects everywhere
+```
+
+↗ [Read the original prompt](https://x.com/TrueSlazac/status/2097416577624805425) · [Watch the demo](https://x.com/TrueSlazac/status/2097416577624805425)
 
 [Back to case list](#cases)
 

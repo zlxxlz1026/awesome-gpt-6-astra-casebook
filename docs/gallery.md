@@ -8,22 +8,22 @@ Browse community examples with result previews, tools, workflows, limitations an
 
 - [🧩 Apps & websites](#apps) · 4 · [Category page](categories/apps.md)
 - [✨ Design & creative work](#design) · 4 · [Category page](categories/design.md)
-- [🏛️ 3D & spatial creation](#3d) · 9 · [Category page](categories/3d.md)
+- [🏛️ 3D & spatial creation](#3d) · 10 · [Category page](categories/3d.md)
 - [🎬 Video & storytelling](#video) · 6 · [Category page](categories/video.md)
-- [🖱️ Computer use & automation](#automation) · 3 · [Category page](categories/automation.md)
+- [🖱️ Computer use & automation](#automation) · 4 · [Category page](categories/automation.md)
 - [🛠️ Engineering & prototyping](#engineering) · 3 · [Category page](categories/engineering.md)
-- [🎮 Games & simulations](#games) · 13 · [Category page](categories/games.md)
+- [🎮 Games & simulations](#games) · 14 · [Category page](categories/games.md)
 
 <a id="latest"></a>
 
 ## ✨ Latest Additions
 
+- [A $100 million countryside villa concept](#hundred-million-villa) · **Full prompt**
+- [A one-prompt surreal climbing game](#surreal-french-climber) · **Full prompt**
+- [An autonomous theme-and-variations composition](#clares-dragoons-variations) · **Prompt excerpt**
 - [Rebuilding motion footage as interactive Three.js](#video-to-threejs-reconstruction) · **Full prompt**
 - [A 360° panorama animation workshop](#panorama-video-workshop) · **Full prompt**
 - [Script-driven After Effects motion graphics](#after-effects-kangaroo-motion) · **Prompt excerpt**
-- [A printable winged-heart AirPods case](#winged-heart-airpods-case) · **Full prompt**
-- [A 30-second dark-fantasy boss cinematic](#dark-fantasy-executioner-cinematic) · **Prompt excerpt**
-- [A multi-agent operations dashboard](#multi-agent-operations-dashboard) · **Full prompt**
 
 <a id="apps"></a>
 
@@ -610,6 +610,36 @@ Video: https://video-to-3d.vercel.app/M-Dial.mp4
 ↗ [Read the original prompt](https://x.com/henry19840301/status/2097588752885666113) · [Watch the demo](https://x.com/henry19840301/status/2097588270171660321)
 
 
+<a id="hundred-million-villa"></a>
+
+### A $100 million countryside villa concept
+
+**Full prompt** · [Original prompt](https://x.com/higgsfield_ai/status/2097886232491737184)
+
+[![Aerial view of a landscaped countryside estate with a pool and tennis court](https://pbs.twimg.com/amplify_video_thumb/2097886077545803776/img/splwq8Jb36Z1QWeJ.jpg)](https://x.com/higgsfield_ai/status/2097886232491737184)
+
+A short aspirational prompt becomes a large SketchUp estate with furnished interiors, a swimming pool, tennis court and landscaped grounds in an author-reported five-minute run.
+
+**Creator**: [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097886232491737184) · 2026-09-10<br>
+**Tools & techniques**: SketchUp, Higgsfield, Architectural visualization
+
+**How it works**
+
+Give Astra a concise architectural ambition and budget scale, then let it coordinate Higgsfield and SketchUp to establish the site, massing, rooms, amenities, furnishings and landscape.
+
+**What to know**
+
+The published result is a visual 3D concept rather than a construction-ready architectural package, and the stated budget is a creative scale cue rather than a verified cost estimate.
+
+**Prompt**
+
+```text
+dream countryside home with a $100,000,000 budget.
+```
+
+↗ [Read the original prompt](https://x.com/higgsfield_ai/status/2097886232491737184) · [Watch the demo](https://x.com/higgsfield_ai/status/2097886232491737184)
+
+
 <a id="video"></a>
 
 ## 🎬 Video & storytelling
@@ -893,6 +923,36 @@ AfterEffectsの基本機能およびインストールされているプラグ�
 Opening excerpt; the author’s complete prompt is linked below.
 
 ↗ [Read the original prompt](https://x.com/Nyto_vd/status/2097499892918997382) · [Watch the demo](https://x.com/Nyto_vd/status/2097499735942893726)
+
+
+<a id="clares-dragoons-variations"></a>
+
+### An autonomous theme-and-variations composition
+
+**Prompt excerpt** · [Original prompt](https://x.com/doodlestein/status/2097838353504719199)
+
+[![Piano score and rendered performance for Clare’s Dragoons variations](https://pbs.twimg.com/amplify_video_thumb/2097835787542732805/img/he4y8zVJKFgYbrjx.jpg)](https://x.com/doodlestein/status/2097837264529203426)
+
+Astra turns the traditional Irish song “Clare’s Dragoons” into a complete piano theme and twelve structured variations, producing a score, MIDI and a rendered performance through an inspectable multi-agent workflow.
+
+**Creator**: [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) · 2026-09-10<br>
+**Tools & techniques**: Music composition, Codex skills, mtdt
+
+**How it works**
+
+A controller agent delegates the composition to a worker running Astra at xhigh, backed by a 320-skill music library and the mtdt CLI. The worker finds source notation, transcribes it into an internal representation, studies Mozart’s variation procedures, then composes, reviews and revises the score.
+
+**What to know**
+
+The result depends on the author’s closed-source music skill library and mtdt tooling, so the published prompt alone does not reproduce the full workflow. The author also notes that the model evaluates notation rather than listening to the rendered audio.
+
+**Prompt**
+
+> Compose and deliver a complete, attractive solo-piano “Theme and Twelve Variations on Clare’s Dragoons”, using the traditional Irish song with its “Vive La!” refrain. Begin by presenting the complete verse melody and chorus straight, with a newly composed, nicely textured piano accompaniment. Follow that with Variations I–XII, inspired by Mozart’s variation procedures in K.265, his Twelve Variations on “Ah, vous dirai-je, Maman” (Twinkle, Twinkle, Little Star). Make a coherent piece someone would enjoy playing and hearing.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/doodlestein/status/2097838353504719199) · [Watch the demo](https://x.com/doodlestein/status/2097837264529203426)
 
 
 <a id="engineering"></a>
@@ -1451,3 +1511,33 @@ Build me some knight sprites which I can use in my new medieval 2D isometric gam
 ```
 
 ↗ [Read the original prompt](https://x.com/yulmu_coffee/status/2097502912847245522) · [Watch the demo](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+
+<a id="surreal-french-climber"></a>
+
+### A one-prompt surreal climbing game
+
+**Full prompt** · [Original prompt](https://x.com/TrueSlazac/status/2097416577624805425)
+
+[![A woman climbing floating platforms among impossible structures above water](https://pbs.twimg.com/amplify_video_thumb/2097416515280859136/img/PlYD4dutuU4t72NQ.jpg)](https://x.com/TrueSlazac/status/2097416577624805425)
+
+A single surreal premise becomes a third-person climbing prototype where a woman crosses floating platforms and impossible architecture suspended over water.
+
+**Creator**: [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) · 2026-09-09<br>
+**Tools & techniques**: 3D platformer, Surreal world, One-shot
+
+**How it works**
+
+Describe only the protagonist, upward traversal and a world that rejects ordinary logic. Astra supplies the environment, character movement, platforming and cinematic presentation around that compact brief.
+
+**What to know**
+
+The one-line prompt leaves controls, mechanics and delivery format unspecified; the published result demonstrates a compact prototype rather than a complete long-form game.
+
+**Prompt**
+
+```text
+French woman has to climb through a word that defies logic, flying objects everywhere
+```
+
+↗ [Read the original prompt](https://x.com/TrueSlazac/status/2097416577624805425) · [Watch the demo](https://x.com/TrueSlazac/status/2097416577624805425)

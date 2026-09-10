@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**42 cases · 7 categories**
+**45 cases · 7 categories**
 
 </div>
 
@@ -55,7 +55,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🏛️ 3D &amp; spatial creation</h3>
-<p>9 cases</p>
+<p>10 cases</p>
 <a href="docs/categories/3d.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096046840546549761/img/8UyLWPGxA1loB1BX.jpg" alt="A living 3D playroom" height="160"></a>
 <p>Spatial scenes, character worlds and editable 3D models.</p>
 <p><a href="docs/categories/3d.md"><b>View Cases →</b></a></p>
@@ -71,7 +71,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🖱️ Computer use &amp; automation</h3>
-<p>3 cases</p>
+<p>4 cases</p>
 <a href="docs/categories/automation.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="Browser-controlled visual walking tour through Kyoto" height="160"></a>
 <p>Browser control, computer-use workflows and autonomous production tasks.</p>
 <p><a href="docs/categories/automation.md"><b>View Cases →</b></a></p>
@@ -87,7 +87,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎮 Games &amp; simulations</h3>
-<p>13 cases</p>
+<p>14 cases</p>
 <a href="docs/categories/games.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg" alt="Breakwater mecha selection and waterfront battle interface" height="160"></a>
 <p>Playable worlds, game prototypes and interactive simulations.</p>
 <p><a href="docs/categories/games.md"><b>View Cases →</b></a></p>
@@ -99,12 +99,12 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 
 | Case | Category | Prompt | Creator |
 | --- | --- | --- | --- |
+| [A $100 million countryside villa concept](docs/categories/3d.md#hundred-million-villa) | 🏛️ 3D & spatial creation | Full prompt | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097886232491737184) |
+| [A one-prompt surreal climbing game](docs/categories/games.md#surreal-french-climber) | 🎮 Games & simulations | Full prompt | [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) |
+| [An autonomous theme-and-variations composition](docs/categories/automation.md#clares-dragoons-variations) | 🖱️ Computer use & automation | Prompt excerpt | [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) |
 | [Rebuilding motion footage as interactive Three.js](docs/categories/3d.md#video-to-threejs-reconstruction) | 🏛️ 3D & spatial creation | Full prompt | [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) |
 | [A 360° panorama animation workshop](docs/categories/apps.md#panorama-video-workshop) | 🧩 Apps & websites | Full prompt | [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) |
 | [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) | 🖱️ Computer use & automation | Prompt excerpt | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
-| [A printable winged-heart AirPods case](docs/categories/engineering.md#winged-heart-airpods-case) | 🛠️ Engineering & prototyping | Full prompt | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097407934598930472) |
-| [A 30-second dark-fantasy boss cinematic](docs/categories/video.md#dark-fantasy-executioner-cinematic) | 🎬 Video & storytelling | Prompt excerpt | [@MadMax_Series](https://x.com/MadMax_Series/status/2097356472199827519) |
-| [A multi-agent operations dashboard](docs/categories/automation.md#multi-agent-operations-dashboard) | 🖱️ Computer use & automation | Full prompt | [@DeepDive_KR](https://x.com/DeepDive_KR/status/2097480105694318999) |
 
 <a id="all-cases"></a>
 
@@ -143,6 +143,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [An explorable science-fiction spaceship](docs/categories/3d.md#explorable-sci-fi-spaceship) — **Full prompt** · Interactive 3D, Environment design, One-shot
 - [One-prompt mech rigging in Godot](docs/categories/3d.md#godot-mech-rigging) — **Full prompt** · Godot, Meshy, GLB, Character rigging
 - [Rebuilding motion footage as interactive Three.js](docs/categories/3d.md#video-to-threejs-reconstruction) — **Full prompt** · Three.js, Motion reconstruction, Interactive comparison
+- [A $100 million countryside villa concept](docs/categories/3d.md#hundred-million-villa) — **Full prompt** · SketchUp, Higgsfield, Architectural visualization
 
 ### 🎬 Video & storytelling
 
@@ -162,6 +163,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A browser-driven walk through Kyoto](docs/categories/automation.md#kyoto-walking-tour) — **Full prompt** · Browser control, Travel, Computer use
 - [A multi-agent operations dashboard](docs/categories/automation.md#multi-agent-operations-dashboard) — **Full prompt** · Multi-agent, Operations dashboard, Task orchestration
 - [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) — **Prompt excerpt** · After Effects, Motion graphics, Scripted automation
+- [An autonomous theme-and-variations composition](docs/categories/automation.md#clares-dragoons-variations) — **Prompt excerpt** · Music composition, Codex skills, mtdt
 
 ### 🛠️ Engineering & prototyping
 
@@ -188,6 +190,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [Dream Loop isometric fantasy demo](docs/categories/games.md#dream-loop-isometric-demo) — **Full prompt** · Three.js, Dream Loop, Isometric 3D
 - [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) — **Prompt excerpt** · Three.js, Diegetic UI, Inverse kinematics
 - [A 16-pose isometric knight sprite sheet](docs/categories/games.md#isometric-knight-sprites) — **Full prompt** · Pixel art, Sprite sheet, Codex CLI
+- [A one-prompt surreal climbing game](docs/categories/games.md#surreal-french-climber) — **Full prompt** · 3D platformer, Surreal world, One-shot
 
 ## Using this GPT-6 Astra prompt collection
 

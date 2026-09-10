@@ -934,5 +934,57 @@
     "verification": "x-post-read",
     "media": "prompt-text",
     "reason": "Original author reply containing the complete public prompt and its reference MP4 URL."
+  },
+  {
+    "post_id": "2097837264529203426",
+    "url": "https://x.com/doodlestein/status/2097837264529203426",
+    "author": "doodlestein",
+    "published_date": "2026-09-10",
+    "first_seen_at": "2026-09-10",
+    "last_checked_at": "2026-09-10",
+    "status": "accepted",
+    "case_id": "clares-dragoons-variations",
+    "verification": "x-post-read",
+    "media": "source-video-and-images-inspected",
+    "reason": "Original result with explicit Astra xhigh attribution, workflow disclosure, rendered performance and intermediate artifacts."
+  },
+  {
+    "post_id": "2097838353504719199",
+    "url": "https://x.com/doodlestein/status/2097838353504719199",
+    "author": "doodlestein",
+    "published_date": "2026-09-10",
+    "first_seen_at": "2026-09-10",
+    "last_checked_at": "2026-09-10",
+    "status": "accepted",
+    "case_id": "clares-dragoons-variations",
+    "verification": "x-post-read",
+    "media": "prompt-images-inspected",
+    "reason": "Original author reply publishing the full controller-to-worker prompt across three readable screenshots."
+  },
+  {
+    "post_id": "2097416577624805425",
+    "url": "https://x.com/TrueSlazac/status/2097416577624805425",
+    "author": "TrueSlazac",
+    "published_date": "2026-09-09",
+    "first_seen_at": "2026-09-10",
+    "last_checked_at": "2026-09-10",
+    "status": "accepted",
+    "case_id": "surreal-french-climber",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original high-engagement one-prompt game post with explicit Astra attribution and visible gameplay."
+  },
+  {
+    "post_id": "2097886232491737184",
+    "url": "https://x.com/higgsfield_ai/status/2097886232491737184",
+    "author": "higgsfield_ai",
+    "published_date": "2026-09-10",
+    "first_seen_at": "2026-09-10",
+    "last_checked_at": "2026-09-10",
+    "status": "accepted",
+    "case_id": "hundred-million-villa",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original result with the public prompt, explicit Astra attribution and an inspected SketchUp estate demonstration."
   }
 ]

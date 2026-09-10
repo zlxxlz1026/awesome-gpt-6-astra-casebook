@@ -4,7 +4,7 @@
 
 可游玩的世界、游戏原型与交互式仿真。
 
-**13 个案例**
+**14 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -25,6 +25,7 @@
 - [Dream Loop 等距幻想世界演示](#dream-loop-isometric-demo) · **完整提示词**
 - [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
 - [包含 16 个姿势的等距骑士图集](#isometric-knight-sprites) · **完整提示词**
+- [一句提示词生成的超现实攀爬游戏](#surreal-french-climber) · **完整提示词**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -500,6 +501,38 @@ Build me some knight sprites which I can use in my new medieval 2D isometric gam
 ```
 
 ↗ [查看作者完整提示词](https://x.com/yulmu_coffee/status/2097502912847245522) · [观看演示](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+[返回案例目录](#cases)
+
+
+<a id="surreal-french-climber"></a>
+
+### 一句提示词生成的超现实攀爬游戏
+
+**完整提示词** · [提示词原帖](https://x.com/TrueSlazac/status/2097416577624805425)
+
+[![一名女性在水面上方的不可能建筑间攀爬漂浮平台](https://pbs.twimg.com/amplify_video_thumb/2097416515280859136/img/PlYD4dutuU4t72NQ.jpg)](https://x.com/TrueSlazac/status/2097416577624805425)
+
+一句超现实设定生成了第三人称攀爬原型：角色穿越漂浮平台和悬在水面上的不可能建筑。
+
+**作者**: [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) · 2026-09-09<br>
+**工具与技术**: 3D platformer, Surreal world, One-shot
+
+**创作方法**
+
+只描述主角、向上攀爬和违背常理的世界，让 Astra 围绕这份简短需求补全环境、角色移动、平台玩法与电影化呈现。
+
+**值得注意**
+
+这一行提示词没有规定操作方式、具体机制或交付格式；公开成果展示的是紧凑原型，而不是完整的长篇游戏。
+
+**提示词**
+
+```text
+French woman has to climb through a word that defies logic, flying objects everywhere
+```
+
+↗ [查看作者完整提示词](https://x.com/TrueSlazac/status/2097416577624805425) · [观看演示](https://x.com/TrueSlazac/status/2097416577624805425)
 
 [返回案例目录](#cases)
 

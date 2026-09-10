@@ -8,22 +8,22 @@
 
 - [🧩 应用与网站](#apps) · 4 · [分类页面](categories/apps.zh-CN.md)
 - [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
-- [🏛️ 三维与空间创作](#3d) · 9 · [分类页面](categories/3d.zh-CN.md)
+- [🏛️ 三维与空间创作](#3d) · 10 · [分类页面](categories/3d.zh-CN.md)
 - [🎬 视频与叙事](#video) · 6 · [分类页面](categories/video.zh-CN.md)
-- [🖱️ 电脑操作与自动化](#automation) · 3 · [分类页面](categories/automation.zh-CN.md)
+- [🖱️ 电脑操作与自动化](#automation) · 4 · [分类页面](categories/automation.zh-CN.md)
 - [🛠️ 工程与原型](#engineering) · 3 · [分类页面](categories/engineering.zh-CN.md)
-- [🎮 游戏与仿真](#games) · 13 · [分类页面](categories/games.zh-CN.md)
+- [🎮 游戏与仿真](#games) · 14 · [分类页面](categories/games.zh-CN.md)
 
 <a id="latest"></a>
 
 ## ✨ 最新收录
 
+- [一亿美元乡间别墅概念设计](#hundred-million-villa) · **完整提示词**
+- [一句提示词生成的超现实攀爬游戏](#surreal-french-climber) · **完整提示词**
+- [自动完成的主题与十二变奏曲](#clares-dragoons-variations) · **提示词摘录**
 - [把动态视频重建为交互式 Three.js 场景](#video-to-threejs-reconstruction) · **完整提示词**
 - [360° 全景动画工房](#panorama-video-workshop) · **完整提示词**
 - [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
-- [可打印的翼心 AirPods 外壳](#winged-heart-airpods-case) · **完整提示词**
-- [30 秒黑暗奇幻首领战短片](#dark-fantasy-executioner-cinematic) · **提示词摘录**
-- [多 Agent 运营管理后台](#multi-agent-operations-dashboard) · **完整提示词**
 
 <a id="apps"></a>
 
@@ -610,6 +610,36 @@ Video: https://video-to-3d.vercel.app/M-Dial.mp4
 ↗ [查看作者完整提示词](https://x.com/henry19840301/status/2097588752885666113) · [观看演示](https://x.com/henry19840301/status/2097588270171660321)
 
 
+<a id="hundred-million-villa"></a>
+
+### 一亿美元乡间别墅概念设计
+
+**完整提示词** · [提示词原帖](https://x.com/higgsfield_ai/status/2097886232491737184)
+
+[![带泳池与网球场的园林乡间庄园鸟瞰图](https://pbs.twimg.com/amplify_video_thumb/2097886077545803776/img/splwq8Jb36Z1QWeJ.jpg)](https://x.com/higgsfield_ai/status/2097886232491737184)
+
+一句愿景式提示词在作者所称的五分钟运行中，变成了包含精装室内、泳池、网球场与园林的完整 SketchUp 庄园。
+
+**作者**: [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097886232491737184) · 2026-09-10<br>
+**工具与技术**: SketchUp, Higgsfield, Architectural visualization
+
+**创作方法**
+
+向 Astra 提供简短的建筑愿景与预算尺度，再让它协调 Higgsfield 和 SketchUp，完成场地、体量、房间、设施、家具与景观。
+
+**值得注意**
+
+公开成果是视觉化三维概念，并非可直接施工的建筑方案；提示词中的预算是创意尺度要求，不是经过核算的造价。
+
+**提示词**
+
+```text
+dream countryside home with a $100,000,000 budget.
+```
+
+↗ [查看作者完整提示词](https://x.com/higgsfield_ai/status/2097886232491737184) · [观看演示](https://x.com/higgsfield_ai/status/2097886232491737184)
+
+
 <a id="video"></a>
 
 ## 🎬 视频与叙事
@@ -893,6 +923,36 @@ AfterEffectsの基本機能およびインストールされているプラグ�
 以上为开头摘录，完整提示词见下方作者原帖。
 
 ↗ [查看作者完整提示词](https://x.com/Nyto_vd/status/2097499892918997382) · [观看演示](https://x.com/Nyto_vd/status/2097499735942893726)
+
+
+<a id="clares-dragoons-variations"></a>
+
+### 自动完成的主题与十二变奏曲
+
+**提示词摘录** · [提示词原帖](https://x.com/doodlestein/status/2097838353504719199)
+
+[![《Clare’s Dragoons》钢琴变奏的乐谱与渲染演奏](https://pbs.twimg.com/amplify_video_thumb/2097835787542732805/img/he4y8zVJKFgYbrjx.jpg)](https://x.com/doodlestein/status/2097837264529203426)
+
+Astra 把爱尔兰传统歌曲《Clare’s Dragoons》改编成完整钢琴主题与十二段结构化变奏，并通过可检查的多代理流程产出乐谱、MIDI 和演奏成品。
+
+**作者**: [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) · 2026-09-10<br>
+**工具与技术**: Music composition, Codex skills, mtdt
+
+**创作方法**
+
+控制代理把创作任务交给以 xhigh 运行 Astra 的工作代理，并提供包含 320 个音乐技能的资料库与 mtdt CLI。工作代理寻找原始乐谱、转写为内部表示，研究莫扎特的变奏手法，再完成作曲、审阅与修改。
+
+**值得注意**
+
+该成果依赖作者未开源的音乐技能库与 mtdt 工具，因此仅凭公开提示词无法获得完整工作流；作者还说明，模型是通过乐谱而非聆听渲染音频来评估结果。
+
+**提示词**
+
+> Compose and deliver a complete, attractive solo-piano “Theme and Twelve Variations on Clare’s Dragoons”, using the traditional Irish song with its “Vive La!” refrain. Begin by presenting the complete verse melody and chorus straight, with a newly composed, nicely textured piano accompaniment. Follow that with Variations I–XII, inspired by Mozart’s variation procedures in K.265, his Twelve Variations on “Ah, vous dirai-je, Maman” (Twinkle, Twinkle, Little Star). Make a coherent piece someone would enjoy playing and hearing.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/doodlestein/status/2097838353504719199) · [观看演示](https://x.com/doodlestein/status/2097837264529203426)
 
 
 <a id="engineering"></a>
@@ -1451,3 +1511,33 @@ Build me some knight sprites which I can use in my new medieval 2D isometric gam
 ```
 
 ↗ [查看作者完整提示词](https://x.com/yulmu_coffee/status/2097502912847245522) · [观看演示](https://x.com/yulmu_coffee/status/2097502912847245522)
+
+
+<a id="surreal-french-climber"></a>
+
+### 一句提示词生成的超现实攀爬游戏
+
+**完整提示词** · [提示词原帖](https://x.com/TrueSlazac/status/2097416577624805425)
+
+[![一名女性在水面上方的不可能建筑间攀爬漂浮平台](https://pbs.twimg.com/amplify_video_thumb/2097416515280859136/img/PlYD4dutuU4t72NQ.jpg)](https://x.com/TrueSlazac/status/2097416577624805425)
+
+一句超现实设定生成了第三人称攀爬原型：角色穿越漂浮平台和悬在水面上的不可能建筑。
+
+**作者**: [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) · 2026-09-09<br>
+**工具与技术**: 3D platformer, Surreal world, One-shot
+
+**创作方法**
+
+只描述主角、向上攀爬和违背常理的世界，让 Astra 围绕这份简短需求补全环境、角色移动、平台玩法与电影化呈现。
+
+**值得注意**
+
+这一行提示词没有规定操作方式、具体机制或交付格式；公开成果展示的是紧凑原型，而不是完整的长篇游戏。
+
+**提示词**
+
+```text
+French woman has to climb through a word that defies logic, flying objects everywhere
+```
+
+↗ [查看作者完整提示词](https://x.com/TrueSlazac/status/2097416577624805425) · [观看演示](https://x.com/TrueSlazac/status/2097416577624805425)

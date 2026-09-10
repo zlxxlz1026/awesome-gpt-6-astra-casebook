@@ -2041,5 +2041,150 @@
       }
     },
     "added_at": "2026-09-09"
+  },
+  {
+    "id": "clares-dragoons-variations",
+    "title": {
+      "en": "An autonomous theme-and-variations composition",
+      "zh": "自动完成的主题与十二变奏曲"
+    },
+    "summary": {
+      "en": "Astra turns the traditional Irish song “Clare’s Dragoons” into a complete piano theme and twelve structured variations, producing a score, MIDI and a rendered performance through an inspectable multi-agent workflow.",
+      "zh": "Astra 把爱尔兰传统歌曲《Clare’s Dragoons》改编成完整钢琴主题与十二段结构化变奏，并通过可检查的多代理流程产出乐谱、MIDI 和演奏成品。"
+    },
+    "workflow": {
+      "en": "A controller agent delegates the composition to a worker running Astra at xhigh, backed by a 320-skill music library and the mtdt CLI. The worker finds source notation, transcribes it into an internal representation, studies Mozart’s variation procedures, then composes, reviews and revises the score.",
+      "zh": "控制代理把创作任务交给以 xhigh 运行 Astra 的工作代理，并提供包含 320 个音乐技能的资料库与 mtdt CLI。工作代理寻找原始乐谱、转写为内部表示，研究莫扎特的变奏手法，再完成作曲、审阅与修改。"
+    },
+    "limitations": {
+      "en": "The result depends on the author’s closed-source music skill library and mtdt tooling, so the published prompt alone does not reproduce the full workflow. The author also notes that the model evaluates notation rather than listening to the rendered audio.",
+      "zh": "该成果依赖作者未开源的音乐技能库与 mtdt 工具，因此仅凭公开提示词无法获得完整工作流；作者还说明，模型是通过乐谱而非聆听渲染音频来评估结果。"
+    },
+    "category": "automation",
+    "tags": [
+      "Music composition",
+      "Codex skills",
+      "mtdt"
+    ],
+    "source_ids": [
+      "2097837264529203426",
+      "2097838353504719199"
+    ],
+    "primary_source_id": "2097837264529203426",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Compose and deliver a complete, attractive solo-piano “Theme and Twelve Variations on Clare’s Dragoons”, using the traditional Irish song with its “Vive La!” refrain. Begin by presenting the complete verse melody and chorus straight, with a newly composed, nicely textured piano accompaniment. Follow that with Variations I–XII, inspired by Mozart’s variation procedures in K.265, his Twelve Variations on “Ah, vous dirai-je, Maman” (Twinkle, Twinkle, Little Star). Make a coherent piece someone would enjoy playing and hearing.",
+      "source_id": "2097838353504719199",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "en",
+      "verified_at": "2026-09-10"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097835787542732805/img/he4y8zVJKFgYbrjx.jpg",
+      "source_id": "2097837264529203426",
+      "alt": {
+        "en": "Piano score and rendered performance for Clare’s Dragoons variations",
+        "zh": "《Clare’s Dragoons》钢琴变奏的乐谱与渲染演奏"
+      }
+    },
+    "added_at": "2026-09-10"
+  },
+  {
+    "id": "surreal-french-climber",
+    "title": {
+      "en": "A one-prompt surreal climbing game",
+      "zh": "一句提示词生成的超现实攀爬游戏"
+    },
+    "summary": {
+      "en": "A single surreal premise becomes a third-person climbing prototype where a woman crosses floating platforms and impossible architecture suspended over water.",
+      "zh": "一句超现实设定生成了第三人称攀爬原型：角色穿越漂浮平台和悬在水面上的不可能建筑。"
+    },
+    "workflow": {
+      "en": "Describe only the protagonist, upward traversal and a world that rejects ordinary logic. Astra supplies the environment, character movement, platforming and cinematic presentation around that compact brief.",
+      "zh": "只描述主角、向上攀爬和违背常理的世界，让 Astra 围绕这份简短需求补全环境、角色移动、平台玩法与电影化呈现。"
+    },
+    "limitations": {
+      "en": "The one-line prompt leaves controls, mechanics and delivery format unspecified; the published result demonstrates a compact prototype rather than a complete long-form game.",
+      "zh": "这一行提示词没有规定操作方式、具体机制或交付格式；公开成果展示的是紧凑原型，而不是完整的长篇游戏。"
+    },
+    "category": "games",
+    "tags": [
+      "3D platformer",
+      "Surreal world",
+      "One-shot"
+    ],
+    "source_ids": [
+      "2097416577624805425"
+    ],
+    "primary_source_id": "2097416577624805425",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "French woman has to climb through a word that defies logic, flying objects everywhere",
+      "source_id": "2097416577624805425",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-10"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097416515280859136/img/PlYD4dutuU4t72NQ.jpg",
+      "source_id": "2097416577624805425",
+      "alt": {
+        "en": "A woman climbing floating platforms among impossible structures above water",
+        "zh": "一名女性在水面上方的不可能建筑间攀爬漂浮平台"
+      }
+    },
+    "added_at": "2026-09-10"
+  },
+  {
+    "id": "hundred-million-villa",
+    "title": {
+      "en": "A $100 million countryside villa concept",
+      "zh": "一亿美元乡间别墅概念设计"
+    },
+    "summary": {
+      "en": "A short aspirational prompt becomes a large SketchUp estate with furnished interiors, a swimming pool, tennis court and landscaped grounds in an author-reported five-minute run.",
+      "zh": "一句愿景式提示词在作者所称的五分钟运行中，变成了包含精装室内、泳池、网球场与园林的完整 SketchUp 庄园。"
+    },
+    "workflow": {
+      "en": "Give Astra a concise architectural ambition and budget scale, then let it coordinate Higgsfield and SketchUp to establish the site, massing, rooms, amenities, furnishings and landscape.",
+      "zh": "向 Astra 提供简短的建筑愿景与预算尺度，再让它协调 Higgsfield 和 SketchUp，完成场地、体量、房间、设施、家具与景观。"
+    },
+    "limitations": {
+      "en": "The published result is a visual 3D concept rather than a construction-ready architectural package, and the stated budget is a creative scale cue rather than a verified cost estimate.",
+      "zh": "公开成果是视觉化三维概念，并非可直接施工的建筑方案；提示词中的预算是创意尺度要求，不是经过核算的造价。"
+    },
+    "category": "3d",
+    "tags": [
+      "SketchUp",
+      "Higgsfield",
+      "Architectural visualization"
+    ],
+    "source_ids": [
+      "2097886232491737184"
+    ],
+    "primary_source_id": "2097886232491737184",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "dream countryside home with a $100,000,000 budget.",
+      "source_id": "2097886232491737184",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-10"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097886077545803776/img/splwq8Jb36Z1QWeJ.jpg",
+      "source_id": "2097886232491737184",
+      "alt": {
+        "en": "Aerial view of a landscaped countryside estate with a pool and tennis court",
+        "zh": "带泳池与网球场的园林乡间庄园鸟瞰图"
+      }
+    },
+    "added_at": "2026-09-10"
   }
 ]

@@ -4,7 +4,7 @@
 
 Browser control, computer-use workflows and autonomous production tasks.
 
-**3 cases**
+**4 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -15,6 +15,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A browser-driven walk through Kyoto](#kyoto-walking-tour) · **Full prompt**
 - [A multi-agent operations dashboard](#multi-agent-operations-dashboard) · **Full prompt**
 - [Script-driven After Effects motion graphics](#after-effects-kangaroo-motion) · **Prompt excerpt**
+- [An autonomous theme-and-variations composition](#clares-dragoons-variations) · **Prompt excerpt**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -111,6 +112,38 @@ AfterEffectsの基本機能およびインストールされているプラグ�
 Opening excerpt; the author’s complete prompt is linked below.
 
 ↗ [Read the original prompt](https://x.com/Nyto_vd/status/2097499892918997382) · [Watch the demo](https://x.com/Nyto_vd/status/2097499735942893726)
+
+[Back to case list](#cases)
+
+
+<a id="clares-dragoons-variations"></a>
+
+### An autonomous theme-and-variations composition
+
+**Prompt excerpt** · [Original prompt](https://x.com/doodlestein/status/2097838353504719199)
+
+[![Piano score and rendered performance for Clare’s Dragoons variations](https://pbs.twimg.com/amplify_video_thumb/2097835787542732805/img/he4y8zVJKFgYbrjx.jpg)](https://x.com/doodlestein/status/2097837264529203426)
+
+Astra turns the traditional Irish song “Clare’s Dragoons” into a complete piano theme and twelve structured variations, producing a score, MIDI and a rendered performance through an inspectable multi-agent workflow.
+
+**Creator**: [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) · 2026-09-10<br>
+**Tools & techniques**: Music composition, Codex skills, mtdt
+
+**How it works**
+
+A controller agent delegates the composition to a worker running Astra at xhigh, backed by a 320-skill music library and the mtdt CLI. The worker finds source notation, transcribes it into an internal representation, studies Mozart’s variation procedures, then composes, reviews and revises the score.
+
+**What to know**
+
+The result depends on the author’s closed-source music skill library and mtdt tooling, so the published prompt alone does not reproduce the full workflow. The author also notes that the model evaluates notation rather than listening to the rendered audio.
+
+**Prompt**
+
+> Compose and deliver a complete, attractive solo-piano “Theme and Twelve Variations on Clare’s Dragoons”, using the traditional Irish song with its “Vive La!” refrain. Begin by presenting the complete verse melody and chorus straight, with a newly composed, nicely textured piano accompaniment. Follow that with Variations I–XII, inspired by Mozart’s variation procedures in K.265, his Twelve Variations on “Ah, vous dirai-je, Maman” (Twinkle, Twinkle, Little Star). Make a coherent piece someone would enjoy playing and hearing.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/doodlestein/status/2097838353504719199) · [Watch the demo](https://x.com/doodlestein/status/2097837264529203426)
 
 [Back to case list](#cases)
 

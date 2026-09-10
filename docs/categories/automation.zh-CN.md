@@ -4,7 +4,7 @@
 
 浏览器控制、电脑操作流程与自主生产任务。
 
-**3 个案例**
+**4 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -15,6 +15,7 @@
 - [由浏览器操作完成的京都漫游](#kyoto-walking-tour) · **完整提示词**
 - [多 Agent 运营管理后台](#multi-agent-operations-dashboard) · **完整提示词**
 - [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
+- [自动完成的主题与十二变奏曲](#clares-dragoons-variations) · **提示词摘录**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -111,6 +112,38 @@ AfterEffectsの基本機能およびインストールされているプラグ�
 以上为开头摘录，完整提示词见下方作者原帖。
 
 ↗ [查看作者完整提示词](https://x.com/Nyto_vd/status/2097499892918997382) · [观看演示](https://x.com/Nyto_vd/status/2097499735942893726)
+
+[返回案例目录](#cases)
+
+
+<a id="clares-dragoons-variations"></a>
+
+### 自动完成的主题与十二变奏曲
+
+**提示词摘录** · [提示词原帖](https://x.com/doodlestein/status/2097838353504719199)
+
+[![《Clare’s Dragoons》钢琴变奏的乐谱与渲染演奏](https://pbs.twimg.com/amplify_video_thumb/2097835787542732805/img/he4y8zVJKFgYbrjx.jpg)](https://x.com/doodlestein/status/2097837264529203426)
+
+Astra 把爱尔兰传统歌曲《Clare’s Dragoons》改编成完整钢琴主题与十二段结构化变奏，并通过可检查的多代理流程产出乐谱、MIDI 和演奏成品。
+
+**作者**: [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) · 2026-09-10<br>
+**工具与技术**: Music composition, Codex skills, mtdt
+
+**创作方法**
+
+控制代理把创作任务交给以 xhigh 运行 Astra 的工作代理，并提供包含 320 个音乐技能的资料库与 mtdt CLI。工作代理寻找原始乐谱、转写为内部表示，研究莫扎特的变奏手法，再完成作曲、审阅与修改。
+
+**值得注意**
+
+该成果依赖作者未开源的音乐技能库与 mtdt 工具，因此仅凭公开提示词无法获得完整工作流；作者还说明，模型是通过乐谱而非聆听渲染音频来评估结果。
+
+**提示词**
+
+> Compose and deliver a complete, attractive solo-piano “Theme and Twelve Variations on Clare’s Dragoons”, using the traditional Irish song with its “Vive La!” refrain. Begin by presenting the complete verse melody and chorus straight, with a newly composed, nicely textured piano accompaniment. Follow that with Variations I–XII, inspired by Mozart’s variation procedures in K.265, his Twelve Variations on “Ah, vous dirai-je, Maman” (Twinkle, Twinkle, Little Star). Make a coherent piece someone would enjoy playing and hearing.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/doodlestein/status/2097838353504719199) · [观看演示](https://x.com/doodlestein/status/2097837264529203426)
 
 [返回案例目录](#cases)
 
