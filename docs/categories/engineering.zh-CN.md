@@ -4,7 +4,7 @@
 
 工程工作流、实体原型与可投入生产的系统。
 
-**3 个案例**
+**4 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -15,6 +15,7 @@
 - [可落地制作的 Microduck 机器人原型](#microduck-robot-prototype) · **完整提示词**
 - [无人值守的分割模型训练流水线](#microduck-segmentation-training) · **完整提示词**
 - [可打印的翼心 AirPods 外壳](#winged-heart-airpods-case) · **完整提示词**
+- [交互式铁磁流体模拟](#interactive-ferrofluid-simulation) · **完整提示词**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -112,6 +113,38 @@ Prepare correctly scaled STL and 3MF files in Anycubic for printing with white P
 ```
 
 ↗ [查看作者完整提示词](https://x.com/higgsfield_ai/status/2097407934598930472) · [观看演示](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+[返回案例目录](#cases)
+
+
+<a id="interactive-ferrofluid-simulation"></a>
+
+### 交互式铁磁流体模拟
+
+**完整提示词** · [提示词原帖](https://x.com/free_ai_guides/status/2098184876692533475)
+
+[![并排展示带可拖拽磁体与起伏尖峰的铁磁流体模拟](https://pbs.twimg.com/amplify_video_thumb/2098184780538134528/img/x3qUW2sXYNHuPqCg.jpg)](https://x.com/free_ai_guides/status/2098184864583594093)
+
+一个自包含的浏览器实验模拟磁性液体池：尖峰与脊线会追随可拖拽磁体，并在磁场移开后逐渐恢复。
+
+**作者**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098184864583594093) · 2026-09-11<br>
+**工具与技术**: Physics simulation, Interactive HTML, Ferrofluid
+
+**创作方法**
+
+说明磁场响应和自主动态要求，把视觉方向交给模型决定，并将交付限定为无需外部媒体素材、打开即运行的单个 HTML 文件。
+
+**值得注意**
+
+该成果是交互式视觉近似，而不是经过数值验证的物理模型；原帖以录屏形式将 Astra 与另一模型并排比较。
+
+**提示词**
+
+```text
+Build an interactive ferrofluid simulation. A pool of magnetic liquid must react to one or more magnets the user can drag around, forming spikes and ridges that follow the magnets and relax when they move away. It must also do something interesting on its own when nobody is touching it. How it looks and feels is your decision. Show a small hint that the magnets can be dragged. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2098184876692533475) · [观看演示](https://x.com/free_ai_guides/status/2098184864583594093)
 
 [返回案例目录](#cases)
 

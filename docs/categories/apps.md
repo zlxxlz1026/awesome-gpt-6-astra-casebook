@@ -4,7 +4,7 @@
 
 Interactive websites, creative interfaces and useful apps.
 
-**4 cases**
+**5 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -16,6 +16,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A faster iPad robot control station](#ipad-robot-control-station) · **Full prompt**
 - [Open-source Three.js agency hero](#threejs-agency-hero) · **Full prompt**
 - [A 360° panorama animation workshop](#panorama-video-workshop) · **Full prompt**
+- [A definitive history-of-hip-hop website](#hip-hop-history-site) · **Full prompt**
 
 <a id="interactive-peacock"></a>
 
@@ -141,6 +142,38 @@ The demonstrated workflow uses a panorama made with ChatGPT Images 2.5 and a cha
 ```
 
 ↗ [Read the original prompt](https://x.com/KanaWorks_AI/status/2097518459596972066) · [Watch the demo](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+[Back to case list](#cases)
+
+
+<a id="hip-hop-history-site"></a>
+
+### A definitive history-of-hip-hop website
+
+**Full prompt** · [Original prompt](https://x.com/beastymcbeast/status/2098188287789646138)
+
+[![Editorial hip-hop history website with artist profiles and archival photography](https://pbs.twimg.com/media/HR5DHo-acAAMzw-?format=jpg&name=large)](https://x.com/beastymcbeast/status/2098188287789646138)
+
+A single content brief becomes an editorial-style hip-hop history site with a bold print-inspired identity, artist profiles, archival imagery and listening paths.
+
+**Creator**: [@beastymcbeast](https://x.com/beastymcbeast/status/2098188287789646138) · 2026-09-11<br>
+**Tools & techniques**: Editorial website, Responsive design, Music history
+
+**How it works**
+
+Define the subject, required depth, artist count and representative musicians, then let Astra establish the information architecture, visual system and content presentation around the brief.
+
+**What to know**
+
+The requested top-25 ranking is inherently subjective, and the prompt's requirement that all material be authentic still calls for editorial fact-checking and rights review before publication.
+
+**Prompt**
+
+```text
+Design a website dedicated to the history of hip-hop. Make this site the definitive one for all things hip-hop and make sure to include the top 25 artists of all time. I want in depth, pictures, bios, histories, and music for all 25. All material needs to be authentic, and there can be no replacements. Lastly, feature prominent hip-hop music throughout the website with the likes of run DMC, Biggie Smalls, 2Pac, Naz, Jay-Z, and Eminem.
+```
+
+↗ [Read the original prompt](https://x.com/beastymcbeast/status/2098188287789646138) · [Watch the demo](https://x.com/beastymcbeast/status/2098188287789646138)
 
 [Back to case list](#cases)
 

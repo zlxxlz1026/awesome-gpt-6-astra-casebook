@@ -4,7 +4,7 @@
 
 Browser control, computer-use workflows and autonomous production tasks.
 
-**4 cases**
+**5 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -16,6 +16,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A multi-agent operations dashboard](#multi-agent-operations-dashboard) · **Full prompt**
 - [Script-driven After Effects motion graphics](#after-effects-kangaroo-motion) · **Prompt excerpt**
 - [An autonomous theme-and-variations composition](#clares-dragoons-variations) · **Prompt excerpt**
+- [A cinematic boxing color grade in Premiere Pro](#premiere-boxing-color-grade) · **Full prompt**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -144,6 +145,38 @@ The result depends on the author’s closed-source music skill library and mtdt 
 Opening excerpt; the author’s complete prompt is linked below.
 
 ↗ [Read the original prompt](https://x.com/doodlestein/status/2097838353504719199) · [Watch the demo](https://x.com/doodlestein/status/2097837264529203426)
+
+[Back to case list](#cases)
+
+
+<a id="premiere-boxing-color-grade"></a>
+
+### A cinematic boxing color grade in Premiere Pro
+
+**Full prompt** · [Original prompt](https://x.com/adilinthewild/status/2098247449026715966)
+
+[![Premiere Pro showing a cool cinematic grade applied to gym footage](https://pbs.twimg.com/amplify_video_thumb/2098246949958991872/img/kmfpMNcXrUkIysVM.jpg)](https://x.com/adilinthewild/status/2098247449026715966)
+
+Astra operates Premiere Pro to reshape ordinary gym footage with a cool, low-key grade that gives the sequence the mood of a boxing-film opening.
+
+**Creator**: [@adilinthewild](https://x.com/adilinthewild/status/2098247449026715966) · 2026-09-11<br>
+**Tools & techniques**: Premiere Pro, Color grading, Computer use
+
+**How it works**
+
+Supply the source footage, name Premiere Pro as the editing environment and describe the desired narrative mood; Astra then adjusts the grade inside the professional editor.
+
+**What to know**
+
+The instruction depends on the creator's supplied gym footage, and the cinematic result is a subjective look rather than a neutral color-correction reference.
+
+**Prompt**
+
+```text
+Color grade this gym footage in Premiere Pro.
+```
+
+↗ [Read the original prompt](https://x.com/adilinthewild/status/2098247449026715966) · [Watch the demo](https://x.com/adilinthewild/status/2098247449026715966)
 
 [Back to case list](#cases)
 

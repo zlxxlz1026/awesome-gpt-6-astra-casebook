@@ -4,7 +4,7 @@
 
 浏览器控制、电脑操作流程与自主生产任务。
 
-**4 个案例**
+**5 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -16,6 +16,7 @@
 - [多 Agent 运营管理后台](#multi-agent-operations-dashboard) · **完整提示词**
 - [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
 - [自动完成的主题与十二变奏曲](#clares-dragoons-variations) · **提示词摘录**
+- [Premiere Pro 电影感拳击调色](#premiere-boxing-color-grade) · **完整提示词**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -144,6 +145,38 @@ Astra 把爱尔兰传统歌曲《Clare’s Dragoons》改编成完整钢琴主�
 以上为开头摘录，完整提示词见下方作者原帖。
 
 ↗ [查看作者完整提示词](https://x.com/doodlestein/status/2097838353504719199) · [观看演示](https://x.com/doodlestein/status/2097837264529203426)
+
+[返回案例目录](#cases)
+
+
+<a id="premiere-boxing-color-grade"></a>
+
+### Premiere Pro 电影感拳击调色
+
+**完整提示词** · [提示词原帖](https://x.com/adilinthewild/status/2098247449026715966)
+
+[![Premiere Pro 中为健身房素材应用冷调电影化调色](https://pbs.twimg.com/amplify_video_thumb/2098246949958991872/img/kmfpMNcXrUkIysVM.jpg)](https://x.com/adilinthewild/status/2098247449026715966)
+
+Astra 直接操作 Premiere Pro，为普通健身房素材加入冷调、低调光影，让片段呈现拳击电影开场般的氛围。
+
+**作者**: [@adilinthewild](https://x.com/adilinthewild/status/2098247449026715966) · 2026-09-11<br>
+**工具与技术**: Premiere Pro, Color grading, Computer use
+
+**创作方法**
+
+提供源视频，指定使用 Premiere Pro，并描述期望的叙事氛围；随后由 Astra 在专业剪辑软件中完成调色。
+
+**值得注意**
+
+这条指令依赖作者提供的健身房素材；成片追求主观的电影化风格，并非中性色彩校正范例。
+
+**提示词**
+
+```text
+Color grade this gym footage in Premiere Pro.
+```
+
+↗ [查看作者完整提示词](https://x.com/adilinthewild/status/2098247449026715966) · [观看演示](https://x.com/adilinthewild/status/2098247449026715966)
 
 [返回案例目录](#cases)
 

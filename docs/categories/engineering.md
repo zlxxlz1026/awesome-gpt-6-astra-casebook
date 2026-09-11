@@ -4,7 +4,7 @@
 
 Engineering workflows, physical prototypes and production-ready systems.
 
-**3 cases**
+**4 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -15,6 +15,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A buildable Microduck robot prototype](#microduck-robot-prototype) · **Full prompt**
 - [Hands-off segmentation model training](#microduck-segmentation-training) · **Full prompt**
 - [A printable winged-heart AirPods case](#winged-heart-airpods-case) · **Full prompt**
+- [An interactive ferrofluid simulation](#interactive-ferrofluid-simulation) · **Full prompt**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -112,6 +113,38 @@ Prepare correctly scaled STL and 3MF files in Anycubic for printing with white P
 ```
 
 ↗ [Read the original prompt](https://x.com/higgsfield_ai/status/2097407934598930472) · [Watch the demo](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+[Back to case list](#cases)
+
+
+<a id="interactive-ferrofluid-simulation"></a>
+
+### An interactive ferrofluid simulation
+
+**Full prompt** · [Original prompt](https://x.com/free_ai_guides/status/2098184876692533475)
+
+[![Side-by-side ferrofluid simulations with draggable magnets and rippling spikes](https://pbs.twimg.com/amplify_video_thumb/2098184780538134528/img/x3qUW2sXYNHuPqCg.jpg)](https://x.com/free_ai_guides/status/2098184864583594093)
+
+A self-contained browser experiment visualizes a pool of magnetic liquid whose spikes and ridges follow draggable magnets and relax as the field moves away.
+
+**Creator**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098184864583594093) · 2026-09-11<br>
+**Tools & techniques**: Physics simulation, Interactive HTML, Ferrofluid
+
+**How it works**
+
+Describe the required magnetic response and autonomous behavior, leave the art direction open, and constrain delivery to one self-contained HTML file that starts immediately without external media assets.
+
+**What to know**
+
+The result is a visual interactive approximation rather than a validated numerical physics model; the source presents Astra beside another model in a recorded comparison.
+
+**Prompt**
+
+```text
+Build an interactive ferrofluid simulation. A pool of magnetic liquid must react to one or more magnets the user can drag around, forming spikes and ridges that follow the magnets and relax when they move away. It must also do something interesting on its own when nobody is touching it. How it looks and feels is your decision. Show a small hint that the magnets can be dragged. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [Read the original prompt](https://x.com/free_ai_guides/status/2098184876692533475) · [Watch the demo](https://x.com/free_ai_guides/status/2098184864583594093)
 
 [Back to case list](#cases)
 

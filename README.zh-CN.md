@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**45 个案例 · 7 个分类**
+**48 个案例 · 7 个分类**
 
 </div>
 
@@ -41,7 +41,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 应用与网站</h3>
-<p>4 个案例</p>
+<p>5 个案例</p>
 <a href="docs/categories/apps.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="可交互的孔雀艺术网页" height="160"></a>
 <p>交互网页、创意界面与实用应用。</p>
 <p><a href="docs/categories/apps.zh-CN.md"><b>查看案例 →</b></a></p>
@@ -71,14 +71,14 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🖱️ 电脑操作与自动化</h3>
-<p>4 个案例</p>
+<p>5 个案例</p>
 <a href="docs/categories/automation.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="通过浏览器操作生成的京都视觉漫游" height="160"></a>
 <p>浏览器控制、电脑操作流程与自主生产任务。</p>
 <p><a href="docs/categories/automation.zh-CN.md"><b>查看案例 →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🛠️ 工程与原型</h3>
-<p>3 个案例</p>
+<p>4 个案例</p>
 <a href="docs/categories/engineering.zh-CN.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="展示可打印 Microduck 零件的机器人原型工具" height="160"></a>
 <p>工程工作流、实体原型与可投入生产的系统。</p>
 <p><a href="docs/categories/engineering.zh-CN.md"><b>查看案例 →</b></a></p>
@@ -99,12 +99,12 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 
 | 案例 | 分类 | 提示词 | 作者 |
 | --- | --- | --- | --- |
+| [Premiere Pro 电影感拳击调色](docs/categories/automation.zh-CN.md#premiere-boxing-color-grade) | 🖱️ 电脑操作与自动化 | 完整提示词 | [@adilinthewild](https://x.com/adilinthewild/status/2098247449026715966) |
+| [交互式铁磁流体模拟](docs/categories/engineering.zh-CN.md#interactive-ferrofluid-simulation) | 🛠️ 工程与原型 | 完整提示词 | [@free_ai_guides](https://x.com/free_ai_guides/status/2098184864583594093) |
+| [嘻哈历史主题网站](docs/categories/apps.zh-CN.md#hip-hop-history-site) | 🧩 应用与网站 | 完整提示词 | [@beastymcbeast](https://x.com/beastymcbeast/status/2098188287789646138) |
 | [一亿美元乡间别墅概念设计](docs/categories/3d.zh-CN.md#hundred-million-villa) | 🏛️ 三维与空间创作 | 完整提示词 | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097886232491737184) |
 | [一句提示词生成的超现实攀爬游戏](docs/categories/games.zh-CN.md#surreal-french-climber) | 🎮 游戏与仿真 | 完整提示词 | [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) |
 | [自动完成的主题与十二变奏曲](docs/categories/automation.zh-CN.md#clares-dragoons-variations) | 🖱️ 电脑操作与自动化 | 提示词摘录 | [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) |
-| [把动态视频重建为交互式 Three.js 场景](docs/categories/3d.zh-CN.md#video-to-threejs-reconstruction) | 🏛️ 三维与空间创作 | 完整提示词 | [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) |
-| [360° 全景动画工房](docs/categories/apps.zh-CN.md#panorama-video-workshop) | 🧩 应用与网站 | 完整提示词 | [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) |
-| [脚本驱动的 After Effects 动效](docs/categories/automation.zh-CN.md#after-effects-kangaroo-motion) | 🖱️ 电脑操作与自动化 | 提示词摘录 | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
 
 <a id="all-cases"></a>
 
@@ -120,6 +120,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [更快的 iPad 机器人控制台](docs/categories/apps.zh-CN.md#ipad-robot-control-station) — **完整提示词** · iPadOS, Robot control, Latency
 - [开源灵感驱动的 Three.js 机构首页](docs/categories/apps.zh-CN.md#threejs-agency-hero) — **完整提示词** · Three.js, WebGL, Creative coding
 - [360° 全景动画工房](docs/categories/apps.zh-CN.md#panorama-video-workshop) — **完整提示词** · 360° video, Background removal, MP4 metadata
+- [嘻哈历史主题网站](docs/categories/apps.zh-CN.md#hip-hop-history-site) — **完整提示词** · Editorial website, Responsive design, Music history
 
 ### ✨ 设计与创意
 
@@ -164,6 +165,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [多 Agent 运营管理后台](docs/categories/automation.zh-CN.md#multi-agent-operations-dashboard) — **完整提示词** · Multi-agent, Operations dashboard, Task orchestration
 - [脚本驱动的 After Effects 动效](docs/categories/automation.zh-CN.md#after-effects-kangaroo-motion) — **提示词摘录** · After Effects, Motion graphics, Scripted automation
 - [自动完成的主题与十二变奏曲](docs/categories/automation.zh-CN.md#clares-dragoons-variations) — **提示词摘录** · Music composition, Codex skills, mtdt
+- [Premiere Pro 电影感拳击调色](docs/categories/automation.zh-CN.md#premiere-boxing-color-grade) — **完整提示词** · Premiere Pro, Color grading, Computer use
 
 ### 🛠️ 工程与原型
 
@@ -172,6 +174,7 @@ GPT-6 Astra 实战案例与提示词合集，涵盖应用与网站开发、UI �
 - [可落地制作的 Microduck 机器人原型](docs/categories/engineering.zh-CN.md#microduck-robot-prototype) — **完整提示词** · Robotics, 3D printing, Bill of materials
 - [无人值守的分割模型训练流水线](docs/categories/engineering.zh-CN.md#microduck-segmentation-training) — **完整提示词** · Computer vision, Roboflow, RF-DETR, SAM3
 - [可打印的翼心 AirPods 外壳](docs/categories/engineering.zh-CN.md#winged-heart-airpods-case) — **完整提示词** · Blender, 3D printing, MCP, Physical prototyping
+- [交互式铁磁流体模拟](docs/categories/engineering.zh-CN.md#interactive-ferrofluid-simulation) — **完整提示词** · Physics simulation, Interactive HTML, Ferrofluid
 
 ### 🎮 游戏与仿真
 

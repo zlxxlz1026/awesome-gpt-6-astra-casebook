@@ -6,24 +6,24 @@
 
 ## 分类导航
 
-- [🧩 应用与网站](#apps) · 4 · [分类页面](categories/apps.zh-CN.md)
+- [🧩 应用与网站](#apps) · 5 · [分类页面](categories/apps.zh-CN.md)
 - [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
 - [🏛️ 三维与空间创作](#3d) · 10 · [分类页面](categories/3d.zh-CN.md)
 - [🎬 视频与叙事](#video) · 6 · [分类页面](categories/video.zh-CN.md)
-- [🖱️ 电脑操作与自动化](#automation) · 4 · [分类页面](categories/automation.zh-CN.md)
-- [🛠️ 工程与原型](#engineering) · 3 · [分类页面](categories/engineering.zh-CN.md)
+- [🖱️ 电脑操作与自动化](#automation) · 5 · [分类页面](categories/automation.zh-CN.md)
+- [🛠️ 工程与原型](#engineering) · 4 · [分类页面](categories/engineering.zh-CN.md)
 - [🎮 游戏与仿真](#games) · 14 · [分类页面](categories/games.zh-CN.md)
 
 <a id="latest"></a>
 
 ## ✨ 最新收录
 
+- [Premiere Pro 电影感拳击调色](#premiere-boxing-color-grade) · **完整提示词**
+- [交互式铁磁流体模拟](#interactive-ferrofluid-simulation) · **完整提示词**
+- [嘻哈历史主题网站](#hip-hop-history-site) · **完整提示词**
 - [一亿美元乡间别墅概念设计](#hundred-million-villa) · **完整提示词**
 - [一句提示词生成的超现实攀爬游戏](#surreal-french-climber) · **完整提示词**
 - [自动完成的主题与十二变奏曲](#clares-dragoons-variations) · **提示词摘录**
-- [把动态视频重建为交互式 Three.js 场景](#video-to-threejs-reconstruction) · **完整提示词**
-- [360° 全景动画工房](#panorama-video-workshop) · **完整提示词**
-- [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
 
 <a id="apps"></a>
 
@@ -149,6 +149,36 @@ fable, scour the web and GitHub, find the craziest Three.js open source projects
 ```
 
 ↗ [查看作者完整提示词](https://x.com/KanaWorks_AI/status/2097518459596972066) · [观看演示](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+
+<a id="hip-hop-history-site"></a>
+
+### 嘻哈历史主题网站
+
+**完整提示词** · [提示词原帖](https://x.com/beastymcbeast/status/2098188287789646138)
+
+[![包含艺人档案与历史影像的编辑风格嘻哈历史网站](https://pbs.twimg.com/media/HR5DHo-acAAMzw-?format=jpg&name=large)](https://x.com/beastymcbeast/status/2098188287789646138)
+
+一份内容需求生成了具有大胆印刷风格的嘻哈历史网站，整合艺人档案、历史影像与音乐导览。
+
+**作者**: [@beastymcbeast](https://x.com/beastymcbeast/status/2098188287789646138) · 2026-09-11<br>
+**工具与技术**: Editorial website, Responsive design, Music history
+
+**创作方法**
+
+明确主题、内容深度、艺人数量与代表人物，再让 Astra 围绕需求完成信息架构、视觉体系和内容呈现。
+
+**值得注意**
+
+提示词要求的二十五强排名本身具有主观性；若要正式发布，仍需对人物资料、历史信息和素材权利进行编辑核查。
+
+**提示词**
+
+```text
+Design a website dedicated to the history of hip-hop. Make this site the definitive one for all things hip-hop and make sure to include the top 25 artists of all time. I want in depth, pictures, bios, histories, and music for all 25. All material needs to be authentic, and there can be no replacements. Lastly, feature prominent hip-hop music throughout the website with the likes of run DMC, Biggie Smalls, 2Pac, Naz, Jay-Z, and Eminem.
+```
+
+↗ [查看作者完整提示词](https://x.com/beastymcbeast/status/2098188287789646138) · [观看演示](https://x.com/beastymcbeast/status/2098188287789646138)
 
 
 <a id="design"></a>
@@ -955,6 +985,36 @@ Astra 把爱尔兰传统歌曲《Clare’s Dragoons》改编成完整钢琴主�
 ↗ [查看作者完整提示词](https://x.com/doodlestein/status/2097838353504719199) · [观看演示](https://x.com/doodlestein/status/2097837264529203426)
 
 
+<a id="premiere-boxing-color-grade"></a>
+
+### Premiere Pro 电影感拳击调色
+
+**完整提示词** · [提示词原帖](https://x.com/adilinthewild/status/2098247449026715966)
+
+[![Premiere Pro 中为健身房素材应用冷调电影化调色](https://pbs.twimg.com/amplify_video_thumb/2098246949958991872/img/kmfpMNcXrUkIysVM.jpg)](https://x.com/adilinthewild/status/2098247449026715966)
+
+Astra 直接操作 Premiere Pro，为普通健身房素材加入冷调、低调光影，让片段呈现拳击电影开场般的氛围。
+
+**作者**: [@adilinthewild](https://x.com/adilinthewild/status/2098247449026715966) · 2026-09-11<br>
+**工具与技术**: Premiere Pro, Color grading, Computer use
+
+**创作方法**
+
+提供源视频，指定使用 Premiere Pro，并描述期望的叙事氛围；随后由 Astra 在专业剪辑软件中完成调色。
+
+**值得注意**
+
+这条指令依赖作者提供的健身房素材；成片追求主观的电影化风格，并非中性色彩校正范例。
+
+**提示词**
+
+```text
+Color grade this gym footage in Premiere Pro.
+```
+
+↗ [查看作者完整提示词](https://x.com/adilinthewild/status/2098247449026715966) · [观看演示](https://x.com/adilinthewild/status/2098247449026715966)
+
+
 <a id="engineering"></a>
 
 ## 🛠️ 工程与原型
@@ -1053,6 +1113,36 @@ Prepare correctly scaled STL and 3MF files in Anycubic for printing with white P
 ```
 
 ↗ [查看作者完整提示词](https://x.com/higgsfield_ai/status/2097407934598930472) · [观看演示](https://x.com/higgsfield_ai/status/2097407934598930472)
+
+
+<a id="interactive-ferrofluid-simulation"></a>
+
+### 交互式铁磁流体模拟
+
+**完整提示词** · [提示词原帖](https://x.com/free_ai_guides/status/2098184876692533475)
+
+[![并排展示带可拖拽磁体与起伏尖峰的铁磁流体模拟](https://pbs.twimg.com/amplify_video_thumb/2098184780538134528/img/x3qUW2sXYNHuPqCg.jpg)](https://x.com/free_ai_guides/status/2098184864583594093)
+
+一个自包含的浏览器实验模拟磁性液体池：尖峰与脊线会追随可拖拽磁体，并在磁场移开后逐渐恢复。
+
+**作者**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098184864583594093) · 2026-09-11<br>
+**工具与技术**: Physics simulation, Interactive HTML, Ferrofluid
+
+**创作方法**
+
+说明磁场响应和自主动态要求，把视觉方向交给模型决定，并将交付限定为无需外部媒体素材、打开即运行的单个 HTML 文件。
+
+**值得注意**
+
+该成果是交互式视觉近似，而不是经过数值验证的物理模型；原帖以录屏形式将 Astra 与另一模型并排比较。
+
+**提示词**
+
+```text
+Build an interactive ferrofluid simulation. A pool of magnetic liquid must react to one or more magnets the user can drag around, forming spikes and ridges that follow the magnets and relax when they move away. It must also do something interesting on its own when nobody is touching it. How it looks and feels is your decision. Show a small hint that the magnets can be dragged. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2098184876692533475) · [观看演示](https://x.com/free_ai_guides/status/2098184864583594093)
 
 
 <a id="games"></a>

@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**45 cases · 7 categories**
+**48 cases · 7 categories**
 
 </div>
 
@@ -41,7 +41,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 Apps &amp; websites</h3>
-<p>4 cases</p>
+<p>5 cases</p>
 <a href="docs/categories/apps.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="Interactive peacock website" height="160"></a>
 <p>Interactive websites, creative interfaces and useful apps.</p>
 <p><a href="docs/categories/apps.md"><b>View Cases →</b></a></p>
@@ -71,14 +71,14 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🖱️ Computer use &amp; automation</h3>
-<p>4 cases</p>
+<p>5 cases</p>
 <a href="docs/categories/automation.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="Browser-controlled visual walking tour through Kyoto" height="160"></a>
 <p>Browser control, computer-use workflows and autonomous production tasks.</p>
 <p><a href="docs/categories/automation.md"><b>View Cases →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🛠️ Engineering &amp; prototyping</h3>
-<p>3 cases</p>
+<p>4 cases</p>
 <a href="docs/categories/engineering.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="Robot prototyper showing printable Microduck components" height="160"></a>
 <p>Engineering workflows, physical prototypes and production-ready systems.</p>
 <p><a href="docs/categories/engineering.md"><b>View Cases →</b></a></p>
@@ -99,12 +99,12 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 
 | Case | Category | Prompt | Creator |
 | --- | --- | --- | --- |
+| [A cinematic boxing color grade in Premiere Pro](docs/categories/automation.md#premiere-boxing-color-grade) | 🖱️ Computer use & automation | Full prompt | [@adilinthewild](https://x.com/adilinthewild/status/2098247449026715966) |
+| [An interactive ferrofluid simulation](docs/categories/engineering.md#interactive-ferrofluid-simulation) | 🛠️ Engineering & prototyping | Full prompt | [@free_ai_guides](https://x.com/free_ai_guides/status/2098184864583594093) |
+| [A definitive history-of-hip-hop website](docs/categories/apps.md#hip-hop-history-site) | 🧩 Apps & websites | Full prompt | [@beastymcbeast](https://x.com/beastymcbeast/status/2098188287789646138) |
 | [A $100 million countryside villa concept](docs/categories/3d.md#hundred-million-villa) | 🏛️ 3D & spatial creation | Full prompt | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097886232491737184) |
 | [A one-prompt surreal climbing game](docs/categories/games.md#surreal-french-climber) | 🎮 Games & simulations | Full prompt | [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) |
 | [An autonomous theme-and-variations composition](docs/categories/automation.md#clares-dragoons-variations) | 🖱️ Computer use & automation | Prompt excerpt | [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) |
-| [Rebuilding motion footage as interactive Three.js](docs/categories/3d.md#video-to-threejs-reconstruction) | 🏛️ 3D & spatial creation | Full prompt | [@henry19840301](https://x.com/henry19840301/status/2097588270171660321) |
-| [A 360° panorama animation workshop](docs/categories/apps.md#panorama-video-workshop) | 🧩 Apps & websites | Full prompt | [@KanaWorks_AI](https://x.com/KanaWorks_AI/status/2097518459596972066) |
-| [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) | 🖱️ Computer use & automation | Prompt excerpt | [@Nyto_vd](https://x.com/Nyto_vd/status/2097499735942893726) |
 
 <a id="all-cases"></a>
 
@@ -120,6 +120,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A faster iPad robot control station](docs/categories/apps.md#ipad-robot-control-station) — **Full prompt** · iPadOS, Robot control, Latency
 - [Open-source Three.js agency hero](docs/categories/apps.md#threejs-agency-hero) — **Full prompt** · Three.js, WebGL, Creative coding
 - [A 360° panorama animation workshop](docs/categories/apps.md#panorama-video-workshop) — **Full prompt** · 360° video, Background removal, MP4 metadata
+- [A definitive history-of-hip-hop website](docs/categories/apps.md#hip-hop-history-site) — **Full prompt** · Editorial website, Responsive design, Music history
 
 ### ✨ Design & creative work
 
@@ -164,6 +165,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A multi-agent operations dashboard](docs/categories/automation.md#multi-agent-operations-dashboard) — **Full prompt** · Multi-agent, Operations dashboard, Task orchestration
 - [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) — **Prompt excerpt** · After Effects, Motion graphics, Scripted automation
 - [An autonomous theme-and-variations composition](docs/categories/automation.md#clares-dragoons-variations) — **Prompt excerpt** · Music composition, Codex skills, mtdt
+- [A cinematic boxing color grade in Premiere Pro](docs/categories/automation.md#premiere-boxing-color-grade) — **Full prompt** · Premiere Pro, Color grading, Computer use
 
 ### 🛠️ Engineering & prototyping
 
@@ -172,6 +174,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A buildable Microduck robot prototype](docs/categories/engineering.md#microduck-robot-prototype) — **Full prompt** · Robotics, 3D printing, Bill of materials
 - [Hands-off segmentation model training](docs/categories/engineering.md#microduck-segmentation-training) — **Full prompt** · Computer vision, Roboflow, RF-DETR, SAM3
 - [A printable winged-heart AirPods case](docs/categories/engineering.md#winged-heart-airpods-case) — **Full prompt** · Blender, 3D printing, MCP, Physical prototyping
+- [An interactive ferrofluid simulation](docs/categories/engineering.md#interactive-ferrofluid-simulation) — **Full prompt** · Physics simulation, Interactive HTML, Ferrofluid
 
 ### 🎮 Games & simulations
 

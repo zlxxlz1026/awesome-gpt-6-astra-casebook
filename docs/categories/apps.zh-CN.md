@@ -4,7 +4,7 @@
 
 交互网页、创意界面与实用应用。
 
-**4 个案例**
+**5 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -16,6 +16,7 @@
 - [更快的 iPad 机器人控制台](#ipad-robot-control-station) · **完整提示词**
 - [开源灵感驱动的 Three.js 机构首页](#threejs-agency-hero) · **完整提示词**
 - [360° 全景动画工房](#panorama-video-workshop) · **完整提示词**
+- [嘻哈历史主题网站](#hip-hop-history-site) · **完整提示词**
 
 <a id="interactive-peacock"></a>
 
@@ -141,6 +142,38 @@ fable, scour the web and GitHub, find the craziest Three.js open source projects
 ```
 
 ↗ [查看作者完整提示词](https://x.com/KanaWorks_AI/status/2097518459596972066) · [观看演示](https://x.com/KanaWorks_AI/status/2097518459596972066)
+
+[返回案例目录](#cases)
+
+
+<a id="hip-hop-history-site"></a>
+
+### 嘻哈历史主题网站
+
+**完整提示词** · [提示词原帖](https://x.com/beastymcbeast/status/2098188287789646138)
+
+[![包含艺人档案与历史影像的编辑风格嘻哈历史网站](https://pbs.twimg.com/media/HR5DHo-acAAMzw-?format=jpg&name=large)](https://x.com/beastymcbeast/status/2098188287789646138)
+
+一份内容需求生成了具有大胆印刷风格的嘻哈历史网站，整合艺人档案、历史影像与音乐导览。
+
+**作者**: [@beastymcbeast](https://x.com/beastymcbeast/status/2098188287789646138) · 2026-09-11<br>
+**工具与技术**: Editorial website, Responsive design, Music history
+
+**创作方法**
+
+明确主题、内容深度、艺人数量与代表人物，再让 Astra 围绕需求完成信息架构、视觉体系和内容呈现。
+
+**值得注意**
+
+提示词要求的二十五强排名本身具有主观性；若要正式发布，仍需对人物资料、历史信息和素材权利进行编辑核查。
+
+**提示词**
+
+```text
+Design a website dedicated to the history of hip-hop. Make this site the definitive one for all things hip-hop and make sure to include the top 25 artists of all time. I want in depth, pictures, bios, histories, and music for all 25. All material needs to be authentic, and there can be no replacements. Lastly, feature prominent hip-hop music throughout the website with the likes of run DMC, Biggie Smalls, 2Pac, Naz, Jay-Z, and Eminem.
+```
+
+↗ [查看作者完整提示词](https://x.com/beastymcbeast/status/2098188287789646138) · [观看演示](https://x.com/beastymcbeast/status/2098188287789646138)
 
 [返回案例目录](#cases)
 

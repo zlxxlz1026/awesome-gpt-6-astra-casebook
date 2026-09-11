@@ -986,5 +986,57 @@
     "verification": "x-post-read",
     "media": "source-video-inspected",
     "reason": "Original result with the public prompt, explicit Astra attribution and an inspected SketchUp estate demonstration."
+  },
+  {
+    "post_id": "2098188287789646138",
+    "url": "https://x.com/beastymcbeast/status/2098188287789646138",
+    "author": "beastymcbeast",
+    "published_date": "2026-09-11",
+    "first_seen_at": "2026-09-11",
+    "last_checked_at": "2026-09-11",
+    "status": "accepted",
+    "case_id": "hip-hop-history-site",
+    "verification": "x-post-read",
+    "media": "source-images-inspected",
+    "reason": "Original author post with explicit Astra attribution, the complete public prompt and four inspected result images."
+  },
+  {
+    "post_id": "2098184864583594093",
+    "url": "https://x.com/free_ai_guides/status/2098184864583594093",
+    "author": "free_ai_guides",
+    "published_date": "2026-09-11",
+    "first_seen_at": "2026-09-11",
+    "last_checked_at": "2026-09-11",
+    "status": "accepted",
+    "case_id": "interactive-ferrofluid-simulation",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original comparison post with explicit Astra attribution and an inspected interactive-simulation recording."
+  },
+  {
+    "post_id": "2098184876692533475",
+    "url": "https://x.com/free_ai_guides/status/2098184876692533475",
+    "author": "free_ai_guides",
+    "published_date": "2026-09-11",
+    "first_seen_at": "2026-09-11",
+    "last_checked_at": "2026-09-11",
+    "status": "accepted",
+    "case_id": "interactive-ferrofluid-simulation",
+    "verification": "x-post-read",
+    "media": "prompt-text",
+    "reason": "Original author reply containing the complete exact prompt shared by both compared models."
+  },
+  {
+    "post_id": "2098247449026715966",
+    "url": "https://x.com/adilinthewild/status/2098247449026715966",
+    "author": "adilinthewild",
+    "published_date": "2026-09-11",
+    "first_seen_at": "2026-09-11",
+    "last_checked_at": "2026-09-11",
+    "status": "accepted",
+    "case_id": "premiere-boxing-color-grade",
+    "verification": "x-post-read",
+    "media": "source-video-inspected",
+    "reason": "Original creator post with a public one-line instruction, explicit Astra attribution and an inspected Premiere Pro result."
   }
 ]
