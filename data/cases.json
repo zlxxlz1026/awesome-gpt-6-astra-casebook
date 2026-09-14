@@ -2331,5 +2331,299 @@
       }
     },
     "added_at": "2026-09-11"
+  },
+  {
+    "id": "reaper-eerie-song-section",
+    "title": {
+      "en": "An eerie song section written inside REAPER",
+      "zh": "在 REAPER 中续写诡异音乐段落"
+    },
+    "summary": {
+      "en": "Astra inspects an existing multitrack session, identifies the bass and guitar root notes despite a mislabeled track, then writes an eerie passage into bars 9–24.",
+      "zh": "Astra 检查已有多轨工程，在音轨名称有误的情况下识别贝斯与吉他的根音，并为第 9–24 小节续写诡异段落。"
+    },
+    "workflow": {
+      "en": "Mark the target bars in an existing REAPER project and give Astra the musical direction in one sentence; the agent uses REAPER Daemon to inspect the surrounding arrangement and edit the session.",
+      "zh": "在已有 REAPER 工程中标记目标小节，用一句话说明音乐方向；Agent 通过 REAPER Daemon 检查上下文并直接编辑工程。"
+    },
+    "limitations": {
+      "en": "The result depends on the creator’s existing song, installed instruments and REAPER Daemon setup. The creator reports that REAPER crashed four times during the run.",
+      "zh": "该成果依赖作者已有歌曲、已安装音源与 REAPER Daemon 环境；作者说明本次运行中 REAPER 曾崩溃四次。"
+    },
+    "category": "automation",
+    "tags": [
+      "REAPER",
+      "Music production",
+      "Computer use"
+    ],
+    "source_ids": [
+      "2099313868010889292"
+    ],
+    "primary_source_id": "2099313868010889292",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "write something eerie into a marked section of my song, bars 9-24.",
+      "source_id": "2099313868010889292",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-14"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2099313702436474880/img/7NK6_4Ws1KUzxz0K.jpg",
+      "source_id": "2099313868010889292",
+      "alt": {
+        "en": "Astra editing a multitrack song inside REAPER through REAPER Daemon",
+        "zh": "Astra 通过 REAPER Daemon 编辑多轨音乐工程"
+      }
+    },
+    "added_at": "2026-09-14"
+  },
+  {
+    "id": "kinetic-sand-table-simulation",
+    "title": {
+      "en": "A self-drawing kinetic sand table",
+      "zh": "自动绘图的动力沙桌模拟"
+    },
+    "summary": {
+      "en": "A self-contained browser simulation moves a steel ball through persistent sand, draws complete geometric patterns, smooths the surface and begins a different design automatically.",
+      "zh": "一个自包含浏览器模拟让钢球在可保留轨迹的沙面上运动，完成几何图案后抚平沙面，并自动开始新的图案。"
+    },
+    "workflow": {
+      "en": "Specify the physical loop and autonomous pattern changes, leave the visual direction open, and require one self-contained HTML file that starts immediately without external media assets.",
+      "zh": "明确物理循环与自动换图案的行为，把视觉方向交给模型决定，并要求交付一个无需外部媒体素材、打开即运行的 HTML 文件。"
+    },
+    "limitations": {
+      "en": "The result is a visual approximation of a kinetic sand table rather than a mechanically validated simulation; the source compares Astra with another model in a recorded run.",
+      "zh": "该成果是动力沙桌的视觉近似，并非经过机械验证的物理仿真；原帖以录屏形式将 Astra 与另一模型并排比较。"
+    },
+    "category": "engineering",
+    "tags": [
+      "Physics simulation",
+      "Generative patterns",
+      "Single-file HTML"
+    ],
+    "source_ids": [
+      "2098831830002851846",
+      "2098831843168801239"
+    ],
+    "primary_source_id": "2098831830002851846",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Build a kinetic sand table simulation. A ball must move through a bed of sand, leaving a visible trail, drawing complete geometric patterns, then smoothing the sand and starting a new and different pattern automatically. It must cycle through many different patterns without repeating. Everything about the look and the patterns is your choice. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.",
+      "source_id": "2098831843168801239",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-14"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2098831741993783297/img/x6Rb0EHzwBR30N2W.jpg",
+      "source_id": "2098831830002851846",
+      "alt": {
+        "en": "Side-by-side kinetic sand tables drawing autonomous geometric patterns",
+        "zh": "并排展示自动绘制几何图案的动力沙桌模拟"
+      }
+    },
+    "added_at": "2026-09-14"
+  },
+  {
+    "id": "living-beehive-simulation",
+    "title": {
+      "en": "A living agent-based beehive",
+      "zh": "自主生长的蜂群仿真"
+    },
+    "summary": {
+      "en": "Independent bee agents forage, return and build a hexagonal comb cell by cell while honey storage and the hive’s visible structure evolve without user input.",
+      "zh": "独立蜜蜂 Agent 会外出采蜜、返回并逐格搭建六边形蜂巢，蜂蜜储量和巢体结构在无人操作时持续演化。"
+    },
+    "workflow": {
+      "en": "Define the agents, construction rule, forage loop and autonomous growth, then leave the style, camera and ambient behavior to Astra inside a single self-contained HTML deliverable.",
+      "zh": "定义 Agent、筑巢规则、采蜜循环与自主生长，再把风格、镜头和环境行为交给 Astra，并限制为单文件 HTML 交付。"
+    },
+    "limitations": {
+      "en": "This is an emergent visual simulation, not a biological model of real colony behavior; the source presents Astra beside another model for comparison.",
+      "zh": "这是涌现式视觉仿真，不是对真实蜂群行为的生物学模型；原帖将 Astra 与另一模型并排展示。"
+    },
+    "category": "games",
+    "tags": [
+      "Agent-based simulation",
+      "Emergent behavior",
+      "Single-file HTML"
+    ],
+    "source_ids": [
+      "2099272047465800037",
+      "2099272059687932201"
+    ],
+    "primary_source_id": "2099272047465800037",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Build a living beehive simulation. Bees must act as independent agents that construct hexagonal comb cell by cell, leave to forage, return, and fill cells with honey so the hive visibly grows and changes over time without any input. How it is shown, what the bees and hive look like, and what else happens in the scene are your decisions. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.",
+      "source_id": "2099272059687932201",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-14"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2099271943795179520/img/Y-I_Y6c1fsFvGUzL.jpg",
+      "source_id": "2099272047465800037",
+      "alt": {
+        "en": "Side-by-side living beehive simulations with bees, comb growth and honey storage",
+        "zh": "并排展示蜜蜂活动、蜂巢生长与蜂蜜储存的蜂群仿真"
+      }
+    },
+    "added_at": "2026-09-14"
+  },
+  {
+    "id": "veyra-interactive-car",
+    "title": {
+      "en": "VEYRA interactive electric-car experience",
+      "zh": "VEYRA 交互式电动车体验"
+    },
+    "summary": {
+      "en": "A polished automotive website uses a framed vehicle scene, interactive technical hotspots, configurable paint and wheels, and generated video transitions without a runtime 3D model.",
+      "zh": "一个完成度很高的汽车网站，在无需运行时三维模型的情况下，组合车辆主视觉、技术热点、车漆与轮毂配置，以及生成式视频转场。"
+    },
+    "workflow": {
+      "en": "The creator combines a coding agent with GPT Images 2.5 for visual variants and the LTX API for transitions, then publishes a pinned release and a detailed reproduction prompt covering source files, interactions, assets and verification.",
+      "zh": "作者把编码 Agent、用于视觉变体的 GPT Images 2.5 与用于转场的 LTX API 组合起来，并公开固定版本与详细复现提示词，覆盖源码、交互、素材和验证。"
+    },
+    "limitations": {
+      "en": "The published prompt is a faithful-reproduction brief that reuses the creator’s pinned source and bundled media. Generating replacement visuals from text alone is explicitly outside its scope.",
+      "zh": "公开提示词是一份忠实复现需求，需要复用作者固定版本的源码与内置媒体；仅靠文本重新生成替代视觉明确不在其范围内。"
+    },
+    "category": "apps",
+    "tags": [
+      "Automotive website",
+      "LTX-2.5",
+      "GPT Images 2.5"
+    ],
+    "source_ids": [
+      "2098464881498370090",
+      "2098464885709386026"
+    ],
+    "primary_source_id": "2098464881498370090",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "You are an implementation agent with access to a terminal, filesystem and browser. Create and run the approved VEYRA automotive website in my local workspace. Complete the implementation and verification; do not stop at a plan.",
+      "source_id": "2098464885709386026",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "en",
+      "verified_at": "2026-09-14"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2098459847088103424/img/8Q85Yp1K30Liqsz0.jpg",
+      "source_id": "2098464881498370090",
+      "alt": {
+        "en": "Interactive VEYRA electric-car website with technical hotspots and appearance controls",
+        "zh": "带技术热点与外观配置的 VEYRA 交互式电动车网站"
+      }
+    },
+    "added_at": "2026-09-14"
+  },
+  {
+    "id": "video-to-mobile-ad-game",
+    "title": {
+      "en": "A playable game reconstructed from a mobile ad",
+      "zh": "从手机广告视频反推可玩游戏"
+    },
+    "summary": {
+      "en": "Astra studies a short gameplay clip and rebuilds its hidden rules as a browser game with upgrade gates, squad growth, destructible walls, enemy health, auto-shooting and a boss loop.",
+      "zh": "Astra 分析一段短游戏视频，并把其中隐含规则重建为浏览器游戏，包含升级门、队伍增长、可破坏墙体、敌人生命值、自动射击与首领循环。"
+    },
+    "workflow": {
+      "en": "Upload the gameplay clip as the primary reference and ask Astra to infer controls, camera, movement, progression, combat, scoring and end states before implementing the complete playable loop.",
+      "zh": "上传游戏视频作为主要参考，要求 Astra 先推断操作、镜头、移动、成长、战斗、计分与结束状态，再实现完整可玩循环。"
+    },
+    "limitations": {
+      "en": "The prompt depends on the uploaded reference clip, and inferred rules can diverge from the original game. The public post demonstrates the generated loop but does not link a source repository.",
+      "zh": "该提示词依赖上传的参考视频，推断出的规则可能与原游戏不同；公开帖子展示了生成后的玩法循环，但未提供源码仓库。"
+    },
+    "category": "games",
+    "tags": [
+      "Video-to-game",
+      "Browser game",
+      "Gameplay inference"
+    ],
+    "source_ids": [
+      "2098545145381605431",
+      "2098870208970846233",
+      "2098870292336595276"
+    ],
+    "primary_source_id": "2098545145381605431",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "Use the uploaded gameplay video as the primary reference. Rebuild the game shown in the video as a polished, fully playable browser game. Do not just copy the visuals. First, infer the hidden gameplay system behind the footage:\n\n- player controls\n- camera behavior\n- movement rules\n- interactions\n- progression\n- upgrades\n- enemy behavior\n- collisions\n- scoring\n- win and fail conditions\n- UI feedback\n- pacing\n\nReconstruct any rules that are not explicitly shown but must exist for the gameplay in the video to make sense. Match the feel and structure of the reference as closely as possible while keeping the game stable, responsive, and actually fun to play. Do not ask questions. Make the necessary design decisions yourself. Build the complete playable experience in one shot.",
+      "source_id": "2098870292336595276",
+      "availability": "public",
+      "display": "full",
+      "language": "en",
+      "verified_at": "2026-09-14"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2098544563514392576/img/pRXiVB43Pkub7Q7g.jpg",
+      "source_id": "2098545145381605431",
+      "alt": {
+        "en": "A mobile-ad game beside Astra’s playable reconstruction with gates, squads and zombies",
+        "zh": "手机广告游戏与 Astra 重建的升级门、队伍和僵尸玩法并排展示"
+      }
+    },
+    "added_at": "2026-09-14"
+  },
+  {
+    "id": "paperroute-full-game",
+    "title": {
+      "en": "PaperRoute, a finished seven-day delivery game",
+      "zh": "PaperRoute 七日送报完整游戏"
+    },
+    "summary": {
+      "en": "Astra helps turn a paper-delivery concept into a hosted browser game with a deterministic riding loop, authored Blender assets, characters, weather, mobile controls, a newspaper-style website and leaderboard.",
+      "zh": "Astra 协助把送报概念做成完整上线的浏览器游戏，包含确定性骑行循环、Blender 自制资产、角色、天气、移动端操作、报纸风网站与排行榜。"
+    },
+    "workflow": {
+      "en": "Start from a concise game brief and a perspective reference, make the mechanics playable before applying art direction, then run engine and visual work as separate streams with Blender Python, review renders, isolated branches and repeated browser checks.",
+      "zh": "从简洁游戏需求和透视参考出发，先把机制做成可玩版本，再加入美术方向；将引擎与视觉拆成独立工作流，配合 Blender Python、审阅渲染图、隔离分支与持续浏览器检查。"
+    },
+    "limitations": {
+      "en": "The published article provides the brief excerpt and an extensive build runbook. The finished result accumulated 90 commits, 39 tracked hours and many iterative prompts, so it should be read as a long-horizon workflow rather than a one-shot generation.",
+      "zh": "作者文章公开了需求片段与完整制作方法。最终成果累计 90 次提交、39 小时记录和多轮提示词，应作为长周期工作流理解，而不是一次生成。"
+    },
+    "category": "games",
+    "tags": [
+      "Three.js",
+      "Blender",
+      "Long-horizon build"
+    ],
+    "source_ids": [
+      "2098777028078211283",
+      "2098773631249854478"
+    ],
+    "primary_source_id": "2098777028078211283",
+    "model": "gpt-6-astra",
+    "model_evidence": "author-stated",
+    "prompt": {
+      "text": "A week of deliveries from Monday to Sunday, subscribers and non-subscribers, dogs, cars, the diagonal camera. I also wanted it to be a native iOS build. As well as web.",
+      "source_id": "2098773631249854478",
+      "availability": "public",
+      "display": "excerpt",
+      "language": "en",
+      "verified_at": "2026-09-14"
+    },
+    "preview": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2098775794281828352/img/Hoy8EuS5JEPOFpLO.jpg",
+      "source_id": "2098777028078211283",
+      "alt": {
+        "en": "PaperRoute’s illustrated 3D paper-delivery game and newspaper-style interface",
+        "zh": "PaperRoute 的插画风三维送报游戏与报纸式界面"
+      }
+    },
+    "added_at": "2026-09-14"
   }
 ]

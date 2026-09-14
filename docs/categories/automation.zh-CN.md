@@ -4,7 +4,7 @@
 
 浏览器控制、电脑操作流程与自主生产任务。
 
-**5 个案例**
+**6 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -17,6 +17,7 @@
 - [脚本驱动的 After Effects 动效](#after-effects-kangaroo-motion) · **提示词摘录**
 - [自动完成的主题与十二变奏曲](#clares-dragoons-variations) · **提示词摘录**
 - [Premiere Pro 电影感拳击调色](#premiere-boxing-color-grade) · **完整提示词**
+- [在 REAPER 中续写诡异音乐段落](#reaper-eerie-song-section) · **完整提示词**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -177,6 +178,38 @@ Color grade this gym footage in Premiere Pro.
 ```
 
 ↗ [查看作者完整提示词](https://x.com/adilinthewild/status/2098247449026715966) · [观看演示](https://x.com/adilinthewild/status/2098247449026715966)
+
+[返回案例目录](#cases)
+
+
+<a id="reaper-eerie-song-section"></a>
+
+### 在 REAPER 中续写诡异音乐段落
+
+**完整提示词** · [提示词原帖](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+[![Astra 通过 REAPER Daemon 编辑多轨音乐工程](https://pbs.twimg.com/amplify_video_thumb/2099313702436474880/img/7NK6_4Ws1KUzxz0K.jpg)](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+Astra 检查已有多轨工程，在音轨名称有误的情况下识别贝斯与吉他的根音，并为第 9–24 小节续写诡异段落。
+
+**作者**: [@deadpixeldavid](https://x.com/deadpixeldavid/status/2099313868010889292) · 2026-09-14<br>
+**工具与技术**: REAPER, Music production, Computer use
+
+**创作方法**
+
+在已有 REAPER 工程中标记目标小节，用一句话说明音乐方向；Agent 通过 REAPER Daemon 检查上下文并直接编辑工程。
+
+**值得注意**
+
+该成果依赖作者已有歌曲、已安装音源与 REAPER Daemon 环境；作者说明本次运行中 REAPER 曾崩溃四次。
+
+**提示词**
+
+```text
+write something eerie into a marked section of my song, bars 9-24.
+```
+
+↗ [查看作者完整提示词](https://x.com/deadpixeldavid/status/2099313868010889292) · [观看演示](https://x.com/deadpixeldavid/status/2099313868010889292)
 
 [返回案例目录](#cases)
 

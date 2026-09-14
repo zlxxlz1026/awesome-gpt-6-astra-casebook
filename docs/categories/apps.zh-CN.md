@@ -4,7 +4,7 @@
 
 交互网页、创意界面与实用应用。
 
-**5 个案例**
+**6 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -17,6 +17,7 @@
 - [开源灵感驱动的 Three.js 机构首页](#threejs-agency-hero) · **完整提示词**
 - [360° 全景动画工房](#panorama-video-workshop) · **完整提示词**
 - [嘻哈历史主题网站](#hip-hop-history-site) · **完整提示词**
+- [VEYRA 交互式电动车体验](#veyra-interactive-car) · **提示词摘录**
 
 <a id="interactive-peacock"></a>
 
@@ -174,6 +175,38 @@ Design a website dedicated to the history of hip-hop. Make this site the definit
 ```
 
 ↗ [查看作者完整提示词](https://x.com/beastymcbeast/status/2098188287789646138) · [观看演示](https://x.com/beastymcbeast/status/2098188287789646138)
+
+[返回案例目录](#cases)
+
+
+<a id="veyra-interactive-car"></a>
+
+### VEYRA 交互式电动车体验
+
+**提示词摘录** · [提示词原帖](https://x.com/AmirMushich/status/2098464885709386026)
+
+[![带技术热点与外观配置的 VEYRA 交互式电动车网站](https://pbs.twimg.com/amplify_video_thumb/2098459847088103424/img/8Q85Yp1K30Liqsz0.jpg)](https://x.com/AmirMushich/status/2098464881498370090)
+
+一个完成度很高的汽车网站，在无需运行时三维模型的情况下，组合车辆主视觉、技术热点、车漆与轮毂配置，以及生成式视频转场。
+
+**作者**: [@AmirMushich](https://x.com/AmirMushich/status/2098464881498370090) · 2026-09-12<br>
+**工具与技术**: Automotive website, LTX-2.5, GPT Images 2.5
+
+**创作方法**
+
+作者把编码 Agent、用于视觉变体的 GPT Images 2.5 与用于转场的 LTX API 组合起来，并公开固定版本与详细复现提示词，覆盖源码、交互、素材和验证。
+
+**值得注意**
+
+公开提示词是一份忠实复现需求，需要复用作者固定版本的源码与内置媒体；仅靠文本重新生成替代视觉明确不在其范围内。
+
+**提示词**
+
+> You are an implementation agent with access to a terminal, filesystem and browser. Create and run the approved VEYRA automotive website in my local workspace. Complete the implementation and verification; do not stop at a plan.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/AmirMushich/status/2098464885709386026) · [观看演示](https://x.com/AmirMushich/status/2098464881498370090)
 
 [返回案例目录](#cases)
 

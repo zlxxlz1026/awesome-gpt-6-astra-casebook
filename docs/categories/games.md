@@ -4,7 +4,7 @@
 
 Playable worlds, game prototypes and interactive simulations.
 
-**14 cases**
+**17 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -26,6 +26,9 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [A workbench robo-cat with a diegetic battery HUD](#workbench-robo-cat) · **Prompt excerpt**
 - [A 16-pose isometric knight sprite sheet](#isometric-knight-sprites) · **Full prompt**
 - [A one-prompt surreal climbing game](#surreal-french-climber) · **Full prompt**
+- [A living agent-based beehive](#living-beehive-simulation) · **Full prompt**
+- [A playable game reconstructed from a mobile ad](#video-to-mobile-ad-game) · **Full prompt**
+- [PaperRoute, a finished seven-day delivery game](#paperroute-full-game) · **Prompt excerpt**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -533,6 +536,117 @@ French woman has to climb through a word that defies logic, flying objects every
 ```
 
 ↗ [Read the original prompt](https://x.com/TrueSlazac/status/2097416577624805425) · [Watch the demo](https://x.com/TrueSlazac/status/2097416577624805425)
+
+[Back to case list](#cases)
+
+
+<a id="living-beehive-simulation"></a>
+
+### A living agent-based beehive
+
+**Full prompt** · [Original prompt](https://x.com/free_ai_guides/status/2099272059687932201)
+
+[![Side-by-side living beehive simulations with bees, comb growth and honey storage](https://pbs.twimg.com/amplify_video_thumb/2099271943795179520/img/Y-I_Y6c1fsFvGUzL.jpg)](https://x.com/free_ai_guides/status/2099272047465800037)
+
+Independent bee agents forage, return and build a hexagonal comb cell by cell while honey storage and the hive’s visible structure evolve without user input.
+
+**Creator**: [@free_ai_guides](https://x.com/free_ai_guides/status/2099272047465800037) · 2026-09-14<br>
+**Tools & techniques**: Agent-based simulation, Emergent behavior, Single-file HTML
+
+**How it works**
+
+Define the agents, construction rule, forage loop and autonomous growth, then leave the style, camera and ambient behavior to Astra inside a single self-contained HTML deliverable.
+
+**What to know**
+
+This is an emergent visual simulation, not a biological model of real colony behavior; the source presents Astra beside another model for comparison.
+
+**Prompt**
+
+```text
+Build a living beehive simulation. Bees must act as independent agents that construct hexagonal comb cell by cell, leave to forage, return, and fill cells with honey so the hive visibly grows and changes over time without any input. How it is shown, what the bees and hive look like, and what else happens in the scene are your decisions. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [Read the original prompt](https://x.com/free_ai_guides/status/2099272059687932201) · [Watch the demo](https://x.com/free_ai_guides/status/2099272047465800037)
+
+[Back to case list](#cases)
+
+
+<a id="video-to-mobile-ad-game"></a>
+
+### A playable game reconstructed from a mobile ad
+
+**Full prompt** · [Original prompt](https://x.com/noclipepe/status/2098870292336595276)
+
+[![A mobile-ad game beside Astra’s playable reconstruction with gates, squads and zombies](https://pbs.twimg.com/amplify_video_thumb/2098544563514392576/img/pRXiVB43Pkub7Q7g.jpg)](https://x.com/noclipepe/status/2098545145381605431)
+
+Astra studies a short gameplay clip and rebuilds its hidden rules as a browser game with upgrade gates, squad growth, destructible walls, enemy health, auto-shooting and a boss loop.
+
+**Creator**: [@noclipepe](https://x.com/noclipepe/status/2098545145381605431) · 2026-09-12<br>
+**Tools & techniques**: Video-to-game, Browser game, Gameplay inference
+
+**How it works**
+
+Upload the gameplay clip as the primary reference and ask Astra to infer controls, camera, movement, progression, combat, scoring and end states before implementing the complete playable loop.
+
+**What to know**
+
+The prompt depends on the uploaded reference clip, and inferred rules can diverge from the original game. The public post demonstrates the generated loop but does not link a source repository.
+
+**Prompt**
+
+```text
+Use the uploaded gameplay video as the primary reference. Rebuild the game shown in the video as a polished, fully playable browser game. Do not just copy the visuals. First, infer the hidden gameplay system behind the footage:
+
+- player controls
+- camera behavior
+- movement rules
+- interactions
+- progression
+- upgrades
+- enemy behavior
+- collisions
+- scoring
+- win and fail conditions
+- UI feedback
+- pacing
+
+Reconstruct any rules that are not explicitly shown but must exist for the gameplay in the video to make sense. Match the feel and structure of the reference as closely as possible while keeping the game stable, responsive, and actually fun to play. Do not ask questions. Make the necessary design decisions yourself. Build the complete playable experience in one shot.
+```
+
+↗ [Read the original prompt](https://x.com/noclipepe/status/2098870292336595276) · [Watch the demo](https://x.com/noclipepe/status/2098545145381605431)
+
+[Back to case list](#cases)
+
+
+<a id="paperroute-full-game"></a>
+
+### PaperRoute, a finished seven-day delivery game
+
+**Prompt excerpt** · [Original prompt](https://x.com/builtbysketch/status/2098773631249854478)
+
+[![PaperRoute’s illustrated 3D paper-delivery game and newspaper-style interface](https://pbs.twimg.com/amplify_video_thumb/2098775794281828352/img/Hoy8EuS5JEPOFpLO.jpg)](https://x.com/builtbysketch/status/2098777028078211283)
+
+Astra helps turn a paper-delivery concept into a hosted browser game with a deterministic riding loop, authored Blender assets, characters, weather, mobile controls, a newspaper-style website and leaderboard.
+
+**Creator**: [@builtbysketch](https://x.com/builtbysketch/status/2098777028078211283) · 2026-09-12<br>
+**Tools & techniques**: Three.js, Blender, Long-horizon build
+
+**How it works**
+
+Start from a concise game brief and a perspective reference, make the mechanics playable before applying art direction, then run engine and visual work as separate streams with Blender Python, review renders, isolated branches and repeated browser checks.
+
+**What to know**
+
+The published article provides the brief excerpt and an extensive build runbook. The finished result accumulated 90 commits, 39 tracked hours and many iterative prompts, so it should be read as a long-horizon workflow rather than a one-shot generation.
+
+**Prompt**
+
+> A week of deliveries from Monday to Sunday, subscribers and non-subscribers, dogs, cars, the diagonal camera. I also wanted it to be a native iOS build. As well as web.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/builtbysketch/status/2098773631249854478) · [Watch the demo](https://x.com/builtbysketch/status/2098777028078211283)
 
 [Back to case list](#cases)
 

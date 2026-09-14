@@ -4,7 +4,7 @@
 
 Browser control, computer-use workflows and autonomous production tasks.
 
-**5 cases**
+**6 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -17,6 +17,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [Script-driven After Effects motion graphics](#after-effects-kangaroo-motion) · **Prompt excerpt**
 - [An autonomous theme-and-variations composition](#clares-dragoons-variations) · **Prompt excerpt**
 - [A cinematic boxing color grade in Premiere Pro](#premiere-boxing-color-grade) · **Full prompt**
+- [An eerie song section written inside REAPER](#reaper-eerie-song-section) · **Full prompt**
 
 <a id="kyoto-walking-tour"></a>
 
@@ -177,6 +178,38 @@ Color grade this gym footage in Premiere Pro.
 ```
 
 ↗ [Read the original prompt](https://x.com/adilinthewild/status/2098247449026715966) · [Watch the demo](https://x.com/adilinthewild/status/2098247449026715966)
+
+[Back to case list](#cases)
+
+
+<a id="reaper-eerie-song-section"></a>
+
+### An eerie song section written inside REAPER
+
+**Full prompt** · [Original prompt](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+[![Astra editing a multitrack song inside REAPER through REAPER Daemon](https://pbs.twimg.com/amplify_video_thumb/2099313702436474880/img/7NK6_4Ws1KUzxz0K.jpg)](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+Astra inspects an existing multitrack session, identifies the bass and guitar root notes despite a mislabeled track, then writes an eerie passage into bars 9–24.
+
+**Creator**: [@deadpixeldavid](https://x.com/deadpixeldavid/status/2099313868010889292) · 2026-09-14<br>
+**Tools & techniques**: REAPER, Music production, Computer use
+
+**How it works**
+
+Mark the target bars in an existing REAPER project and give Astra the musical direction in one sentence; the agent uses REAPER Daemon to inspect the surrounding arrangement and edit the session.
+
+**What to know**
+
+The result depends on the creator’s existing song, installed instruments and REAPER Daemon setup. The creator reports that REAPER crashed four times during the run.
+
+**Prompt**
+
+```text
+write something eerie into a marked section of my song, bars 9-24.
+```
+
+↗ [Read the original prompt](https://x.com/deadpixeldavid/status/2099313868010889292) · [Watch the demo](https://x.com/deadpixeldavid/status/2099313868010889292)
 
 [Back to case list](#cases)
 

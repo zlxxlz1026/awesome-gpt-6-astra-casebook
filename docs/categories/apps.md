@@ -4,7 +4,7 @@
 
 Interactive websites, creative interfaces and useful apps.
 
-**5 cases**
+**6 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -17,6 +17,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [Open-source Three.js agency hero](#threejs-agency-hero) · **Full prompt**
 - [A 360° panorama animation workshop](#panorama-video-workshop) · **Full prompt**
 - [A definitive history-of-hip-hop website](#hip-hop-history-site) · **Full prompt**
+- [VEYRA interactive electric-car experience](#veyra-interactive-car) · **Prompt excerpt**
 
 <a id="interactive-peacock"></a>
 
@@ -174,6 +175,38 @@ Design a website dedicated to the history of hip-hop. Make this site the definit
 ```
 
 ↗ [Read the original prompt](https://x.com/beastymcbeast/status/2098188287789646138) · [Watch the demo](https://x.com/beastymcbeast/status/2098188287789646138)
+
+[Back to case list](#cases)
+
+
+<a id="veyra-interactive-car"></a>
+
+### VEYRA interactive electric-car experience
+
+**Prompt excerpt** · [Original prompt](https://x.com/AmirMushich/status/2098464885709386026)
+
+[![Interactive VEYRA electric-car website with technical hotspots and appearance controls](https://pbs.twimg.com/amplify_video_thumb/2098459847088103424/img/8Q85Yp1K30Liqsz0.jpg)](https://x.com/AmirMushich/status/2098464881498370090)
+
+A polished automotive website uses a framed vehicle scene, interactive technical hotspots, configurable paint and wheels, and generated video transitions without a runtime 3D model.
+
+**Creator**: [@AmirMushich](https://x.com/AmirMushich/status/2098464881498370090) · 2026-09-12<br>
+**Tools & techniques**: Automotive website, LTX-2.5, GPT Images 2.5
+
+**How it works**
+
+The creator combines a coding agent with GPT Images 2.5 for visual variants and the LTX API for transitions, then publishes a pinned release and a detailed reproduction prompt covering source files, interactions, assets and verification.
+
+**What to know**
+
+The published prompt is a faithful-reproduction brief that reuses the creator’s pinned source and bundled media. Generating replacement visuals from text alone is explicitly outside its scope.
+
+**Prompt**
+
+> You are an implementation agent with access to a terminal, filesystem and browser. Create and run the approved VEYRA automotive website in my local workspace. Complete the implementation and verification; do not stop at a plan.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/AmirMushich/status/2098464885709386026) · [Watch the demo](https://x.com/AmirMushich/status/2098464881498370090)
 
 [Back to case list](#cases)
 

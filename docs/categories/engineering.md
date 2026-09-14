@@ -4,7 +4,7 @@
 
 Engineering workflows, physical prototypes and production-ready systems.
 
-**4 cases**
+**5 cases**
 
 Prompt labels describe how much text is shown here. For excerpts, follow the original prompt link for the complete text.
 
@@ -16,6 +16,7 @@ Prompt labels describe how much text is shown here. For excerpts, follow the ori
 - [Hands-off segmentation model training](#microduck-segmentation-training) · **Full prompt**
 - [A printable winged-heart AirPods case](#winged-heart-airpods-case) · **Full prompt**
 - [An interactive ferrofluid simulation](#interactive-ferrofluid-simulation) · **Full prompt**
+- [A self-drawing kinetic sand table](#kinetic-sand-table-simulation) · **Full prompt**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -145,6 +146,38 @@ Build an interactive ferrofluid simulation. A pool of magnetic liquid must react
 ```
 
 ↗ [Read the original prompt](https://x.com/free_ai_guides/status/2098184876692533475) · [Watch the demo](https://x.com/free_ai_guides/status/2098184864583594093)
+
+[Back to case list](#cases)
+
+
+<a id="kinetic-sand-table-simulation"></a>
+
+### A self-drawing kinetic sand table
+
+**Full prompt** · [Original prompt](https://x.com/free_ai_guides/status/2098831843168801239)
+
+[![Side-by-side kinetic sand tables drawing autonomous geometric patterns](https://pbs.twimg.com/amplify_video_thumb/2098831741993783297/img/x6Rb0EHzwBR30N2W.jpg)](https://x.com/free_ai_guides/status/2098831830002851846)
+
+A self-contained browser simulation moves a steel ball through persistent sand, draws complete geometric patterns, smooths the surface and begins a different design automatically.
+
+**Creator**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098831830002851846) · 2026-09-13<br>
+**Tools & techniques**: Physics simulation, Generative patterns, Single-file HTML
+
+**How it works**
+
+Specify the physical loop and autonomous pattern changes, leave the visual direction open, and require one self-contained HTML file that starts immediately without external media assets.
+
+**What to know**
+
+The result is a visual approximation of a kinetic sand table rather than a mechanically validated simulation; the source compares Astra with another model in a recorded run.
+
+**Prompt**
+
+```text
+Build a kinetic sand table simulation. A ball must move through a bed of sand, leaving a visible trail, drawing complete geometric patterns, then smoothing the sand and starting a new and different pattern automatically. It must cycle through many different patterns without repeating. Everything about the look and the patterns is your choice. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [Read the original prompt](https://x.com/free_ai_guides/status/2098831843168801239) · [Watch the demo](https://x.com/free_ai_guides/status/2098831830002851846)
 
 [Back to case list](#cases)
 

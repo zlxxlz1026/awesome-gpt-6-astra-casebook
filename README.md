@@ -6,7 +6,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-**48 cases · 7 categories**
+**54 cases · 7 categories**
 
 </div>
 
@@ -41,7 +41,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🧩 Apps &amp; websites</h3>
-<p>5 cases</p>
+<p>6 cases</p>
 <a href="docs/categories/apps.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096144711283269632/img/WuH4YKKYpWLTUx2H.jpg" alt="Interactive peacock website" height="160"></a>
 <p>Interactive websites, creative interfaces and useful apps.</p>
 <p><a href="docs/categories/apps.md"><b>View Cases →</b></a></p>
@@ -71,14 +71,14 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🖱️ Computer use &amp; automation</h3>
-<p>5 cases</p>
+<p>6 cases</p>
 <a href="docs/categories/automation.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2095563428261924864/img/EEjsPKMM54sdio16?format=webp&amp;name=medium" alt="Browser-controlled visual walking tour through Kyoto" height="160"></a>
 <p>Browser control, computer-use workflows and autonomous production tasks.</p>
 <p><a href="docs/categories/automation.md"><b>View Cases →</b></a></p>
 </td>
 <td width="33%" align="center" valign="top">
 <h3>🛠️ Engineering &amp; prototyping</h3>
-<p>4 cases</p>
+<p>5 cases</p>
 <a href="docs/categories/engineering.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096567835569053696/img/HRjmvb9ZAkTklImX?format=webp&amp;name=medium" alt="Robot prototyper showing printable Microduck components" height="160"></a>
 <p>Engineering workflows, physical prototypes and production-ready systems.</p>
 <p><a href="docs/categories/engineering.md"><b>View Cases →</b></a></p>
@@ -87,7 +87,7 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 <tr>
 <td width="33%" align="center" valign="top">
 <h3>🎮 Games &amp; simulations</h3>
-<p>14 cases</p>
+<p>17 cases</p>
 <a href="docs/categories/games.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2096019698056036352/img/J9AUzz07a3We-NeK.jpg" alt="Breakwater mecha selection and waterfront battle interface" height="160"></a>
 <p>Playable worlds, game prototypes and interactive simulations.</p>
 <p><a href="docs/categories/games.md"><b>View Cases →</b></a></p>
@@ -99,12 +99,12 @@ Read the available prerequisites and our analysis of goals, constraints, deliver
 
 | Case | Category | Prompt | Creator |
 | --- | --- | --- | --- |
-| [A cinematic boxing color grade in Premiere Pro](docs/categories/automation.md#premiere-boxing-color-grade) | 🖱️ Computer use & automation | Full prompt | [@adilinthewild](https://x.com/adilinthewild/status/2098247449026715966) |
-| [An interactive ferrofluid simulation](docs/categories/engineering.md#interactive-ferrofluid-simulation) | 🛠️ Engineering & prototyping | Full prompt | [@free_ai_guides](https://x.com/free_ai_guides/status/2098184864583594093) |
-| [A definitive history-of-hip-hop website](docs/categories/apps.md#hip-hop-history-site) | 🧩 Apps & websites | Full prompt | [@beastymcbeast](https://x.com/beastymcbeast/status/2098188287789646138) |
-| [A $100 million countryside villa concept](docs/categories/3d.md#hundred-million-villa) | 🏛️ 3D & spatial creation | Full prompt | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2097886232491737184) |
-| [A one-prompt surreal climbing game](docs/categories/games.md#surreal-french-climber) | 🎮 Games & simulations | Full prompt | [@TrueSlazac](https://x.com/TrueSlazac/status/2097416577624805425) |
-| [An autonomous theme-and-variations composition](docs/categories/automation.md#clares-dragoons-variations) | 🖱️ Computer use & automation | Prompt excerpt | [@doodlestein](https://x.com/doodlestein/status/2097837264529203426) |
+| [PaperRoute, a finished seven-day delivery game](docs/categories/games.md#paperroute-full-game) | 🎮 Games & simulations | Prompt excerpt | [@builtbysketch](https://x.com/builtbysketch/status/2098777028078211283) |
+| [A playable game reconstructed from a mobile ad](docs/categories/games.md#video-to-mobile-ad-game) | 🎮 Games & simulations | Full prompt | [@noclipepe](https://x.com/noclipepe/status/2098545145381605431) |
+| [VEYRA interactive electric-car experience](docs/categories/apps.md#veyra-interactive-car) | 🧩 Apps & websites | Prompt excerpt | [@AmirMushich](https://x.com/AmirMushich/status/2098464881498370090) |
+| [A living agent-based beehive](docs/categories/games.md#living-beehive-simulation) | 🎮 Games & simulations | Full prompt | [@free_ai_guides](https://x.com/free_ai_guides/status/2099272047465800037) |
+| [A self-drawing kinetic sand table](docs/categories/engineering.md#kinetic-sand-table-simulation) | 🛠️ Engineering & prototyping | Full prompt | [@free_ai_guides](https://x.com/free_ai_guides/status/2098831830002851846) |
+| [An eerie song section written inside REAPER](docs/categories/automation.md#reaper-eerie-song-section) | 🖱️ Computer use & automation | Full prompt | [@deadpixeldavid](https://x.com/deadpixeldavid/status/2099313868010889292) |
 
 <a id="all-cases"></a>
 
@@ -121,6 +121,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [Open-source Three.js agency hero](docs/categories/apps.md#threejs-agency-hero) — **Full prompt** · Three.js, WebGL, Creative coding
 - [A 360° panorama animation workshop](docs/categories/apps.md#panorama-video-workshop) — **Full prompt** · 360° video, Background removal, MP4 metadata
 - [A definitive history-of-hip-hop website](docs/categories/apps.md#hip-hop-history-site) — **Full prompt** · Editorial website, Responsive design, Music history
+- [VEYRA interactive electric-car experience](docs/categories/apps.md#veyra-interactive-car) — **Prompt excerpt** · Automotive website, LTX-2.5, GPT Images 2.5
 
 ### ✨ Design & creative work
 
@@ -166,6 +167,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [Script-driven After Effects motion graphics](docs/categories/automation.md#after-effects-kangaroo-motion) — **Prompt excerpt** · After Effects, Motion graphics, Scripted automation
 - [An autonomous theme-and-variations composition](docs/categories/automation.md#clares-dragoons-variations) — **Prompt excerpt** · Music composition, Codex skills, mtdt
 - [A cinematic boxing color grade in Premiere Pro](docs/categories/automation.md#premiere-boxing-color-grade) — **Full prompt** · Premiere Pro, Color grading, Computer use
+- [An eerie song section written inside REAPER](docs/categories/automation.md#reaper-eerie-song-section) — **Full prompt** · REAPER, Music production, Computer use
 
 ### 🛠️ Engineering & prototyping
 
@@ -175,6 +177,7 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [Hands-off segmentation model training](docs/categories/engineering.md#microduck-segmentation-training) — **Full prompt** · Computer vision, Roboflow, RF-DETR, SAM3
 - [A printable winged-heart AirPods case](docs/categories/engineering.md#winged-heart-airpods-case) — **Full prompt** · Blender, 3D printing, MCP, Physical prototyping
 - [An interactive ferrofluid simulation](docs/categories/engineering.md#interactive-ferrofluid-simulation) — **Full prompt** · Physics simulation, Interactive HTML, Ferrofluid
+- [A self-drawing kinetic sand table](docs/categories/engineering.md#kinetic-sand-table-simulation) — **Full prompt** · Physics simulation, Generative patterns, Single-file HTML
 
 ### 🎮 Games & simulations
 
@@ -194,6 +197,9 @@ Choose an example to read its workflow, limitations and public prompt. Tool name
 - [A workbench robo-cat with a diegetic battery HUD](docs/categories/games.md#workbench-robo-cat) — **Prompt excerpt** · Three.js, Diegetic UI, Inverse kinematics
 - [A 16-pose isometric knight sprite sheet](docs/categories/games.md#isometric-knight-sprites) — **Full prompt** · Pixel art, Sprite sheet, Codex CLI
 - [A one-prompt surreal climbing game](docs/categories/games.md#surreal-french-climber) — **Full prompt** · 3D platformer, Surreal world, One-shot
+- [A living agent-based beehive](docs/categories/games.md#living-beehive-simulation) — **Full prompt** · Agent-based simulation, Emergent behavior, Single-file HTML
+- [A playable game reconstructed from a mobile ad](docs/categories/games.md#video-to-mobile-ad-game) — **Full prompt** · Video-to-game, Browser game, Gameplay inference
+- [PaperRoute, a finished seven-day delivery game](docs/categories/games.md#paperroute-full-game) — **Prompt excerpt** · Three.js, Blender, Long-horizon build
 
 ## Using this GPT-6 Astra prompt collection
 

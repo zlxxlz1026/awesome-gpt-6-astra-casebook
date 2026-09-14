@@ -6,24 +6,24 @@ Browse community examples with result previews, tools, workflows, limitations an
 
 ## Browse by category
 
-- [🧩 Apps & websites](#apps) · 5 · [Category page](categories/apps.md)
+- [🧩 Apps & websites](#apps) · 6 · [Category page](categories/apps.md)
 - [✨ Design & creative work](#design) · 4 · [Category page](categories/design.md)
 - [🏛️ 3D & spatial creation](#3d) · 10 · [Category page](categories/3d.md)
 - [🎬 Video & storytelling](#video) · 6 · [Category page](categories/video.md)
-- [🖱️ Computer use & automation](#automation) · 5 · [Category page](categories/automation.md)
-- [🛠️ Engineering & prototyping](#engineering) · 4 · [Category page](categories/engineering.md)
-- [🎮 Games & simulations](#games) · 14 · [Category page](categories/games.md)
+- [🖱️ Computer use & automation](#automation) · 6 · [Category page](categories/automation.md)
+- [🛠️ Engineering & prototyping](#engineering) · 5 · [Category page](categories/engineering.md)
+- [🎮 Games & simulations](#games) · 17 · [Category page](categories/games.md)
 
 <a id="latest"></a>
 
 ## ✨ Latest Additions
 
-- [A cinematic boxing color grade in Premiere Pro](#premiere-boxing-color-grade) · **Full prompt**
-- [An interactive ferrofluid simulation](#interactive-ferrofluid-simulation) · **Full prompt**
-- [A definitive history-of-hip-hop website](#hip-hop-history-site) · **Full prompt**
-- [A $100 million countryside villa concept](#hundred-million-villa) · **Full prompt**
-- [A one-prompt surreal climbing game](#surreal-french-climber) · **Full prompt**
-- [An autonomous theme-and-variations composition](#clares-dragoons-variations) · **Prompt excerpt**
+- [PaperRoute, a finished seven-day delivery game](#paperroute-full-game) · **Prompt excerpt**
+- [A playable game reconstructed from a mobile ad](#video-to-mobile-ad-game) · **Full prompt**
+- [VEYRA interactive electric-car experience](#veyra-interactive-car) · **Prompt excerpt**
+- [A living agent-based beehive](#living-beehive-simulation) · **Full prompt**
+- [A self-drawing kinetic sand table](#kinetic-sand-table-simulation) · **Full prompt**
+- [An eerie song section written inside REAPER](#reaper-eerie-song-section) · **Full prompt**
 
 <a id="apps"></a>
 
@@ -179,6 +179,36 @@ Design a website dedicated to the history of hip-hop. Make this site the definit
 ```
 
 ↗ [Read the original prompt](https://x.com/beastymcbeast/status/2098188287789646138) · [Watch the demo](https://x.com/beastymcbeast/status/2098188287789646138)
+
+
+<a id="veyra-interactive-car"></a>
+
+### VEYRA interactive electric-car experience
+
+**Prompt excerpt** · [Original prompt](https://x.com/AmirMushich/status/2098464885709386026)
+
+[![Interactive VEYRA electric-car website with technical hotspots and appearance controls](https://pbs.twimg.com/amplify_video_thumb/2098459847088103424/img/8Q85Yp1K30Liqsz0.jpg)](https://x.com/AmirMushich/status/2098464881498370090)
+
+A polished automotive website uses a framed vehicle scene, interactive technical hotspots, configurable paint and wheels, and generated video transitions without a runtime 3D model.
+
+**Creator**: [@AmirMushich](https://x.com/AmirMushich/status/2098464881498370090) · 2026-09-12<br>
+**Tools & techniques**: Automotive website, LTX-2.5, GPT Images 2.5
+
+**How it works**
+
+The creator combines a coding agent with GPT Images 2.5 for visual variants and the LTX API for transitions, then publishes a pinned release and a detailed reproduction prompt covering source files, interactions, assets and verification.
+
+**What to know**
+
+The published prompt is a faithful-reproduction brief that reuses the creator’s pinned source and bundled media. Generating replacement visuals from text alone is explicitly outside its scope.
+
+**Prompt**
+
+> You are an implementation agent with access to a terminal, filesystem and browser. Create and run the approved VEYRA automotive website in my local workspace. Complete the implementation and verification; do not stop at a plan.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/AmirMushich/status/2098464885709386026) · [Watch the demo](https://x.com/AmirMushich/status/2098464881498370090)
 
 
 <a id="design"></a>
@@ -1015,6 +1045,36 @@ Color grade this gym footage in Premiere Pro.
 ↗ [Read the original prompt](https://x.com/adilinthewild/status/2098247449026715966) · [Watch the demo](https://x.com/adilinthewild/status/2098247449026715966)
 
 
+<a id="reaper-eerie-song-section"></a>
+
+### An eerie song section written inside REAPER
+
+**Full prompt** · [Original prompt](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+[![Astra editing a multitrack song inside REAPER through REAPER Daemon](https://pbs.twimg.com/amplify_video_thumb/2099313702436474880/img/7NK6_4Ws1KUzxz0K.jpg)](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+Astra inspects an existing multitrack session, identifies the bass and guitar root notes despite a mislabeled track, then writes an eerie passage into bars 9–24.
+
+**Creator**: [@deadpixeldavid](https://x.com/deadpixeldavid/status/2099313868010889292) · 2026-09-14<br>
+**Tools & techniques**: REAPER, Music production, Computer use
+
+**How it works**
+
+Mark the target bars in an existing REAPER project and give Astra the musical direction in one sentence; the agent uses REAPER Daemon to inspect the surrounding arrangement and edit the session.
+
+**What to know**
+
+The result depends on the creator’s existing song, installed instruments and REAPER Daemon setup. The creator reports that REAPER crashed four times during the run.
+
+**Prompt**
+
+```text
+write something eerie into a marked section of my song, bars 9-24.
+```
+
+↗ [Read the original prompt](https://x.com/deadpixeldavid/status/2099313868010889292) · [Watch the demo](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+
 <a id="engineering"></a>
 
 ## 🛠️ Engineering & prototyping
@@ -1143,6 +1203,36 @@ Build an interactive ferrofluid simulation. A pool of magnetic liquid must react
 ```
 
 ↗ [Read the original prompt](https://x.com/free_ai_guides/status/2098184876692533475) · [Watch the demo](https://x.com/free_ai_guides/status/2098184864583594093)
+
+
+<a id="kinetic-sand-table-simulation"></a>
+
+### A self-drawing kinetic sand table
+
+**Full prompt** · [Original prompt](https://x.com/free_ai_guides/status/2098831843168801239)
+
+[![Side-by-side kinetic sand tables drawing autonomous geometric patterns](https://pbs.twimg.com/amplify_video_thumb/2098831741993783297/img/x6Rb0EHzwBR30N2W.jpg)](https://x.com/free_ai_guides/status/2098831830002851846)
+
+A self-contained browser simulation moves a steel ball through persistent sand, draws complete geometric patterns, smooths the surface and begins a different design automatically.
+
+**Creator**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098831830002851846) · 2026-09-13<br>
+**Tools & techniques**: Physics simulation, Generative patterns, Single-file HTML
+
+**How it works**
+
+Specify the physical loop and autonomous pattern changes, leave the visual direction open, and require one self-contained HTML file that starts immediately without external media assets.
+
+**What to know**
+
+The result is a visual approximation of a kinetic sand table rather than a mechanically validated simulation; the source compares Astra with another model in a recorded run.
+
+**Prompt**
+
+```text
+Build a kinetic sand table simulation. A ball must move through a bed of sand, leaving a visible trail, drawing complete geometric patterns, then smoothing the sand and starting a new and different pattern automatically. It must cycle through many different patterns without repeating. Everything about the look and the patterns is your choice. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [Read the original prompt](https://x.com/free_ai_guides/status/2098831843168801239) · [Watch the demo](https://x.com/free_ai_guides/status/2098831830002851846)
 
 
 <a id="games"></a>
@@ -1631,3 +1721,108 @@ French woman has to climb through a word that defies logic, flying objects every
 ```
 
 ↗ [Read the original prompt](https://x.com/TrueSlazac/status/2097416577624805425) · [Watch the demo](https://x.com/TrueSlazac/status/2097416577624805425)
+
+
+<a id="living-beehive-simulation"></a>
+
+### A living agent-based beehive
+
+**Full prompt** · [Original prompt](https://x.com/free_ai_guides/status/2099272059687932201)
+
+[![Side-by-side living beehive simulations with bees, comb growth and honey storage](https://pbs.twimg.com/amplify_video_thumb/2099271943795179520/img/Y-I_Y6c1fsFvGUzL.jpg)](https://x.com/free_ai_guides/status/2099272047465800037)
+
+Independent bee agents forage, return and build a hexagonal comb cell by cell while honey storage and the hive’s visible structure evolve without user input.
+
+**Creator**: [@free_ai_guides](https://x.com/free_ai_guides/status/2099272047465800037) · 2026-09-14<br>
+**Tools & techniques**: Agent-based simulation, Emergent behavior, Single-file HTML
+
+**How it works**
+
+Define the agents, construction rule, forage loop and autonomous growth, then leave the style, camera and ambient behavior to Astra inside a single self-contained HTML deliverable.
+
+**What to know**
+
+This is an emergent visual simulation, not a biological model of real colony behavior; the source presents Astra beside another model for comparison.
+
+**Prompt**
+
+```text
+Build a living beehive simulation. Bees must act as independent agents that construct hexagonal comb cell by cell, leave to forage, return, and fill cells with honey so the hive visibly grows and changes over time without any input. How it is shown, what the bees and hive look like, and what else happens in the scene are your decisions. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [Read the original prompt](https://x.com/free_ai_guides/status/2099272059687932201) · [Watch the demo](https://x.com/free_ai_guides/status/2099272047465800037)
+
+
+<a id="video-to-mobile-ad-game"></a>
+
+### A playable game reconstructed from a mobile ad
+
+**Full prompt** · [Original prompt](https://x.com/noclipepe/status/2098870292336595276)
+
+[![A mobile-ad game beside Astra’s playable reconstruction with gates, squads and zombies](https://pbs.twimg.com/amplify_video_thumb/2098544563514392576/img/pRXiVB43Pkub7Q7g.jpg)](https://x.com/noclipepe/status/2098545145381605431)
+
+Astra studies a short gameplay clip and rebuilds its hidden rules as a browser game with upgrade gates, squad growth, destructible walls, enemy health, auto-shooting and a boss loop.
+
+**Creator**: [@noclipepe](https://x.com/noclipepe/status/2098545145381605431) · 2026-09-12<br>
+**Tools & techniques**: Video-to-game, Browser game, Gameplay inference
+
+**How it works**
+
+Upload the gameplay clip as the primary reference and ask Astra to infer controls, camera, movement, progression, combat, scoring and end states before implementing the complete playable loop.
+
+**What to know**
+
+The prompt depends on the uploaded reference clip, and inferred rules can diverge from the original game. The public post demonstrates the generated loop but does not link a source repository.
+
+**Prompt**
+
+```text
+Use the uploaded gameplay video as the primary reference. Rebuild the game shown in the video as a polished, fully playable browser game. Do not just copy the visuals. First, infer the hidden gameplay system behind the footage:
+
+- player controls
+- camera behavior
+- movement rules
+- interactions
+- progression
+- upgrades
+- enemy behavior
+- collisions
+- scoring
+- win and fail conditions
+- UI feedback
+- pacing
+
+Reconstruct any rules that are not explicitly shown but must exist for the gameplay in the video to make sense. Match the feel and structure of the reference as closely as possible while keeping the game stable, responsive, and actually fun to play. Do not ask questions. Make the necessary design decisions yourself. Build the complete playable experience in one shot.
+```
+
+↗ [Read the original prompt](https://x.com/noclipepe/status/2098870292336595276) · [Watch the demo](https://x.com/noclipepe/status/2098545145381605431)
+
+
+<a id="paperroute-full-game"></a>
+
+### PaperRoute, a finished seven-day delivery game
+
+**Prompt excerpt** · [Original prompt](https://x.com/builtbysketch/status/2098773631249854478)
+
+[![PaperRoute’s illustrated 3D paper-delivery game and newspaper-style interface](https://pbs.twimg.com/amplify_video_thumb/2098775794281828352/img/Hoy8EuS5JEPOFpLO.jpg)](https://x.com/builtbysketch/status/2098777028078211283)
+
+Astra helps turn a paper-delivery concept into a hosted browser game with a deterministic riding loop, authored Blender assets, characters, weather, mobile controls, a newspaper-style website and leaderboard.
+
+**Creator**: [@builtbysketch](https://x.com/builtbysketch/status/2098777028078211283) · 2026-09-12<br>
+**Tools & techniques**: Three.js, Blender, Long-horizon build
+
+**How it works**
+
+Start from a concise game brief and a perspective reference, make the mechanics playable before applying art direction, then run engine and visual work as separate streams with Blender Python, review renders, isolated branches and repeated browser checks.
+
+**What to know**
+
+The published article provides the brief excerpt and an extensive build runbook. The finished result accumulated 90 commits, 39 tracked hours and many iterative prompts, so it should be read as a long-horizon workflow rather than a one-shot generation.
+
+**Prompt**
+
+> A week of deliveries from Monday to Sunday, subscribers and non-subscribers, dogs, cars, the diagonal camera. I also wanted it to be a native iOS build. As well as web.
+
+Opening excerpt; the author’s complete prompt is linked below.
+
+↗ [Read the original prompt](https://x.com/builtbysketch/status/2098773631249854478) · [Watch the demo](https://x.com/builtbysketch/status/2098777028078211283)

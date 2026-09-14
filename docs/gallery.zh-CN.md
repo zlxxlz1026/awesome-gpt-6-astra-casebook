@@ -6,24 +6,24 @@
 
 ## 分类导航
 
-- [🧩 应用与网站](#apps) · 5 · [分类页面](categories/apps.zh-CN.md)
+- [🧩 应用与网站](#apps) · 6 · [分类页面](categories/apps.zh-CN.md)
 - [✨ 设计与创意](#design) · 4 · [分类页面](categories/design.zh-CN.md)
 - [🏛️ 三维与空间创作](#3d) · 10 · [分类页面](categories/3d.zh-CN.md)
 - [🎬 视频与叙事](#video) · 6 · [分类页面](categories/video.zh-CN.md)
-- [🖱️ 电脑操作与自动化](#automation) · 5 · [分类页面](categories/automation.zh-CN.md)
-- [🛠️ 工程与原型](#engineering) · 4 · [分类页面](categories/engineering.zh-CN.md)
-- [🎮 游戏与仿真](#games) · 14 · [分类页面](categories/games.zh-CN.md)
+- [🖱️ 电脑操作与自动化](#automation) · 6 · [分类页面](categories/automation.zh-CN.md)
+- [🛠️ 工程与原型](#engineering) · 5 · [分类页面](categories/engineering.zh-CN.md)
+- [🎮 游戏与仿真](#games) · 17 · [分类页面](categories/games.zh-CN.md)
 
 <a id="latest"></a>
 
 ## ✨ 最新收录
 
-- [Premiere Pro 电影感拳击调色](#premiere-boxing-color-grade) · **完整提示词**
-- [交互式铁磁流体模拟](#interactive-ferrofluid-simulation) · **完整提示词**
-- [嘻哈历史主题网站](#hip-hop-history-site) · **完整提示词**
-- [一亿美元乡间别墅概念设计](#hundred-million-villa) · **完整提示词**
-- [一句提示词生成的超现实攀爬游戏](#surreal-french-climber) · **完整提示词**
-- [自动完成的主题与十二变奏曲](#clares-dragoons-variations) · **提示词摘录**
+- [PaperRoute 七日送报完整游戏](#paperroute-full-game) · **提示词摘录**
+- [从手机广告视频反推可玩游戏](#video-to-mobile-ad-game) · **完整提示词**
+- [VEYRA 交互式电动车体验](#veyra-interactive-car) · **提示词摘录**
+- [自主生长的蜂群仿真](#living-beehive-simulation) · **完整提示词**
+- [自动绘图的动力沙桌模拟](#kinetic-sand-table-simulation) · **完整提示词**
+- [在 REAPER 中续写诡异音乐段落](#reaper-eerie-song-section) · **完整提示词**
 
 <a id="apps"></a>
 
@@ -179,6 +179,36 @@ Design a website dedicated to the history of hip-hop. Make this site the definit
 ```
 
 ↗ [查看作者完整提示词](https://x.com/beastymcbeast/status/2098188287789646138) · [观看演示](https://x.com/beastymcbeast/status/2098188287789646138)
+
+
+<a id="veyra-interactive-car"></a>
+
+### VEYRA 交互式电动车体验
+
+**提示词摘录** · [提示词原帖](https://x.com/AmirMushich/status/2098464885709386026)
+
+[![带技术热点与外观配置的 VEYRA 交互式电动车网站](https://pbs.twimg.com/amplify_video_thumb/2098459847088103424/img/8Q85Yp1K30Liqsz0.jpg)](https://x.com/AmirMushich/status/2098464881498370090)
+
+一个完成度很高的汽车网站，在无需运行时三维模型的情况下，组合车辆主视觉、技术热点、车漆与轮毂配置，以及生成式视频转场。
+
+**作者**: [@AmirMushich](https://x.com/AmirMushich/status/2098464881498370090) · 2026-09-12<br>
+**工具与技术**: Automotive website, LTX-2.5, GPT Images 2.5
+
+**创作方法**
+
+作者把编码 Agent、用于视觉变体的 GPT Images 2.5 与用于转场的 LTX API 组合起来，并公开固定版本与详细复现提示词，覆盖源码、交互、素材和验证。
+
+**值得注意**
+
+公开提示词是一份忠实复现需求，需要复用作者固定版本的源码与内置媒体；仅靠文本重新生成替代视觉明确不在其范围内。
+
+**提示词**
+
+> You are an implementation agent with access to a terminal, filesystem and browser. Create and run the approved VEYRA automotive website in my local workspace. Complete the implementation and verification; do not stop at a plan.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/AmirMushich/status/2098464885709386026) · [观看演示](https://x.com/AmirMushich/status/2098464881498370090)
 
 
 <a id="design"></a>
@@ -1015,6 +1045,36 @@ Color grade this gym footage in Premiere Pro.
 ↗ [查看作者完整提示词](https://x.com/adilinthewild/status/2098247449026715966) · [观看演示](https://x.com/adilinthewild/status/2098247449026715966)
 
 
+<a id="reaper-eerie-song-section"></a>
+
+### 在 REAPER 中续写诡异音乐段落
+
+**完整提示词** · [提示词原帖](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+[![Astra 通过 REAPER Daemon 编辑多轨音乐工程](https://pbs.twimg.com/amplify_video_thumb/2099313702436474880/img/7NK6_4Ws1KUzxz0K.jpg)](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+Astra 检查已有多轨工程，在音轨名称有误的情况下识别贝斯与吉他的根音，并为第 9–24 小节续写诡异段落。
+
+**作者**: [@deadpixeldavid](https://x.com/deadpixeldavid/status/2099313868010889292) · 2026-09-14<br>
+**工具与技术**: REAPER, Music production, Computer use
+
+**创作方法**
+
+在已有 REAPER 工程中标记目标小节，用一句话说明音乐方向；Agent 通过 REAPER Daemon 检查上下文并直接编辑工程。
+
+**值得注意**
+
+该成果依赖作者已有歌曲、已安装音源与 REAPER Daemon 环境；作者说明本次运行中 REAPER 曾崩溃四次。
+
+**提示词**
+
+```text
+write something eerie into a marked section of my song, bars 9-24.
+```
+
+↗ [查看作者完整提示词](https://x.com/deadpixeldavid/status/2099313868010889292) · [观看演示](https://x.com/deadpixeldavid/status/2099313868010889292)
+
+
 <a id="engineering"></a>
 
 ## 🛠️ 工程与原型
@@ -1143,6 +1203,36 @@ Build an interactive ferrofluid simulation. A pool of magnetic liquid must react
 ```
 
 ↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2098184876692533475) · [观看演示](https://x.com/free_ai_guides/status/2098184864583594093)
+
+
+<a id="kinetic-sand-table-simulation"></a>
+
+### 自动绘图的动力沙桌模拟
+
+**完整提示词** · [提示词原帖](https://x.com/free_ai_guides/status/2098831843168801239)
+
+[![并排展示自动绘制几何图案的动力沙桌模拟](https://pbs.twimg.com/amplify_video_thumb/2098831741993783297/img/x6Rb0EHzwBR30N2W.jpg)](https://x.com/free_ai_guides/status/2098831830002851846)
+
+一个自包含浏览器模拟让钢球在可保留轨迹的沙面上运动，完成几何图案后抚平沙面，并自动开始新的图案。
+
+**作者**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098831830002851846) · 2026-09-13<br>
+**工具与技术**: Physics simulation, Generative patterns, Single-file HTML
+
+**创作方法**
+
+明确物理循环与自动换图案的行为，把视觉方向交给模型决定，并要求交付一个无需外部媒体素材、打开即运行的 HTML 文件。
+
+**值得注意**
+
+该成果是动力沙桌的视觉近似，并非经过机械验证的物理仿真；原帖以录屏形式将 Astra 与另一模型并排比较。
+
+**提示词**
+
+```text
+Build a kinetic sand table simulation. A ball must move through a bed of sand, leaving a visible trail, drawing complete geometric patterns, then smoothing the sand and starting a new and different pattern automatically. It must cycle through many different patterns without repeating. Everything about the look and the patterns is your choice. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2098831843168801239) · [观看演示](https://x.com/free_ai_guides/status/2098831830002851846)
 
 
 <a id="games"></a>
@@ -1631,3 +1721,108 @@ French woman has to climb through a word that defies logic, flying objects every
 ```
 
 ↗ [查看作者完整提示词](https://x.com/TrueSlazac/status/2097416577624805425) · [观看演示](https://x.com/TrueSlazac/status/2097416577624805425)
+
+
+<a id="living-beehive-simulation"></a>
+
+### 自主生长的蜂群仿真
+
+**完整提示词** · [提示词原帖](https://x.com/free_ai_guides/status/2099272059687932201)
+
+[![并排展示蜜蜂活动、蜂巢生长与蜂蜜储存的蜂群仿真](https://pbs.twimg.com/amplify_video_thumb/2099271943795179520/img/Y-I_Y6c1fsFvGUzL.jpg)](https://x.com/free_ai_guides/status/2099272047465800037)
+
+独立蜜蜂 Agent 会外出采蜜、返回并逐格搭建六边形蜂巢，蜂蜜储量和巢体结构在无人操作时持续演化。
+
+**作者**: [@free_ai_guides](https://x.com/free_ai_guides/status/2099272047465800037) · 2026-09-14<br>
+**工具与技术**: Agent-based simulation, Emergent behavior, Single-file HTML
+
+**创作方法**
+
+定义 Agent、筑巢规则、采蜜循环与自主生长，再把风格、镜头和环境行为交给 Astra，并限制为单文件 HTML 交付。
+
+**值得注意**
+
+这是涌现式视觉仿真，不是对真实蜂群行为的生物学模型；原帖将 Astra 与另一模型并排展示。
+
+**提示词**
+
+```text
+Build a living beehive simulation. Bees must act as independent agents that construct hexagonal comb cell by cell, leave to forage, return, and fill cells with honey so the hive visibly grows and changes over time without any input. How it is shown, what the bees and hive look like, and what else happens in the scene are your decisions. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2099272059687932201) · [观看演示](https://x.com/free_ai_guides/status/2099272047465800037)
+
+
+<a id="video-to-mobile-ad-game"></a>
+
+### 从手机广告视频反推可玩游戏
+
+**完整提示词** · [提示词原帖](https://x.com/noclipepe/status/2098870292336595276)
+
+[![手机广告游戏与 Astra 重建的升级门、队伍和僵尸玩法并排展示](https://pbs.twimg.com/amplify_video_thumb/2098544563514392576/img/pRXiVB43Pkub7Q7g.jpg)](https://x.com/noclipepe/status/2098545145381605431)
+
+Astra 分析一段短游戏视频，并把其中隐含规则重建为浏览器游戏，包含升级门、队伍增长、可破坏墙体、敌人生命值、自动射击与首领循环。
+
+**作者**: [@noclipepe](https://x.com/noclipepe/status/2098545145381605431) · 2026-09-12<br>
+**工具与技术**: Video-to-game, Browser game, Gameplay inference
+
+**创作方法**
+
+上传游戏视频作为主要参考，要求 Astra 先推断操作、镜头、移动、成长、战斗、计分与结束状态，再实现完整可玩循环。
+
+**值得注意**
+
+该提示词依赖上传的参考视频，推断出的规则可能与原游戏不同；公开帖子展示了生成后的玩法循环，但未提供源码仓库。
+
+**提示词**
+
+```text
+Use the uploaded gameplay video as the primary reference. Rebuild the game shown in the video as a polished, fully playable browser game. Do not just copy the visuals. First, infer the hidden gameplay system behind the footage:
+
+- player controls
+- camera behavior
+- movement rules
+- interactions
+- progression
+- upgrades
+- enemy behavior
+- collisions
+- scoring
+- win and fail conditions
+- UI feedback
+- pacing
+
+Reconstruct any rules that are not explicitly shown but must exist for the gameplay in the video to make sense. Match the feel and structure of the reference as closely as possible while keeping the game stable, responsive, and actually fun to play. Do not ask questions. Make the necessary design decisions yourself. Build the complete playable experience in one shot.
+```
+
+↗ [查看作者完整提示词](https://x.com/noclipepe/status/2098870292336595276) · [观看演示](https://x.com/noclipepe/status/2098545145381605431)
+
+
+<a id="paperroute-full-game"></a>
+
+### PaperRoute 七日送报完整游戏
+
+**提示词摘录** · [提示词原帖](https://x.com/builtbysketch/status/2098773631249854478)
+
+[![PaperRoute 的插画风三维送报游戏与报纸式界面](https://pbs.twimg.com/amplify_video_thumb/2098775794281828352/img/Hoy8EuS5JEPOFpLO.jpg)](https://x.com/builtbysketch/status/2098777028078211283)
+
+Astra 协助把送报概念做成完整上线的浏览器游戏，包含确定性骑行循环、Blender 自制资产、角色、天气、移动端操作、报纸风网站与排行榜。
+
+**作者**: [@builtbysketch](https://x.com/builtbysketch/status/2098777028078211283) · 2026-09-12<br>
+**工具与技术**: Three.js, Blender, Long-horizon build
+
+**创作方法**
+
+从简洁游戏需求和透视参考出发，先把机制做成可玩版本，再加入美术方向；将引擎与视觉拆成独立工作流，配合 Blender Python、审阅渲染图、隔离分支与持续浏览器检查。
+
+**值得注意**
+
+作者文章公开了需求片段与完整制作方法。最终成果累计 90 次提交、39 小时记录和多轮提示词，应作为长周期工作流理解，而不是一次生成。
+
+**提示词**
+
+> A week of deliveries from Monday to Sunday, subscribers and non-subscribers, dogs, cars, the diagonal camera. I also wanted it to be a native iOS build. As well as web.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/builtbysketch/status/2098773631249854478) · [观看演示](https://x.com/builtbysketch/status/2098777028078211283)

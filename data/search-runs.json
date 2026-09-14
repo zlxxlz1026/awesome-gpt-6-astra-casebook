@@ -140,5 +140,25 @@
       "Keep checking new game and interactive 3D posts for exact prompt replies",
       "Prioritize original creators, visible outcomes and complete public prompts"
     ]
+  },
+  {
+    "date": "2026-09-14",
+    "platform": "X",
+    "queries": [
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT-6-Astra\") (prompt OR \"I asked\" OR built OR created) filter:media since:2026-09-12 until:2026-09-15",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT-6-Astra\") filter:media min_faves:20 since:2026-09-12 until:2026-09-15",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT-6-Astra\") (\"exact prompt\" OR \"full prompt\" OR \"prompt below\" OR \"prompt:\") filter:media since:2026-09-12 until:2026-09-15",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT-6-Astra\") (\"one prompt\" OR \"single prompt\" OR \"one-shot\" OR \"I asked\") filter:media since:2026-09-12 until:2026-09-15",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT-6-Astra\") (built OR created OR made OR generated) filter:media since:2026-09-12 until:2026-09-15",
+      "(\"GPT-6 Astra\" OR \"GPT 6 Astra\" OR \"GPT-6-Astra\") (提示词 OR 提示詞 OR プロンプト OR 프롬프트) filter:media since:2026-09-12 until:2026-09-15",
+      "from:free_ai_guides (Astra OR \"ChatGPT 6\") since:2026-09-12 until:2026-09-15",
+      "(\"full prompt is in the replies\" OR \"exact prompt\" OR \"prompt both models\") Astra since:2026-09-12 until:2026-09-15"
+    ],
+    "coverage": "Reviewed recent Top, Latest and multilingual X results in the signed-in Codex browser, opened original posts and exact-prompt replies, read linked public build documents, and visually inspected the selected videos. Six cases were accepted across games, simulations, music automation and web design. Reposts, interview summaries, prompts gated behind direct messages, untraceable Revit and research claims, routine demos and results without public instructions were excluded.",
+    "next_steps": [
+      "Revisit strong science, architecture and creative-tool demos when their original creators publish the prompts",
+      "Keep looking for high-quality data, research and office workflows to balance the visual and game-heavy catalog",
+      "Prefer cases with public runnable builds, repositories or long-form process evidence"
+    ]
   }
 ]

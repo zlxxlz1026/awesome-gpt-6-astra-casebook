@@ -4,7 +4,7 @@
 
 工程工作流、实体原型与可投入生产的系统。
 
-**4 个案例**
+**5 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -16,6 +16,7 @@
 - [无人值守的分割模型训练流水线](#microduck-segmentation-training) · **完整提示词**
 - [可打印的翼心 AirPods 外壳](#winged-heart-airpods-case) · **完整提示词**
 - [交互式铁磁流体模拟](#interactive-ferrofluid-simulation) · **完整提示词**
+- [自动绘图的动力沙桌模拟](#kinetic-sand-table-simulation) · **完整提示词**
 
 <a id="microduck-robot-prototype"></a>
 
@@ -145,6 +146,38 @@ Build an interactive ferrofluid simulation. A pool of magnetic liquid must react
 ```
 
 ↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2098184876692533475) · [观看演示](https://x.com/free_ai_guides/status/2098184864583594093)
+
+[返回案例目录](#cases)
+
+
+<a id="kinetic-sand-table-simulation"></a>
+
+### 自动绘图的动力沙桌模拟
+
+**完整提示词** · [提示词原帖](https://x.com/free_ai_guides/status/2098831843168801239)
+
+[![并排展示自动绘制几何图案的动力沙桌模拟](https://pbs.twimg.com/amplify_video_thumb/2098831741993783297/img/x6Rb0EHzwBR30N2W.jpg)](https://x.com/free_ai_guides/status/2098831830002851846)
+
+一个自包含浏览器模拟让钢球在可保留轨迹的沙面上运动，完成几何图案后抚平沙面，并自动开始新的图案。
+
+**作者**: [@free_ai_guides](https://x.com/free_ai_guides/status/2098831830002851846) · 2026-09-13<br>
+**工具与技术**: Physics simulation, Generative patterns, Single-file HTML
+
+**创作方法**
+
+明确物理循环与自动换图案的行为，把视觉方向交给模型决定，并要求交付一个无需外部媒体素材、打开即运行的 HTML 文件。
+
+**值得注意**
+
+该成果是动力沙桌的视觉近似，并非经过机械验证的物理仿真；原帖以录屏形式将 Astra 与另一模型并排比较。
+
+**提示词**
+
+```text
+Build a kinetic sand table simulation. A ball must move through a bed of sand, leaving a visible trail, drawing complete geometric patterns, then smoothing the sand and starting a new and different pattern automatically. It must cycle through many different patterns without repeating. Everything about the look and the patterns is your choice. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2098831843168801239) · [观看演示](https://x.com/free_ai_guides/status/2098831830002851846)
 
 [返回案例目录](#cases)
 

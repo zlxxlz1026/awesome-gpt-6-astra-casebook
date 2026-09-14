@@ -4,7 +4,7 @@
 
 可游玩的世界、游戏原型与交互式仿真。
 
-**14 个案例**
+**17 个案例**
 
 提示词标签表示本页展示的完整度。标为摘录的案例，请访问提示词原帖查看全文。
 
@@ -26,6 +26,9 @@
 - [把电量显示做进机身的工作台机器猫](#workbench-robo-cat) · **提示词摘录**
 - [包含 16 个姿势的等距骑士图集](#isometric-knight-sprites) · **完整提示词**
 - [一句提示词生成的超现实攀爬游戏](#surreal-french-climber) · **完整提示词**
+- [自主生长的蜂群仿真](#living-beehive-simulation) · **完整提示词**
+- [从手机广告视频反推可玩游戏](#video-to-mobile-ad-game) · **完整提示词**
+- [PaperRoute 七日送报完整游戏](#paperroute-full-game) · **提示词摘录**
 
 <a id="breakwater-mecha-game"></a>
 
@@ -533,6 +536,117 @@ French woman has to climb through a word that defies logic, flying objects every
 ```
 
 ↗ [查看作者完整提示词](https://x.com/TrueSlazac/status/2097416577624805425) · [观看演示](https://x.com/TrueSlazac/status/2097416577624805425)
+
+[返回案例目录](#cases)
+
+
+<a id="living-beehive-simulation"></a>
+
+### 自主生长的蜂群仿真
+
+**完整提示词** · [提示词原帖](https://x.com/free_ai_guides/status/2099272059687932201)
+
+[![并排展示蜜蜂活动、蜂巢生长与蜂蜜储存的蜂群仿真](https://pbs.twimg.com/amplify_video_thumb/2099271943795179520/img/Y-I_Y6c1fsFvGUzL.jpg)](https://x.com/free_ai_guides/status/2099272047465800037)
+
+独立蜜蜂 Agent 会外出采蜜、返回并逐格搭建六边形蜂巢，蜂蜜储量和巢体结构在无人操作时持续演化。
+
+**作者**: [@free_ai_guides](https://x.com/free_ai_guides/status/2099272047465800037) · 2026-09-14<br>
+**工具与技术**: Agent-based simulation, Emergent behavior, Single-file HTML
+
+**创作方法**
+
+定义 Agent、筑巢规则、采蜜循环与自主生长，再把风格、镜头和环境行为交给 Astra，并限制为单文件 HTML 交付。
+
+**值得注意**
+
+这是涌现式视觉仿真，不是对真实蜂群行为的生物学模型；原帖将 Astra 与另一模型并排展示。
+
+**提示词**
+
+```text
+Build a living beehive simulation. Bees must act as independent agents that construct hexagonal comb cell by cell, leave to forage, return, and fill cells with honey so the hive visibly grows and changes over time without any input. How it is shown, what the bees and hive look like, and what else happens in the scene are your decisions. Everything about the design is your decision: style, colors, mood, environment, camera, level of detail, and any extra touches. Do not ask me any questions, make every choice yourself and build the most impressive version you can in a single attempt. Technical requirements: one single self-contained HTML file, no external models, images, sounds, or asset URLs of any kind (a JavaScript library from a CDN is fine). It must start running on its own the moment it loads, with no clicks needed, and run smoothly with no console errors.
+```
+
+↗ [查看作者完整提示词](https://x.com/free_ai_guides/status/2099272059687932201) · [观看演示](https://x.com/free_ai_guides/status/2099272047465800037)
+
+[返回案例目录](#cases)
+
+
+<a id="video-to-mobile-ad-game"></a>
+
+### 从手机广告视频反推可玩游戏
+
+**完整提示词** · [提示词原帖](https://x.com/noclipepe/status/2098870292336595276)
+
+[![手机广告游戏与 Astra 重建的升级门、队伍和僵尸玩法并排展示](https://pbs.twimg.com/amplify_video_thumb/2098544563514392576/img/pRXiVB43Pkub7Q7g.jpg)](https://x.com/noclipepe/status/2098545145381605431)
+
+Astra 分析一段短游戏视频，并把其中隐含规则重建为浏览器游戏，包含升级门、队伍增长、可破坏墙体、敌人生命值、自动射击与首领循环。
+
+**作者**: [@noclipepe](https://x.com/noclipepe/status/2098545145381605431) · 2026-09-12<br>
+**工具与技术**: Video-to-game, Browser game, Gameplay inference
+
+**创作方法**
+
+上传游戏视频作为主要参考，要求 Astra 先推断操作、镜头、移动、成长、战斗、计分与结束状态，再实现完整可玩循环。
+
+**值得注意**
+
+该提示词依赖上传的参考视频，推断出的规则可能与原游戏不同；公开帖子展示了生成后的玩法循环，但未提供源码仓库。
+
+**提示词**
+
+```text
+Use the uploaded gameplay video as the primary reference. Rebuild the game shown in the video as a polished, fully playable browser game. Do not just copy the visuals. First, infer the hidden gameplay system behind the footage:
+
+- player controls
+- camera behavior
+- movement rules
+- interactions
+- progression
+- upgrades
+- enemy behavior
+- collisions
+- scoring
+- win and fail conditions
+- UI feedback
+- pacing
+
+Reconstruct any rules that are not explicitly shown but must exist for the gameplay in the video to make sense. Match the feel and structure of the reference as closely as possible while keeping the game stable, responsive, and actually fun to play. Do not ask questions. Make the necessary design decisions yourself. Build the complete playable experience in one shot.
+```
+
+↗ [查看作者完整提示词](https://x.com/noclipepe/status/2098870292336595276) · [观看演示](https://x.com/noclipepe/status/2098545145381605431)
+
+[返回案例目录](#cases)
+
+
+<a id="paperroute-full-game"></a>
+
+### PaperRoute 七日送报完整游戏
+
+**提示词摘录** · [提示词原帖](https://x.com/builtbysketch/status/2098773631249854478)
+
+[![PaperRoute 的插画风三维送报游戏与报纸式界面](https://pbs.twimg.com/amplify_video_thumb/2098775794281828352/img/Hoy8EuS5JEPOFpLO.jpg)](https://x.com/builtbysketch/status/2098777028078211283)
+
+Astra 协助把送报概念做成完整上线的浏览器游戏，包含确定性骑行循环、Blender 自制资产、角色、天气、移动端操作、报纸风网站与排行榜。
+
+**作者**: [@builtbysketch](https://x.com/builtbysketch/status/2098777028078211283) · 2026-09-12<br>
+**工具与技术**: Three.js, Blender, Long-horizon build
+
+**创作方法**
+
+从简洁游戏需求和透视参考出发，先把机制做成可玩版本，再加入美术方向；将引擎与视觉拆成独立工作流，配合 Blender Python、审阅渲染图、隔离分支与持续浏览器检查。
+
+**值得注意**
+
+作者文章公开了需求片段与完整制作方法。最终成果累计 90 次提交、39 小时记录和多轮提示词，应作为长周期工作流理解，而不是一次生成。
+
+**提示词**
+
+> A week of deliveries from Monday to Sunday, subscribers and non-subscribers, dogs, cars, the diagonal camera. I also wanted it to be a native iOS build. As well as web.
+
+以上为开头摘录，完整提示词见下方作者原帖。
+
+↗ [查看作者完整提示词](https://x.com/builtbysketch/status/2098773631249854478) · [观看演示](https://x.com/builtbysketch/status/2098777028078211283)
 
 [返回案例目录](#cases)
 
